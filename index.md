@@ -2,7 +2,9 @@
 layout: page
 ---
 
-Desc Desc 
+I am doing NLP research at [Kata.ai](https://kata.ai) as a senior research scientist and at [the University of Edinburgh](https://web.inf.ed.ac.uk/ilcc) as a Post-doctoral Research Associate. Previously, I did my PhD at the University of Edinburgh under the supervision of Dr. Kenneth Heafield and Dr. Rico Sennrich.
+
+My research interest is in the Machine Translation area. I am interested in developing an efficient MT system, for example producing a smaller model or faster, or a shorter training time. Besides that, I am also interested in developing low-resource MT, or using MT for low-resource NLP.
 
 ### Education
 
