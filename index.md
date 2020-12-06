@@ -38,6 +38,9 @@ These are some of the papers I published. The rest of my papers can be found on 
 
 #### Competitive Programming
 
+I did [competitive programming](https://en.wikipedia.org/wiki/Competitive_programming) in my high school and undergrad days. I participated and won a silver medal at [the IOI](https://ioinformatics.org/) 2010. I also participated in several regional [ACM-ICPC](https://icpc.global/) contests and participated in the ACM-ICPC world final 2014.
+
+Now I am helping the Indonesian computer olympiad team by compiling teaching materials such as [competitive programming courses](https://tlx.toki.id/courses/) or [basic competitive programming book](https://toki.id/buku-pemrograman-kompetitif-dasar/) (in Indonesian), which are targeted at high school students. Apart from that I sometimes write competitive programming questions for various contests.
 
 
 
