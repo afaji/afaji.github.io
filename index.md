@@ -33,9 +33,14 @@ here are some of the papers that I have published. The rest of my papers can be 
 
 - [From Research to Production and Back: Ludicrously Fast Neural Machine Translation](https://www.aclweb.org/anthology/D19-5632.pdf). Young Jin Kim, Marcin Junczys-Dowmunt, Hany Hassan, __Alham Fikri Aji__, Kenneth Heafield, Roman Grundkiewicz, Nikolay Bogoychev. Workshop on Neural Generation and Translation at EMNLP 2019.
 
+- [Making Asynchronous Stochastic Gradient Descent Work for Transformers](https://www.aclweb.org/anthology/D19-5608.pdf). __Alham Fikri Aji__, Kenneth Heafield. Workshop on Neural Generation and Translation at EMNLP 2019.
+
 - [Combining Global Sparse Gradients with Local Gradients in Distributed Neural Network Training](https://www.aclweb.org/anthology/D19-1373.pdf). __Alham Fikri Aji__, Kenneth Heafield, Nikolay Bogoychev. EMNLP 2019.
 
 - [Marian: Fast neural machine translation in C++](https://www.aclweb.org/anthology/P18-4020.pdf). Marcin Junczys-Dowmunt, Roman Grundkiewicz, Tomasz Dwojak, Hieu Hoang, Kenneth Heafield, Tom Neckermann, Frank Seide, Ulrich Germann, __Alham Fikri Aji__, Nikolay Bogoychev, André F. T. Martins, Alexandra Birch. ACL 2018 System Description.
+
+- [Accelerating asynchronous stochastic gradient descent for neural machine translation](https://www.aclweb.org/anthology/D18-1332.pdf). Nikolay Bogoychev, Kenneth Heafield, __Alham Fikri Aji__, Marcin Junczys-Dowmunt. EMNLP 2018.
+
 
 - [Sparse communication for distributed gradient descent](https://www.aclweb.org/anthology/D17-1045.pdf). __Alham Fikri Aji__, Kenneth Heafield. EMNLP 2017.
 
