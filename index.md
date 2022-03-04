@@ -34,9 +34,9 @@ I've contributed in:
 ### Selected Publications
 here are some of the papers that I have published. The rest of my papers can be found on [Google Scholar](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en&oi=ao) or [ACL Anthology](https://www.aclweb.org/anthology/people/a/alham-fikri-aji/).
 
-- [One Country, 700+ Languages: NLP Challenges for Under-representedLanguages and Dialects in Indonesia] __Alham Fikri Aji__, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya, Ade Romadhony, Rahmad Mahendra, Kemal Kurniawan, David Moeljadi,Radityo Eko Prasojo, Timothy Baldwin, Jey Han Lau, Sebastian Ruder. ACL 2022.
+- [One Country, 700+ Languages: NLP Challenges for Under-representedLanguages and Dialects in Indonesia](https://openreview.net/forum?id=zZOyzUCFFt). __Alham Fikri Aji__, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya, Ade Romadhony, Rahmad Mahendra, Kemal Kurniawan, David Moeljadi,Radityo Eko Prasojo, Timothy Baldwin, Jey Han Lau, Sebastian Ruder. ACL 2022.
 
-- [Efficient Machine Translation with Model Pruning and Quantization](https://aclanthology.org/2021.wmt-1.74/), Maximiliana Behnke, Nikolay Bogoychev, __Alham Fikri Aji__, Kenneth Heafield, Graeme Nail, Qianqian Zhu, Svetlana Tchistiakova, Jelmer Van der Linde, Pinzhen Chen, Sidharth Kashyap, Roman Grundkiewicz. WMT 2021.
+- [Efficient Machine Translation with Model Pruning and Quantization](https://aclanthology.org/2021.wmt-1.74/). Maximiliana Behnke, Nikolay Bogoychev, __Alham Fikri Aji__, Kenneth Heafield, Graeme Nail, Qianqian Zhu, Svetlana Tchistiakova, Jelmer Van der Linde, Pinzhen Chen, Sidharth Kashyap, Roman Grundkiewicz. WMT 2021.
 
 - [IndoNLI: A Natural Language Inference Dataset for Indonesian](https://aclanthology.org/2021.emnlp-main.821/). Rahmad Mahendra, __Alham Fikri Aji__, Samuel Louvan, Fahrurrozi Rahman, Clara Vania . EMNLP 2021.
 
