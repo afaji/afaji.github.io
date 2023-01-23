@@ -1,13 +1,14 @@
 ---
 permalink: /
 title: "Alham Fikri Aji / NLP Scientist"
-toc: true
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+{% include toc %}
 
 I am an assistant professor at MBZUAI. My current research area is multilingual, low-resource, and low-compute natural language processing. I also work on machine translation. If you are interested in these areas, I have multiple openings.
 

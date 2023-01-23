@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "personal page"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Alham Fikri Aji"
 description              : &description "NLP scientist / Assistant Professor at MBZUAI"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Alham Fikri Aji"
   avatar           : "profile.png"
-  bio              : "Assistant Professor at MBZUAI, doing NLP and stuff"
+  bio              : "Assistant Professor in the NLP department at MBZUAI"
   location         : "MBZUAI"
   employer         :
   pubmed           : 
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/afaji/
   orcid            : 
   pinterest        :
   soundcloud       :
