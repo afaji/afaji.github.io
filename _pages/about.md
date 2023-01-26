@@ -35,13 +35,13 @@ Additionally, below are some of the public models, systems, and data that I have
 
 #### Models/Systems
 
- - BLOOMZ and mT0: multilingual, large language models that have been further fine-tuned with instruction
- - NusaCatalogue: catalogue of Indonesian NLP datasets
- - Marian: fast machine translation framework written in C++
+ - [BLOOMZ](https://huggingface.co/bigscience/bloomz) and [mT0](https://huggingface.co/bigscience/mt0-xxl): multilingual, large language models that have been further fine-tuned with instruction
+ - [NusaCatalogue](https://indonlp.github.io/nusa-catalogue/): catalogue of Indonesian NLP datasets
+ - [Marian](https://marian-nmt.github.io): fast machine translation framework written in C++
 
 #### Data
 
- - Mintaka: complex, multilingual factual question-answering dataset
- - NusaX: parallel sentiment analysis dataset of 10 Indonesian local languages
- - IndoNLI: challenging Natural Language Inference dataset for Indonesian
+ - [Mintaka](https://huggingface.co/datasets/AmazonScience/mintaka): complex, multilingual factual question-answering dataset
+ - [NusaX](https://huggingface.co/datasets/indonlp/NusaX-senti): parallel sentiment analysis dataset of 10 Indonesian local languages
+ - [IndoNLI](https://huggingface.co/datasets/indonli): challenging Natural Language Inference dataset for Indonesian
 
