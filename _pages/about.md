@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-
 I am an assistant professor at MBZUAI. My current research area is multilingual, low-resource, and low-compute natural language processing. I also work on machine translation. If you are interested in these areas, I have [multiple openings (fully funded)](https://afaji.github.io/join.html).
 
 ## Short Bio
