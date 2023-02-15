@@ -24,8 +24,8 @@ mail = name_tok[0] + "." +name_tok[1] + "@mbzuai.ac.ae"
 
 MBZUAI offers a fully-funded MS/PhD program with generous benefits. Please check the [requirements](https://mbzuai.ac.ae/study/admission-process/) and [apply here](https://apply.mbzuai.ac.ae/OnlineApplication). 
 
-For MSc, we provide free accommodation and ~2100 USD/month stipend.
-For PhD, we provide free accommodation and ~2700 USD/month stipend **or** ~4000 USD/month stipend if married (no free accomodation).
+ - For MSc, we provide free accommodation and ~2100 USD/month stipend.
+ - For PhD, we provide free accommodation and ~2700 USD/month stipend **or** ~4000 USD/month stipend if married (no free accomodation).
 
 If you have any questions or would like to work with me on the above topics, feel free to contact me.
 
@@ -33,11 +33,12 @@ If you have any questions or would like to work with me on the above topics, fee
 
 I am seeking a postdoctoral research fellow to work on improving the efficiency of large language models such as GPT or BLOOM. The following qualifications are required:
 
-Applicants must have a PhD degree or be in the process of obtaining one
-A strong understanding of how large language models function
-A good track record of research publications, with preference given to those who have published in prestigious venues such as ACL, EMNLP, NAACL, ICLR, NeurIPS, etc.
-Proficient programming skills
-Experience in working on efficiency-related tasks such as knowledge distillation and pruning is desirable.
+ - Applicants must have a PhD degree or be in the process of obtaining one
+ - A strong understanding of how large language models function
+ - A good track record of research publications, with preference given to those who have published in prestigious venues such as ACL, EMNLP, NAACL, ICLR, NeurIPS, etc.
+ - Proficient programming skills
+ - Experience in working on efficiency-related tasks such as knowledge distillation and pruning is desirable.
+
 The monthly salary for this position will be 100k USD (tax-free).
 If you are interested in applying, please send me your CV. Please note that I may not be able to respond to every submission.
 
