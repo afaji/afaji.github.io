@@ -49,7 +49,7 @@ I have a few opportunities to host short-term research interns/assistants or vis
 
 ### Research from Indonesia:
 
-I am currently an adjunct at ITB. If you are a student there and are interested in working with me, please reach out or contact Ibu Ayu Purwarianti.
+I am currently an adjunct faculty at ITB. If you are a student there and are interested in working with me, please reach out or contact Ibu Ayu Purwarianti.
 
 
 
