@@ -29,23 +29,9 @@ MBZUAI offers a fully-funded MS/PhD program with generous benefits. Please check
 
 If you have any questions or would like to work with me on the above topics, feel free to contact me.
 
-### Postdocs:
+### Postdocs / Internships / Visiting Researchers / Research Assistant:
 
-I am seeking a postdoctoral research fellow to work on improving the efficiency of large language models such as GPT or BLOOM. The following qualifications are required:
-
- - Applicants must have a PhD degree or be in the process of obtaining one
- - A strong understanding of how large language models function
- - A good track record of research publications, with preference given to those who have published in prestigious venues such as ACL, EMNLP, NAACL, ICLR, NeurIPS, etc.
- - Proficient programming skills
- - Experience in working on efficiency-related tasks such as knowledge distillation and pruning is desirable.
-
-The monthly salary for this position will be 100k USD (tax-free).
-If you are interested in applying, please send me your CV. Please note that I may not be able to respond to every submission.
-
-### Internships / Visiting Researchers / Research Assistant:
-
-I have a few opportunities to host short-term research interns/assistants or visitors (duration between 2-6 months). These positions are aimed at bachelor/master students and graduates. To apply, please send me your CV and explain why you are interested in this position. 
-
+I am currently not hiring any postdoc/internship for the rest of 2023.
 
 ### Research from Indonesia:
 
