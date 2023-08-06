@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,51 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+## Education
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* PhD, University of Edinburgh (2016 - 2020)
+* MSc Artificial Intelligence, University of Edinburgh (2014 - 2015)
+* BSc Computer Science, Universitas Indonesia (2010 - 2014)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Working Experience
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Assistant Professor, MBZUAI (2023 - Current)
+* Scientist, Amazon Alexa AI (2021 - 2023)
+* Scientist, Kata.ai (2019 - 2021)
+* Intern, Google Research (2017)
+* Language Engineer, Apple Siri (2015 - 2016)
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Professional Activity
+
+* **Reviewer and Program Committee**
+  * **Conferences**: ACL, COLING, ICML, ICLR, NeurIPS
+  * **Workshop**: WNGT
+* **Area Chair**: ACL (2023), EMNLP (2023)
+* **Organizer**: South-East Asia Language Processing (SEALP) 2023
+* **Informatics Olympiad**:
+  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015)
+  * **Committee**: TOKI-Open (2018), IOI (2022)
+
+## Publication
+
+Please refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate)
+
+## Teaching and Talks
+
+* **Teaching**:
+* **Talks**:
+
+## Awards
