@@ -41,6 +41,20 @@ Please refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&us
 ## Teaching and Talks
 
 * **Teaching**:
+  * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall) 
 * **Talks**:
+  * **Surviving your PhD Study**
+    - Telkom University, Invited Talk (2nd August 2023)
+  * **Generative AI with Large Language Models Workshop**
+    - Institut Teknologi Bandung, Invited Talk (1st August 2023)
+  * **Multilingual and Low-Resource NLP**
+    - Universitas Indonesia & Tokopedia AI Center, Invited Talk (25th May 2023)
+  * **Can AI Complete My Academic Writings?**
+    - Doctrine UK, Online Talk (14th May 2023)
+  * **Multilingual NLP through Collaborative Research**
+    - The 2nd Composable, Automatic and Scalable Learning Workshop (CASL), Invited Talk (23rd February 2023)
+  * **Sequence-to-Sequence and Neural Machine Translation Model**
+    - Universitas Indonesia, Guest Lecture (28th April 2021)
+    
 
 ## Awards
