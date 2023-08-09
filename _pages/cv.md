@@ -11,11 +11,11 @@ redirect_from:
 
 ## Education
 
-* PhD, University of Edinburgh (2016 - 2020)\
+* **PhD, University of Edinburgh** (2016 - 2020)\
 <span class='desc'>Thesis: Approximating Neural Machine Translation for Efficiency; making NMT trains faster using distributed and asynchronous training, sparse gradient, and transfer learning.</span>
-* MSc Artificial Intelligence, University of Edinburgh (2014 - 2015)\
+* **MSc Artificial Intelligence, University of Edinburgh** (2014 - 2015)\
 <span class='desc'>With distinction. Final project: Haiku generator with word vector model.</span>
-* BSc Computer Science, Universitas Indonesia (2010 - 2014)\
+* **BSc Computer Science, Universitas Indonesia** (2010 - 2014)\
 <span class='desc'>Final project: Earthquake detector from phone's accelerometer reading.</span>
 
 ## Working Experience
@@ -25,7 +25,7 @@ redirect_from:
 * Scientist, Kata.ai (2019 - 2021)
 * Intern, Google Research (2017)
 * Language Engineer, Apple Siri (2015 - 2016)
-  
+
 ## Professional Activity
 
 * **Reviewer and Program Committee**
@@ -42,13 +42,7 @@ redirect_from:
 You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications
 <ul>
 {% for paper in site.data.paper.conference %}
-<li>{% if paper.url == null %}
-      <a href="{{ paper.url }}">{{ paper.title | raw }}</a>
-    {% else %}
-      <a href="{{ paper.url }}">{{ paper.title | raw }}</a>
-    {% endif %}
-  <br>
-  <i>{{ paper.authors | raw }}</i></li>
+<li> <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i></li>. <b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }}
 {% endfor %}
 </ul>
 
