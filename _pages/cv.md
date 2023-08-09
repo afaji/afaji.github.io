@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
-# Alham Fikri Aji
+# Alham Fikri Aji / Curriculum Vitae
 
-I obtained my Ph.D. from the University of Edinburgh's Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers around multilingual, low-resource, and low-compute NLP. I have been part of developing various multilingual large language models, including BLOOM, BLOOMZ, mT0, LaMini-LM, and Bactrian-X. Additionally, I'm also dedicated to building multilingual NLP resources for underrepresented languages, especially Indonesian. In the past, I have gained industry experience at prominent companies such as Amazon, Google, and Apple.
+I obtained my Ph.D. from the University of Edinburgh's Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers around multilingual, low-resource, and low-compute NLP. I have been part of developing various multilingual large language models, including BLOOM & BLOOMZ, mT0, LaMini-LM, and Bactrian-X. Additionally, I'm also dedicated to building multilingual NLP resources for underrepresented languages, especially Indonesian. In the past, I have gained industry experience at prominent companies such as Amazon, Google, and Apple.
 
 ## Education
 
@@ -23,11 +23,18 @@ I obtained my Ph.D. from the University of Edinburgh's Institute for Language, C
 
 ## Working Experience
 
-* Assistant Professor, MBZUAI (2023 - Current)
-* Scientist, Amazon Alexa AI (2021 - 2023)
-* Scientist, Kata.ai (2019 - 2021)
-* Intern, Google Research (2017)
-* Language Engineer, Apple Siri (2015 - 2016)
+* **Assistant Professor**, MBZUAI (2023 - Current)\
+  Teaching and supervising master's and doctoral students, visiting researchers, and postdocs on a wide array of NLP research.
+* **Applied Scientist**, Amazon Alexa AI (2021 - 2023)\
+  Utilized knowledge graphs to create a truthful, multilingual question-answering system for Alexa.
+* **Postdoctoral Research Associate**, University of Edinburgh (2020 - 2021)\
+ Developed a fast, privacy-focused offline neural machine translation system by distilling large models.
+* **Research Scientist**, Kata.ai (2019 - 2021)\
+  Worked on and mentored junior researchers in various Indonesian NLP-related projects such as machine translation and formality style transfer. 
+* **Engineering Intern**, Google Research (2017)\
+  Worked on integrating context from Google search to improve neural machine translation.
+* **Language Engineer**, Apple Siri (2015 - 2016)\
+  Designed Malay language rules and trained models to optimize Siri's performance in Malay. 
 
 ## Professional Activity
 
