@@ -11,9 +11,12 @@ redirect_from:
 
 ## Education
 
-* PhD, University of Edinburgh (2016 - 2020)
-* MSc Artificial Intelligence, University of Edinburgh (2014 - 2015)
-* BSc Computer Science, Universitas Indonesia (2010 - 2014)
+* PhD, University of Edinburgh (2016 - 2020)\
+<span class='desc'>Thesis: Approximating Neural Machine Translation for Efficiency; making NMT trains faster using distributed and asynchronous training, sparse gradient, and transfer learning.</span>
+* MSc Artificial Intelligence, University of Edinburgh (2014 - 2015)\
+<span class='desc'>With distinction. Final project: Haiku generator with word vector model.</span>
+* BSc Computer Science, Universitas Indonesia (2010 - 2014)\
+<span class='desc'>Final project: Earthquake detector from phone's accelerometer reading.</span>
 
 ## Working Experience
 
