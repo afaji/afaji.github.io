@@ -39,7 +39,7 @@ redirect_from:
 You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications
 <ul>
 {% for paper in site.data.paper.conference %}
-<li>{% if paper.url == "" %}
+<li>{% if paper.url == null %}
       [{{ paper.title }}](#)
     {% else %}
       [{{ paper.title }}]({{ paper.url }})
