@@ -1,6 +1,6 @@
 conference:
   - title: "Crosslingual Generalization through Multitask Finetuning"
-    authors: "Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le Scao, M Saiful Bari, Sheng Shen, Zheng Xin Yong, Hailey Schoelkopf, Xiangru Tang, Dragomir Radev, <b>Alham Fikri Aji<b>, Khalid Almubarak, Samuel Albanie, Zaid Alyafeai, Albert Webson, Edward Raff and Colin Raffel"
+    authors: "Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le Scao, M Saiful Bari, Sheng Shen, Zheng Xin Yong, Hailey Schoelkopf, Xiangru Tang, Dragomir Radev, <b>Alham Fikri Aji<\b>, Khalid Almubarak, Samuel Albanie, Zaid Alyafeai, Albert Webson, Edward Raff and Colin Raffel"
     date: "2023"
     venue: "ACL"
     url:
@@ -10,7 +10,7 @@ conference:
     notes:
 
   - title: "On “Scientific Debt” in NLP: A Case for More Rigour in Language Model Pre-Training Research"
-    authors: "Made Nindyatama Nityasya, Haryo Akbarianto Wibowo, <b>Alham Fikri Aji<b>, Genta Indra Winata, Radityo Eko Prasojo, Phil Blunsom and Adhiguna Kuncoro"
+    authors: "Made Nindyatama Nityasya, Haryo Akbarianto Wibowo, <b>Alham Fikri Aji<\b>, Genta Indra Winata, Radityo Eko Prasojo, Phil Blunsom and Adhiguna Kuncoro"
     date: "2023"
     venue: "ACL"
     url:
@@ -20,7 +20,7 @@ conference:
     notes:
 
   - title: "WebIE: Faithful and Robust Information Extraction on the Web"
-    authors: "Chenxi Whitehouse, Clara Vania, <b>Alham Fikri Aji<b>, Christos Christodoulopoulos and Andrea Pierleoni"
+    authors: "Chenxi Whitehouse, Clara Vania, <b>Alham Fikri Aji<\b>, Christos Christodoulopoulos and Andrea Pierleoni"
     date: "2023"
     venue: "ACL"
     url:
@@ -30,7 +30,7 @@ conference:
     notes:
 
   - title: "The Decades Progress on Code-Switching Research in NLP: A Systematic Survey on Trends and Challenges"
-    authors: "Genta Indra Winata, <b>Alham Fikri Aji<b>, Zheng Xin Yong and Thamar Solorio"
+    authors: "Genta Indra Winata, <b>Alham Fikri Aji<\b>, Zheng Xin Yong and Thamar Solorio"
     date: "2023"
     venue: "ACL"
     url:
@@ -40,7 +40,7 @@ conference:
     notes:
 
   - title: "NusaCrowd: Open Source Initiative for Indonesian NLP Resources"
-    authors: "Samuel Cahyawijaya, Holy Lovenia, <b>Alham Fikri Aji<b>, Genta Indra Winata, Bryan Wilie, Fajri Koto, Rahmad Mahendra, et al."
+    authors: "Samuel Cahyawijaya, Holy Lovenia, <b>Alham Fikri Aji<\b>, Genta Indra Winata, Bryan Wilie, Fajri Koto, Rahmad Mahendra, et al."
     date: "2023"
     venue: "ACL"
     url:
@@ -50,7 +50,7 @@ conference:
     notes:
 
   - title: "Direct Fact Retrieval from Knowledge Graphs without Entity Linking"
-    authors: "Jinheon Baek, <b>Alham Fikri Aji<b>, Jens Lehmann and Sung Ju Hwang"
+    authors: "Jinheon Baek, <b>Alham Fikri Aji<\b>, Jens Lehmann and Sung Ju Hwang"
     date: "2023"
     venue: "ACL"
     url:
@@ -60,7 +60,7 @@ conference:
     notes:
 
   - title: "Multi-lingual and Multi-cultural Figurative Language Understanding"
-    authors: "Anubha Kabra, Emmy Liu, Simran Khanuja, <b>Alham Fikri Aji<b>, Genta Indra Winata, Samuel Cahyawijaya, Anuoluwapo Aremu, Perez Ogayo and Graham Neubig"
+    authors: "Anubha Kabra, Emmy Liu, Simran Khanuja, <b>Alham Fikri Aji<\b>, Genta Indra Winata, Samuel Cahyawijaya, Anuoluwapo Aremu, Perez Ogayo and Graham Neubig"
     date: "2023"
     venue: "ACL"
     url:
@@ -70,7 +70,7 @@ conference:
     notes:
 
   - title: "NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages"
-    authors: "Genta Indra Winata, <b>Alham Fikri Aji<b>, Samuel Cahyawijaya, Rahmad Mahendra, Fajri Koto, Ade Romadhony, Kemal Kurniawan, David Moeljadi, Radityo Eko Prasojo, Pascale Fung, Timothy Baldwin, Jey Han Lau, Rico Sennrich, Sebastian Ruder"
+    authors: "Genta Indra Winata, <b>Alham Fikri Aji<\b>, Samuel Cahyawijaya, Rahmad Mahendra, Fajri Koto, Ade Romadhony, Kemal Kurniawan, David Moeljadi, Radityo Eko Prasojo, Pascale Fung, Timothy Baldwin, Jey Han Lau, Rico Sennrich, Sebastian Ruder"
     date: "2023"
     venue: "EACL"
     url:
@@ -80,7 +80,7 @@ conference:
     notes: Outstanding Award🏅"
 
   - title: "Mintaka: A Complex, Natural, and Multilingual Dataset for End-to-End Question Answering"
-    authors: "Priyanka Sen, <b>Alham Fikri Aji<b>,  Amir Saffari"
+    authors: "Priyanka Sen, <b>Alham Fikri Aji<\b>,  Amir Saffari"
     date: "2022"
     venue: "COLING"
     url:
@@ -90,7 +90,7 @@ conference:
     notes:
 
   - title: "REDTab: A Relation Extraction Dataset for Knowledge Extraction from Web Tables"
-    authors: "Siffi Singh, <b>Alham Fikri Aji<b>, Gaurav Singh, Christos Christodoulopoulos"
+    authors: "Siffi Singh, <b>Alham Fikri Aji<\b>, Gaurav Singh, Christos Christodoulopoulos"
     date: "2022"
     venue: "COLING"
     url:
@@ -100,7 +100,7 @@ conference:
     notes:
 
   - title: "One Country, 700+ Languages: NLP Challenges for Underrepresented Languages and Dialects in Indonesia"
-    authors: "<b>Alham Fikri Aji<b>, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya, Ade Romadhony, Rahmad Mahendra, Kemal Kurniawan, David Moeljadi, Radityo Eko Prasojo, Timothy Baldwin, Jey Han Lau, Sebastian Ruder"
+    authors: "<b>Alham Fikri Aji<\b>, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya, Ade Romadhony, Rahmad Mahendra, Kemal Kurniawan, David Moeljadi, Radityo Eko Prasojo, Timothy Baldwin, Jey Han Lau, Sebastian Ruder"
     date: "2022"
     venue: "ACL"
     url:
@@ -110,7 +110,7 @@ conference:
     notes:
 
   - title: "IndoNLI: A Natural Language Inference Dataset for Indonesian"
-    authors: "Rahmad Mahendra, <b>Alham Fikri Aji<b>, Samuel Louvan, Fahrurrozi Rahman, Clara Vania"
+    authors: "Rahmad Mahendra, <b>Alham Fikri Aji<\b>, Samuel Louvan, Fahrurrozi Rahman, Clara Vania"
     date: "2021"
     venue: "EMNLP"
     url:
@@ -120,7 +120,7 @@ conference:
     notes:
 
   - title: "ParaCotta: Synthetic Multilingual Paraphrase Corpora from the Most Diverse Translation Sample Pair"
-    authors: "<b>Alham Fikri Aji<b>, Radityo Eko Prasojo, Tirana Noor Fatyanosa, Philip Arthur, Suci Fitriany, Salma Qonitah, Nadhifa Zulfa, Tomi Santoso, Mahendra Data"
+    authors: "<b>Alham Fikri Aji<\b>, Radityo Eko Prasojo, Tirana Noor Fatyanosa, Philip Arthur, Suci Fitriany, Salma Qonitah, Nadhifa Zulfa, Tomi Santoso, Mahendra Data"
     date: "2021"
     venue: "PACLIC"
     url:
@@ -130,7 +130,7 @@ conference:
     notes:
 
   - title: "IndoCollex: A Testbed for Morphological Transformation of Indonesian Word Colloquialism"
-    authors: "Haryo Akbarianto Wibowo, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, <b>Alham Fikri Aji<b>, Radityo Eko Prasojo, Derry Tanti Wijaya"
+    authors: "Haryo Akbarianto Wibowo, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, <b>Alham Fikri Aji<\b>, Radityo Eko Prasojo, Derry Tanti Wijaya"
     date: "2021"
     venue: "ACL-IJCNLP"
     url:
@@ -140,7 +140,7 @@ conference:
     notes:
 
   - title: "In Neural Machine Translation, What Does Transfer Learning Transfer?"
-    authors: "<b>Alham Fikri Aji<b>, Nikolay Bogoychev, Kenneth Heafield, Rico Sennrich"
+    authors: "<b>Alham Fikri Aji<\b>, Nikolay Bogoychev, Kenneth Heafield, Rico Sennrich"
     date: "2020"
     venue: "ACL"
     url:
@@ -150,7 +150,7 @@ conference:
     notes:
 
   - title: "Combining Global Sparse Gradients with Local Gradients in Distributed Neural Network Training"
-    authors: "<b>Alham Fikri Aji<b>, Kenneth Heafield, Nikolay Bogoychev"
+    authors: "<b>Alham Fikri Aji<\b>, Kenneth Heafield, Nikolay Bogoychev"
     date: "2019"
     venue: "EMNLP"
     url:
@@ -160,7 +160,7 @@ conference:
     notes:
 
   - title: "Accelerating asynchronous stochastic gradient descent for neural machine translation"
-    authors: "Nikolay Bogoychev, Marcin Junczys-Dowmunt, Kenneth Heafield, <b>Alham Fikri Aji<b>"
+    authors: "Nikolay Bogoychev, Marcin Junczys-Dowmunt, Kenneth Heafield, <b>Alham Fikri Aji<\b>"
     date: "2018"
     venue: "EMNLP"
     url:
@@ -170,7 +170,7 @@ conference:
     notes:
 
   - title: "Marian: Fast neural machine translation in C++"
-    authors: "Marcin Junczys-Dowmunt, Roman Grundkiewicz, Tomasz Grundkiewicz, Hieu Hoang, Kenneth Heafield, Tom Neckermann, Frank Seide, Ulrich Germann, <b>Alham Fikri Aji<b>, Nikolay Bogoychev, Andre Martins, Alexandra Birch"
+    authors: "Marcin Junczys-Dowmunt, Roman Grundkiewicz, Tomasz Grundkiewicz, Hieu Hoang, Kenneth Heafield, Tom Neckermann, Frank Seide, Ulrich Germann, <b>Alham Fikri Aji<\b>, Nikolay Bogoychev, Andre Martins, Alexandra Birch"
     date: "2018"
     venue: "ACL"
     url:
@@ -180,7 +180,7 @@ conference:
     notes:
 
   - title: "Sparse communication for distributed gradient descent"
-    authors: "<b>Alham Fikri Aji<b>, Kenneth Heafield"
+    authors: "<b>Alham Fikri Aji<\b>, Kenneth Heafield"
     date: "2017"
     venue: "EMNLP"
     url:
@@ -190,7 +190,7 @@ conference:
     notes:
 
   - title: "Semi-Supervised Low-Resource Style Transfer of Indonesian Informal to Formal Language with Iterative Forward-Translation"
-    authors: "Haryo Akbarianto Wibowo, Tatag Aziz Prawiro, Muhammad Ihsan, <b>Alham Fikri Aji<b>, Radityo Eko Prasojo, Rahmad Mahendra, Suci Fitriany"
+    authors: "Haryo Akbarianto Wibowo, Tatag Aziz Prawiro, Muhammad Ihsan, <b>Alham Fikri Aji<\b>, Radityo Eko Prasojo, Rahmad Mahendra, Suci Fitriany"
     date: "2020"
     venue: "IALP"
     url:
@@ -200,7 +200,7 @@ conference:
     notes:
 
   - title: "Toward a standardized and more accurate Indonesian part-of-speech tagging"
-    authors: "Kemal Kurniawan, <b>Alham Fikri Aji<b>"
+    authors: "Kemal Kurniawan, <b>Alham Fikri Aji<\b>"
     date: "2018"
     venue: "IALP"
     url:
@@ -211,7 +211,7 @@ conference:
 
 workshop:
   - title: "Can smartphones be used to detect an earthquake? Using a machine learning approach to identify an earthquake event"
-    authors: "<b>Alham Fikri Aji<b>, I Putu Edy Suardiyana Putra, Petrus Mursanto, Setiadi Yazid"
+    authors: "<b>Alham Fikri Aji<\b>, I Putu Edy Suardiyana Putra, Petrus Mursanto, Setiadi Yazid"
     date: "2014"
     venue: "SysCon"
     url:
@@ -221,7 +221,7 @@ workshop:
     notes:
 
   - title: "Towards better structured and less noisy Web data: Oscar with Register annotations"
-    authors: "Veronika Laippala, Anna Salmela, Samuel Rönnqvist, <b>Alham Fikri Aji<b>, Li-Hsin Chang, Asma Dhifallah, Larissa Goulart‡ Henna Kortelainen, Marc Pàmies, Deise Prina Dutra, Valtteri Skantsi, Lintang Sutawika, Sampo Pyysalo"
+    authors: "Veronika Laippala, Anna Salmela, Samuel Rönnqvist, <b>Alham Fikri Aji<\b>, Li-Hsin Chang, Asma Dhifallah, Larissa Goulart‡ Henna Kortelainen, Marc Pàmies, Deise Prina Dutra, Valtteri Skantsi, Lintang Sutawika, Sampo Pyysalo"
     date: "2022"
     venue: "W-NUT at COLING"
     url:
@@ -231,7 +231,7 @@ workshop:
     notes:
 
   - title: "Efficient Machine Translation with Model Pruning and Quantization"
-    authors: "Maximiliana Behnke, Nikolay Bogoychev, <b>Alham Fikri Aji<b>, Kenneth Heafield, Graeme Nail, Qianqian Zhu, Svetlana Tchistiakova, Jelmer van der Linde, Pinzhen Chen, Sidharth Kashyap, Roman Grundkiewicz"
+    authors: "Maximiliana Behnke, Nikolay Bogoychev, <b>Alham Fikri Aji<\b>, Kenneth Heafield, Graeme Nail, Qianqian Zhu, Svetlana Tchistiakova, Jelmer van der Linde, Pinzhen Chen, Sidharth Kashyap, Roman Grundkiewicz"
     date: "2021"
     venue: "WMT at EMNLP"
     url:
@@ -241,7 +241,7 @@ workshop:
     notes:
 
   - title: "The University of Edinburgh's Bengali-Hindi Submissions to the WMT21 News Translation Task"
-    authors: "Proyag Pal, <b>Alham Fikri Aji<b>, Pinzhen Chen, Sukanta Sen"
+    authors: "Proyag Pal, <b>Alham Fikri Aji<\b>, Pinzhen Chen, Sukanta Sen"
     date: "2021"
     venue: "WMT at EMNLP"
     url:
@@ -251,7 +251,7 @@ workshop:
     notes:
 
   - title: "BERT Goes Brrr: A Venture Towards the Lesser Error in Classifying Medical Self-Reporters on Twitter"
-    authors: "<b>Alham Fikri Aji<b>, Made Nindyatama Nityasya, Haryo Akbarianto Wibowo, Radityo Eko Prasojo, Tirana Fatyanosa"
+    authors: "<b>Alham Fikri Aji<\b>, Made Nindyatama Nityasya, Haryo Akbarianto Wibowo, Radityo Eko Prasojo, Tirana Fatyanosa"
     date: "2021"
     venue: "SMM4H at NAACL"
     url:
@@ -261,7 +261,7 @@ workshop:
     notes:
 
   - title: "Edinburgh's Submissions to the 2020 Machine Translation Efficiency Task"
-    authors: "Nikolay Bogoychev, Roman Grundkiewicz, <b>Alham Fikri Aji<b>, Maximiliana Behnke, Kenneth Heafield, Sidharth Kashyap, Emmanouil-Ioannis Farsarakis, Mateusz Chudyk"
+    authors: "Nikolay Bogoychev, Roman Grundkiewicz, <b>Alham Fikri Aji<\b>, Maximiliana Behnke, Kenneth Heafield, Sidharth Kashyap, Emmanouil-Ioannis Farsarakis, Mateusz Chudyk"
     date: "2020"
     venue: "WNGT at ACL"
     url:
@@ -271,7 +271,7 @@ workshop:
     notes:
 
   - title: "Compressing Neural Machine Translation Models with 4-bit Precision"
-    authors: "<b>Alham Fikri Aji<b>, Kenneth Heafield"
+    authors: "<b>Alham Fikri Aji<\b>, Kenneth Heafield"
     date: "2020"
     venue: "WNGT at ACL"
     url:
@@ -281,7 +281,7 @@ workshop:
     notes:
 
   - title: "Benchmarking Multidomain English-Indonesian Machine Translation"
-    authors: "Tri Wahyu Guntara, <b>Alham Fikri Aji<b>, Radityo Eko Prasojo"
+    authors: "Tri Wahyu Guntara, <b>Alham Fikri Aji<\b>, Radityo Eko Prasojo"
     date: "2020"
     venue: "BUCC"
     url:
@@ -291,7 +291,7 @@ workshop:
     notes:
 
   - title: "Making Asynchronous Stochastic Gradient Descent Work for Transformers"
-    authors: "<b>Alham Fikri Aji<b>, Kenneth Heafield"
+    authors: "<b>Alham Fikri Aji<\b>, Kenneth Heafield"
     date: "2019"
     venue: "WNGT at EMNLP"
     url:
@@ -301,7 +301,7 @@ workshop:
     notes:
 
   - title: "From Research to Production and Back: Ludicrously Fast Neural Machine Translation"
-    authors: "Young Jin Kim, Marcin Junczys-Dowmunt, Hany Hassan, <b>Alham Fikri Aji<b>, Kenneth Heafield, Roman Grundkiewicz, Nikolay Bogoychev"
+    authors: "Young Jin Kim, Marcin Junczys-Dowmunt, Hany Hassan, <b>Alham Fikri Aji<\b>, Kenneth Heafield, Roman Grundkiewicz, Nikolay Bogoychev"
     date: "2019"
     venue: "WNGT at EMNLP"
     url:
