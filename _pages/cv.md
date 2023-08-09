@@ -40,8 +40,9 @@ redirect_from:
 ## Publication
 
 You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications
+### Conferences
+
 <ul>
-#### Conferences
 {% for paper in site.data.paper.conference %}
 <li> <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
 {% if paper.notes != null %} -- {{ paper.notes | raw }}
@@ -50,7 +51,8 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% endfor %}
 </ul>
 
-#### Workshops
+### Workshops
+<ul>
 {% for paper in site.data.paper.workshop %}
 <li> <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
 {% if paper.notes != null %} -- {{ paper.notes | raw }}
@@ -81,7 +83,6 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
     The 2nd Composable, Automatic and Scalable Learning Workshop (CASL), Invited Talk (23rd February 2023)
   * **Sequence-to-Sequence and Neural Machine Translation Model**\
     Universitas Indonesia, Guest Lecture (28th April 2021)
-    
 
 ## Awards
 * Outstanding Paper Award, EACL 2023
