@@ -84,3 +84,8 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
     
 
 ## Awards
+* Outstanding Paper Award, EACL 2023
+* Outstanding Contribution Award, WNGT 2019
+* World Finalists, ACM-ICPC 2014
+* Silver Medalists, IOI 2010
+
