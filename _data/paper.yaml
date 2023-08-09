@@ -77,7 +77,7 @@ conference:
     data:
     model:
     tags:
-    notes: Outstanding Award🏅"
+    notes: Outstanding Award🏅
 
   - title: "Mintaka: A Complex, Natural, and Multilingual Dataset for End-to-End Question Answering"
     authors: "Priyanka Sen, <b>Alham Fikri Aji</b>,  Amir Saffari"
@@ -298,7 +298,7 @@ workshop:
     data:
     model:
     tags:
-    notes:
+    notes: Outstanding Contribution 🏅
 
   - title: "From Research to Production and Back: Ludicrously Fast Neural Machine Translation"
     authors: "Young Jin Kim, Marcin Junczys-Dowmunt, Hany Hassan, <b>Alham Fikri Aji</b>, Kenneth Heafield, Roman Grundkiewicz, Nikolay Bogoychev"
