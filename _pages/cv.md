@@ -40,9 +40,9 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 <ul>
 {% for paper in site.data.paper.conference %}
 <li>{% if paper.url == null %}
-      [{{ paper.title | raw }}](https://afaji.github.io/cv)
+      <a href="{{ paper.url }}">{{ paper.title | raw }}</a>
     {% else %}
-      [{{ paper.title }}]({{ paper.url }})
+      <a href="{{ paper.url }}">{{ paper.title | raw }}</a>
     {% endif %}
   <br>
   <i>{{ paper.authors | raw }}</i></li>
