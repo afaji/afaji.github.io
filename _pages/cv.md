@@ -36,8 +36,7 @@ redirect_from:
 
 ## Publication
 
-{% assign papers = site.data.paper.conference %}
-{% for paper in papers %}
+{% for paper in site.data.paper.conference %}
 * {{ paper.title }}
 {% endfor %}
 
