@@ -36,6 +36,11 @@ redirect_from:
 
 ## Publication
 
+{% assign papers = site.data.paper.conference %}
+{% for paper in papers %}
+* {{ paper.title }}
+{% endfor %}
+
 Please refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate)
 
 ## Teaching and Talks
