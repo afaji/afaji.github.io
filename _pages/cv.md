@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 # Alham Fikri Aji / Curriculum Vitae
 
-I obtained my Ph.D. from the University of Edinburgh's Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers around multilingual, low-resource, and low-compute NLP. I have been part of developing various multilingual large language models, including BLOOM & BLOOMZ, mT0, LaMini-LM, and Bactrian-X. Additionally, I'm also dedicated to building multilingual NLP resources for underrepresented languages, especially Indonesian. In the past, I have gained industry experience at prominent companies such as Amazon, Google, and Apple.
+I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University of Edinburgh’s Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers around multilingual, low-resource, and low-compute NLP. I have been developing various multilingual large language models, as well as building multilingual NLP resources for underrepresented languages, especially Indonesian. In the past, I have gained industry experience at companies such as Amazon, Google, and Apple.
 
 ## Education
 
