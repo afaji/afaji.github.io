@@ -9,8 +9,12 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-
     <style>
+    @media print {
+      .page-break {
+          page-break-before: always;
+      }
+    }
       ul li {
         margin-bottom: 0.1em;
         margin-top: 0em;
