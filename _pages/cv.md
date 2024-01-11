@@ -39,13 +39,15 @@ I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University o
 ## Professional Activity
 
 * **Reviewer and Program Committee**
-  * **Conferences**: ACL, COLING, ICML, ICLR, NeurIPS
+  * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP
-* **Area Chair**: ACL (2023), EMNLP (2023)
-* **Organizer**: South-East Asia Language Processing (SEALP) 2023
+* **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
+* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval 2024 shared task organizer
 * **Informatics Olympiad**:
   * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
+
+<div class="page-break"></div>
 
 ## Publication
 
@@ -75,12 +77,18 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 ## Teaching and Talks
 
 * **Teaching**:
-  * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall) 
+  * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall - for PhD)
+  * NLP702 Advanced Natural Language Processing (MBZUAI, 2024 Spring - for MSc) 
 * **Talks**:
+  * **Constructing High-Quality Corpora for Underrepresented and Extremely Low-Resource
+Languages**\
+    Google Singapore, Invited Talk (21th November 2023)  
+  * **Building Multilingual & Multicultural LLMs: Methods and Challenges**\
+    AI Singapore, Invited Talk (20th November 2023)
   * **Q2AI: A Quick Course to Quick AI**\
-    PRICAI, Tutorial (Upcoming, 17th November 2023)
+    PRICAI, Tutorial (17th November 2023)
   * **Current Status of NLP in South East Asia with Insights from Multilingualism and Language Diversity**\
-    AACL, Tutorial (Upcoming, 1st November 2023)
+    AACL, Tutorial (1st November 2023)
   * **Surviving your PhD Study**\
     Telkom University, Invited Talk (2nd August 2023)
   * **Generative AI with Large Language Models Workshop**\
@@ -95,8 +103,8 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
     Universitas Indonesia, Guest Lecture (28th April 2021)
 
 ## Awards
+* Best Resource Paper Award, AACL 2023
 * Outstanding Paper Award, EACL 2023
 * Outstanding Contribution Award, WNGT 2019
 * World Finalists, ACM-ICPC 2014
 * Silver Medalists, IOI 2010
-
