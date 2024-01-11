@@ -8,7 +8,7 @@ conference:
     model:
     tags:
     notes: 
-   - title: "Multilingual Large Language Models Are Not (Yet) Code-Switchers"
+  - title: "Multilingual Large Language Models Are Not (Yet) Code-Switchers"
     authors: "Ruochen Zhang, Samuel Cahyawijaya, Jan Christian Blaise Cruz, <b>Alham Fikri Aji</b>"
     date: "2023"
     venue: "EMNLP"
