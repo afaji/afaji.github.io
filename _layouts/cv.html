@@ -10,11 +10,17 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     <style>
-    @media print {
-      .page-break {
-          page-break-before: always;
+      @media print {
+        .page-break {
+            page-break-before: always;
+        }
       }
-    }
+
+      @media print {
+          body {
+              font-size: 50%;
+          }
+      }
       ul li {
         margin-bottom: 0.1em;
         margin-top: 0em;
