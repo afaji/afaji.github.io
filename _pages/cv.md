@@ -47,6 +47,12 @@ I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University o
   * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
 
+## Awards
+* Best Resource Paper Award, AACL 2023
+* Outstanding Paper Award, EACL 2023
+* Outstanding Contribution Award, WNGT 2019
+* World Finalists, ACM-ICPC 2014
+* Silver Medalists, IOI 2010
 <div class="page-break"></div>
 
 ## Publication
@@ -101,10 +107,3 @@ Languages**\
     The 2nd Composable, Automatic and Scalable Learning Workshop (CASL), Invited Talk (23rd February 2023)
   * **Sequence-to-Sequence and Neural Machine Translation Model**\
     Universitas Indonesia, Guest Lecture (28th April 2021)
-
-## Awards
-* Best Resource Paper Award, AACL 2023
-* Outstanding Paper Award, EACL 2023
-* Outstanding Contribution Award, WNGT 2019
-* World Finalists, ACM-ICPC 2014
-* Silver Medalists, IOI 2010
