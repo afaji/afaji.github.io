@@ -10,6 +10,8 @@ redirect_from:
 {% include base_path %}
 # Alham Fikri Aji / Curriculum Vitae
 
+[alham.fikri@mbzuai.ac.ae](mailto:alham.fikri@mbzuai.ac.ae)
+
 I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University of Edinburgh’s Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers on multilingual, low-resource, and low-compute NLP. I have worked on lightweight models via distillation, as well as adapting models to unseen languages in cases of limited training data.
 I have been developing various multilingual large language models such as BLOOMZ/mT0, Jais, Bactrian-X, and more. I have also worked on building multilingual and under-represented NLP resources and benchmarks, especially those that capture local culture and nuances, some of which were awarded best resource papers.
 In the past, I have gained industry experience at companies such as Amazon, Google, and Apple.
