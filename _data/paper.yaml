@@ -1,4 +1,31 @@
 conference:
+  - title: "Copal-ID: Indonesian Language Reasoning with Local Culture and Nuances"
+    authors: "Haryo Akbarianto Wibowo, Erland Hilman Fuadi, Made Nindyatama Nityasya, Radityo Eko Prasojo, <b>Alham Fikri Aji</b>"
+    date: "2024"
+    venue: "NAACL"
+    url:
+    data:
+    model:
+    tags:
+    notes: 
+  - title: "M4: Multi-generator, Multi-domain, and Multi-lingual Black-box Machine-generated Text Detection"
+    authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, <b>Alham Fikri Aji</b>, Preslav Nakov"
+    date: "2024"
+    venue: "EACL"
+    url:
+    data:
+    model:
+    tags:
+    notes:  Best Resource Paper🏅
+  - title: "Lamini-lm: A Diverse Herd of Distilled Models from Large-scale Instructions"
+    authors: "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, <b>Alham Fikri Aji</b>"
+    date: "2024"
+    venue: "EACL"
+    url:
+    data:
+    model:
+    tags:
+    notes: 
   - title: "LLM-powered Data Augmentation for Enhanced Crosslingual Performance"
     authors: "Chenxi Whitehouse, Monojit Choudhury, <b>Alham Fikri Aji</b>"
     date: "2023"
