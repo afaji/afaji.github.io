@@ -10,7 +10,9 @@ redirect_from:
 {% include base_path %}
 # Alham Fikri Aji / Curriculum Vitae
 
-I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University of Edinburgh’s Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers around multilingual, low-resource, and low-compute NLP. I have been developing various multilingual large language models, as well as building multilingual NLP resources for underrepresented languages, especially Indonesian. In the past, I have gained industry experience at companies such as Amazon, Google, and Apple.
+I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University of Edinburgh’s Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers on multilingual, low-resource, and low-compute NLP. I have worked on lightweight models via distillation, as well as adapting models to unseen languages in cases of limited training data.
+I have been developing various multilingual large language models such as BLOOMZ/mT0, Jais, Bactrian-X, and more. I have also worked on building multilingual and under-represented NLP resources and benchmarks, especially those that capture local culture and nuances, some of which were awarded best resource papers.
+In the past, I have gained industry experience at companies such as Amazon, Google, and Apple.
 
 ## Education
 
@@ -24,7 +26,7 @@ I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University o
 ## Working Experience
 
 * **Assistant Professor**, MBZUAI (2023 - Current)\
-  Teaching and supervising master's and doctoral students, visiting researchers, and postdocs on a wide array of NLP research.
+  NLP department--teaches MSc and PhD classes, advises MSc and PhD students. My current main research interests are in multilinguality, data creation, and low-compute and efficient models.
 * **Applied Scientist**, Amazon Alexa AI (2021 - 2023)\
   Utilized knowledge graphs to create a truthful, multilingual question-answering system for Alexa.
 * **Postdoctoral Research Associate**, University of Edinburgh (2020 - 2021)\
@@ -48,11 +50,12 @@ I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University o
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
 
 ## Awards
+* Best Resource Paper Award, EACL 2024
 * Best Resource Paper Award, AACL 2023
 * Outstanding Paper Award, EACL 2023
 * Outstanding Contribution Award, WNGT 2019
 * World Finalists, ACM-ICPC 2014
-* Silver Medalists, IOI 2010
+* Silver Medalists, International Olympiad of Informatics (IOI) 2010
 <div class="page-break"></div>
 
 ## Publication
@@ -83,9 +86,16 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 ## Teaching and Talks
 
 * **Teaching**:
-  * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall - for PhD)
-  * NLP702 Advanced Natural Language Processing (MBZUAI, 2024 Spring - for MSc) 
+  * NLP702 Advanced Natural Language Processing (MBZUAI, 2024 Spring - for MSc)\
+    Co-instructor. Covered efficient and large-scale NLP, including LLM, distributed training, distillation, parameter-efficient fine-tuning, and linear Transformers.
+  * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall - for PhD)\
+    Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
+  * IOI-Camp for Saudi Arabia (2020)\
+    Intense IOI preparation camp for 2 months. Designed the module, materials, as well as weekly contests and selection process. Covered advanced algorithms and data structures.
+
 * **Talks**:
+  * **Training Lightweight Model via Knowledge Distillation and Parameter Efficient Finetuning**\
+    Mexican NLP Summer School, Co-located with NAACL (14-15th June 2024) 
   * **Constructing High-Quality Corpora for Underrepresented and Extremely Low-Resource
 Languages**\
     Google Singapore, Invited Talk (21th November 2023)  
