@@ -91,7 +91,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 
 ## Supervision and Mentorship
 <ul>
-{% for student in site.data.student %}
+{% for student in site.data.student.student %}
   <li>
     <a href="{{ student.url }}">{{ student.name | raw }}</a><br>
     <strong>Role</strong>: {{ student.role | raw }} ({{ student.rolejob | raw }})<br>
