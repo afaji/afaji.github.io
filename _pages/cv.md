@@ -67,9 +67,22 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 
 <ul>
 {% for paper in site.data.paper.conference %}
-<li> <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
-{% if paper.notes != null %} -- {{ paper.notes | raw }}
-{% endif %}
+<li class="
+    {% if paper.author %}
+        {% if paper.author == 'first' %}
+            first-author
+        {% elif paper.author == 'last' %}
+            last-author
+        {% else %}
+            default-author
+        {% endif %}
+    {% else %}
+        default-author
+    {% endif %}
+    ">
+    <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
+    {% if paper.notes != null %} -- {{ paper.notes | raw }}
+    {% endif %}
 </li>
 {% endfor %}
 </ul>
