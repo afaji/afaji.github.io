@@ -30,34 +30,16 @@ layout: compress
         font-size: 1.05em;
         border-bottom: 1px solid #bbbbbb;
       }
-
-      .first-author {
-          list-style-type: none;
-          color: purple;
-          position: relative;
-          padding-left: 1.2em; /* Adjust to add space for the bullet */
-      }
-      
-      .first-author::before {
-          content: '♦';
-          color: purple;
-          font-size: 0.8em;
-          position: absolute;
-          left: 0;
-      }
       
       .last-author {
           list-style-type: none;
-          color: blue;
-          position: relative;
-          padding-left: 1.2em; /* Adjust to add space for the bullet */
       }
       
       .last-author::before {
-          content: '■';
-          color: blue;
-          position: absolute;
-          left: 0;
+          content: "♦"; /* Insert diamond symbol */
+          color: orange; /* Change color to orange */
+          font-size: 1.2em; /* Adjust size if necessary */
+          margin-right: 8px; /* Space between bullet and text */
       }
     </style>
   </head>
