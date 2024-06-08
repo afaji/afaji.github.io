@@ -9,14 +9,26 @@ student:
     role: Main Advisor
     co: Iryna Gurevych
     period: (Aug 2023 - present) 
+  - name: Fathinah Asma Izzati
+    role: Secondary Advisor
+    rolejob: MSc at MBZUAI
+    co: Gus Jia
+    period: (Aug 2023 - present)
+
+paststudent:
   - name: Jonibek Mansurov
     job: PhD at MBZUAI
     role: Main Advisor
     rolejob: MSc at MBZUAI
     co: Preslav Nakov
-    period: (Jan 2023 - Jun 2024)   
-  - name: Fathinah Asma Izzati
-    role: Secondary Advisor
-    rolejob: MSc at MBZUAI
-    co: Gus Jia
-    period: (Aug 2023 - present)    
+    period: (Jan 2023 - Jun 2024)
+  - name: Muhammad Ravi Sulthan Habibi
+    role: Co Advisor
+    rolejob: BSc at Universitas Indonesia
+    co: Rahmad Mahendra
+    period: (Aug 2022 - Aug 2023)
+  - name: Muhammad Ravi Sulthan Habibi
+    role: Co Advisor
+    rolejob: BSc at Universitas Indonesia
+    co: Rahmad Mahendra
+    period: (Aug 2022 - Aug 2023)
