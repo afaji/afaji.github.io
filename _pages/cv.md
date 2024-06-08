@@ -96,7 +96,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% for student in site.data.student.student %}
   <li>
     <a href="{{ student.url }}">{{ student.name | raw }}</a>({{ student.rolejob | raw }})<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}<br>
+    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %}<br>
     <strong>Period</strong>: {{ student.period | raw }}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
@@ -110,7 +110,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% for student in site.data.student.paststudent %}
   <li>
     <a href="{{ student.url }}">{{ student.name | raw }}</a>({{ student.rolejob | raw }})<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}<br>
+    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %}<br>
     <strong>Period</strong>: {{ student.period | raw }}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
@@ -124,7 +124,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% for student in site.data.student.staff %}
   <li>
     <a href="{{ student.url }}">{{ student.name | raw }}</a>({{ student.rolejob | raw }})<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}<br>
+    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %}<br>
     <strong>Period</strong>: {{ student.period | raw }}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
