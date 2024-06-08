@@ -46,7 +46,7 @@ conference:
     model:
     tags:
     notes:  Best Resource Paper🏅
-   - title: "A Paradigm Shift: The Future of Machine Translation Lies with Large Language Models"
+  - title: "A Paradigm Shift: The Future of Machine Translation Lies with Large Language Models"
     authors: "Chenyang Lyu, Zefeng Du, Jitao Xu, Yitao Duan, Minghao Wu, Teresa Lynn, <b>Alham Fikri Aji</b>, Derek F Wong, Longyue Wang"
     date: "2024"
     venue: "LREC"
@@ -282,7 +282,6 @@ conference:
     model:
     tags:
     notes:
-    author: "first" 
   - title: "Sparse communication for distributed gradient descent"
     authors: "<b>Alham Fikri Aji</b>, Kenneth Heafield"
     date: "2017"
@@ -295,6 +294,46 @@ conference:
     author: "first"
 
 workshop:
+  - title: "Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering"
+    authors: "Jinheon Baek, <b>Alham Fikri Aji</b>, Amir Saffari"
+    date: "2023"
+    venue: "NLRSE at ACL"
+    url:
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "Low-Resource Clickbait Spoiling for Indonesian via Question Answering"
+    authors: "Ni Putu Intan Maharani, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
+    date: "2023"
+    venue: "SEALP at NAACL"
+    url:
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering"
+    authors: "Jinheon Baek, <b>Alham Fikri Aji</b>, Amir Saffari"
+    date: "2023"
+    venue: "NLRSE at ACL"
+    url:
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering"
+    authors: "Jinheon Baek, <b>Alham Fikri Aji</b>, Amir Saffari"
+    date: "2023"
+    venue: "NLRSE at ACL"
+    url:
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
   - title: "Towards better structured and less noisy Web data: Oscar with Register annotations"
     authors: "Veronika Laippala, Anna Salmela, Samuel Rönnqvist, <b>Alham Fikri Aji</b>, Li-Hsin Chang, Asma Dhifallah, Larissa Goulart‡ Henna Kortelainen, Marc Pàmies, Deise Prina Dutra, Valtteri Skantsi, Lintang Sutawika, Sampo Pyysalo"
     date: "2022"
@@ -398,3 +437,4 @@ workshop:
     tags:
     notes:
     author: "first"
+
