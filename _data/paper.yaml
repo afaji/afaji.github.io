@@ -122,7 +122,6 @@ conference:
     model:
     tags:
     notes:
-
   - title: "The Decades Progress on Code-Switching Research in NLP: A Systematic Survey on Trends and Challenges"
     authors: "Genta Indra Winata, <b>Alham Fikri Aji</b>, Zheng Xin Yong and Thamar Solorio"
     date: "2023"
@@ -132,7 +131,6 @@ conference:
     model:
     tags:
     notes:
-
   - title: "NusaCrowd: Open Source Initiative for Indonesian NLP Resources"
     authors: "Samuel Cahyawijaya, Holy Lovenia, <b>Alham Fikri Aji</b>, Genta Indra Winata, Bryan Wilie, Fajri Koto, Rahmad Mahendra, et al."
     date: "2023"
@@ -152,7 +150,6 @@ conference:
     model:
     tags:
     notes:
-
   - title: "Multi-lingual and Multi-cultural Figurative Language Understanding"
     authors: "Anubha Kabra, Emmy Liu, Simran Khanuja, <b>Alham Fikri Aji</b>, Genta Indra Winata, Samuel Cahyawijaya, Anuoluwapo Aremu, Perez Ogayo and Graham Neubig"
     date: "2023"
@@ -162,7 +159,6 @@ conference:
     model:
     tags:
     notes:
-
   - title: "NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages"
     authors: "Genta Indra Winata, <b>Alham Fikri Aji</b>, Samuel Cahyawijaya, Rahmad Mahendra, Fajri Koto, Ade Romadhony, Kemal Kurniawan, David Moeljadi, Radityo Eko Prasojo, Pascale Fung, Timothy Baldwin, Jey Han Lau, Rico Sennrich, Sebastian Ruder"
     date: "2023"
@@ -201,7 +197,6 @@ conference:
     tags:
     notes:
     author: "first"
-
   - title: "IndoNLI: A Natural Language Inference Dataset for Indonesian"
     authors: "Rahmad Mahendra, <b>Alham Fikri Aji</b>, Samuel Louvan, Fahrurrozi Rahman, Clara Vania"
     date: "2021"
@@ -211,7 +206,6 @@ conference:
     model:
     tags:
     notes:
-
   - title: "ParaCotta: Synthetic Multilingual Paraphrase Corpora from the Most Diverse Translation Sample Pair"
     authors: "<b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Tirana Noor Fatyanosa, Philip Arthur, Suci Fitriany, Salma Qonitah, Nadhifa Zulfa, Tomi Santoso, Mahendra Data"
     date: "2021"
@@ -222,7 +216,6 @@ conference:
     tags:
     notes:
     author: "first"
-
   - title: "IndoCollex: A Testbed for Morphological Transformation of Indonesian Word Colloquialism"
     authors: "Haryo Akbarianto Wibowo, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Derry Tanti Wijaya"
     date: "2021"
@@ -232,7 +225,7 @@ conference:
     model:
     tags:
     notes:
-
+    author: "last"
   - title: "In Neural Machine Translation, What Does Transfer Learning Transfer?"
     authors: "<b>Alham Fikri Aji</b>, Nikolay Bogoychev, Kenneth Heafield, Rico Sennrich"
     date: "2020"
@@ -243,7 +236,6 @@ conference:
     tags:
     notes:
     author: "first"
-
   - title: "Semi-Supervised Low-Resource Style Transfer of Indonesian Informal to Formal Language with Iterative Forward-Translation"
     authors: "Haryo Akbarianto Wibowo, Tatag Aziz Prawiro, Muhammad Ihsan, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Rahmad Mahendra, Suci Fitriany"
     date: "2020"
@@ -263,7 +255,6 @@ conference:
     tags:
     notes:
     author: "first"
-
   - title: "Accelerating asynchronous stochastic gradient descent for neural machine translation"
     authors: "Nikolay Bogoychev, Marcin Junczys-Dowmunt, Kenneth Heafield, <b>Alham Fikri Aji</b>"
     date: "2018"
@@ -273,7 +264,6 @@ conference:
     model:
     tags:
     notes:
-
   - title: "Marian: Fast neural machine translation in C++"
     authors: "Marcin Junczys-Dowmunt, Roman Grundkiewicz, Tomasz Grundkiewicz, Hieu Hoang, Kenneth Heafield, Tom Neckermann, Frank Seide, Ulrich Germann, <b>Alham Fikri Aji</b>, Nikolay Bogoychev, Andre Martins, Alexandra Birch"
     date: "2018"
