@@ -124,7 +124,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
  * Cohere For AI research grants: "SEACrowd: Consolidating South-east asia NLP dataset" (Co-PI)\
    **Amount**: 3000 USD
  * IBM: "Question Answering for Arabic Dialects"\
-   **Amount**: Postdoctoral cost cover 
+   **Amount**: Postdoctoral sponsorship of Chenyang Lyu of 100000 USD 
 
 ## Teaching and Talks
 
