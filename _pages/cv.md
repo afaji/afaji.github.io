@@ -90,11 +90,41 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 </ul>
 
 ## Supervision and Mentorship
+
+### Current Student
 <ul>
 {% for student in site.data.student.student %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a><br>
-    <strong>Role</strong>: {{ student.role | raw }} ({{ student.rolejob | raw }})<br>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a>({{ student.rolejob | raw }})<br>
+    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}<br>
+    <strong>Period</strong>: {{ student.period | raw }}<br>
+    {% if student.job %}
+      <strong>Current position</strong>: {{ student.job | raw }}<br>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+### Past Student
+<ul>
+{% for student in site.data.student.paststudent %}
+  <li>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a>({{ student.rolejob | raw }})<br>
+    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}<br>
+    <strong>Period</strong>: {{ student.period | raw }}<br>
+    {% if student.job %}
+      <strong>Current position</strong>: {{ student.job | raw }}<br>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+### Research Advisorship
+<ul>
+{% for student in site.data.student.staff %}
+  <li>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a>({{ student.rolejob | raw }})<br>
+    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}<br>
     <strong>Period</strong>: {{ student.period | raw }}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
