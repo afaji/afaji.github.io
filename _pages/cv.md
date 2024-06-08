@@ -94,9 +94,9 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% for student in site.data.student %}
 <li>
     <a href="{{ student.url }}">{{ student.name | raw }}</a>
-    **Role**: {{ student.role }}
-    **Period**: {{ student.period }}
-    {%if student.job %}Current position: {{ student.job }}{% endif %}
+    **Role**: {{ student.role }} ({{ student.rolejob }})<br>
+    **Period**: {{ student.period }}<br>
+    {%if student.job %}Current position: {{ student.job }}<br>{% endif %}
 </li>
 {% endfor %}
 </ul>
