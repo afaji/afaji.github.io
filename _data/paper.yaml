@@ -1,6 +1,6 @@
 conference:
   - title: "Copal-ID: Indonesian Language Reasoning with Local Culture and Nuances"
-    authors: "Haryo Akbarianto Wibowo, Erland Hilman Fuadi, Made Nindyatama Nityasya, Radityo Eko Prasojo, <b>Alham Fikri Aji</b>"
+    authors: "Haryo Akbarianto Wibowo, Erland Hilman Fuadi, Made Nindyatama Nityasya, Radityo Eko Prasojo, <b class='last-author'>Alham Fikri Aji</b>"
     date: "2024"
     venue: "NAACL"
     url:
@@ -17,8 +17,8 @@ conference:
     model:
     tags:
     notes:  Best Resource Paper🏅
-  - title: "Lamini-lm: A Diverse Herd of Distilled Models from Large-scale Instructions"
-    authors: "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, <b>Alham Fikri Aji</b>"
+  - title: "Lamini-LM: A Diverse Herd of Distilled Models from Large-scale Instructions"
+    authors: "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, <b class='last-author'>Alham Fikri Aji</b>"
     date: "2024"
     venue: "EACL"
     url:
@@ -27,7 +27,7 @@ conference:
     tags:
     notes: 
   - title: "LLM-powered Data Augmentation for Enhanced Crosslingual Performance"
-    authors: "Chenxi Whitehouse, Monojit Choudhury, <b>Alham Fikri Aji</b>"
+    authors: "Chenxi Whitehouse, Monojit Choudhury, <b class='last-author'>Alham Fikri Aji</b>"
     date: "2023"
     venue: "EMNLP"
     url:
@@ -36,7 +36,7 @@ conference:
     tags:
     notes: 
   - title: "Multilingual Large Language Models Are Not (Yet) Code-Switchers"
-    authors: "Ruochen Zhang, Samuel Cahyawijaya, Jan Christian Blaise Cruz, <b>Alham Fikri Aji</b>"
+    authors: "Ruochen Zhang, Samuel Cahyawijaya, Jan Christian Blaise Cruz, <b class='last-author'>Alham Fikri Aji</b>"
     date: "2023"
     venue: "EMNLP"
     url:
@@ -45,7 +45,7 @@ conference:
     tags:
     notes: 
   - title: "Nusawrites: Constructing high-quality corpora for underrepresented and extremely low-resource languages"
-    authors: "Samuel Cahyawijaya, Holy Lovenia, Fajri Koto, Dea Adhista, Emmanuel Dave, Sarah Oktavianti, Salsabil Maulana Akbar, Jhonson Lee, Nuur Shadieq, Tjeng Wawan Cenggoro, Hanung Wahyuning Linuwih, Bryan Wilie, Galih Pradipta Muridan, Genta Indra Winata, David Moeljadi, <b>Alham Fikri Aji</b>, Ayu Purwarianti, Pascale Fung"
+    authors: "Samuel Cahyawijaya, Holy Lovenia, Fajri Koto, Dea Adhista, Emmanuel Dave, Sarah Oktavianti, Salsabil Maulana Akbar, Jhonson Lee, Nuur Shadieq, Tjeng Wawan Cenggoro, Hanung Wahyuning Linuwih, Bryan Wilie, Galih Pradipta Muridan, Genta Indra Winata, David Moeljadi, <b class='last-author'>Alham Fikri Aji</b>, Ayu Purwarianti, Pascale Fung"
     date: "2023"
     venue: "AACL"
     url:
