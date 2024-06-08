@@ -92,12 +92,14 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 ## Supervision and Mentorship
 <ul>
 {% for student in site.data.student %}
-<li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a>
-    **Role**: {{ student.role }} ({{ student.rolejob }})<br>
-    **Period**: {{ student.period }}<br>
-    {%if student.job %}Current position: {{ student.job }}<br>{% endif %}
-</li>
+  <li>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a><br>
+    <strong>Role</strong>: {{ student.role | raw }} ({{ student.rolejob | raw }})<br>
+    <strong>Period</strong>: {{ student.period | raw }}<br>
+    {% if student.job %}
+      <strong>Current position</strong>: {{ student.job | raw }}<br>
+    {% endif %}
+  </li>
 {% endfor %}
 </ul>
 
