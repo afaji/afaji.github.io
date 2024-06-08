@@ -10,7 +10,7 @@ conference:
     notes:
     author: "last"
   - title: "M4: Multi-generator, Multi-domain, and Multi-lingual Black-box Machine-generated Text Detection"
-    authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, <b>Alham Fikri Aji</b>, Preslav Nakov"
+    authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, Toru Sasaki, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov."
     date: "2024"
     venue: "EACL"
     url:
@@ -18,7 +18,6 @@ conference:
     model:
     tags:
     notes:  Best Resource Paper🏅
-    author: "last"
   - title: "Lamini-LM: A Diverse Herd of Distilled Models from Large-scale Instructions"
     authors: "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, <b>Alham Fikri Aji</b>"
     date: "2024"
