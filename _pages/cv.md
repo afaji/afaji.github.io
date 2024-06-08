@@ -49,6 +49,19 @@ redirect_from:
 * Outstanding Contribution Award, WNGT 2019
 * World Finalists, ACM-ICPC 2014
 * Silver Medalists, International Olympiad of Informatics (IOI) 2010
+
+## Professional Activity
+
+* **Reviewer and Program Committee**
+  * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
+  * **Workshop**: WNGT, TL4NLP
+* **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
+* **Local Chair**: COLING (2025)
+* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
+* **Informatics Olympiad**:
+  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
+  * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
+  * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
 <div class="page-break"></div>
 
 ## Publication
@@ -160,16 +173,3 @@ Languages**\
     The 2nd Composable, Automatic and Scalable Learning Workshop (CASL), Invited Talk (23rd February 2023)
   * **Sequence-to-Sequence and Neural Machine Translation Model**\
     Universitas Indonesia, Guest Lecture (28th April 2021)
-
-## Professional Activity
-
-* **Reviewer and Program Committee**
-  * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
-  * **Workshop**: WNGT, TL4NLP
-* **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
-* **Local Chair**: COLING (2025)
-* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
-* **Informatics Olympiad**:
-  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
-  * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
-  * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
