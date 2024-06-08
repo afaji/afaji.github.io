@@ -41,18 +41,6 @@ redirect_from:
 * **Language Engineer**, Apple Siri (2015 - 2016)\
   Designed Malay language rules and trained models to optimize Siri's performance in Malay. 
 
-## Professional Activity
-
-* **Reviewer and Program Committee**
-  * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
-  * **Workshop**: WNGT, TL4NLP
-* **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
-* **Local Chair**: COLING (2025)
-* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
-* **Informatics Olympiad**:
-  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
-  * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
-  * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
 
 ## Awards
 * Best Resource Paper Award, EACL 2024
@@ -96,7 +84,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% for student in site.data.student.student %}
   <li>
     <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} {{ student.period | raw }}<br>
+    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} {{ student.period | raw }}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -109,7 +97,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% for student in site.data.student.paststudent %}
   <li>
     <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} {{ student.period | raw }}<br>
+    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} {{ student.period | raw }}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -121,15 +109,22 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 <ul>
 {% for student in site.data.student.staff %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> {{ student.rolejob | raw }}<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %}<br>
-    <strong>Period</strong>: {{ student.period | raw }}<br>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<br>
+    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} {{ student.period | raw }}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
   </li>
 {% endfor %}
 </ul>
+
+## Grants and Funding
+ * Microsoft Research: "Developing Robust Methodology and Datasets for Holistic Evaluation of Cultural Awareness and Bias in Foundation Models" (Co-PI)\
+   **Amount**: 20000 USD
+ * Cohere For AI research grants: "SEACrowd: Consolidating South-east asia NLP dataset" (Co-PI)\
+   **Amount**: 3000 USD
+ * IBM: "Question Answering for Arabic Dialects"\
+   **Amount**: Postdoctoral cost cover 
 
 ## Teaching and Talks
 
@@ -165,3 +160,16 @@ Languages**\
     The 2nd Composable, Automatic and Scalable Learning Workshop (CASL), Invited Talk (23rd February 2023)
   * **Sequence-to-Sequence and Neural Machine Translation Model**\
     Universitas Indonesia, Guest Lecture (28th April 2021)
+
+## Professional Activity
+
+* **Reviewer and Program Committee**
+  * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
+  * **Workshop**: WNGT, TL4NLP
+* **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
+* **Local Chair**: COLING (2025)
+* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
+* **Informatics Olympiad**:
+  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
+  * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
+  * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
