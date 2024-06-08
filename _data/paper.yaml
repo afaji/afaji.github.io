@@ -7,7 +7,8 @@ conference:
     data:
     model:
     tags:
-    notes: 
+    notes:
+    author: "last"
   - title: "M4: Multi-generator, Multi-domain, and Multi-lingual Black-box Machine-generated Text Detection"
     authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, <b>Alham Fikri Aji</b>, Preslav Nakov"
     date: "2024"
