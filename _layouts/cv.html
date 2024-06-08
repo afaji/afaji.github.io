@@ -31,11 +31,33 @@ layout: compress
         border-bottom: 1px solid #bbbbbb;
       }
 
-      .last-author::after {
+      .first-author {
+          list-style-type: none;
+          color: purple;
+          position: relative;
+          padding-left: 1.2em; /* Adjust to add space for the bullet */
+      }
+      
+      .first-author::before {
           content: '♦';
-          color: purple; 
+          color: purple;
           font-size: 0.8em;
-          vertical-align: super;
+          position: absolute;
+          left: 0;
+      }
+      
+      .last-author {
+          list-style-type: none;
+          color: blue;
+          position: relative;
+          padding-left: 1.2em; /* Adjust to add space for the bullet */
+      }
+      
+      .last-author::before {
+          content: '■';
+          color: blue;
+          position: absolute;
+          left: 0;
       }
     </style>
   </head>
