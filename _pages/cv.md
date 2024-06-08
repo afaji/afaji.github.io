@@ -47,10 +47,12 @@ redirect_from:
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP
 * **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
-* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval 2024 shared task organizer
+* **Local Chair**: COLING (2025)
+* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
 * **Informatics Olympiad**:
   * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
+  * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
 
 ## Awards
 * Best Resource Paper Award, EACL 2024
@@ -87,16 +89,27 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% endfor %}
 </ul>
 
+## Supervision and Mentorship
+<ul>
+{% for student in site.data.student %}
+<li>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a>
+    **Role**: {{ student.role }}
+    **Period**: {{ student.period }}
+    {%if student.job %}Current position: {{ student.job }}{% endif %}
+</li>
+{% endfor %}
+</ul>
 
 ## Teaching and Talks
 
 * **Teaching**:
+  * Introduction to Data Science (Monash Indonesia, 2024, Term 4 (8 weeks - for MSc)\
+    Main instructor. Introduction to Python, data science, and AI.
   * NLP702 Advanced Natural Language Processing (MBZUAI, 2024 Spring - for MSc)\
     Co-instructor. Covered efficient and large-scale NLP, including LLM, distributed training, distillation, parameter-efficient fine-tuning, and linear Transformers.
   * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall - for PhD)\
     Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
-  * IOI-Camp for Saudi Arabia (2020)\
-    Intense IOI preparation camp for 2 months. Designed the module, materials, as well as weekly contests and selection process. Covered advanced algorithms and data structures.
 
 * **Talks**:
   * **Training Lightweight Model via Knowledge Distillation and Parameter Efficient Finetuning**\
