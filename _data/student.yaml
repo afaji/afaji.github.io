@@ -1,8 +1,22 @@
 student:
   - name: Haryo Akbarianto Wibowo
-    job: PhD at MBZUAI
-    role: PhD Main Advisor
+    role: Main Advisor
+    rolejob: PhD at MBZUAI
     co: Thamar Solorio
     period: (Aug 2023 - present)
-    
-    
+  - name: Ahmed Elshabrawy
+    job: MSc at MBZUAI
+    role: Main Advisor
+    co: Iryna Gurevych
+    period: (Aug 2023 - present) 
+  - name: Jonibek Mansurov
+    job: PhD at MBZUAI
+    role: Main Advisor
+    rolejob: MSc at MBZUAI
+    co: Preslav Nakov
+    period: (Jan 2023 - Jun 2024)   
+  - name: Fathinah Asma Izzati
+    role: Secondary Advisor
+    rolejob: MSc at MBZUAI
+    co: Gus Jia
+    period: (Aug 2023 - present)    
