@@ -22,11 +22,23 @@ paststudent:
     rolejob: MSc at MBZUAI
     co: Preslav Nakov
     period: (Jan 2023 - Jun 2024)
-  - name: Muhammad Ravi Sulthan Habibi
+  - name: Ni Putu Intan Maharani
+    job: Delloite
     role: Co Advisor
-    rolejob: BSc at Universitas Indonesia
-    co: Rahmad Mahendra
-    period: (Aug 2022 - Aug 2023)
+    rolejob: MSc at Institut Teknologi Bandung
+    co: Ayu Purwarianti
+    period: (Aug 2022 - Mar 2024)
+  - name: Jalaluddin Al-Mursyidy Fadhlurrahman
+    role: Co Advisor
+    rolejob: MSc at Institut Teknologi Bandung
+    co: Ayu Purwarianti
+    period: (Aug 2022 - Mar 2024)
+  - name: Muhammad Razif Rizqullah
+    job: Delloite
+    role: Co Advisor
+    rolejob: MSc at Institut Teknologi Bandung
+    co: Ayu Purwarianti
+    period: (Aug 2022 - Mar 2024)
   - name: Muhammad Ravi Sulthan Habibi
     role: Co Advisor
     rolejob: BSc at Universitas Indonesia
