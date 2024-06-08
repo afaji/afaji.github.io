@@ -31,16 +31,11 @@ layout: compress
         border-bottom: 1px solid #bbbbbb;
       }
       
-      .last-author {
-          list-style-type: none;
+      .last-author::marker {
+          content: "♦";
+          color: orange;
       }
-      
-      .last-author::before {
-          content: "♦"; /* Insert diamond symbol */
-          color: orange; /* Change color to orange */
-          font-size: 1.2em; /* Adjust size if necessary */
-          margin-right: 8px; /* Space between bullet and text */
-      }
+     
     </style>
   </head>
 
