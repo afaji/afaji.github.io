@@ -85,6 +85,15 @@ conference:
     tags:
     notes: 
     author: "last"
+  - title: "GlobalBench: A benchmark for global progress in natural language processing"
+    authors: "Yueqi Song, Catherine Cui, Simran Khanuja, Pengfei Liu, Fahim Faisal, Alissa Ostapenko, Genta Indra Winata, <b>Alham Fikri Aji</b>, Samuel Cahyawijaya, Yulia Tsvetkov, Antonios Anastasopoulos, Graham Neubig"
+    date: "2023"
+    venue: "EMNLP"
+    url:
+    data:
+    model:
+    tags:
+    notes: 
   - title: "Nusawrites: Constructing high-quality corpora for underrepresented and extremely low-resource languages"
     authors: "Samuel Cahyawijaya, Holy Lovenia, Fajri Koto, Dea Adhista, Emmanuel Dave, Sarah Oktavianti, Salsabil Maulana Akbar, Jhonson Lee, Nuur Shadieq, Tjeng Wawan Cenggoro, Hanung Wahyuning Linuwih, Bryan Wilie, Galih Pradipta Muridan, Genta Indra Winata, David Moeljadi, <b>Alham Fikri Aji</b>, Ayu Purwarianti, Pascale Fung"
     date: "2023"
@@ -294,16 +303,6 @@ conference:
     author: "first"
 
 workshop:
-  - title: "Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering"
-    authors: "Jinheon Baek, <b>Alham Fikri Aji</b>, Amir Saffari"
-    date: "2023"
-    venue: "NLRSE at ACL"
-    url:
-    data:
-    model:
-    tags:
-    notes:
-    author: "last"
   - title: "Low-Resource Clickbait Spoiling for Indonesian via Question Answering"
     authors: "Ni Putu Intan Maharani, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
     date: "2023"
@@ -324,16 +323,7 @@ workshop:
     tags:
     notes:
     author: "last"
-  - title: "Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering"
-    authors: "Jinheon Baek, <b>Alham Fikri Aji</b>, Amir Saffari"
-    date: "2023"
-    venue: "NLRSE at ACL"
-    url:
-    data:
-    model:
-    tags:
-    notes:
-    author: "last"
+
   - title: "Towards better structured and less noisy Web data: Oscar with Register annotations"
     authors: "Veronika Laippala, Anna Salmela, Samuel Rönnqvist, <b>Alham Fikri Aji</b>, Li-Hsin Chang, Asma Dhifallah, Larissa Goulart‡ Henna Kortelainen, Marc Pàmies, Deise Prina Dutra, Valtteri Skantsi, Lintang Sutawika, Sampo Pyysalo"
     date: "2022"
