@@ -18,6 +18,7 @@ conference:
     model:
     tags:
     notes:  Best Resource Paper🏅
+    author: "last"
   - title: "Lamini-LM: A Diverse Herd of Distilled Models from Large-scale Instructions"
     authors: "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, <b>Alham Fikri Aji</b>"
     date: "2024"
@@ -105,7 +106,7 @@ conference:
     model:
     tags:
     notes:
-
+    author: "first"
   - title: "Direct Fact Retrieval from Knowledge Graphs without Entity Linking"
     authors: "Jinheon Baek, <b>Alham Fikri Aji</b>, Jens Lehmann and Sung Ju Hwang"
     date: "2023"
@@ -135,6 +136,7 @@ conference:
     model:
     tags:
     notes: Outstanding Award🏅
+    author: "first"
 
   - title: "Mintaka: A Complex, Natural, and Multilingual Dataset for End-to-End Question Answering"
     authors: "Priyanka Sen, <b>Alham Fikri Aji</b>,  Amir Saffari"
@@ -165,6 +167,7 @@ conference:
     model:
     tags:
     notes:
+    author: "first"
 
   - title: "IndoNLI: A Natural Language Inference Dataset for Indonesian"
     authors: "Rahmad Mahendra, <b>Alham Fikri Aji</b>, Samuel Louvan, Fahrurrozi Rahman, Clara Vania"
@@ -185,6 +188,7 @@ conference:
     model:
     tags:
     notes:
+    author: "first"
 
   - title: "IndoCollex: A Testbed for Morphological Transformation of Indonesian Word Colloquialism"
     authors: "Haryo Akbarianto Wibowo, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Derry Tanti Wijaya"
@@ -205,6 +209,7 @@ conference:
     model:
     tags:
     notes:
+    author: "first"
 
   - title: "Combining Global Sparse Gradients with Local Gradients in Distributed Neural Network Training"
     authors: "<b>Alham Fikri Aji</b>, Kenneth Heafield, Nikolay Bogoychev"
@@ -215,6 +220,7 @@ conference:
     model:
     tags:
     notes:
+    author: "first"
 
   - title: "Accelerating asynchronous stochastic gradient descent for neural machine translation"
     authors: "Nikolay Bogoychev, Marcin Junczys-Dowmunt, Kenneth Heafield, <b>Alham Fikri Aji</b>"
@@ -245,6 +251,7 @@ conference:
     model:
     tags:
     notes:
+    author: "first"
 
   - title: "Semi-Supervised Low-Resource Style Transfer of Indonesian Informal to Formal Language with Iterative Forward-Translation"
     authors: "Haryo Akbarianto Wibowo, Tatag Aziz Prawiro, Muhammad Ihsan, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Rahmad Mahendra, Suci Fitriany"
@@ -265,6 +272,7 @@ conference:
     model:
     tags:
     notes:
+    author: "first"
 
 workshop:
   - title: "Can smartphones be used to detect an earthquake? Using a machine learning approach to identify an earthquake event"
@@ -276,6 +284,7 @@ workshop:
     model:
     tags:
     notes:
+    author: "first"
 
   - title: "Towards better structured and less noisy Web data: Oscar with Register annotations"
     authors: "Veronika Laippala, Anna Salmela, Samuel Rönnqvist, <b>Alham Fikri Aji</b>, Li-Hsin Chang, Asma Dhifallah, Larissa Goulart‡ Henna Kortelainen, Marc Pàmies, Deise Prina Dutra, Valtteri Skantsi, Lintang Sutawika, Sampo Pyysalo"
@@ -316,6 +325,7 @@ workshop:
     model:
     tags:
     notes:
+    author: "first"
 
   - title: "Edinburgh's Submissions to the 2020 Machine Translation Efficiency Task"
     authors: "Nikolay Bogoychev, Roman Grundkiewicz, <b>Alham Fikri Aji</b>, Maximiliana Behnke, Kenneth Heafield, Sidharth Kashyap, Emmanouil-Ioannis Farsarakis, Mateusz Chudyk"
@@ -336,6 +346,7 @@ workshop:
     model:
     tags:
     notes:
+    author: "first"
 
   - title: "Benchmarking Multidomain English-Indonesian Machine Translation"
     authors: "Tri Wahyu Guntara, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo"
