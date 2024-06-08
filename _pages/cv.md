@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 # Alham Fikri Aji / Curriculum Vitae
-
 [alham.fikri@mbzuai.ac.ae](mailto:alham.fikri@mbzuai.ac.ae)
 
 [//]: # (I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University of Edinburgh’s Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers on multilingual, low-resource, and low-compute NLP. I have worked on lightweight models via distillation, as well as adapting models to unseen languages in cases of limited training data.)
@@ -66,7 +65,8 @@ redirect_from:
 
 ## Publication
 
-You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications
+You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications.<br>
+<span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas ■ denotes my role as main author(s).
 ### Conferences
 
 <ul>
@@ -151,7 +151,9 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 
 * **Talks**:
   * **Training Lightweight Model via Knowledge Distillation and Parameter Efficient Finetuning**\
-    Mexican NLP Summer School, Co-located with NAACL (14-15th June 2024) 
+    Mexican NLP Summer School, Co-located with NAACL (14-15th June 2024)
+  * **Consolidating NLP Resources for South-East Asian Languages**\
+    Google Singapore, Invited Talk (27th May 2024)  
   * **Constructing High-Quality Corpora for Underrepresented and Extremely Low-Resource
 Languages**\
     Google Singapore, Invited Talk (21th November 2023)  
