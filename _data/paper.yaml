@@ -1,4 +1,32 @@
 conference:
+  - title: "Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages"
+    authors: "Samuel Cahyawijaya, Holy Lovenia, Fajri Koto, Rifki Afina Putri, Emmanuel Dave, Jhonson Lee, Nuur Shadieq, Wawan Cenggoro, Salsabil Maulana Akbar, Muhammad Ihza Mahendra, Dea Annisayanti Putri, Bryan Wilie, Genta Indra Winata, <b>Alham Fikri Aji</b>, Ayu Purwarianti, Pascale Fung"
+    date: "2024"
+    venue: "ACL"
+    url:
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "M4GT-Bench: Evaluation Benchmark for Black-Box Machine-Generated Text Detection"
+    authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Osama Mohanned Afzal, Tarek Mahmoud, Giovanni Puccetti, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
+    date: "2024"
+    venue: "ACL"
+    url:
+    data:
+    model:
+    tags:
+    notes:
+  - title: "SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 14 Languages"
+    authors: "Nedjma Ousidhoum, Shamsuddeen Hassan Muhammad, Mohamed Abdalla, Idris Abdulmumin, Ibrahim Said Ahmad, Sanchit Ahuja,<b> Alham Fikri Aji</b>, Vladimir Araujo, Abinew Ali Ayele, Pavan Baswani, Meriem Beloucif, Chris Biemann, Sofia Bourhim, Christine De Kock, Genet Shanko Dekebo, Oumaima Hourrane, Gopichand Kanumolu, Lokesh Madasu, Samuel Rutunda, Manish Shrivastava, Thamar Solorio, Nirmal Surange, Hailegnaw Getaneh Tilaye, Krishnapriya Vishnubhotla, Genta Winata, Seid Muhie Yimam, Saif M Mohammad"
+    date: "2024"
+    venue: "ACL"
+    url:
+    data:
+    model:
+    tags:
+    notes:
   - title: "Copal-ID: Indonesian Language Reasoning with Local Culture and Nuances"
     authors: "Haryo Akbarianto Wibowo, Erland Hilman Fuadi, Made Nindyatama Nityasya, Radityo Eko Prasojo, <b>Alham Fikri Aji</b>"
     date: "2024"
@@ -10,7 +38,7 @@ conference:
     notes:
     author: "last"
   - title: "M4: Multi-generator, Multi-domain, and Multi-lingual Black-box Machine-generated Text Detection"
-    authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, Toru Sasaki, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov."
+    authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, Toru Sasaki, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
     date: "2024"
     venue: "EACL"
     url:
@@ -18,6 +46,15 @@ conference:
     model:
     tags:
     notes:  Best Resource Paper🏅
+   - title: "A Paradigm Shift: The Future of Machine Translation Lies with Large Language Models"
+    authors: "Chenyang Lyu, Zefeng Du, Jitao Xu, Yitao Duan, Minghao Wu, Teresa Lynn, <b>Alham Fikri Aji</b>, Derek F Wong, Longyue Wang"
+    date: "2024"
+    venue: "LREC"
+    url:
+    data:
+    model:
+    tags:
+    notes:
   - title: "Lamini-LM: A Diverse Herd of Distilled Models from Large-scale Instructions"
     authors: "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, <b>Alham Fikri Aji</b>"
     date: "2024"
