@@ -5,14 +5,29 @@ student:
     co: Thamar Solorio
     period: (Aug 2023 - present)
   - name: Ahmed Elshabrawy
-    job: MSc at MBZUAI
+    rolejob: MSc at MBZUAI
     role: Main Advisor
     co: Iryna Gurevych
     period: (Aug 2023 - present) 
+  - name: Zayd Muhammad Kawakibi Zuhri
+    role: Co Advisor
+    rolejob: MSc at Institut Teknologi Bandung
+    co: Ayu Purwarianti
+    period: (Aug 2023 - present)
+  - name: Moses Ananta
+    role: Secondary Advisor
+    rolejob: MSc at Institut Teknologi Bandung
+    co: Ayu Purwarianti
+    period: (Aug 2023 - present)
   - name: Fathinah Asma Izzati
     role: Secondary Advisor
     rolejob: MSc at MBZUAI
     co: Gus Jia
+    period: (Aug 2023 - present)
+  - name: Aidar Myrzakhan
+    role: Secondary Advisor
+    rolejob: MSc at MBZUAI
+    co: Zhiqiang Shen
     period: (Aug 2023 - present)
 
 paststudent:
@@ -34,7 +49,6 @@ paststudent:
     co: Ayu Purwarianti
     period: (Aug 2022 - Mar 2024)
   - name: Muhammad Razif Rizqullah
-    job: Delloite
     role: Co Advisor
     rolejob: MSc at Institut Teknologi Bandung
     co: Ayu Purwarianti
