@@ -1,14 +1,14 @@
 student:
   - name: Haryo Akbarianto Wibowo
-    role: Main Advisor
+    role: Primary Advisor
     rolejob: PhD at MBZUAI
     co: Thamar Solorio
     period: (Aug 2023 - present)
   - name: Ahmed Elshabrawy
     rolejob: MSc at MBZUAI
-    role: Main Advisor
+    role: Primary Advisor
     co: Iryna Gurevych
-    period: (Aug 2023 - present) 
+    period: (Aug 2023 - present)
   - name: Zayd Muhammad Kawakibi Zuhri
     role: Co Advisor
     rolejob: MSc at Institut Teknologi Bandung
@@ -53,8 +53,46 @@ paststudent:
     rolejob: MSc at Institut Teknologi Bandung
     co: Ayu Purwarianti
     period: (Aug 2022 - Mar 2024)
+  - name: Minghao Wu
+    role: Research Advisor
+    rolejob: Visiting PhD Student
+    job: PhD at Monash University
+    period: (Apr 2023 - Oct 2023)
+  - name: Chenxi Whitehouse
+    role: Research Advisor
+    rolejob: Visiting PhD Student
+    job: Research Scientist at Amazon
+    period: (Apr 2023 - Oct 2023)
   - name: Muhammad Ravi Sulthan Habibi
     role: Co Advisor
     rolejob: BSc at Universitas Indonesia
     co: Rahmad Mahendra
     period: (Aug 2022 - Aug 2023)
+
+staff:
+  - name: Chenyang Lyu
+    role: Research Advisor
+    rolejob: Postdoctoral Researcher at MBZUAI
+    period: (Aug 2023 - Present)
+  - name: Mohamed Fazli Mohamed Imam
+    role: Research Advisor
+    rolejob: Research Assistant at MBZUAI
+    period: (Jul 2024 - Present)
+  - name: Muhammad Farid Adilauzarda
+    role: Research Advisor
+    rolejob: Research Assistant at MBZUAI
+    period: (Aug 2023 - Present)
+  - name: Rendi Chevi
+    role: Research Advisor
+    rolejob: Research Assistant at MBZUAI
+    period: (Aug 2023 - Present)
+  - name: Jinheon Baek
+    role: Research Advisor
+    job: PhD at KAIST
+    rolejob: Research Intern at Amazon Alexa
+    period: (Oct 2022 - Jan 2023)
+  - name: Tirana Noor Fatyanosa
+    role: Research Advisor
+    rolejob: Research Intern at Kata.ai
+    job: Assistant Professor at Universitas Brawijaya
+    period: (Nov 2020 - Apr 2021)
