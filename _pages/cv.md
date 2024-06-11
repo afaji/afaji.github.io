@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-# Alham Fikri Aji / Curriculum Vitae
+<p style="font-size: 2em; font-weight: bold;">Alham Fikri Aji / Curriculum Vitae</p>
 [alham.fikri@mbzuai.ac.ae](mailto:alham.fikri@mbzuai.ac.ae)
 
 [//]: # (I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University of Edinburgh’s Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers on multilingual, low-resource, and low-compute NLP. I have worked on lightweight models via distillation, as well as adapting models to unseen languages in cases of limited training data.)
@@ -80,8 +80,7 @@ redirect_from:
 <div class="page-break"></div>
 
 ## Publications
-
-You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications.<br>
+I mainly publish to ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. My papers have accumulated over 4,000 citations and I have achieved an h-index of 20.<br>
 <span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.
 ### Peer-Reviewed Conferences
 <div class="compact-ul">
