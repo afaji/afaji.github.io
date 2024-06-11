@@ -18,29 +18,23 @@ redirect_from:
 ## Education
 ## Education
 
-* **PhD, University of Edinburgh** <span style="float: right;">2016 - 2020</span><br>
+* **PhD, University of Edinburgh** <span style="float: right;">Nov 2016 - Jun 2020</span><br>
   <span class='desc'>Thesis: Approximating Neural Machine Translation for Efficiency.</span><br>
   <span class='desc'>Supervised by Kenneth Heafield and Rico Sennrich.</span><br>
   <span class='desc'>Examiner: Graham Neubig and Barry Haddow</span>
-* **MSc Artificial Intelligence, University of Edinburgh** <span style="float: right;">2014 - 2015</span>\
+* **MSc Artificial Intelligence, University of Edinburgh** <span style="float: right;">Sep 2014 - Aug 2015</span>\
   <span class='desc'>With distinction. Final project: Haiku generator with word vector model.</span>
-* **BSc Computer Science, Universitas Indonesia** <span style="float: right;">2010 - 2014</span>\
+* **BSc Computer Science, Universitas Indonesia** <span style="float: right;">Aug 2010 - Jul 2014</span>\
   <span class='desc'>Final project: Earthquake detector from phone's accelerometer reading.</span>
 
 ## Working Experience
 
-* **Assistant Professor**, MBZUAI (2023 - Current)\
-  NLP department--teaches MSc and PhD classes, advises MSc and PhD students. My current main research interests are in multilinguality, data creation, and low-compute and efficient models.
-* **Applied Scientist**, Amazon Alexa AI (2021 - 2023)\
-  Utilized knowledge graphs to create a truthful, multilingual question-answering system for Alexa.
-* **Postdoctoral Research Associate**, University of Edinburgh (2020 - 2021)\
- Developed a fast, privacy-focused offline neural machine translation system by distilling large models.
-* **Research Scientist**, Kata.ai (2019 - 2021)\
-  Worked on and mentored junior researchers in various Indonesian NLP-related projects such as machine translation and formality style transfer. 
-* **Engineering Intern**, Google Research (2017)\
-  Worked on integrating context from Google search to improve neural machine translation.
-* **Language Engineer**, Apple Siri (2015 - 2016)\
-  Designed Malay language rules and trained models to optimize Siri's performance in Malay. 
+* **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Current</span>\
+* **Applied Scientist**, Amazon Alexa AI <span style="float: right;"> Oct 2021 - Jan 2023</span>\
+* **Postdoctoral Research Associate**, University of Edinburgh <span style="float: right;"> Jul 2020 - Sep 2021</span>\
+* **Research Scientist**, Kata.ai  <span style="float: right;"> Nov 2019 - Sep 2021</span>\
+* **Engineering Intern**, Google Research  <span style="float: right;"> Jul 2017 - Nov 2017</span>\
+* **Language Engineer**, Apple Siri  <span style="float: right;">Sep 2015 - Oct 2016</span>\
 
 
 ## Awards
