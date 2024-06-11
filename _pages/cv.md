@@ -39,6 +39,7 @@ redirect_from:
 
 ## Awards
 <div class="compact-ul">
+
 * Best Resource Paper Award, EACL 2024
 * Best Resource Paper Award, AACL 2023
 * Outstanding Paper Award, EACL 2023
@@ -52,6 +53,7 @@ redirect_from:
 ### Service to Scientific Communities
 
 <div class="compact-ul">
+
 * **Reviewer and Program Committee**
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP
@@ -63,6 +65,7 @@ redirect_from:
 ### University Service
 
 <div class="compact-ul">
+
 * MBZUAI HPC Committee, MBZUAI 2023
 * MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
 * MBZUAI Executive Education Program advisor, 2023
@@ -76,6 +79,7 @@ redirect_from:
 
 ### Informatics Olympiad
 <div class="compact-ul">
+
   * **Problem Setter**: OSN Indonesia (2013, 2014, 2015), ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
   * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
@@ -160,9 +164,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
  * IBM: "Question Answering for Arabic Dialects"\
    **Amount**: Postdoctoral sponsorship of Chenyang Lyu of 100000 USD 
 
-## Teaching and Talks
-
-* **Teaching**:
+## Teachings
   * Introduction to Data Science (Monash Indonesia, 2024, Term 4 (8 weeks - for MSc)\
     Main instructor. Introduction to Python, data science, and AI.
   * NLP702 Advanced Natural Language Processing (MBZUAI, 2024 Spring - for MSc)\
@@ -170,7 +172,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
   * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall - for PhD)\
     Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
 
-* **Talks**:
+## Talks
   * **Training Lightweight Model via Knowledge Distillation and Parameter Efficient Finetuning**\
     Mexican NLP Summer School, Co-located with NAACL (14-15th June 2024)
   * **Consolidating NLP Resources for South-East Asian Languages**\
