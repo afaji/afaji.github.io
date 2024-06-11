@@ -61,21 +61,16 @@ redirect_from:
 * MBZUAI HPC Committee, MBZUAI 2023
 * MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
 * MBZUAI Executive Education Program advisor, 2023
-<details>
-  <summary>* MBZUAI PhD Candidacy Exam Committee: 4 students</summary>
+* <details>
+  <summary>MBZUAI PhD Candidacy Exam Committee: 4 students</summary>
   2024 (2): Muhammad Taimoor Haseeb (student of Gus Jia), Artem Agafonov (student of Martin Takac) <br>
   2023 (2): Muhammad Arslan Manzoor (student of Preslav Nakov), Abdulla Jasem Ahmed Jaber Almansoori (student of Martin Takac)
 </details>
-<details>
-  <summary>* MBZUAI MSc Thesis Defence Committee: 7 students</summary>
+* <details>
+  <summary>MBZUAI MSc Thesis Defence Committee: 7 students</summary>
   2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki <br>
   2023 (2): Sarah Albarri, Muhammad Umar Salman
 </details>
-
-
-
-
-
 
 ### Informatics Olympiad
   * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
