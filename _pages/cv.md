@@ -38,7 +38,6 @@ redirect_from:
 
 
 ## Awards
-<div class="compact-ul">
 
 * Best Resource Paper Award, EACL 2024
 * Best Resource Paper Award, AACL 2023
@@ -46,13 +45,11 @@ redirect_from:
 * Outstanding Contribution Award, WNGT 2019
 * World Finalists, ACM-ICPC 2014
 * Silver Medalists, International Olympiad of Informatics (IOI) 2010
-</div>
+
 
 ## Professional Activity
 
 ### Service to Scientific Communities
-
-<div class="compact-ul">
 
 * **Reviewer and Program Committee**
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
@@ -60,11 +57,8 @@ redirect_from:
 * **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
 * **Local Chair**: COLING (2025)
 * **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
-</div>
 
 ### University Service
-
-<div class="compact-ul">
 
 * MBZUAI HPC Committee, MBZUAI 2023
 * MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
@@ -75,15 +69,14 @@ redirect_from:
 * MBZUAI MSc Thesis Defence Committee: 7 students
   <!-- 2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki -->
   <!-- 2023 (2): Sarah Albarri, Muhammad Umar Salman -->
-</div>
+
 
 ### Informatics Olympiad
-<div class="compact-ul">
 
   * **Problem Setter**: OSN Indonesia (2013, 2014, 2015), ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
   * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
-</div>
+
 <div class="page-break"></div>
 
 ## Publications
