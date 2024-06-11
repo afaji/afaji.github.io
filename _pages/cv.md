@@ -16,14 +16,16 @@ redirect_from:
 [//]: # (In the past, I have gained industry experience at companies such as Amazon, Google, and Apple.)
 
 ## Education
+## Education
 
-* **PhD, University of Edinburgh** (2016 - 2020)\
-<span class='desc'>Thesis: Approximating Neural Machine Translation for Efficiency; making NMT trains faster using distributed and asynchronous training, sparse gradient, and transfer learning. Supervised by Kenneth Heafield and Rico Sennrich.</span>
-<span class='desc'>Examiner: Graham Neubig and Barry Haddow</span>
-* **MSc Artificial Intelligence, University of Edinburgh** (2014 - 2015)\
-<span class='desc'>With distinction. Final project: Haiku generator with word vector model.</span>
-* **BSc Computer Science, Universitas Indonesia** (2010 - 2014)\
-<span class='desc'>Final project: Earthquake detector from phone's accelerometer reading.</span>
+* **PhD, University of Edinburgh** <span style="float: right;">2016 - 2020</span><br>
+  <span class='desc'>Thesis: Approximating Neural Machine Translation for Efficiency.</span><br>
+  <span class='desc'>Supervised by Kenneth Heafield and Rico Sennrich.</span><br>
+  <span class='desc'>Examiner: Graham Neubig and Barry Haddow</span>
+* **MSc Artificial Intelligence, University of Edinburgh** <span style="float: right;">2014 - 2015</span>\
+  <span class='desc'>With distinction. Final project: Haiku generator with word vector model.</span>
+* **BSc Computer Science, Universitas Indonesia** <span style="float: right;">2010 - 2014</span>\
+  <span class='desc'>Final project: Earthquake detector from phone's accelerometer reading.</span>
 
 ## Working Experience
 
