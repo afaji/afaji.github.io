@@ -15,7 +15,7 @@ redirect_from:
 [//]: # (I have been developing various multilingual large language models such as BLOOMZ/mT0, Jais, Bactrian-X, and more. I have also worked on building multilingual and under-represented NLP resources and benchmarks, especially those that capture local culture and nuances, some of which were awarded best resource papers.)
 [//]: # (In the past, I have gained industry experience at companies such as Amazon, Google, and Apple.)
 
-## Education
+
 ## Education
 
 * **PhD, University of Edinburgh** <span style="float: right;">Nov 2016 - Jun 2020</span><br>
@@ -29,12 +29,12 @@ redirect_from:
 
 ## Working Experience
 
-* **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Current</span>\
-* **Applied Scientist**, Amazon Alexa AI <span style="float: right;"> Oct 2021 - Jan 2023</span>\
-* **Postdoctoral Research Associate**, University of Edinburgh <span style="float: right;"> Jul 2020 - Sep 2021</span>\
-* **Research Scientist**, Kata.ai  <span style="float: right;"> Nov 2019 - Sep 2021</span>\
-* **Engineering Intern**, Google Research  <span style="float: right;"> Jul 2017 - Nov 2017</span>\
-* **Language Engineer**, Apple Siri  <span style="float: right;">Sep 2015 - Oct 2016</span>\
+* **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Current</span>
+* **Applied Scientist**, Amazon Alexa AI <span style="float: right;"> Oct 2021 - Jan 2023</span>
+* **Postdoctoral Research Associate**, University of Edinburgh <span style="float: right;"> Jun 2020 - Jul 2021</span>
+* **Research Scientist**, Kata.ai  <span style="float: right;"> Nov 2019 - Sep 2021</span>
+* **Engineering Intern**, Google Research <span style="float: right;"> Jul 2017 - Nov 2017</span>
+* **Language Engineer**, Apple Siri  <span style="float: right;">Oct 2015 - Oct 2016</span>
 
 
 ## Awards
@@ -47,13 +47,37 @@ redirect_from:
 
 ## Professional Activity
 
+### Service to Scientific Communities
+
 * **Reviewer and Program Committee**
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP
 * **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
 * **Local Chair**: COLING (2025)
 * **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
-* **Informatics Olympiad**:
+
+### University Service
+
+* MBZUAI HPC Committee, MBZUAI 2023
+* MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
+* MBZUAI Executive Education Program advisor, 2023
+<details>
+  <summary>* MBZUAI PhD Candidacy Exam Committee: 4 students</summary>
+  2024 (2): Muhammad Taimoor Haseeb (student of Gus Jia), Artem Agafonov (student of Martin Takac) <br>
+  2023 (2): Muhammad Arslan Manzoor (student of Preslav Nakov), Abdulla Jasem Ahmed Jaber Almansoori (student of Martin Takac)
+</details>
+<details>
+  <summary>* MBZUAI MSc Thesis Defence Committee: 7 students</summary>
+  2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki <br>
+  2023 (2): Sarah Albarri, Muhammad Umar Salman
+</details>
+
+
+
+
+
+
+### Informatics Olympiad
   * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
   * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
