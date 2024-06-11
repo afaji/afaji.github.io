@@ -38,26 +38,31 @@ redirect_from:
 
 
 ## Awards
+<div class="compact-ul">
 * Best Resource Paper Award, EACL 2024
 * Best Resource Paper Award, AACL 2023
 * Outstanding Paper Award, EACL 2023
 * Outstanding Contribution Award, WNGT 2019
 * World Finalists, ACM-ICPC 2014
 * Silver Medalists, International Olympiad of Informatics (IOI) 2010
+</div>
 
 ## Professional Activity
 
 ### Service to Scientific Communities
 
+<div class="compact-ul">
 * **Reviewer and Program Committee**
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP
 * **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
 * **Local Chair**: COLING (2025)
 * **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
+</div>
 
 ### University Service
 
+<div class="compact-ul">
 * MBZUAI HPC Committee, MBZUAI 2023
 * MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
 * MBZUAI Executive Education Program advisor, 2023
@@ -67,20 +72,22 @@ redirect_from:
 * MBZUAI MSc Thesis Defence Committee: 7 students
   <!-- 2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki -->
   <!-- 2023 (2): Sarah Albarri, Muhammad Umar Salman -->
-
+</div>
 
 ### Informatics Olympiad
-  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
+<div class="compact-ul">
+  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015), ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
   * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
+</div>
 <div class="page-break"></div>
 
-## Publication
+## Publications
 
 You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications.<br>
 <span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.
-### Conferences
-
+### Peer-Reviewed Conferences
+<div class="compact-ul">
 <ul>
 {% for paper in site.data.paper.conference %}
 <li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
@@ -90,8 +97,10 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 </li>
 {% endfor %}
 </ul>
+</div>
 
-### Workshops
+### Peer-Reviewed Workshops
+<div class="compact-ul">
 <ul>
 {% for paper in site.data.paper.workshop %}
 <li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
@@ -101,7 +110,7 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 </li>
 {% endfor %}
 </ul>
-
+</div>
 ## Supervision and Mentorship
 
 ### Current Students
