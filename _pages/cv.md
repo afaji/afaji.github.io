@@ -110,12 +110,12 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 ## Supervision and Mentorship
 
 ### Current Students
-Aside from MBZUAI, I co-supervise students from an Indonesian university, where I commit to meeting them weekly.
+Aside from MBZUAI, I co-supervise students from Indonesian universities, where I commit to meeting them weekly.
 
 <ul>
 {% for student in site.data.student.student %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span>\
+    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
     Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
@@ -128,7 +128,7 @@ Aside from MBZUAI, I co-supervise students from an Indonesian university, where 
 <ul>
 {% for student in site.data.student.paststudent %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span>\
+    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
     Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
@@ -141,7 +141,7 @@ Aside from MBZUAI, I co-supervise students from an Indonesian university, where 
 <ul>
 {% for student in site.data.student.staff %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span>\
+    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
     Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
