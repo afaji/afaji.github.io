@@ -159,11 +159,11 @@ Aside from MBZUAI, I co-supervise students from an Indonesian university, where 
    **Amount**: Postdoctoral sponsorship of Chenyang Lyu of 100000 USD 
 
 ## Teachings
-  * Introduction to Data Science (Monash Indonesia, 2024, Term 4 (8 weeks - for MSc)\
+  * Introduction to Data Science (for MSc) - Monash Indonesia <span style="float: right;">Short Summer 2024</span>\
     Main instructor. Introduction to Python, data science, and AI.
-  * NLP702 Advanced Natural Language Processing (MBZUAI, 2024 Spring - for MSc)\
+  * NLP702 Advanced Natural Language Processing (for MSc) - MBZUAI <span style="float: right;">Spring 2024</span>\
     Co-instructor. Covered efficient and large-scale NLP, including LLM, distributed training, distillation, parameter-efficient fine-tuning, and linear Transformers.
-  * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall - for PhD)\
+  * NLP801 Deep Learning for Language Processing (for PhD) - MBZUAI <span style="float: right;">Fall 2023</span>\
     Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
 
 ## Talks
