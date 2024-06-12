@@ -80,7 +80,7 @@ redirect_from:
 <div class="page-break"></div>
 
 ## Publications
-I mainly publish to ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. My papers have accumulated over 4,000 citations and I have achieved an h-index of 20.<br>
+I mainly publish at ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. My papers have accumulated over 4,000 citations and I have achieved an h-index of 20.<br>
 <span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.
 ### Peer-Reviewed Conferences
 <div class="compact-ul">
@@ -113,8 +113,8 @@ I mainly publish to ACL conferences. You may also refer to my [Google Scholar](h
 <ul>
 {% for student in site.data.student.student %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<br>
-    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} {{ student.period | raw }}<br>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span>
+    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -126,8 +126,8 @@ I mainly publish to ACL conferences. You may also refer to my [Google Scholar](h
 <ul>
 {% for student in site.data.student.paststudent %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<br>
-    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} {{ student.period | raw }}<br>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span>
+    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -139,8 +139,8 @@ I mainly publish to ACL conferences. You may also refer to my [Google Scholar](h
 <ul>
 {% for student in site.data.student.staff %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<br>
-    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} {{ student.period | raw }}<br>
+    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span>
+    {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -151,7 +151,7 @@ I mainly publish to ACL conferences. You may also refer to my [Google Scholar](h
 ## Grants and Funding
  * Microsoft Research: "Developing Robust Methodology and Datasets for Holistic Evaluation of Cultural Awareness and Bias in Foundation Models" (Co-PI)\
    **Amount**: 20000 USD
- * Cohere For AI research grants: "SEACrowd: Consolidating South-east asia NLP dataset" (Co-PI)\
+ * Cohere For AI research grants: "SEACrowd: Consolidating South-east Asia NLP dataset" (Co-PI)\
    **Amount**: 3000 USD
  * IBM: "Question Answering for Arabic Dialects"\
    **Amount**: Postdoctoral sponsorship of Chenyang Lyu of 100000 USD 
