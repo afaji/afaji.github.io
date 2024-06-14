@@ -87,7 +87,7 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 <ul>
 {% for paper in site.data.paper.conference %}
 <li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
-    <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
+    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
     {% if paper.notes != null %} -- {{ paper.notes | raw }}
     {% endif %}
 </li>
@@ -100,7 +100,7 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 <ul>
 {% for paper in site.data.paper.workshop %}
 <li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
-    <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
+    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
     {% if paper.notes != null %} -- {{ paper.notes | raw }}
     {% endif %}
 </li>
@@ -115,7 +115,7 @@ Aside from MBZUAI, I co-supervise students from Indonesian universities, where I
 <ul>
 {% for student in site.data.student.student %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
+   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
     Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
@@ -128,7 +128,7 @@ Aside from MBZUAI, I co-supervise students from Indonesian universities, where I
 <ul>
 {% for student in site.data.student.paststudent %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
+    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
     Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
@@ -141,7 +141,7 @@ Aside from MBZUAI, I co-supervise students from Indonesian universities, where I
 <ul>
 {% for student in site.data.student.staff %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
+    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
     Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
