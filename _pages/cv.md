@@ -47,18 +47,18 @@ redirect_from:
 * Silver Medalists, International Olympiad of Informatics (IOI) 2010
 
 
-## Professional Activity
+## Professional Activities
 
-### Service to Scientific Communities
+### Services to Scientific Communities
 
-* **Reviewer and Program Committee**
+* **Reviewer and Program Committee Member**
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP
 * **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
 * **Local Chair**: COLING (2025)
 * **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
 
-### University Service
+### University Services
 
 * MBZUAI HPC Committee, MBZUAI 2023
 * MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
@@ -152,18 +152,18 @@ Aside from MBZUAI, I co-supervise students from Indonesian universities, where I
 
 ## Grants and Funding
  * Microsoft Research: "Developing Robust Methodology and Datasets for Holistic Evaluation of Cultural Awareness and Bias in Foundation Models" (Co-PI)\
-   **Amount**: 20000 USD
+   **Amount**: 20,000 USD
  * Cohere For AI research grants: "SEACrowd: Consolidating South-east Asia NLP dataset" (Co-PI)\
-   **Amount**: 3000 USD
+   **Amount**: 3,000 USD
  * IBM: "Question Answering for Arabic Dialects"\
-   **Amount**: Postdoctoral sponsorship of Chenyang Lyu of 100000 USD 
+   **Amount**: Postdoctoral support of Chenyang Lyu of 100,000 USD 
 
 ## Teachings
-  * Introduction to Data Science (for MSc) - Monash Indonesia <span style="float: right;">Short Summer 2024</span>\
+  * FIT5145: Intro to Data Science (for MSc) - Monash Indonesia <span style="float: right;">Short Summer 2024</span>\
     Main instructor. Introduction to Python, data science, and AI.
-  * NLP702 Advanced Natural Language Processing (for MSc) - MBZUAI <span style="float: right;">Spring 2024</span>\
+  * NLP702: Advanced Natural Language Processing (for MSc) - MBZUAI <span style="float: right;">Spring 2024</span>\
     Co-instructor. Covered efficient and large-scale NLP, including LLM, distributed training, distillation, parameter-efficient fine-tuning, and linear Transformers.
-  * NLP801 Deep Learning for Language Processing (for PhD) - MBZUAI <span style="float: right;">Fall 2023</span>\
+  * NLP801: Deep Learning for Language Processing (for PhD) - MBZUAI <span style="float: right;">Fall 2023</span>\
     Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
 
 ## Talks
