@@ -1,10 +1,7 @@
 # main links links
 main:
-  - title: "Publications"
-    url: https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate
-
-  - title: "Join"
-    url: /join/    
+  - title: "Projects"
+    url: https://github.com/alvioyunita?tab=repositories 
 
   - title: "CV"
     url: /cv/    
