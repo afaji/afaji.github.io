@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Alham Fikri Aji"
+title                    : "Alvio Yunita Putri"
 title_separator          : "-"
-name                     : &name "Alham Fikri Aji"
-description              : &description "NLP scientist / Assistant Professor at MBZUAI"
-url                      : https://afaji.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Alvio Yunita Putri"
+description              : &description "Quality Assurance Engineer"
+url                      : https://alvioyunita.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "afaji/afaji.github.io"
+repository               : "alvioyunita/alvioyunita.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter alhamfikri
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Alham Fikri Aji"
-  avatar           : "aji-hd.jpg"
-  bio              : "Assistant Professor in the NLP department at MBZUAI"
-  location         : "MBZUAI"
+  name             : "Alvio Yunita Putri"
+  avatar           : "alvio-dp.jpg"
+  bio              : "Software Quality Assurance Engineer"
+  location         : "PT. Sinar Mitra Sepadan Finance"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en&oi=ao"
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "afaji"
+  github           : "alvioyunita"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/afaji/
+  linkedin         : https://www.linkedin.com/in/alvio-yunita-putri/
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "alhamfikri"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
