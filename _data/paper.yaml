@@ -41,7 +41,7 @@ conference:
     authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, Toru Sasaki, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
     date: "2024"
     venue: "EACL"
-    url:
+    url: https://aclanthology.org/2024.eacl-long.83.pdf
     data:
     model:
     tags:
@@ -50,7 +50,7 @@ conference:
     authors: "Chenyang Lyu, Zefeng Du, Jitao Xu, Yitao Duan, Minghao Wu, Teresa Lynn, <b>Alham Fikri Aji</b>, Derek F Wong, Longyue Wang"
     date: "2024"
     venue: "LREC"
-    url:
+    url: https://aclanthology.org/2024.lrec-main.120.pdf
     data:
     model:
     tags:
@@ -59,7 +59,7 @@ conference:
     authors: "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, <b>Alham Fikri Aji</b>"
     date: "2024"
     venue: "EACL"
-    url:
+    url: https://aclanthology.org/2024.eacl-long.57.pdf
     data:
     model:
     tags:
@@ -69,7 +69,7 @@ conference:
     authors: "Chenxi Whitehouse, Monojit Choudhury, <b>Alham Fikri Aji</b>"
     date: "2023"
     venue: "EMNLP"
-    url:
+    url: https://aclanthology.org/2023.emnlp-main.44.pdf
     data:
     model:
     tags:
@@ -79,7 +79,7 @@ conference:
     authors: "Ruochen Zhang, Samuel Cahyawijaya, Jan Christian Blaise Cruz, <b>Alham Fikri Aji</b>"
     date: "2023"
     venue: "EMNLP"
-    url:
+    url: https://aclanthology.org/2023.emnlp-main.774.pdf
     data:
     model:
     tags:
@@ -89,7 +89,7 @@ conference:
     authors: "Yueqi Song, Catherine Cui, Simran Khanuja, Pengfei Liu, Fahim Faisal, Alissa Ostapenko, Genta Indra Winata, <b>Alham Fikri Aji</b>, Samuel Cahyawijaya, Yulia Tsvetkov, Antonios Anastasopoulos, Graham Neubig"
     date: "2023"
     venue: "EMNLP"
-    url:
+    url: https://aclanthology.org/2023.emnlp-main.875.pdf
     data:
     model:
     tags:
@@ -98,7 +98,7 @@ conference:
     authors: "Samuel Cahyawijaya, Holy Lovenia, Fajri Koto, Dea Adhista, Emmanuel Dave, Sarah Oktavianti, Salsabil Maulana Akbar, Jhonson Lee, Nuur Shadieq, Tjeng Wawan Cenggoro, Hanung Wahyuning Linuwih, Bryan Wilie, Galih Pradipta Muridan, Genta Indra Winata, David Moeljadi, <b>Alham Fikri Aji</b>, Ayu Purwarianti, Pascale Fung"
     date: "2023"
     venue: "AACL"
-    url:
+    url: https://aclanthology.org/2023.ijcnlp-main.60.pdf
     data:
     model:
     tags:
@@ -108,7 +108,7 @@ conference:
     authors: "Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le Scao, M Saiful Bari, Sheng Shen, Zheng Xin Yong, Hailey Schoelkopf, Xiangru Tang, Dragomir Radev, <b>Alham Fikri Aji</b>, Khalid Almubarak, Samuel Albanie, Zaid Alyafeai, Albert Webson, Edward Raff and Colin Raffel"
     date: "2023"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2023.acl-long.891.pdf
     data:
     model:
     tags:
@@ -117,7 +117,7 @@ conference:
     authors: "Made Nindyatama Nityasya, Haryo Akbarianto Wibowo, <b>Alham Fikri Aji</b>, Genta Indra Winata, Radityo Eko Prasojo, Phil Blunsom and Adhiguna Kuncoro"
     date: "2023"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2023.acl-long.477.pdf
     data:
     model:
     tags:
@@ -126,7 +126,16 @@ conference:
     authors: "Chenxi Whitehouse, Clara Vania, <b>Alham Fikri Aji</b>, Christos Christodoulopoulos and Andrea Pierleoni"
     date: "2023"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2023.acl-long.428.pdf
+    data:
+    model:
+    tags:
+    notes:
+  - title: "BLOOM+1: Adding Language Support to BLOOM for Zero-Shot Prompting"
+    authors: "Zheng-Xin Yong, Hailey Schoelkopf, Niklas Muennighoff, <b>Alham Fikri Aji</b>, David Ifeoluwa Adelani, Khalid Almubarak, M Saiful Bari, Lintang Sutawika, Jungo Kasai, Ahmed Baruwa, Genta Indra Winata, Stella Biderman, Edward Raff, Dragomir Radev, Vassilina Nikoulina"
+    date: "2023"
+    venue: "ACL"
+    url: https://aclanthology.org/2023.acl-long.653.pdf
     data:
     model:
     tags:
@@ -135,7 +144,7 @@ conference:
     authors: "Genta Indra Winata, <b>Alham Fikri Aji</b>, Zheng Xin Yong and Thamar Solorio"
     date: "2023"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2023.findings-acl.185.pdf
     data:
     model:
     tags:
@@ -144,7 +153,7 @@ conference:
     authors: "Samuel Cahyawijaya, Holy Lovenia, <b>Alham Fikri Aji</b>, Genta Indra Winata, Bryan Wilie, Fajri Koto, Rahmad Mahendra, et al."
     date: "2023"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2023.findings-acl.868.pdf
     data:
     model:
     tags:
@@ -154,7 +163,7 @@ conference:
     authors: "Jinheon Baek, <b>Alham Fikri Aji</b>, Jens Lehmann and Sung Ju Hwang"
     date: "2023"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2023.acl-long.558.pdf
     data:
     model:
     tags:
@@ -163,7 +172,7 @@ conference:
     authors: "Anubha Kabra, Emmy Liu, Simran Khanuja, <b>Alham Fikri Aji</b>, Genta Indra Winata, Samuel Cahyawijaya, Anuoluwapo Aremu, Perez Ogayo and Graham Neubig"
     date: "2023"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2023.findings-acl.525.pdf
     data:
     model:
     tags:
@@ -172,7 +181,7 @@ conference:
     authors: "Genta Indra Winata, <b>Alham Fikri Aji</b>, Samuel Cahyawijaya, Rahmad Mahendra, Fajri Koto, Ade Romadhony, Kemal Kurniawan, David Moeljadi, Radityo Eko Prasojo, Pascale Fung, Timothy Baldwin, Jey Han Lau, Rico Sennrich, Sebastian Ruder"
     date: "2023"
     venue: "EACL"
-    url:
+    url: https://aclanthology.org/2023.eacl-main.57.pdf
     data:
     model:
     tags:
@@ -182,7 +191,7 @@ conference:
     authors: "Priyanka Sen, <b>Alham Fikri Aji</b>,  Amir Saffari"
     date: "2022"
     venue: "COLING"
-    url:
+    url: https://aclanthology.org/2022.coling-1.138.pdf
     data:
     model:
     tags:
@@ -191,7 +200,7 @@ conference:
     authors: "Siffi Singh, <b>Alham Fikri Aji</b>, Gaurav Singh, Christos Christodoulopoulos"
     date: "2022"
     venue: "COLING"
-    url:
+    url: https://aclanthology.org/2022.coling-1.203.pdf
     data:
     model:
     tags:
@@ -200,7 +209,7 @@ conference:
     authors: "<b>Alham Fikri Aji</b>, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya, Ade Romadhony, Rahmad Mahendra, Kemal Kurniawan, David Moeljadi, Radityo Eko Prasojo, Timothy Baldwin, Jey Han Lau, Sebastian Ruder"
     date: "2022"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2022.acl-long.500.pdf
     data:
     model:
     tags:
@@ -210,7 +219,7 @@ conference:
     authors: "Rahmad Mahendra, <b>Alham Fikri Aji</b>, Samuel Louvan, Fahrurrozi Rahman, Clara Vania"
     date: "2021"
     venue: "EMNLP"
-    url:
+    url:  https://aclanthology.org/2021.emnlp-main.821.pdf
     data:
     model:
     tags:
@@ -219,7 +228,7 @@ conference:
     authors: "<b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Tirana Noor Fatyanosa, Philip Arthur, Suci Fitriany, Salma Qonitah, Nadhifa Zulfa, Tomi Santoso, Mahendra Data"
     date: "2021"
     venue: "PACLIC"
-    url:
+    url: https://aclanthology.org/2021.paclic-1.56.pdf
     data:
     model:
     tags:
@@ -229,7 +238,7 @@ conference:
     authors: "Haryo Akbarianto Wibowo, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Derry Tanti Wijaya"
     date: "2021"
     venue: "ACL-IJCNLP"
-    url:
+    url: https://aclanthology.org/2021.findings-acl.280.pdf
     data:
     model:
     tags:
@@ -239,7 +248,7 @@ conference:
     authors: "<b>Alham Fikri Aji</b>, Nikolay Bogoychev, Kenneth Heafield, Rico Sennrich"
     date: "2020"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2020.acl-main.688.pdf
     data:
     model:
     tags:
@@ -258,7 +267,7 @@ conference:
     authors: "<b>Alham Fikri Aji</b>, Kenneth Heafield, Nikolay Bogoychev"
     date: "2019"
     venue: "EMNLP"
-    url:
+    url: https://aclanthology.org/D19-1373.pdf
     data:
     model:
     tags:
@@ -268,7 +277,7 @@ conference:
     authors: "Nikolay Bogoychev, Marcin Junczys-Dowmunt, Kenneth Heafield, <b>Alham Fikri Aji</b>"
     date: "2018"
     venue: "EMNLP"
-    url:
+    url: https://aclanthology.org/D18-1332.pdf
     data:
     model:
     tags:
@@ -277,7 +286,7 @@ conference:
     authors: "Marcin Junczys-Dowmunt, Roman Grundkiewicz, Tomasz Grundkiewicz, Hieu Hoang, Kenneth Heafield, Tom Neckermann, Frank Seide, Ulrich Germann, <b>Alham Fikri Aji</b>, Nikolay Bogoychev, Andre Martins, Alexandra Birch"
     date: "2018"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/P18-4020.pdf
     data:
     model:
     tags:
@@ -295,7 +304,7 @@ conference:
     authors: "<b>Alham Fikri Aji</b>, Kenneth Heafield"
     date: "2017"
     venue: "EMNLP"
-    url:
+    url: https://aclanthology.org/D17-1045.pdf
     data:
     model:
     tags:
@@ -303,6 +312,16 @@ conference:
     author: "first"
 
 workshop:
+  - title: "Prompting Multilingual Large Language Models to Generate Code-Mixed Texts: The Case of South East Asian Languages"
+    authors: "Zheng Xin Yong, Ruochen Zhang, Jessica Forde, Skyler Wang, Arjun Subramonian, Holy Lovenia, Samuel Cahyawijaya, Genta Winata, Lintang Sutawika, Jan Christian Blaise Cruz, Yin Lin Tan, Long Phan, Long Phan, Rowena Garcia, Thamar Solorio, <b>Alham Fikri Aji</b>"
+    date: "2023"
+    venue: "CALCS at EMNLP"
+    url: https://aclanthology.org/2023.calcs-1.5.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
   - title: "Low-Resource Clickbait Spoiling for Indonesian via Question Answering"
     authors: "Ni Putu Intan Maharani, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
     date: "2023"
@@ -317,7 +336,7 @@ workshop:
     authors: "Jinheon Baek, <b>Alham Fikri Aji</b>, Amir Saffari"
     date: "2023"
     venue: "NLRSE at ACL"
-    url:
+    url: https://aclanthology.org/2023.nlrse-1.7.pdf
     data:
     model:
     tags:
@@ -328,7 +347,7 @@ workshop:
     authors: "Veronika Laippala, Anna Salmela, Samuel Rönnqvist, <b>Alham Fikri Aji</b>, Li-Hsin Chang, Asma Dhifallah, Larissa Goulart‡ Henna Kortelainen, Marc Pàmies, Deise Prina Dutra, Valtteri Skantsi, Lintang Sutawika, Sampo Pyysalo"
     date: "2022"
     venue: "W-NUT at COLING"
-    url:
+    url: https://aclanthology.org/2022.wnut-1.23.pdf
     data:
     model:
     tags:
@@ -338,7 +357,7 @@ workshop:
     authors: "Maximiliana Behnke, Nikolay Bogoychev, <b>Alham Fikri Aji</b>, Kenneth Heafield, Graeme Nail, Qianqian Zhu, Svetlana Tchistiakova, Jelmer van der Linde, Pinzhen Chen, Sidharth Kashyap, Roman Grundkiewicz"
     date: "2021"
     venue: "WMT at EMNLP"
-    url:
+    url: https://aclanthology.org/2021.wmt-1.74.pdf
     data:
     model:
     tags:
@@ -348,7 +367,7 @@ workshop:
     authors: "Proyag Pal, <b>Alham Fikri Aji</b>, Pinzhen Chen, Sukanta Sen"
     date: "2021"
     venue: "WMT at EMNLP"
-    url:
+    url: https://aclanthology.org/2021.wmt-1.16.pdf
     data:
     model:
     tags:
@@ -358,7 +377,7 @@ workshop:
     authors: "<b>Alham Fikri Aji</b>, Made Nindyatama Nityasya, Haryo Akbarianto Wibowo, Radityo Eko Prasojo, Tirana Fatyanosa"
     date: "2021"
     venue: "SMM4H at NAACL"
-    url:
+    url: https://aclanthology.org/2021.smm4h-1.9.pdf
     data:
     model:
     tags:
@@ -369,7 +388,7 @@ workshop:
     authors: "Nikolay Bogoychev, Roman Grundkiewicz, <b>Alham Fikri Aji</b>, Maximiliana Behnke, Kenneth Heafield, Sidharth Kashyap, Emmanouil-Ioannis Farsarakis, Mateusz Chudyk"
     date: "2020"
     venue: "WNGT at ACL"
-    url:
+    url: https://aclanthology.org/2020.ngt-1.26.pdf
     data:
     model:
     tags:
@@ -379,7 +398,7 @@ workshop:
     authors: "<b>Alham Fikri Aji</b>, Kenneth Heafield"
     date: "2020"
     venue: "WNGT at ACL"
-    url:
+    url: https://aclanthology.org/2020.ngt-1.4.pdf
     data:
     model:
     tags:
@@ -390,7 +409,7 @@ workshop:
     authors: "Tri Wahyu Guntara, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo"
     date: "2020"
     venue: "BUCC"
-    url:
+    url: https://aclanthology.org/2020.bucc-1.6.pdf
     data:
     model:
     tags:
@@ -401,7 +420,7 @@ workshop:
     authors: "<b>Alham Fikri Aji</b>, Kenneth Heafield"
     date: "2019"
     venue: "WNGT at EMNLP"
-    url:
+    url: https://aclanthology.org/D19-5608.pdf
     data:
     model:
     tags:
@@ -412,7 +431,7 @@ workshop:
     authors: "Young Jin Kim, Marcin Junczys-Dowmunt, Hany Hassan, <b>Alham Fikri Aji</b>, Kenneth Heafield, Roman Grundkiewicz, Nikolay Bogoychev"
     date: "2019"
     venue: "WNGT at EMNLP"
-    url:
+    url: https://aclanthology.org/D19-5632.pdf
     data:
     model:
     tags:

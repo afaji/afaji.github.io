@@ -1,19 +1,44 @@
 student:
   - name: Haryo Akbarianto Wibowo
-    role: Main Advisor
+    role: Primary Advisor
     rolejob: PhD at MBZUAI
     co: Thamar Solorio
-    period: (Aug 2023 - present)
+    period: Aug 2023
+    url: https://www.linkedin.com/in/haryoaw/
   - name: Ahmed Elshabrawy
-    job: MSc at MBZUAI
-    role: Main Advisor
+    rolejob: MSc at MBZUAI
+    role: Primary Advisor
     co: Iryna Gurevych
-    period: (Aug 2023 - present) 
+    period: Aug 2023
+    url: https://www.linkedin.com/in/ashabrawy/
+    
+  - name: Zayd Muhammad Kawakibi Zuhri
+    role: Co Advisor
+    rolejob: MSc at Institut Teknologi Bandung
+    co: Ayu Purwarianti
+    period: Aug 2023
+    url: https://www.linkedin.com/in/zayd-muhammad-kawakibi-zuhri-46a391191/
+    
+  - name: Moses Ananta
+    role: Secondary Advisor
+    rolejob: MSc at Institut Teknologi Bandung
+    co: Ayu Purwarianti
+    period: Aug 2023
+    url: https://www.linkedin.com/in/moses-ananta
+    
   - name: Fathinah Asma Izzati
     role: Secondary Advisor
     rolejob: MSc at MBZUAI
-    co: Gus Jia
-    period: (Aug 2023 - present)
+    co: Gus Xia
+    period: Aug 2023
+    url: https://www.linkedin.com/in/fathinah-izzati/
+    
+  - name: Aidar Myrzakhan
+    role: Secondary Advisor
+    rolejob: MSc at MBZUAI
+    co: Zhiqiang Shen
+    period: Aug 2023
+    url: https://www.linkedin.com/in/aidar-myrzakhan/
 
 paststudent:
   - name: Jonibek Mansurov
@@ -21,26 +46,82 @@ paststudent:
     role: Main Advisor
     rolejob: MSc at MBZUAI
     co: Preslav Nakov
-    period: (Jan 2023 - Jun 2024)
+    period: Jan 2023 - Jun 2024
+    url: https://www.linkedin.com/in/jonibek-mansurov-baa667212/
+    
   - name: Ni Putu Intan Maharani
     job: Delloite
     role: Co Advisor
     rolejob: MSc at Institut Teknologi Bandung
     co: Ayu Purwarianti
-    period: (Aug 2022 - Mar 2024)
+    period: Aug 2022 - Mar 2024
+    url: https://www.linkedin.com/in/intanmaha/
+    
   - name: Jalaluddin Al-Mursyidy Fadhlurrahman
     role: Co Advisor
     rolejob: MSc at Institut Teknologi Bandung
     co: Ayu Purwarianti
-    period: (Aug 2022 - Mar 2024)
+    period: Aug 2022 - Mar 2024
+    url: https://www.linkedin.com/in/jalaluddin-al-mursyidy-fadhlurrahman-05b535191/
+    
   - name: Muhammad Razif Rizqullah
-    job: Delloite
     role: Co Advisor
     rolejob: MSc at Institut Teknologi Bandung
     co: Ayu Purwarianti
-    period: (Aug 2022 - Mar 2024)
+    period: Aug 2022 - Mar 2024
+    url: https://www.linkedin.com/in/razifrizqullah/
+    
+  - name: Minghao Wu
+    role: Research Advisor
+    rolejob: Visiting PhD Student
+    job: PhD at Monash University
+    period: Apr 2023 - Oct 2023
+    url: https://minghao-wu.github.io
+    
+  - name: Chenxi Whitehouse
+    role: Research Advisor
+    rolejob: Visiting PhD Student
+    job: Research Scientist at Amazon
+    period: Apr 2023 - Oct 2023
+    url: https://chenxwh.github.io
+    
   - name: Muhammad Ravi Sulthan Habibi
     role: Co Advisor
     rolejob: BSc at Universitas Indonesia
     co: Rahmad Mahendra
-    period: (Aug 2022 - Aug 2023)
+    period: Aug 2022 - Aug 2023
+    url: https://muhammadravi251001.github.io
+  
+staff:
+  - name: Chenyang Lyu
+    role: Research Advisor
+    rolejob: Postdoctoral Researcher at MBZUAI
+    period: Aug 2023 - Present
+    url: https://lyuchenyang.github.io
+  - name: Mohamed Fazli Mohamed Imam
+    role: Research Advisor
+    rolejob: Research Assistant at MBZUAI
+    period: Jul 2024 - Present
+    url: https://lk.linkedin.com/in/fazliimaam
+  - name: Muhammad Farid Adilauzarda
+    role: Research Advisor
+    rolejob: Research Assistant at MBZUAI
+    period: Aug 2023 - Present
+    url: https://faridlazuarda.github.io/
+  - name: Rendi Chevi
+    role: Research Advisor
+    rolejob: Research Assistant at MBZUAI
+    period: Aug 2023 - Present
+    url: https://www.linkedin.com/in/rendichevi/?originalSubdomain=ae
+  - name: Jinheon Baek
+    role: Research Advisor
+    job: PhD at KAIST
+    rolejob: Research Intern at Amazon Alexa
+    period: Oct 2022 - Jan 2023
+    url: https://jinheonbaek.github.io
+  - name: Tirana Noor Fatyanosa
+    role: Research Advisor
+    rolejob: Research Intern at Kata.ai
+    job: Assistant Professor at Universitas Brawijaya
+    period: Nov 2020 - Apr 2021
+    url: https://filkom.ub.ac.id/profile/dosen/tirana.noor.fatyanosa

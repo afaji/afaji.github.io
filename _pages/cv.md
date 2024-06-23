@@ -8,95 +8,115 @@ redirect_from:
 ---
 
 {% include base_path %}
-# Alham Fikri Aji / Curriculum Vitae
-
+<p style="font-size: 2em; font-weight: bold;">Alham Fikri Aji / Curriculum Vitae</p>
 [alham.fikri@mbzuai.ac.ae](mailto:alham.fikri@mbzuai.ac.ae)
 
 [//]: # (I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University of Edinburgh’s Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers on multilingual, low-resource, and low-compute NLP. I have worked on lightweight models via distillation, as well as adapting models to unseen languages in cases of limited training data.)
 [//]: # (I have been developing various multilingual large language models such as BLOOMZ/mT0, Jais, Bactrian-X, and more. I have also worked on building multilingual and under-represented NLP resources and benchmarks, especially those that capture local culture and nuances, some of which were awarded best resource papers.)
 [//]: # (In the past, I have gained industry experience at companies such as Amazon, Google, and Apple.)
 
+
 ## Education
 
-* **PhD, University of Edinburgh** (2016 - 2020)\
-<span class='desc'>Thesis: Approximating Neural Machine Translation for Efficiency; making NMT trains faster using distributed and asynchronous training, sparse gradient, and transfer learning. Supervised by Kenneth Heafield and Rico Sennrich.</span>
-<span class='desc'>Examiner: Graham Neubig and Barry Haddow</span>
-* **MSc Artificial Intelligence, University of Edinburgh** (2014 - 2015)\
-<span class='desc'>With distinction. Final project: Haiku generator with word vector model.</span>
-* **BSc Computer Science, Universitas Indonesia** (2010 - 2014)\
-<span class='desc'>Final project: Earthquake detector from phone's accelerometer reading.</span>
+* **PhD, University of Edinburgh** <span style="float: right;">Nov 2016 - Jun 2020</span><br>
+  <span class='desc'>Thesis: Approximating Neural Machine Translation for Efficiency.</span><br>
+  <span class='desc'>Supervised by Kenneth Heafield and Rico Sennrich.</span><br>
+  <span class='desc'>Examiner: Graham Neubig and Barry Haddow</span>
+* **MSc Artificial Intelligence, University of Edinburgh** <span style="float: right;">Sep 2014 - Aug 2015</span>\
+  <span class='desc'>With distinction. Final project: Haiku generator with word vector model.</span>
+* **BSc Computer Science, Universitas Indonesia** <span style="float: right;">Aug 2010 - Jul 2014</span>\
+  <span class='desc'>Final project: Earthquake detector from phone's accelerometer reading.</span>
 
 ## Working Experience
 
-* **Assistant Professor**, MBZUAI (2023 - Current)\
-  NLP department--teaches MSc and PhD classes, advises MSc and PhD students. My current main research interests are in multilinguality, data creation, and low-compute and efficient models.
-* **Applied Scientist**, Amazon Alexa AI (2021 - 2023)\
-  Utilized knowledge graphs to create a truthful, multilingual question-answering system for Alexa.
-* **Postdoctoral Research Associate**, University of Edinburgh (2020 - 2021)\
- Developed a fast, privacy-focused offline neural machine translation system by distilling large models.
-* **Research Scientist**, Kata.ai (2019 - 2021)\
-  Worked on and mentored junior researchers in various Indonesian NLP-related projects such as machine translation and formality style transfer. 
-* **Engineering Intern**, Google Research (2017)\
-  Worked on integrating context from Google search to improve neural machine translation.
-* **Language Engineer**, Apple Siri (2015 - 2016)\
-  Designed Malay language rules and trained models to optimize Siri's performance in Malay. 
+* **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Current</span>
+* **Applied Scientist**, Amazon Alexa AI <span style="float: right;"> Oct 2021 - Jan 2023</span>
+* **Postdoctoral Research Associate**, University of Edinburgh <span style="float: right;"> Jun 2020 - Jul 2021</span>
+* **Research Scientist**, Kata.ai  <span style="float: right;"> Nov 2019 - Sep 2021</span>
+* **Engineering Intern**, Google Research <span style="float: right;"> Jul 2017 - Nov 2017</span>
+* **Language Engineer**, Apple Siri  <span style="float: right;">Oct 2015 - Oct 2016</span>
 
-## Professional Activity
-
-* **Reviewer and Program Committee**
-  * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
-  * **Workshop**: WNGT, TL4NLP
-* **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
-* **Local Chair**: COLING (2025)
-* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
-* **Informatics Olympiad**:
-  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015). ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
-  * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
-  * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
 
 ## Awards
+
 * Best Resource Paper Award, EACL 2024
 * Best Resource Paper Award, AACL 2023
 * Outstanding Paper Award, EACL 2023
 * Outstanding Contribution Award, WNGT 2019
 * World Finalists, ACM-ICPC 2014
 * Silver Medalists, International Olympiad of Informatics (IOI) 2010
+
+
+## Professional Activities
+
+### Services to Scientific Communities
+
+* **Reviewer and Program Committee Member**
+  * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
+  * **Workshop**: WNGT, TL4NLP
+* **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
+* **Local Chair**: COLING (2025)
+* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
+
+### University Services
+
+* MBZUAI HPC Committee, MBZUAI 2023
+* MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
+* MBZUAI Executive Education Program advisor, 2023
+* MBZUAI PhD Candidacy Exam Committee: 4 students
+  <!-- 2024 (2): Muhammad Taimoor Haseeb (student of Gus Jia), Artem Agafonov (student of Martin Takac) -->
+  <!-- 2023 (2): Muhammad Arslan Manzoor (student of Preslav Nakov), Abdulla Jasem Ahmed Jaber Almansoori (student of Martin Takac) -->
+* MBZUAI MSc Thesis Defence Committee: 7 students
+  <!-- 2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki -->
+  <!-- 2023 (2): Sarah Albarri, Muhammad Umar Salman -->
+
+
+### Informatics Olympiad
+
+  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015), ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
+  * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
+  * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
+
 <div class="page-break"></div>
 
-## Publication
-
-You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications
-### Conferences
-
+## Publications
+I mainly publish at ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. My papers have accumulated over 4,000 citations and I have achieved an h-index of 20.<br>
+<span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.
+### Peer-Reviewed Conferences
+<div class="compact-ul">
 <ul>
 {% for paper in site.data.paper.conference %}
 <li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
-    <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
+    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
     {% if paper.notes != null %} -- {{ paper.notes | raw }}
     {% endif %}
 </li>
 {% endfor %}
 </ul>
+</div>
 
-### Workshops
+### Peer-Reviewed Workshops
+<div class="compact-ul">
 <ul>
 {% for paper in site.data.paper.workshop %}
 <li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
-    <a href="{{ paper.url }}">{{ paper.title | raw }}</a>. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
+    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
     {% if paper.notes != null %} -- {{ paper.notes | raw }}
     {% endif %}
 </li>
 {% endfor %}
 </ul>
-
+</div>
 ## Supervision and Mentorship
 
 ### Current Students
+Aside from MBZUAI, I co-supervise students from Indonesian universities, where I commit to meeting them weekly.
+
 <ul>
 {% for student in site.data.student.student %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} ({{ student.period | raw }})<br>
+   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
+    Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -108,8 +128,8 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 <ul>
 {% for student in site.data.student.paststudent %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> — {{ student.rolejob | raw }}<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %} ({{ student.period | raw }})<br>
+    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
+    Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -121,9 +141,8 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 <ul>
 {% for student in site.data.student.staff %}
   <li>
-    <a href="{{ student.url }}">{{ student.name | raw }}</a> ({{ student.rolejob | raw }})<br>
-    <strong>Role</strong>: {{ student.role | raw }} {% if student.co %} with {{ student.co }}{% endif %}<br>
-    <strong>Period</strong>: {{ student.period | raw }}<br>
+    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
+    Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -131,19 +150,27 @@ You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl
 {% endfor %}
 </ul>
 
-## Teaching and Talks
+## Grants and Funding
+ * Microsoft Research: "Developing Robust Methodology and Datasets for Holistic Evaluation of Cultural Awareness and Bias in Foundation Models" (Co-PI)\
+   **Amount**: 20,000 USD
+ * Cohere For AI research grants: "SEACrowd: Consolidating South-east Asia NLP dataset" (Co-PI)\
+   **Amount**: 3,000 USD
+ * IBM: "Question Answering for Arabic Dialects"\
+   **Amount**: Postdoctoral support of Chenyang Lyu of 100,000 USD 
 
-* **Teaching**:
-  * Introduction to Data Science (Monash Indonesia, 2024, Term 4 (8 weeks - for MSc)\
+## Teachings
+  * FIT5145: Intro to Data Science (for MSc) - Monash Indonesia <span style="float: right;">Short Summer 2024</span>\
     Main instructor. Introduction to Python, data science, and AI.
-  * NLP702 Advanced Natural Language Processing (MBZUAI, 2024 Spring - for MSc)\
+  * NLP702: Advanced Natural Language Processing (for MSc) - MBZUAI <span style="float: right;">Spring 2024</span>\
     Co-instructor. Covered efficient and large-scale NLP, including LLM, distributed training, distillation, parameter-efficient fine-tuning, and linear Transformers.
-  * NLP801 Deep Learning for Language Processing (MBZUAI, 2023 Fall - for PhD)\
+  * NLP801: Deep Learning for Language Processing (for PhD) - MBZUAI <span style="float: right;">Fall 2023</span>\
     Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
 
-* **Talks**:
+## Talks
   * **Training Lightweight Model via Knowledge Distillation and Parameter Efficient Finetuning**\
-    Mexican NLP Summer School, Co-located with NAACL (14-15th June 2024) 
+    Mexican NLP Summer School, Co-located with NAACL (14-15th June 2024)
+  * **Consolidating NLP Resources for South-East Asian Languages**\
+    Google Singapore, Invited Talk (27th May 2024)  
   * **Constructing High-Quality Corpora for Underrepresented and Extremely Low-Resource
 Languages**\
     Google Singapore, Invited Talk (21th November 2023)  
