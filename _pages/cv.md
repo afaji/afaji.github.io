@@ -160,7 +160,7 @@ Aside from MBZUAI, I co-supervise students from Indonesian universities, where I
    **Amount**: Postdoctoral support of Chenyang Lyu of 100,000 USD 
 
 ## Teachings
-  * FIT5145: Intro to Data Science (for MSc) - Monash Indonesia <span style="float: right;">Short Summer 2024</span>\
+  * FIT5145: Intro to Data Science (for MSc) - Monash Indonesia <span style="float: right;">Term 4 2024</span>\
     Main instructor. Introduction to Python, data science, and AI.
   * NLP702: Advanced Natural Language Processing (for MSc) - MBZUAI <span style="float: right;">Spring 2024</span>\
     Co-instructor. Covered efficient and large-scale NLP, including LLM, distributed training, distillation, parameter-efficient fine-tuning, and linear Transformers.
