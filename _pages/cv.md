@@ -29,6 +29,7 @@ redirect_from:
 
 ## Working Experience
 
+* **Adjunct Assistant Professor**, Monash Indonesia <span style="float: right;"> Jan 2024 - Current</span>
 * **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Current</span>
 * **Applied Scientist**, Amazon Alexa AI <span style="float: right;"> Oct 2021 - Jan 2023</span>
 * **Postdoctoral Research Associate**, University of Edinburgh <span style="float: right;"> Jun 2020 - Jul 2021</span>
