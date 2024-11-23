@@ -13,8 +13,10 @@ redirect_from:
 <!-- Custom CSS -->
 <style>
   .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     overflow: hidden;
+    background-color: white;
+    border: 1px solid transparent;
   }
 
   .card:hover {
@@ -52,35 +54,38 @@ redirect_from:
     opacity: 1;
   }
 
-  /* Solid Backgrounds with Glow on Hover */
+  /* Default Border and Hover Effects by Category */
   .category-phd {
-    background-color: gold;
-    color: white;
-    transition: box-shadow 0.3s ease;
+    border-color: rgba(255, 215, 0, 0.5); /* Light Gold Border */
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); /* Subtle Gold Shadow */
   }
 
   .category-phd:hover {
-    box-shadow: 0 0 10px 5px rgba(184, 134, 11, 0.7);
+    background-color: gold;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8); /* Bright Gold Glow */
   }
 
   .category-msc {
-    background-color: purple;
-    color: white;
-    transition: box-shadow 0.3s ease;
+    border-color: rgba(128, 0, 128, 0.5); /* Light Purple Border */
+    box-shadow: 0 0 5px rgba(128, 0, 128, 0.5); /* Subtle Purple Shadow */
   }
 
   .category-msc:hover {
-    box-shadow: 0 0 10px 5px rgba(128, 0, 128, 0.7);
+    background-color: purple;
+    color: white;
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.8); /* Bright Purple Glow */
   }
 
   .category-staff {
-    background-color: blue;
-    color: white;
-    transition: box-shadow 0.3s ease;
+    border-color: rgba(0, 0, 255, 0.5); /* Light Blue Border */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Subtle Blue Shadow */
   }
 
   .category-staff:hover {
-    box-shadow: 0 0 10px 5px rgba(0, 0, 139, 0.7);
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.8); /* Bright Blue Glow */
   }
 
   .card-body {
@@ -126,18 +131,18 @@ redirect_from:
     {% if people_in_category.size > 0 %}
       <div class="mb-5">
         <h2 class="text-uppercase text-center mb-4">{{ category }}</h2>
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
           {% for person in people_in_category %}
             <div class="col">
               <a href="{{ person.website }}" class="card-link" target="_blank">
-                <div class="card h-100 text-center border-0">
+                <div class="card h-100 text-center border-0 category-{{ person.category | downcase }}">
                   <div class="image-container">
                     <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
                     {% if person.alt_photo %}
                       <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
                     {% endif %}
                   </div>
-                  <div class="card-body category-{{ person.category | downcase }}">
+                  <div class="card-body">
                     <h6 class="card-title mb-1">
                       {{ person.name }}
                     </h6>
@@ -171,18 +176,18 @@ redirect_from:
   {% if alumni.size > 0 %}
     <div class="mb-5">
       <h2 class="text-uppercase text-center mb-4">Alumni</h2>
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 g-3">
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-3">
         {% for person in alumni %}
           <div class="col">
             <a href="{{ person.website }}" class="card-link" target="_blank">
-              <div class="card h-100 text-center border-0">
+              <div class="card h-100 text-center border-0 category-{{ person.category | downcase }}">
                 <div class="image-container">
                   <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
                   {% if person.alt_photo %}
                     <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
                   {% endif %}
                 </div>
-                <div class="card-body category-{{ person.category | downcase }}">
+                <div class="card-body">
                   <h6 class="card-title mb-1">
                     {{ person.name }}
                   </h6>
