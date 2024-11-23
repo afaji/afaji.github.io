@@ -178,6 +178,8 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  teams:
+    output: false
   publications:
     output: true
     permalink: /:collection/:path/
