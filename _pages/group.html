@@ -12,118 +12,160 @@ redirect_from:
 
 <!-- Custom CSS -->
 <style>
+  /* Dynamic Card with Aspect Ratio */
   .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    position: relative;
     overflow: hidden;
     background-color: white;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    aspect-ratio: 3 / 4; /* Maintains dynamic height proportional to width */
   }
 
+  /* Hover Effects for Scaling and Shadow */
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 
-  .card img {
-    transition: opacity 0.3s ease;
-  }
-
-  .card img.main-photo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-  }
-
-  .card img.alt-photo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .card:hover img.alt-photo {
-    opacity: 1;
-  }
-
-  /* Default Border and Hover Effects by Category */
+  /* Category-Specific Borders */
   .category-phd {
-    border-color: rgba(255, 215, 0, 0.5); /* Light Gold Border */
-    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); /* Subtle Gold Shadow */
-  }
-
-  .category-phd:hover {
-    background-color: gold;
-    color: white;
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8); /* Bright Gold Glow */
+    border-color: gold;
   }
 
   .category-msc {
-    border-color: rgba(128, 0, 128, 0.5); /* Light Purple Border */
-    box-shadow: 0 0 5px rgba(128, 0, 128, 0.5); /* Subtle Purple Shadow */
-  }
-
-  .category-msc:hover {
-    background-color: purple;
-    color: white;
-    box-shadow: 0 0 15px rgba(128, 0, 128, 0.8); /* Bright Purple Glow */
+    border-color: purple;
   }
 
   .category-staff {
-    border-color: rgba(0, 0, 255, 0.5); /* Light Blue Border */
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Subtle Blue Shadow */
+    border-color: blue;
   }
 
-  .category-staff:hover {
-    background-color: blue;
-    color: white;
-    box-shadow: 0 0 15px rgba(0, 0, 255, 0.8); /* Bright Blue Glow */
+  /* Image Styling */
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
 
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+
+  .image-container img.alt-photo {
+    opacity: 0;
+  }
+
+  .card:hover .image-container img.alt-photo {
+    opacity: 1;
+  }
+
+  /* Card Body */
   .card-body {
-    z-index: 3; /* Ensure text stays on top */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9); /* Transparent background over image */
     padding: 10px;
-    font-size: 0.65rem;
+    box-sizing: border-box;
+    border-top: 1px solid #ddd; /* Divider between image and text */
   }
 
   .card-title {
-    font-size: 0.75rem;
+    font-size: clamp(0.7rem, 1vw, 1rem);
     font-weight: bold;
+    margin: 0;
   }
 
   .card-text {
-    font-size: 0.65rem;
-    line-height: 1.2;
+    font-size: clamp(0.6rem, 0.8vw, 0.85rem);
+    color: #555;
+    margin: 5px 0 0;
   }
 
-  /* Prevent Underline on Hover */
-  a.card-link {
-    text-decoration: none;
-    color: inherit;
+  /* Alumni List Styling */
+  .alumni-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   }
 
-  a.card-link:hover {
-    text-decoration: none;
+  /* Background Colors for Categories */
+  .alumni-phd {
+    background-color: rgba(255, 215, 0, 0.1); /* Light Gold */
   }
 
-  .image-container {
-    width: 100%;
-    padding-top: 100%; /* Maintains square aspect ratio */
-    position: relative;
+  .alumni-msc {
+    background-color: rgba(128, 0, 128, 0.1); /* Light Purple */
+  }
+
+  .alumni-staff {
+    background-color: rgba(0, 0, 255, 0.1); /* Light Blue */
+  }
+
+  /* Hover Effects */
+  .alumni-row:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .alumni-phd:hover {
+    background-color: gold;
+    color: white;
+  }
+
+  .alumni-msc:hover {
+    background-color: purple;
+    color: white;
+  }
+
+  .alumni-staff:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  /* Alumni Text */
+  .alumni-text {
+    flex-grow: 1;
+    font-size: clamp(0.6rem, 1vw, 0.85rem);
+  }
+
+  .alumni-name {
+    font-weight: bold;
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+    margin-bottom: 5px;
+  }
+
+  .alumni-details {
+    color: #555;
+  }
+
+  /* Alumni Photo */
+  .alumni-photo {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 15px;
+    border: 2px solid #ddd;
   }
 </style>
 
 <div class="container my-5">
   <h1 class="text-center mb-4">Research Group</h1>
-  
+
   <!-- Current Group Section -->
   {% assign categories = "PhD, MSc, Staff" | split: ", " %}
   {% for category in categories %}
@@ -176,30 +218,21 @@ redirect_from:
   {% if alumni.size > 0 %}
     <div class="mb-5">
       <h2 class="text-uppercase text-center mb-4">Alumni</h2>
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-3">
+      <div>
         {% for person in alumni %}
-          <div class="col">
-            <a href="{{ person.website }}" class="card-link" target="_blank">
-              <div class="card h-100 text-center border-0 category-{{ person.category | downcase }}">
-                <div class="image-container">
-                  <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
-                  {% if person.alt_photo %}
-                    <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
-                  {% endif %}
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title mb-1">
-                    {{ person.name }}
-                  </h6>
-                  <span class="card-text">
-                    {{ person.category }} {{ person.graduation_start }} - {{ person.graduation_end }}
-                  </span><br>
-                  <span class="card-text">
-                    Now at {{ person.current_position }}
-                  </span>
-                </div>
+          <div class="alumni-row alumni-{{ person.category | downcase }}">
+            <!-- Text Section -->
+            <div class="alumni-text">
+              <div class="alumni-name">
+                {{ person.name }}
+                <span class="alumni-details">({{ person.previous_position }} - {{ person.graduation_end }})</span>
               </div>
-            </a>
+              <div class="alumni-details">
+                Current Position: {{ person.current_position }}
+              </div>
+            </div>
+            <!-- Photo Section -->
+            <img src="{{ person.photo }}" alt="Photo of {{ person.name }}" class="alumni-photo">
           </div>
         {% endfor %}
       </div>
