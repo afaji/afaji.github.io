@@ -53,18 +53,46 @@ redirect_from:
   }
 
   .card-body {
-    background-color: rgba(225, 225, 225, 0.9); /* Light background for text */
     z-index: 3; /* Ensure text stays on top */
+    padding: 10px;
+    font-size: 0.55rem;
+  }
+
+  /* Category Background Colors */
+  .category-phd {
+    background-color: #1a75cf; /* Blue for PhD */
+    color: white;
+  }
+
+  .category-msc {
+    background-color: #1f8a3d; /* Green for MSc */
+    color: white;
+  }
+
+  .category-staff {
+    background-color: #4e4e4e; /* Gray for Staff */
+    color: white;
   }
 
   .card-title {
-    font-size: 0.75rem; /* Smaller font for titles */
+    font-size: 0.65rem;
     font-weight: bold;
   }
 
   .card-text {
-    font-size: 0.6rem; /* Smaller font for details */
-    line-height: 0.8;
+    font-size: 0.55rem;
+    line-height: 1.2;
+  }
+
+  /* Responsive Fonts */
+  @media (max-width: 768px) {
+    .card-title {
+      font-size: 0.6rem;
+    }
+
+    .card-text {
+      font-size: 0.5rem;
+    }
   }
 
   a.card-link {
@@ -100,22 +128,22 @@ redirect_from:
                       <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
                     {% endif %}
                   </div>
-                  <div class="card-body">
+                  <div class="card-body category-{{ person.category | downcase }}">
                     <h6 class="card-title mb-1">
                       {{ person.name }}
                     </h6>
-                    <span class="card-text text-muted mb-1">
+                    <span class="card-text">
                       {% if person.category == "PhD" or person.category == "MSc" %}
                         {{ person.category }} ({{ person.starting_year }})
                       {% elsif person.category == "Staff" %}
                         ({{ person.role }})
                       {% endif %}
-                    </span>
-                    <span class="card-text text-muted mb-0">
+                    </span><br>
+                    <span class="card-text">
                       {{ person.university }}
-                    </span>
+                    </span><br>
                     {% if person.co_advisor %}
-                    <span class="card-text text-muted mb-0">
+                    <span class="card-text">
                       (Co-advised with {{ person.co_advisor }})
                     </span>
                     {% endif %}
@@ -134,7 +162,7 @@ redirect_from:
   {% if alumni.size > 0 %}
     <div class="mb-5">
       <h2 class="text-uppercase text-center mb-4">Alumni</h2>
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 g-3">
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
         {% for person in alumni %}
           <div class="col">
             <a href="{{ person.website }}" class="card-link" target="_blank">
@@ -145,16 +173,16 @@ redirect_from:
                     <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
                   {% endif %}
                 </div>
-                <div class="card-body p-2">
+                <div class="card-body category-{{ person.category | downcase }}">
                   <h6 class="card-title mb-1">
                     {{ person.name }}
                   </h6>
-                  <p class="card-text text-muted mb-1">
+                  <span class="card-text">
                     {{ person.category }} {{ person.graduation_start }} - {{ person.graduation_end }}
-                  </p>
-                  <p class="card-text text-muted mb-0">
+                  </span><br>
+                  <span class="card-text">
                     Now at {{ person.current_position }}
-                  </p>
+                  </span>
                 </div>
               </div>
             </a>
