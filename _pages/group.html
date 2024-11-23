@@ -1,0 +1,59 @@
+---
+permalink: /group.html
+title: "Research Group"
+excerpt: "Group"
+author_profile: false
+redirect_from: 
+  - /group/
+---
+
+<!-- Bootstrap CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container my-5">
+  <h1 class="text-center mb-4">Research Group</h1>
+  
+  {% assign categories = "PhD, MSc, Staff" | split: ", " %}
+  {% for category in categories %}
+    {% assign people_in_category = site.teams | where: "category", category %}
+    {% if people_in_category.size > 0 %}
+      <div class="mb-5">
+        <h2 class="text-uppercase text-center mb-4">{{ category }}</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          {% for person in people_in_category %}
+            <div class="col">
+              <div class="card h-100 text-center">
+                <img src="{{ person.photo }}" class="card-img-top img-fluid rounded" alt="{{ person.name }}">
+                <div class="card-body">
+                  <h5 class="card-title">{{ person.name }}</h5>
+                  <p class="card-text text-muted">{{ person.bio }}</p>
+                </div>
+                <div class="card-footer bg-white">
+                  {% if person.scholar %}
+                    <a href="{{ person.scholar }}" class="btn btn-outline-primary btn-sm mx-1" target="_blank">
+                      <i class="bi bi-google"></i> Scholar
+                    </a>
+                  {% endif %}
+                  {% if person.linkedin %}
+                    <a href="{{ person.linkedin }}" class="btn btn-outline-primary btn-sm mx-1" target="_blank">
+                      <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                  {% endif %}
+                  {% if person.twitter %}
+                    <a href="{{ person.twitter }}" class="btn btn-outline-primary btn-sm mx-1" target="_blank">
+                      <i class="bi bi-twitter"></i> Twitter
+                    </a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Bootstrap JS + Icons -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
