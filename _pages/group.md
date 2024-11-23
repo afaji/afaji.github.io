@@ -7,78 +7,21 @@ redirect_from:
   - /group/
 ---
 
-{% include base_path %}
-
-<!-- Style Section -->
+<!-- Inline CSS for Styling -->
 <style>
-  .team-category {
-    margin-bottom: 2rem;
-  }
-
-  .team-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-transform: capitalize;
-  }
-
-  .team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-  }
-
-  .team-member {
-    position: relative;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .team-member img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
-
-  .team-member img:hover {
-    transform: scale(1.05);
-  }
-
-  .team-member-name {
-    margin-top: 0.5rem;
-    font-weight: bold;
-  }
-
-  .hover-info {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    border-radius: 8px;
-  }
-
-  .team-member:hover .hover-info {
-    opacity: 1;
-  }
-
-  .hover-info a {
-    color: #00aced;
-    text-decoration: none;
-    margin-top: 0.5rem;
-  }
+  .team-category { margin-bottom: 2rem; }
+  .team-title { font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem; text-transform: capitalize; }
+  .team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+  .team-member { position: relative; text-align: center; cursor: pointer; }
+  .team-member img { width: 100%; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease; }
+  .team-member img:hover { transform: scale(1.05); }
+  .team-member-name { margin-top: 0.5rem; font-weight: bold; }
+  .hover-info { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); color: white; display: flex; align-items: center; justify-content: center; flex-direction: column; opacity: 0; transition: opacity 0.3s ease; border-radius: 8px; }
+  .team-member:hover .hover-info { opacity: 1; }
+  .hover-info a { color: #00aced; text-decoration: none; margin-top: 0.5rem; }
 </style>
 
-<!-- Content Section -->
+<!-- Team Content -->
 {% assign categories = "PhD, MSc, Staff" | split: ", " %}
 {% for category in categories %}
   {% assign people_in_category = site.teams | where: "category", category %}
