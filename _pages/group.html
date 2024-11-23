@@ -12,82 +12,97 @@ redirect_from:
 
 <!-- Custom CSS -->
 <style>
-  /* Dynamic Card with Aspect Ratio */
   .card {
-    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     overflow: hidden;
     background-color: white;
-    border: 2px solid transparent;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-    aspect-ratio: 3 / 4; /* Maintains dynamic height proportional to width */
+    border: 1px solid transparent;
   }
 
-  /* Hover Effects for Scaling and Shadow */
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 
-  /* Category-Specific Borders */
-  .category-phd {
-    border-color: gold;
+  .card img {
+    transition: opacity 0.3s ease;
   }
 
-  .category-msc {
-    border-color: purple;
-  }
-
-  .category-staff {
-    border-color: blue;
-  }
-
-  /* Image Styling */
-  .image-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  .image-container img {
+  .card img.main-photo {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: 1;
+  }
+
+  .card img.alt-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    opacity: 0;
     transition: opacity 0.3s ease;
   }
 
-  .image-container img.alt-photo {
-    opacity: 0;
-  }
-
-  .card:hover .image-container img.alt-photo {
+  .card:hover img.alt-photo {
     opacity: 1;
   }
 
-  /* Card Body */
+  /* Default Border and Hover Effects by Category */
+  .category-phd {
+    border-color: rgba(255, 215, 0, 0.5); /* Light Gold Border */
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); /* Subtle Gold Shadow */
+  }
+
+  .category-phd:hover {
+    background-color: gold;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8); /* Bright Gold Glow */
+  }
+
+  .category-msc {
+    border-color: rgba(128, 0, 128, 0.5); /* Light Purple Border */
+    box-shadow: 0 0 5px rgba(128, 0, 128, 0.5); /* Subtle Purple Shadow */
+  }
+
+  .category-msc:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.8); /* Bright Purple Glow */
+  }
+
+  .category-staff {
+    border-color: rgba(0, 0, 255, 0.5); /* Light Blue Border */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Subtle Blue Shadow */
+  }
+
+  .category-staff:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.8); /* Bright Blue Glow */
+  }
+
   .card-body {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.9); /* Transparent background over image */
+    z-index: 3; /* Ensure text stays on top */
     padding: 10px;
-    box-sizing: border-box;
-    border-top: 1px solid #ddd; /* Divider between image and text */
+    font-size: 0.65rem;
+    height: auto; /* Allow height to adjust dynamically */
   }
 
   .card-title {
-    font-size: clamp(0.7rem, 1vw, 1rem);
+    font-size: 0.75rem;
     font-weight: bold;
-    margin: 0;
   }
 
   .card-text {
-    font-size: clamp(0.6rem, 0.8vw, 0.85rem);
-    color: #555;
-    margin: 5px 0 0;
+    font-size: 0.65rem;
+    line-height: 1.2;
   }
 
   /* Alumni List Styling */
