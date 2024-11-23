@@ -1,6 +1,6 @@
 ---
 permalink: /group.html
-title: "Group"
+title: "Research Group"
 excerpt: "Group"
 author_profile: false
 redirect_from: 
@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {{ post.title | raw }}
+{% for people in site.teams reversed %}
+  {{ people.name | raw }}
 {% endfor %}
