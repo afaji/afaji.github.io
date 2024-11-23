@@ -40,6 +40,15 @@ redirect_from:
   .card-body {
     background-color: rgba(255, 255, 255, 0.9); /* Light background for text */
   }
+
+  .card-text {
+    font-size: 0.7rem; /* Smaller font for text */
+  }
+
+  a.card-link {
+    text-decoration: none;
+    color: inherit;
+  }
 </style>
 
 <div class="container my-5">
@@ -55,25 +64,29 @@ redirect_from:
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
           {% for person in people_in_category %}
             <div class="col">
-              <div class="card h-100 text-center border-0 position-relative">
-                <div style="position: relative;">
-                  <img src="{{ person.photo }}" class="card-img-top img-fluid mx-auto" alt="{{ person.name }}" style="width: 100%; height: 250px; object-fit: cover;">
-                  {% if person.alt_photo %}
-                    <img src="{{ person.alt_photo }}" class="card-img-top img-fluid alt-photo mx-auto" alt="Alternate Photo of {{ person.name }}" style="width: 100%; height: 250px; object-fit: cover;">
-                  {% endif %}
+              <a href="{{ person.website }}" class="card-link" target="_blank">
+                <div class="card h-100 text-center border-0 position-relative">
+                  <div style="position: relative;">
+                    <img src="{{ person.photo }}" class="card-img-top img-fluid mx-auto" alt="{{ person.name }}" style="width: 100%; height: 250px; object-fit: cover;">
+                    {% if person.alt_photo %}
+                      <img src="{{ person.alt_photo }}" class="card-img-top img-fluid alt-photo mx-auto" alt="Alternate Photo of {{ person.name }}" style="width: 100%; height: 250px; object-fit: cover;">
+                    {% endif %}
+                  </div>
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">
+                      {{ person.name }}
+                    </h6>
+                    <p class="card-text text-muted mb-1">
+                      {{ person.starting_year }} - {{ person.university }}
+                    </p>
+                    {% if person.co_advisor %}
+                    <p class="card-text text-muted mb-0">
+                      (Co-advised with {{ person.co_advisor }})
+                    </p>
+                    {% endif %}
+                  </div>
                 </div>
-                <div class="card-body">
-                  <h6 class="card-title mb-1">
-                    <a href="{{ person.website }}" class="text-decoration-none text-dark" target="_blank">{{ person.name }}</a>
-                  </h6>
-                  <p class="card-text text-muted mb-1" style="font-size: 0.85rem;">
-                    {{ person.category }}
-                  </p>
-                  <p class="card-text text-muted mb-0" style="font-size: 0.75rem;">
-                    {{ person.bio }}
-                  </p>
-                </div>
-              </div>
+              </a>
             </div>
           {% endfor %}
         </div>
@@ -89,25 +102,27 @@ redirect_from:
       <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 g-3">
         {% for person in alumni %}
           <div class="col">
-            <div class="card h-100 text-center border-0 position-relative">
-              <div style="position: relative;">
-                <img src="{{ person.photo }}" class="card-img-top img-fluid mx-auto" alt="{{ person.name }}" style="width: 100%; height: 150px; object-fit: cover;">
-                {% if person.alt_photo %}
-                  <img src="{{ person.alt_photo }}" class="card-img-top img-fluid alt-photo mx-auto" alt="Alternate Photo of {{ person.name }}" style="width: 100%; height: 150px; object-fit: cover;">
-                {% endif %}
+            <a href="{{ person.website }}" class="card-link" target="_blank">
+              <div class="card h-100 text-center border-0 position-relative">
+                <div style="position: relative;">
+                  <img src="{{ person.photo }}" class="card-img-top img-fluid mx-auto" alt="{{ person.name }}" style="width: 100%; height: 150px; object-fit: cover;">
+                  {% if person.alt_photo %}
+                    <img src="{{ person.alt_photo }}" class="card-img-top img-fluid alt-photo mx-auto" alt="Alternate Photo of {{ person.name }}" style="width: 100%; height: 150px; object-fit: cover;">
+                  {% endif %}
+                </div>
+                <div class="card-body p-2">
+                  <h6 class="card-title mb-1">
+                    {{ person.name }}
+                  </h6>
+                  <p class="card-text text-muted mb-1">
+                    {{ person.category }} {{ person.graduation_start }} - {{ person.graduation_end }}
+                  </p>
+                  <p class="card-text text-muted mb-0">
+                    Now at {{ person.current_position }}
+                  </p>
+                </div>
               </div>
-              <div class="card-body p-2">
-                <h6 class="card-title mb-1">
-                  <a href="{{ person.website }}" class="text-decoration-none text-dark" target="_blank">{{ person.name }}</a>
-                </h6>
-                <p class="card-text text-muted mb-1" style="font-size: 0.75rem;">
-                  {{ person.category }} {{ person.graduation_start }} - {{ person.graduation_end }}
-                </p>
-                <p class="card-text text-muted mb-0" style="font-size: 0.7rem;">
-                  Now at {{ person.current_position }}
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
         {% endfor %}
       </div>
