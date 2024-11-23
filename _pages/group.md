@@ -7,4 +7,8 @@ redirect_from:
   - /group/
 ---
 
-## Research Group
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {{ post.title | raw }}
+{% endfor %}
