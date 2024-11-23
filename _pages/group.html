@@ -13,6 +13,7 @@ redirect_from:
 <div class="container my-5">
   <h1 class="text-center mb-4">Research Group</h1>
   
+  <!-- Current Group Section -->
   {% assign categories = "PhD, MSc, Staff" | split: ", " %}
   {% for category in categories %}
     {% assign people_in_category = site.teams | where: "category", category %}
@@ -29,7 +30,7 @@ redirect_from:
                     <a href="{{ person.website }}" class="text-decoration-none text-dark" target="_blank">{{ person.name }}</a>
                   </h6>
                   <p class="card-text text-muted mb-1" style="font-size: 0.9rem;">
-                    {{ person.category }} {{ person.graduation }} - {{ person.university }}
+                    {{ person.category }} {{ person.starting_year }} - {{ person.university }}
                   </p>
                   <p class="card-text text-muted" style="font-size: 0.8rem;">{{ person.bio }}</p>
                 </div>
@@ -40,6 +41,34 @@ redirect_from:
       </div>
     {% endif %}
   {% endfor %}
+
+  <!-- Alumni Section -->
+  {% assign alumni = site.teams | where: "category", "Alumni" %}
+  {% if alumni.size > 0 %}
+    <div class="mb-5">
+      <h2 class="text-uppercase text-center mb-4">Alumni</h2>
+      <div class="row row-cols-6 g-3">
+        {% for person in alumni %}
+          <div class="col">
+            <div class="card h-100 text-center border-0">
+              <img src="{{ person.photo }}" class="card-img-top img-fluid rounded-circle mx-auto mt-2" alt="{{ person.name }}" style="width: 80px; height: 80px; object-fit: cover;">
+              <div class="card-body p-2">
+                <h6 class="card-title">
+                  <a href="{{ person.website }}" class="text-decoration-none text-dark" target="_blank">{{ person.name }}</a>
+                </h6>
+                <p class="card-text text-muted mb-1" style="font-size: 0.8rem;">
+                  {{ person.category }} {{ person.graduation_start }} - {{ person.graduation_end }}
+                </p>
+                <p class="card-text text-muted mb-0" style="font-size: 0.75rem;">
+                  Now at {{ person.current_position }}
+                </p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
 </div>
 
 <!-- Bootstrap JS + Icons -->
