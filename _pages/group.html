@@ -10,6 +10,38 @@ redirect_from:
 <!-- Bootstrap CSS CDN -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
+<!-- Custom CSS -->
+<style>
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card img {
+    transition: opacity 0.3s ease;
+  }
+
+  .card:hover img.alt-photo {
+    opacity: 1;
+  }
+
+  .card img.alt-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .card-body {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for text */
+  }
+</style>
+
 <div class="container my-5">
   <h1 class="text-center mb-4">Research Group</h1>
   
@@ -23,11 +55,16 @@ redirect_from:
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
           {% for person in people_in_category %}
             <div class="col">
-              <div class="card h-100 text-center border-0 bg-dark text-white">
-                <img src="{{ person.photo }}" class="card-img-top img-fluid mx-auto" alt="{{ person.name }}" style="width: 100%; height: 250px; object-fit: cover;">
+              <div class="card h-100 text-center border-0 position-relative">
+                <div style="position: relative;">
+                  <img src="{{ person.photo }}" class="card-img-top img-fluid mx-auto" alt="{{ person.name }}" style="width: 100%; height: 250px; object-fit: cover;">
+                  {% if person.alt_photo %}
+                    <img src="{{ person.alt_photo }}" class="card-img-top img-fluid alt-photo mx-auto" alt="Alternate Photo of {{ person.name }}" style="width: 100%; height: 250px; object-fit: cover;">
+                  {% endif %}
+                </div>
                 <div class="card-body">
                   <h6 class="card-title mb-1">
-                    <a href="{{ person.website }}" class="text-decoration-none text-light" target="_blank">{{ person.name }}</a>
+                    <a href="{{ person.website }}" class="text-decoration-none text-dark" target="_blank">{{ person.name }}</a>
                   </h6>
                   <p class="card-text text-muted mb-1" style="font-size: 0.85rem;">
                     {{ person.category }}
@@ -52,11 +89,16 @@ redirect_from:
       <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 g-3">
         {% for person in alumni %}
           <div class="col">
-            <div class="card h-100 text-center border-0 bg-dark text-white">
-              <img src="{{ person.photo }}" class="card-img-top img-fluid mx-auto" alt="{{ person.name }}" style="width: 100%; height: 150px; object-fit: cover;">
+            <div class="card h-100 text-center border-0 position-relative">
+              <div style="position: relative;">
+                <img src="{{ person.photo }}" class="card-img-top img-fluid mx-auto" alt="{{ person.name }}" style="width: 100%; height: 150px; object-fit: cover;">
+                {% if person.alt_photo %}
+                  <img src="{{ person.alt_photo }}" class="card-img-top img-fluid alt-photo mx-auto" alt="Alternate Photo of {{ person.name }}" style="width: 100%; height: 150px; object-fit: cover;">
+                {% endif %}
+              </div>
               <div class="card-body p-2">
                 <h6 class="card-title mb-1">
-                  <a href="{{ person.website }}" class="text-decoration-none text-light" target="_blank">{{ person.name }}</a>
+                  <a href="{{ person.website }}" class="text-decoration-none text-dark" target="_blank">{{ person.name }}</a>
                 </h6>
                 <p class="card-text text-muted mb-1" style="font-size: 0.75rem;">
                   {{ person.category }} {{ person.graduation_start }} - {{ person.graduation_end }}
