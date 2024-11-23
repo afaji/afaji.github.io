@@ -95,12 +95,12 @@ redirect_from:
   }
 
   .card-title {
-    font-size: 0.75rem;
+    font-size: clamp(0.65rem, 1vw, 1rem); /* Scales between 0.65rem and 1rem */
     font-weight: bold;
   }
 
   .card-text {
-    font-size: 0.65rem;
+    font-size: clamp(0.5rem, 0.8vw, 0.75rem); /* Scales between 0.5rem and 0.75rem */
     line-height: 1.2;
   }
 
