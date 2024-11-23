@@ -58,16 +58,24 @@ redirect_from:
   }
 
   .card-title {
-    font-size: 0.85rem; /* Smaller font for titles */
+    font-size: 0.75rem; /* Smaller font for titles */
+    font-weight: bold;
   }
 
   .card-text {
-    font-size: 0.7rem; /* Smaller font for details */
+    font-size: 0.6rem; /* Smaller font for details */
+    line-height: 1.2;
   }
 
   a.card-link {
     text-decoration: none;
     color: inherit;
+  }
+
+  .image-container {
+    width: 100%;
+    padding-top: 100%; /* Maintains square aspect ratio */
+    position: relative;
   }
 </style>
 
@@ -85,8 +93,8 @@ redirect_from:
           {% for person in people_in_category %}
             <div class="col">
               <a href="{{ person.website }}" class="card-link" target="_blank">
-                <div class="card h-100 text-center border-0 position-relative">
-                  <div style="position: relative; height: 250px;">
+                <div class="card h-100 text-center border-0">
+                  <div class="image-container">
                     <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
                     {% if person.alt_photo %}
                       <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
@@ -130,8 +138,8 @@ redirect_from:
         {% for person in alumni %}
           <div class="col">
             <a href="{{ person.website }}" class="card-link" target="_blank">
-              <div class="card h-100 text-center border-0 position-relative">
-                <div style="position: relative; height: 150px;">
+              <div class="card h-100 text-center border-0">
+                <div class="image-container">
                   <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
                   {% if person.alt_photo %}
                     <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
