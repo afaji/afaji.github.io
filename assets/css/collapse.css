@@ -12,14 +12,6 @@
     font-weight: bold;
 }
 
-.masthead {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Ensures the header stays above other content */
-    /* Add other styling properties as needed */
-}
-
 .container .content {
     display: none;
     padding : 5px;
