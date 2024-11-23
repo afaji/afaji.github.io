@@ -14,7 +14,7 @@ redirect_from:
 <style>
   .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden; /* Ensure images don't overflow */
+    overflow: hidden;
   }
 
   .card:hover {
@@ -52,47 +52,51 @@ redirect_from:
     opacity: 1;
   }
 
-  .card-body {
-    z-index: 3; /* Ensure text stays on top */
-    padding: 10px;
-    font-size: 0.55rem;
+  /* Gradient Backgrounds */
+  .category-phd {
+    background: linear-gradient(to right, gold, gray);
+    color: white;
+    transition: background 0.3s ease;
   }
 
-  /* Category Background Colors */
-  .category-phd {
-    background-color: #1a75cf; /* Blue for PhD */
-    color: white;
+  .category-phd:hover {
+    background: gold;
   }
 
   .category-msc {
-    background-color: #1f8a3d; /* Green for MSc */
+    background: linear-gradient(to right, purple, gray);
     color: white;
+    transition: background 0.3s ease;
+  }
+
+  .category-msc:hover {
+    background: purple;
   }
 
   .category-staff {
-    background-color: #4e4e4e; /* Gray for Staff */
+    background: linear-gradient(to right, blue, gray);
     color: white;
+    transition: background 0.3s ease;
+  }
+
+  .category-staff:hover {
+    background: blue;
+  }
+
+  .card-body {
+    z-index: 3; /* Ensure text stays on top */
+    padding: 10px;
+    font-size: 0.65rem;
   }
 
   .card-title {
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     font-weight: bold;
   }
 
   .card-text {
-    font-size: 0.55rem;
+    font-size: 0.65rem;
     line-height: 1.2;
-  }
-
-  /* Responsive Fonts */
-  @media (max-width: 768px) {
-    .card-title {
-      font-size: 0.6rem;
-    }
-
-    .card-text {
-      font-size: 0.5rem;
-    }
   }
 
   a.card-link {
@@ -117,7 +121,7 @@ redirect_from:
     {% if people_in_category.size > 0 %}
       <div class="mb-5">
         <h2 class="text-uppercase text-center mb-4">{{ category }}</h2>
-        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4">
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
           {% for person in people_in_category %}
             <div class="col">
               <a href="{{ person.website }}" class="card-link" target="_blank">
@@ -162,7 +166,7 @@ redirect_from:
   {% if alumni.size > 0 %}
     <div class="mb-5">
       <h2 class="text-uppercase text-center mb-4">Alumni</h2>
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 g-3">
         {% for person in alumni %}
           <div class="col">
             <a href="{{ person.website }}" class="card-link" target="_blank">
