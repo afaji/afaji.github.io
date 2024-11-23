@@ -12,7 +12,7 @@
     font-weight: bold;
 }
 
-header {
+.masthead {
     position: fixed;
     top: 0;
     width: 100%;
