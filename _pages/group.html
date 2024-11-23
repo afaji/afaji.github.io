@@ -52,35 +52,35 @@ redirect_from:
     opacity: 1;
   }
 
-  /* Gradient Backgrounds */
+  /* Solid Backgrounds with Glow on Hover */
   .category-phd {
-    background: linear-gradient(to right, gold, gray);
+    background-color: gold;
     color: white;
-    transition: background 0.3s ease;
+    transition: box-shadow 0.3s ease;
   }
 
   .category-phd:hover {
-    background: gold;
+    box-shadow: 0 0 10px 5px rgba(184, 134, 11, 0.7);
   }
 
   .category-msc {
-    background: linear-gradient(to right, purple, gray);
+    background-color: purple;
     color: white;
-    transition: background 0.3s ease;
+    transition: box-shadow 0.3s ease;
   }
 
   .category-msc:hover {
-    background: purple;
+    box-shadow: 0 0 10px 5px rgba(128, 0, 128, 0.7);
   }
 
   .category-staff {
-    background: linear-gradient(to right, blue, gray);
+    background-color: blue;
     color: white;
-    transition: background 0.3s ease;
+    transition: box-shadow 0.3s ease;
   }
 
   .category-staff:hover {
-    background: blue;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 139, 0.7);
   }
 
   .card-body {
@@ -99,9 +99,14 @@ redirect_from:
     line-height: 1.2;
   }
 
+  /* Prevent Underline on Hover */
   a.card-link {
     text-decoration: none;
     color: inherit;
+  }
+
+  a.card-link:hover {
+    text-decoration: none;
   }
 
   .image-container {
