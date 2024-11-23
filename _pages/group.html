@@ -17,21 +17,36 @@ redirect_from:
     position: relative;
     overflow: hidden;
     background-color: white;
-    border: 1px solid #ddd;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-    aspect-ratio: 3 / 4; /* Ensures dynamic height proportional to width */
+    border: 2px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    aspect-ratio: 3 / 4; /* Maintains dynamic height proportional to width */
   }
 
+  /* Hover Effects for Scaling and Shadow */
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 
-  /* Image Container for Full Coverage */
+  /* Category-Specific Borders */
+  .category-phd {
+    border-color: gold;
+  }
+
+  .category-msc {
+    border-color: purple;
+  }
+
+  .category-staff {
+    border-color: blue;
+  }
+
+  /* Image Styling */
   .image-container {
     position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
 
   .image-container img {
@@ -52,32 +67,70 @@ redirect_from:
     opacity: 1;
   }
 
-  /* Card Text Overlay */
+  /* Card Body */
   .card-body {
     position: absolute;
     bottom: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.9); /* Transparent background over image */
     padding: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #ddd; /* Divider between image and text */
   }
 
   .card-title {
     font-size: clamp(0.7rem, 1vw, 1rem);
     font-weight: bold;
+    margin: 0;
   }
 
   .card-text {
     font-size: clamp(0.6rem, 0.8vw, 0.85rem);
     color: #555;
+    margin: 5px 0 0;
+  }
+
+  /* Alumni List Styling */
+  .alumni-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .alumni-photo {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px; /* Slightly rounded corners for photos */
+    margin-left: 15px;
+  }
+
+  .alumni-text {
+    flex-grow: 1;
+    font-size: clamp(0.6rem, 1vw, 0.85rem); /* Dynamic font size for the text */
+  }
+
+  .alumni-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: clamp(0.8rem, 1.2vw, 1rem); /* Slightly larger for the name */
+  }
+
+  .alumni-details {
+    color: #555;
+    font-size: clamp(0.6rem, 1vw, 0.85rem); /* Subtle detail text */
   }
 
   /* Prevent Underline on Hover */
-  a.card-link {
+  a.card-link, a.alumni-link {
     text-decoration: none;
     color: inherit;
   }
 
-  a.card-link:hover {
+  a.card-link:hover, a.alumni-link:hover {
     text-decoration: none;
   }
 </style>
@@ -96,7 +149,7 @@ redirect_from:
           {% for person in people_in_category %}
             <div class="col">
               <a href="{{ person.website }}" class="card-link" target="_blank">
-                <div class="card h-100 text-center border-0">
+                <div class="card h-100 text-center border-0 category-{{ person.category | downcase }}">
                   <div class="image-container">
                     <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
                     {% if person.alt_photo %}
@@ -131,6 +184,32 @@ redirect_from:
       </div>
     {% endif %}
   {% endfor %}
+
+  <!-- Alumni Section -->
+  {% assign alumni = site.teams | where: "category", "Alumni" | sort: "graduation_end" %}
+  {% if alumni.size > 0 %}
+    <div class="mb-5">
+      <h2 class="text-uppercase text-center mb-4">Alumni</h2>
+      <div>
+        {% for person in alumni %}
+          <div class="alumni-list">
+            <!-- Text Section -->
+            <div class="alumni-text">
+              <div class="alumni-name">
+                <a href="{{ person.website }}" class="alumni-link">{{ person.name }}</a>
+                <span class="alumni-details">({{ person.previous_position }} - {{ person.graduation_end }})</span>
+              </div>
+              <div class="alumni-details">
+                Current Position: {{ person.current_position }}
+              </div>
+            </div>
+            <!-- Photo Section -->
+            <img src="{{ person.photo }}" alt="Photo of {{ person.name }}" class="alumni-photo">
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
 </div>
 
 <!-- Bootstrap JS + Icons -->
