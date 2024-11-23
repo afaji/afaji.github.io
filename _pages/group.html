@@ -53,7 +53,7 @@ redirect_from:
   }
 
   .card-body {
-    background-color: rgba(255, 255, 255, 0.9); /* Light background for text */
+    background-color: rgba(225, 225, 225, 0.9); /* Light background for text */
     z-index: 3; /* Ensure text stays on top */
   }
 
@@ -63,7 +63,7 @@ redirect_from:
   }
 
   .card-text {
-    font-size: 0.4rem; /* Smaller font for details */
+    font-size: 0.6rem; /* Smaller font for details */
     line-height: 0.8;
   }
 
@@ -104,20 +104,20 @@ redirect_from:
                     <h6 class="card-title mb-1">
                       {{ person.name }}
                     </h6>
-                    <p class="card-text text-muted mb-1">
+                    <span class="card-text text-muted mb-1">
                       {% if person.category == "PhD" or person.category == "MSc" %}
                         {{ person.category }} ({{ person.starting_year }})
                       {% elsif person.category == "Staff" %}
                         ({{ person.role }})
                       {% endif %}
-                    </p>
-                    <p class="card-text text-muted mb-0">
+                    </span>
+                    <span class="card-text text-muted mb-0">
                       {{ person.university }}
-                    </p>
+                    </span>
                     {% if person.co_advisor %}
-                    <p class="card-text text-muted mb-0">
+                    <span class="card-text text-muted mb-0">
                       (Co-advised with {{ person.co_advisor }})
-                    </p>
+                    </span>
                     {% endif %}
                   </div>
                 </div>
