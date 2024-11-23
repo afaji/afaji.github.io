@@ -90,17 +90,16 @@ redirect_from:
 
   .card-body {
     z-index: 3; /* Ensure text stays on top */
-    padding: 10px;
-    font-size: 0.65rem;
+    padding: 8px;
   }
 
   .card-title {
-    font-size: 0.75rem;
+    font-size: clamp(0.55rem, 1vw, 0.75rem);
     font-weight: bold;
   }
 
   .card-text {
-    font-size: 0.65rem;
+    font-size: clamp(0.5rem, 1vw, 0.65rem);
     line-height: 1.2;
   }
 
@@ -132,8 +131,8 @@ redirect_from:
   /* Alumni Photo */
   .alumni-photo {
     flex-shrink: 0;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     object-fit: cover;
     border-radius: 5px;
     margin-right: 10px; /* Adjust margin to the right */
@@ -143,13 +142,13 @@ redirect_from:
   /* Alumni Text */
   .alumni-text {
     flex-grow: 1;
-    font-size: clamp(0.6rem, 1vw, 0.85rem);
+    font-size: clamp(0.6rem, 1vw, 0.8rem);
   }
   
   .alumni-name {
     font-weight: bold;
-    font-size: clamp(0.8rem, 1.2vw, 1rem);
-    margin-bottom: 5px;
+    font-size: clamp(0.65rem, 1.2vw, 85rem);
+    margin-bottom: 1px;
   }
   
   .alumni-details {
