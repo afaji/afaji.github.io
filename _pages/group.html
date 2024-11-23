@@ -92,7 +92,6 @@ redirect_from:
     z-index: 3; /* Ensure text stays on top */
     padding: 10px;
     font-size: 0.65rem;
-    height: auto; /* Allow height to adjust dynamically */
   }
 
   .card-title {
@@ -105,51 +104,22 @@ redirect_from:
     line-height: 1.2;
   }
 
-  /* Alumni List Styling */
-  .alumni-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-    border-bottom: 1px solid #ddd;
-    border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  /* Prevent Underline on Hover */
+  a.card-link {
+    text-decoration: none;
+    color: inherit;
   }
 
-  /* Background Colors for Categories */
-  .alumni-phd {
-    background-color: rgba(255, 215, 0, 0.1); /* Light Gold */
+  a.card-link:hover {
+    text-decoration: none;
   }
 
-  .alumni-msc {
-    background-color: rgba(128, 0, 128, 0.1); /* Light Purple */
+  .image-container {
+    width: 100%;
+    padding-top: 100%; /* Maintains square aspect ratio */
+    position: relative;
   }
-
-  .alumni-staff {
-    background-color: rgba(0, 0, 255, 0.1); /* Light Blue */
-  }
-
-  /* Hover Effects */
-  .alumni-row:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-
-  .alumni-phd:hover {
-    background-color: gold;
-    color: white;
-  }
-
-  .alumni-msc:hover {
-    background-color: purple;
-    color: white;
-  }
-
-  .alumni-staff:hover {
-    background-color: blue;
-    color: white;
-  }
-
+  
   /* Alumni Text */
   .alumni-text {
     flex-grow: 1;
@@ -169,18 +139,18 @@ redirect_from:
   /* Alumni Photo */
   .alumni-photo {
     flex-shrink: 0;
-    width: 80px;
-    height: 80px;
+    width: 55px;
+    height: 55px;
     object-fit: cover;
-    border-radius: 8px;
-    margin-left: 15px;
-    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
   }
 </style>
 
 <div class="container my-5">
   <h1 class="text-center mb-4">Research Group</h1>
-
+  
   <!-- Current Group Section -->
   {% assign categories = "PhD, MSc, Staff" | split: ", " %}
   {% for category in categories %}
