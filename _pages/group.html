@@ -1,212 +1,66 @@
----
-permalink: /group.html
-title: "Research Group"
-excerpt: "Group"
-author_profile: false
-redirect_from: 
-  - /group/
----
-
-<!-- Bootstrap CSS CDN -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Custom CSS -->
 <style>
-  .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-    overflow: hidden;
-    background-color: white;
-    border: 1px solid transparent;
-  }
-
-  .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card img {
-    transition: opacity 0.3s ease;
-  }
-
-  .card img.main-photo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-  }
-
-  .card img.alt-photo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .card:hover img.alt-photo {
-    opacity: 1;
-  }
-
-  /* Default Border and Hover Effects by Category */
-  .category-phd {
-    border-color: rgba(255, 215, 0, 0.5); /* Light Gold Border */
-    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); /* Subtle Gold Shadow */
-  }
-
-  .category-phd:hover {
-    background-color: gold;
-    color: white;
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8); /* Bright Gold Glow */
-  }
-
-  .category-msc {
-    border-color: rgba(128, 0, 128, 0.5); /* Light Purple Border */
-    box-shadow: 0 0 5px rgba(128, 0, 128, 0.5); /* Subtle Purple Shadow */
-  }
-
-  .category-msc:hover {
-    background-color: purple;
-    color: white;
-    box-shadow: 0 0 15px rgba(128, 0, 128, 0.8); /* Bright Purple Glow */
-  }
-
-  .category-staff {
-    border-color: rgba(0, 0, 255, 0.5); /* Light Blue Border */
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Subtle Blue Shadow */
-  }
-
-  .category-staff:hover {
-    background-color: blue;
-    color: white;
-    box-shadow: 0 0 15px rgba(0, 0, 255, 0.8); /* Bright Blue Glow */
-  }
-
-  .card-body {
-    z-index: 3; /* Ensure text stays on top */
+  /* Alumni List Styling */
+  .alumni-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px;
-    font-size: 0.65rem;
+    border-bottom: 1px solid #ddd;
   }
 
-  .card-title {
-    font-size: clamp(0.65rem, 1vw, 1rem); /* Scales between 0.65rem and 1rem */
+  .alumni-photo {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px; /* Slightly rounded corners for photos */
+    margin-left: 15px;
+  }
+
+  .alumni-text {
+    flex-grow: 1;
+    font-size: clamp(0.6rem, 1vw, 0.85rem); /* Dynamic font size for the text */
+  }
+
+  .alumni-name {
     font-weight: bold;
+    margin-bottom: 5px;
+    font-size: clamp(0.8rem, 1.2vw, 1rem); /* Slightly larger for the name */
   }
 
-  .card-text {
-    font-size: clamp(0.5rem, 0.8vw, 0.75rem); /* Scales between 0.5rem and 0.75rem */
-    line-height: 1.2;
+  .alumni-details {
+    color: #555;
+    font-size: clamp(0.6rem, 1vw, 0.85rem); /* Subtle detail text */
   }
 
-  /* Prevent Underline on Hover */
-  a.card-link {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  a.card-link:hover {
-    text-decoration: none;
-  }
-
-  .image-container {
-    width: 100%;
-    padding-top: 100%; /* Maintains square aspect ratio */
-    position: relative;
+  /* Hover Effect for the Alumni List */
+  .alumni-list:hover {
+    background-color: #f9f9f9;
   }
 </style>
 
 <div class="container my-5">
-  <h1 class="text-center mb-4">Research Group</h1>
-  
-  <!-- Current Group Section -->
-  {% assign categories = "PhD, MSc, Staff" | split: ", " %}
-  {% for category in categories %}
-    {% assign people_in_category = site.teams | where: "category", category %}
-    {% if people_in_category.size > 0 %}
-      <div class="mb-5">
-        <h2 class="text-uppercase text-center mb-4">{{ category }}</h2>
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
-          {% for person in people_in_category %}
-            <div class="col">
-              <a href="{{ person.website }}" class="card-link" target="_blank">
-                <div class="card h-100 text-center border-0 category-{{ person.category | downcase }}">
-                  <div class="image-container">
-                    <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
-                    {% if person.alt_photo %}
-                      <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
-                    {% endif %}
-                  </div>
-                  <div class="card-body">
-                    <h6 class="card-title mb-1">
-                      {{ person.name }}
-                    </h6>
-                    <span class="card-text">
-                      {% if person.category == "PhD" or person.category == "MSc" %}
-                        {{ person.category }} ({{ person.starting_year }})
-                      {% elsif person.category == "Staff" %}
-                        ({{ person.role }})
-                      {% endif %}
-                    </span><br>
-                    <span class="card-text">
-                      {{ person.university }}
-                    </span><br>
-                    {% if person.co_advisor %}
-                    <span class="card-text">
-                      (Co-advised with {{ person.co_advisor }})
-                    </span>
-                    {% endif %}
-                  </div>
-                </div>
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <h2 class="text-uppercase text-center mb-4">Alumni</h2>
 
-  <!-- Alumni Section -->
   {% assign alumni = site.teams | where: "category", "Alumni" | sort: "graduation_end" %}
   {% if alumni.size > 0 %}
-    <div class="mb-5">
-      <h2 class="text-uppercase text-center mb-4">Alumni</h2>
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-3">
-        {% for person in alumni %}
-          <div class="col">
-            <a href="{{ person.website }}" class="card-link" target="_blank">
-              <div class="card h-100 text-center border-0 category-{{ person.category | downcase }}">
-                <div class="image-container">
-                  <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
-                  {% if person.alt_photo %}
-                    <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
-                  {% endif %}
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title mb-1">
-                    {{ person.name }}
-                  </h6>
-                  <span class="card-text">
-                    {{ person.category }} {{ person.graduation_start }} - {{ person.graduation_end }}
-                  </span><br>
-                  <span class="card-text">
-                    Now at {{ person.current_position }}
-                  </span>
-                </div>
-              </div>
-            </a>
+    <div>
+      {% for person in alumni %}
+        <div class="alumni-list">
+          <!-- Text Section -->
+          <div class="alumni-text">
+            <div class="alumni-name">
+              {{ person.name }}
+              <span class="alumni-details">({{ person.previous_position }} - {{ person.graduation_end }})</span>
+            </div>
+            <div class="alumni-details">
+              Current Position: {{ person.current_position }}
+            </div>
           </div>
-        {% endfor %}
-      </div>
+          <!-- Photo Section -->
+          <img src="{{ person.photo }}" alt="Photo of {{ person.name }}" class="alumni-photo">
+        </div>
+      {% endfor %}
     </div>
   {% endif %}
 </div>
-
-<!-- Bootstrap JS + Icons -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
