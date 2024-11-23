@@ -129,22 +129,6 @@ redirect_from:
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   }
   
-  /* Alumni Text */
-  .alumni-text {
-    flex-grow: 1;
-    font-size: clamp(0.6rem, 1vw, 0.85rem);
-  }
-
-  .alumni-name {
-    font-weight: bold;
-    font-size: clamp(0.8rem, 1.2vw, 1rem);
-    margin-bottom: 5px;
-  }
-
-  .alumni-details {
-    color: #555;
-  }
-
   /* Alumni Photo */
   .alumni-photo {
     flex-shrink: 0;
@@ -152,8 +136,24 @@ redirect_from:
     height: 55px;
     object-fit: cover;
     border-radius: 5px;
-    margin-left: 10px;
+    margin-right: 10px; /* Adjust margin to the right */
     border: 1px solid #ddd;
+  }
+  
+  /* Alumni Text */
+  .alumni-text {
+    flex-grow: 1;
+    font-size: clamp(0.6rem, 1vw, 0.85rem);
+  }
+  
+  .alumni-name {
+    font-weight: bold;
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+    margin-bottom: 5px;
+  }
+  
+  .alumni-details {
+    color: #555;
   }
 </style>
 
@@ -214,7 +214,9 @@ redirect_from:
       <h2 class="text-uppercase text-center mb-4">Alumni</h2>
       <div>
         {% for person in alumni %}
-          <div class="alumni-row alumni-{{ person.category | downcase }}">
+          <div class="alumni-row">
+            <!-- Photo Section -->
+            <img src="{{ person.photo }}" alt="Photo of {{ person.name }}" class="alumni-photo">
             <!-- Text Section -->
             <div class="alumni-text">
               <div class="alumni-name">
@@ -225,8 +227,6 @@ redirect_from:
                 Current Position: {{ person.current_position }}
               </div>
             </div>
-            <!-- Photo Section -->
-            <img src="{{ person.photo }}" alt="Photo of {{ person.name }}" class="alumni-photo">
           </div>
         {% endfor %}
       </div>
