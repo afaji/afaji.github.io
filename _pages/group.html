@@ -19,19 +19,19 @@ redirect_from:
     {% if people_in_category.size > 0 %}
       <div class="mb-5">
         <h2 class="text-uppercase text-center mb-4">{{ category }}</h2>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <div class="row row-cols-4 g-3">
           {% for person in people_in_category %}
             <div class="col">
               <div class="card h-100 text-center border-0">
-                <img src="{{ person.photo }}" class="card-img-top img-fluid rounded-circle mx-auto mt-3" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover;">
+                <img src="{{ person.photo }}" class="card-img-top img-fluid rounded-circle mx-auto mt-3" alt="{{ person.name }}" style="width: 100px; height: 100px; object-fit: cover;">
                 <div class="card-body">
-                  <h5 class="card-title">
+                  <h6 class="card-title">
                     <a href="{{ person.website }}" class="text-decoration-none text-dark" target="_blank">{{ person.name }}</a>
-                  </h5>
-                  <p class="card-text text-muted mb-2">
+                  </h6>
+                  <p class="card-text text-muted mb-1" style="font-size: 0.9rem;">
                     {{ person.category }} {{ person.graduation }} - {{ person.university }}
                   </p>
-                  <p class="card-text text-muted">{{ person.bio }}</p>
+                  <p class="card-text text-muted" style="font-size: 0.8rem;">{{ person.bio }}</p>
                 </div>
               </div>
             </div>
