@@ -22,28 +22,16 @@ redirect_from:
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
           {% for person in people_in_category %}
             <div class="col">
-              <div class="card h-100 text-center">
-                <img src="{{ person.photo }}" class="card-img-top img-fluid rounded" alt="{{ person.name }}">
+              <div class="card h-100 text-center border-0">
+                <img src="{{ person.photo }}" class="card-img-top img-fluid rounded-circle mx-auto mt-3" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover;">
                 <div class="card-body">
-                  <h5 class="card-title">{{ person.name }}</h5>
+                  <h5 class="card-title">
+                    <a href="{{ person.website }}" class="text-decoration-none text-dark" target="_blank">{{ person.name }}</a>
+                  </h5>
+                  <p class="card-text text-muted mb-2">
+                    {{ person.category }} {{ person.graduation }} - {{ person.university }}
+                  </p>
                   <p class="card-text text-muted">{{ person.bio }}</p>
-                </div>
-                <div class="card-footer bg-white">
-                  {% if person.scholar %}
-                    <a href="{{ person.scholar }}" class="btn btn-outline-primary btn-sm mx-1" target="_blank">
-                      <i class="bi bi-google"></i> Scholar
-                    </a>
-                  {% endif %}
-                  {% if person.linkedin %}
-                    <a href="{{ person.linkedin }}" class="btn btn-outline-primary btn-sm mx-1" target="_blank">
-                      <i class="bi bi-linkedin"></i> LinkedIn
-                    </a>
-                  {% endif %}
-                  {% if person.twitter %}
-                    <a href="{{ person.twitter }}" class="btn btn-outline-primary btn-sm mx-1" target="_blank">
-                      <i class="bi bi-twitter"></i> Twitter
-                    </a>
-                  {% endif %}
                 </div>
               </div>
             </div>
