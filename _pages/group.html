@@ -178,13 +178,16 @@ redirect_from:
                     </span><br>
                     {% endif %}
                     <span class="card-text">
-                      {{ person.university }} ({{ person.starting_year }} )
-                    </span><br>
+                      {{ person.category }} student, {{ person.university }} ({{ person.starting_year }} - )
+                    <br>
                     {% if person.co_advisor %}
-                    <span class="card-text">
                       (Co-advised with {{ person.co_advisor }})
-                    </span>
+                    {% elif person.second_advisor %}
+                      (2nd advisor: {{ person.second_advisor }})
+                    {% elif person.main_advisor %}
+                      (Main advisor: {{ person.main_advisor }})
                     {% endif %}
+                    </span>
                     <!-- Social Icons -->
                     <div class="social-icons mt-2">
                       {% if person.google_scholar %}
@@ -235,7 +238,7 @@ redirect_from:
                 <span class="alumni-details">({{ person.role }} - {{ person.finish_year }})</span>
               </div>
               <div class="alumni-details">
-                Current Position: {{ person.current_position }}
+                Current: {{ person.current_position }}
               </div>
             </div>
           </div>
