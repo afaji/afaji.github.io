@@ -1,0 +1,206 @@
+---
+title: "Alham Fikri Aji / NLP Scientist"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /profile/
+  - /profile.html
+---
+
+<style>
+  .section-title {
+    color: var(--text);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--accent);
+    border-radius: 2px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        var(--accent),
+        var(--accent),
+        transparent
+    );
+    opacity: 0.3;
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 0.5rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -2.4rem;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--primary);
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 0 4px var(--primary);
+    transition: all 0.3s ease;
+}
+
+.timeline-item:hover .timeline-dot {
+    background: var(--accent);
+    box-shadow: 0 0 0 6px var(--primary), 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+.timeline-content {
+    background: var(--secondary);
+    padding: 0.3rem;
+    padding-left: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-date {
+    color: var(--accent);
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+}
+
+.timeline-title {
+    color: var(--text);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.timeline-subtitle {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-description ul {
+    list-style: none;
+    color: var(--text-light);
+}
+
+.timeline-description li {
+    position: relative;
+    padding-left: 0.75rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
+}
+
+.timeline-description li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.type-badge {
+    position: absolute;
+    right: 0.7rem;
+    top: 0.7rem;
+    padding: 0.15rem 0.45rem;
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--accent);
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem 0.5rem;
+    }
+
+    .timeline-content {
+        padding: 0.7rem;
+    }
+
+    .type-badge {
+        position: static;
+        display: inline-block;
+        margin-bottom: 0.2rem;
+    }
+}
+</style>
+
+<h2 class="section-title">Experience & Education</h2>
+<div class="timeline">
+    <div class="timeline-item" style="animation-delay: 0.1s">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">2021 - Present</div>
+            <h3 class="timeline-title">Senior Research Scientist</h3>
+            <div class="timeline-subtitle">Tech Company</div>
+        </div>
+    </div>
+
+    <div class="timeline-item" style="animation-delay: 0.2s">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">2018 - 2021</div>
+            <h3 class="timeline-title">Machine Learning Engineer</h3>
+            <div class="timeline-subtitle">AI Research Lab</div>
+        </div>
+    </div>
+
+    <div class="timeline-item" style="animation-delay: 0.3s">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">2015 - 2018</div>
+            <h3 class="timeline-title">Ph.D. in Computer Science</h3>
+            <div class="timeline-subtitle">University of Edinburgh</div>
+        </div>
+    </div>
+
+    <div class="timeline-item" style="animation-delay: 0.4s">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <div class="timeline-date">2013 - 2015</div>
+            <h3 class="timeline-title">M.Sc. in Artificial Intelligence</h3>
+            <div class="timeline-subtitle">University of Edinburgh</div>
+        </div>
+    </div>
+</div>
