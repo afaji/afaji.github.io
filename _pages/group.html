@@ -185,31 +185,30 @@ redirect_from:
                     <span class="card-text">
                       (Co-advised with {{ person.co_advisor }})
                     </span>
+                    {% endif %}
                     <!-- Social Icons -->
                     <div class="social-icons mt-2">
-                      SOCIAL ICON
                       {% if person.google_scholar %}
                         <a href="{{ person.google_scholar }}" target="_blank" class="me-2">
-                          <i class="bi bi-google"></i>A
+                          <i class="bi bi-google"></i>
                         </a>
                       {% endif %}
                       {% if person.github %}
                         <a href="{{ person.github }}" target="_blank" class="me-2">
-                          <i class="bi bi-github"></i>B
+                          <i class="bi bi-github"></i>
                         </a>
                       {% endif %}
                       {% if person.linkedin %}
                         <a href="{{ person.linkedin }}" target="_blank" class="me-2">
-                          <i class="bi bi-linkedin"></i>C
+                          <i class="bi bi-linkedin"></i>
                         </a>
                       {% endif %}
                       {% if person.x %}
                         <a href="{{ person.x }}" target="_blank">
-                          <i class="bi bi-twitter"></i>D
+                          <i class="bi bi-twitter"></i>
                         </a>
                       {% endif %}
                     </div>
-                    {% endif %}
                   </div>
                 </div>
               </a>
