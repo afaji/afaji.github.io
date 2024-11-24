@@ -1,0 +1,199 @@
+---
+permalink: /groupside.html
+title: "Research Group"
+excerpt: "Group"
+author_profile: false
+redirect_from: 
+  - /groupside/
+---
+
+<!-- Bootstrap CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<style>
+/* General Card Layout */
+.card {
+  display: flex;
+  align-items: center;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 2px solid transparent; /* Default border */
+}
+
+.card:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+  border-color: rgba(0, 0, 0, 0.1); /* Add subtle border on hover */
+}
+
+/* Border Colors by Category */
+.category-phd {
+  border-color: rgba(255, 215, 0, 0.5); /* Gold for PhD */
+}
+
+.category-msc {
+  border-color: rgba(128, 0, 128, 0.5); /* Purple for MSc */
+}
+
+.category-staff {
+  border-color: rgba(0, 0, 255, 0.5); /* Blue for Staff */
+}
+
+/* Photo Styling */
+.photo-container {
+  flex-shrink: 0;
+  width: 80px; /* Adjust size as needed */
+  height: 80px;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Circular photo */
+  border: 2px solid #ddd; /* Light gray border for the photo */
+}
+
+/* Card Body */
+.card-body {
+  flex-grow: 1;
+  position: relative;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+/* Social Icons */
+.social-icons {
+  position: absolute;
+  bottom: 10px; /* Adjust placement as needed */
+  right: 0;
+  display: flex;
+  gap: 10px;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .social-icons {
+  opacity: 1; /* Show on hover */
+}
+
+.social-icons a {
+  font-size: 1.2rem;
+  color: #333; /* Default icon color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Highlight color on hover */
+}
+
+
+  /* Alumni List Styling */
+  .alumni-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Alumni Photo */
+  .alumni-photo {
+    flex-shrink: 0;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust margin to the right */
+    border: 1px solid #ddd;
+  }
+  
+  /* Alumni Text */
+  .alumni-text {
+    flex-grow: 1;
+    font-size: clamp(0.6rem, 1vw, 0.8rem);
+  }
+  
+  .alumni-name {
+    font-weight: bold;
+    font-size: clamp(0.65rem, 1.2vw, 85rem);
+    margin-bottom: 1px;
+  }
+  
+  .alumni-details {
+    color: #555;
+  }
+</style>
+
+<div class="container my-5">
+  <h1 class="text-center mb-4">Research Group</h1>
+  
+  <!-- Graduate Students Section (PhD + MSc) -->
+  {% assign phd_students = site.teams | where: "category", "PhD" %}
+  {% assign msc_students = site.teams | where: "category", "MSc" %}
+  {% assign phd_and_msc = phd_students | concat: msc_students %}
+  
+  {% if phd_and_msc.size > 0 %}
+    <div class="mb-5">
+      <h2 class="text-uppercase text-center mb-4">Graduate Students</h2>
+      <div class="row">
+        {% for person in phd_and_msc %}
+          {% include person_card.html person=person %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  
+  <!-- Staff Section -->
+  {% assign staff = site.teams | where: "category", "Staff" %}
+  {% if staff.size > 0 %}
+    <div class="mb-5">
+      <h2 class="text-uppercase text-center mb-4">Staff</h2>
+      <div class="row">
+        {% for person in staff %}
+          {% include person_card.html person=person %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  
+  <!-- Alumni Section -->
+  {% assign alumni = site.teams | where: "category", "Alumni" | sort: "graduation_end" %}
+  {% if alumni.size > 0 %}
+    <div class="mb-5">
+      <h2 class="text-uppercase text-center mb-4">Alumni</h2>
+      <div>
+        {% for person in alumni %}
+          <div class="alumni-row">
+            <!-- Photo Section -->
+            <img src="{{ person.photo }}" alt="Photo of {{ person.name }}" class="alumni-photo">
+            <!-- Text Section -->
+            <div class="alumni-text">
+              <div class="alumni-name">
+                {{ person.name }}
+                <span class="alumni-details">({{ person.role }} - {{ person.finish_year }})</span>
+              </div>
+              <div class="alumni-details">
+                Current: {{ person.current_position }}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<!-- Bootstrap JS + Icons -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
