@@ -18,14 +18,14 @@
           </div><br>
           {% endif %}
           <div class="card-text">
-            {{ person.category }} student, {{ person.university }} ({{ person.starting_year }} - )
+            {{ person.category }} student, {% if person.university != "MBZUAI" %} {{ person.university }} {% endif %} ({{ person.starting_year }} - )
           <br>
           {% if person.co_advisor %}
-            (Co-advised with {{ person.co_advisor }})
+            Co-advised with {{ person.co_advisor }}
           {% elsif person.second_advisor %}
-            (2nd advisor: {{ person.second_advisor }})
+            2nd advisor: {{ person.second_advisor }}
           {% elsif person.main_advisor %}
-            (Main advisor: {{ person.main_advisor }})
+            Main advisor: {{ person.main_advisor }}
           {% endif %}
           </div>
         </div>
