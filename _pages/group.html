@@ -150,76 +150,31 @@ redirect_from:
 <div class="container my-5">
   <h1 class="text-center mb-4">Research Group</h1>
   
-  <!-- Current Group Section -->
-  {% assign categories = "PhD, MSc, Staff" | split: ", " %}
-  {% for category in categories %}
-    {% assign people_in_category = site.teams | where: "category", category %}
-    {% if people_in_category.size > 0 %}
-      <div class="mb-5">
-        <h2 class="text-uppercase text-center mb-4">{{ category }}</h2>
-        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-4">
-          {% for person in people_in_category %}
-            <div class="col">
-              <a href="{{ person.website }}" class="card-link" target="_blank">
-                <div class="card h-100 text-center border-0 category-{{ person.category | downcase }}">
-                  <div class="image-container">
-                    <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
-                    {% if person.alt_photo %}
-                      <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
-                    {% endif %}
-                  </div>
-                  <div class="card-body text-start">
-                    <h6 class="card-title mb-1">
-                      {{ person.name }}
-                    </h6>
-                    {% if person.category == "Staff" %}
-                    <span class="card-text">
-                        ({{ person.role }})
-                    </span><br>
-                    {% endif %}
-                    <span class="card-text">
-                      {{ person.category }} student, {{ person.university }} ({{ person.starting_year }} - )
-                    <br>
-                    {% if person.co_advisor %}
-                      (Co-advised with {{ person.co_advisor }})
-                    {% elsif person.second_advisor %}
-                      (2nd advisor: {{ person.second_advisor }})
-                    {% elsif person.main_advisor %}
-                      (Main advisor: {{ person.main_advisor }})
-                    {% endif %}
-                    </span>
-                    <!-- Social Icons -->
-                    <div class="social-icons mt-2">
-                      {% if person.google_scholar %}
-                        <a href="{{ person.google_scholar }}" target="_blank" class="me-2">
-                          <i class="bi bi-google"></i>
-                        </a>
-                      {% endif %}
-                      {% if person.github %}
-                        <a href="{{ person.github }}" target="_blank" class="me-2">
-                          <i class="bi bi-github"></i>
-                        </a>
-                      {% endif %}
-                      {% if person.linkedin %}
-                        <a href="{{ person.linkedin }}" target="_blank" class="me-2">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                      {% endif %}
-                      {% if person.x %}
-                        <a href="{{ person.x }}" target="_blank">
-                          <i class="bi bi-twitter"></i>
-                        </a>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          {% endfor %}
-        </div>
+  <!-- Graduate Students (PhD + MSc) -->
+  {% assign phd_and_msc = site.teams | where_exp: "item", "item.category == 'PhD' or item.category == 'MSc'" | sort: "category" %}
+  {% if phd_and_msc.size > 0 %}
+    <div class="mb-5">
+      <h2 class="text-uppercase text-center mb-4">Students</h2>
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-4">
+        {% for person in phd_and_msc %}
+          {% include person_card.html person=person %}
+        {% endfor %}
       </div>
-    {% endif %}
-  {% endfor %}
+    </div>
+  {% endif %}
+
+  <!-- Staff Section -->
+  {% assign staff = site.teams | where: "category", "Staff" %}
+  {% if staff.size > 0 %}
+    <div class="mb-5">
+      <h2 class="text-uppercase text-center mb-4">Staff</h2>
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-4">
+        {% for person in staff %}
+          {% include person_card.html person=person %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
 
   <!-- Alumni Section -->
   {% assign alumni = site.teams | where: "category", "Alumni" | sort: "graduation_end" %}
