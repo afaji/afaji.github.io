@@ -7,4 +7,8 @@ bio: "Doing research and stuff"
 website: "google.com"
 starting_year: "2023"
 university: "MBZUAI"
+linkedin: "google.com"
+x: "google.com"
+github: "google.com"
+scholar: "google.com"
 ---
