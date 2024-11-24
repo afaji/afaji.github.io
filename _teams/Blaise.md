@@ -1,5 +1,5 @@
 ---
-name: "Haryo Akbarianto Wibowo"
+name: "Blaise Cruz"
 category: "PhD"
 photo: "https://github.com/afaji/afaji.github.io/blob/master/images/farid-vouge.png?raw=true"
 alt_photo: "https://github.com/afaji/afaji.github.io/blob/master/images/farid-vouge-2.png?raw=true"
