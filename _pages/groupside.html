@@ -22,7 +22,7 @@ redirect_from:
 
 .card:hover {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
-  transform: translateY(-5px); /* Slight lift effect on hover */
+  transform: translateX(2px); /* Slight lift effect on hover */
 }
 
 /* Photo Styling */
@@ -39,6 +39,7 @@ redirect_from:
   border-radius: 50%; /* Circular photo */
   border: 3px solid transparent; /* Border based on category */
   transition: border-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Border Colors by Category */
@@ -82,8 +83,10 @@ redirect_from:
   right: 0;
   display: flex;
   gap: 10px;
-  opacity: 0; /* Hidden by default */
-  transition: opacity 0.3s ease;
+
+  opacity: 0; /* Fully hidden */
+  visibility: hidden; /* Prevents interaction when hidden */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */
 }
 
 .card:hover .social-icons {
@@ -100,7 +103,6 @@ redirect_from:
 .social-icons a:hover {
   color: #007bff; /* Highlight color on hover */
 }
-
 
   /* Alumni List Styling */
   .alumni-row {
