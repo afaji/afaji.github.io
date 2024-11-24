@@ -7,4 +7,6 @@ bio: "Doing research and stuff"
 website: "google.com"
 starting_year: "2023"
 university: "MBZUAI"
+google_scholar: "google.com"
+second_advisor: "Thamar Solorio"
 ---
