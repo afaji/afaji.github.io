@@ -1,6 +1,6 @@
-<div class="col">
+<div class="col {{ person.category | downcase }}-color">
   <a href="{{ person.website }}" class="card-link" target="_blank">
-    <div class="card h-100 text-center border-0 category-{{ person.category | downcase }}">
+    <div class="card h-100 text-center border-0">
       <div class="image-container">
         <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
         {% if person.alt_photo %}
