@@ -1,0 +1,50 @@
+<div class="col-12 col-md-6 mb-4">
+  <div class="card d-flex flex-row align-items-center border category-{{ person.category | downcase }}">
+    <!-- Photo Section -->
+    <div class="photo-container p-3">
+      <img src="{{ person.photo }}" class="photo img-fluid rounded-circle" alt="{{ person.name }}">
+    </div>
+    <!-- Content Section -->
+    <div class="card-body text-start position-relative">
+      <h6 class="card-title mb-1">{{ person.name }}</h6>
+      {% if person.category == "Staff" %}
+      <div class="card-text">
+          ({{ person.role }})
+      </div>
+      {% endif %}
+      <div class="card-text">
+        {{ person.category }} student, {{ person.university }} ({{ person.starting_year }} - )
+        {% if person.co_advisor %}
+          <br>(Co-advised with {{ person.co_advisor }})
+        {% elsif person.second_advisor %}
+          <br>(2nd advisor: {{ person.second_advisor }})
+        {% elsif person.main_advisor %}
+          <br>(Main advisor: {{ person.main_advisor }})
+        {% endif %}
+      </div>
+      <!-- Social Icons -->
+      <div class="social-icons d-none">
+        {% if person.google_scholar %}
+          <a href="{{ person.google_scholar }}" target="_blank" class="me-2">
+            <i class="bi bi-google"></i>
+          </a>
+        {% endif %}
+        {% if person.github %}
+          <a href="{{ person.github }}" target="_blank" class="me-2">
+            <i class="bi bi-github"></i>
+          </a>
+        {% endif %}
+        {% if person.linkedin %}
+          <a href="{{ person.linkedin }}" target="_blank" class="me-2">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        {% endif %}
+        {% if person.x %}
+          <a href="{{ person.x }}" target="_blank">
+            <i class="bi bi-twitter"></i>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
