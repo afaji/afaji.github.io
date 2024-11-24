@@ -148,7 +148,7 @@ redirect_from:
       <h2 class="text-uppercase text-center mb-4">Graduate Students</h2>
       <div class="row">
         {% for person in phd_and_msc %}
-          {% include person_card.html person=person %}
+          {% include person_card_side.html person=person %}
         {% endfor %}
       </div>
     </div>
@@ -161,7 +161,7 @@ redirect_from:
       <h2 class="text-uppercase text-center mb-4">Staff</h2>
       <div class="row">
         {% for person in staff %}
-          {% include person_card.html person=person %}
+          {% include person_card_side.html person=person %}
         {% endfor %}
       </div>
     </div>
