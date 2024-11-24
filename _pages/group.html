@@ -22,7 +22,7 @@ redirect_from:
   .card:hover {
     transform: scale(1.05);
     border: 1px solid transparent;
-    box-shadow: 0 0 15px var(--box-border-color);
+    box-shadow: 0 0 15px var(--theme-color);
   }
 
   .card img {
@@ -84,6 +84,7 @@ redirect_from:
   }
 
   .card-body {
+    border-top: 3x solid var(--theme-color);
     z-index: 3; /* Ensure text stays on top */
     padding: 8px;
     display: flex;
