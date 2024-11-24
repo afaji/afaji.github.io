@@ -55,6 +55,11 @@ redirect_from:
     opacity: 1;
   }
 
+  .social-icons {
+    margin-top: auto; /* Pushes the social icons to the bottom of the card */
+    text-align: center; /* Center-aligns the icons */
+  }
+  
   .social-icons a {
   font-size: 0.9rem; /* Icon size */
   color: inherit; /* Matches text color */
@@ -78,9 +83,15 @@ redirect_from:
     box-shadow: 0 0 15px rgba(0, 0, 255, 0.8); /* Bright Blue Glow */
   }
 
+  .flex-grow-1 {
+    flex-grow: 1; /* Ensures this section takes up all remaining space */
+  }
+
   .card-body {
     z-index: 3; /* Ensure text stays on top */
     padding: 8px;
+    display: flex;
+    flex-direction: column;
   }
 
   .card-title {
