@@ -10,5 +10,5 @@ university: "MBZUAI"
 linkedin: "google.com"
 x: "google.com"
 github: "google.com"
-scholar: "google.com"
+google_scholar: "google.com"
 ---
