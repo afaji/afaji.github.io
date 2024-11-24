@@ -7,25 +7,27 @@
           <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
         {% endif %}
       </div>
-      <div class="card-body text-start">
-        <h6 class="card-title mb-1">
-          {{ person.name }}
-        </h6>
-        {% if person.category == "Staff" %}
-        <div class="card-text">
-            ({{ person.role }})
-        </div><br>
-        {% endif %}
-        <div class="card-text">
-          {{ person.category }} student, {{ person.university }} ({{ person.starting_year }} - )
-        <br>
-        {% if person.co_advisor %}
-          (Co-advised with {{ person.co_advisor }})
-        {% elsif person.second_advisor %}
-          (2nd advisor: {{ person.second_advisor }})
-        {% elsif person.main_advisor %}
-          (Main advisor: {{ person.main_advisor }})
-        {% endif %}
+      <div class="card-body d-flex flex-column text-start">
+        <div class="flex-grow-1">
+          <h6 class="card-title mb-1">
+            {{ person.name }}
+          </h6>
+          {% if person.category == "Staff" %}
+          <div class="card-text">
+              ({{ person.role }})
+          </div><br>
+          {% endif %}
+          <div class="card-text">
+            {{ person.category }} student, {{ person.university }} ({{ person.starting_year }} - )
+          <br>
+          {% if person.co_advisor %}
+            (Co-advised with {{ person.co_advisor }})
+          {% elsif person.second_advisor %}
+            (2nd advisor: {{ person.second_advisor }})
+          {% elsif person.main_advisor %}
+            (Main advisor: {{ person.main_advisor }})
+          {% endif %}
+          </div>
         </div>
         <!-- Social Icons -->
         <div class="social-icons mt-2">
