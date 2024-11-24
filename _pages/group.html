@@ -149,32 +149,6 @@ redirect_from:
 
 <div class="container my-5">
   <h1 class="text-center mb-4">Research Group</h1>
-  
-  <!-- Graduate Students (PhD + MSc) -->
-  {% assign phd_and_msc = site.teams | where_exp: "item", "item.category == 'PhD' or item.category == 'MSc'" | sort: "category" %}
-  {% if phd_and_msc.size > 0 %}
-    <div class="mb-5">
-      <h2 class="text-uppercase text-center mb-4">Students</h2>
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-4">
-        {% for person in phd_and_msc %}
-          {% include person_card.html person=person %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
-
-  <!-- Staff Section -->
-  {% assign staff = site.teams | where: "category", "Staff" %}
-  {% if staff.size > 0 %}
-    <div class="mb-5">
-      <h2 class="text-uppercase text-center mb-4">Staff</h2>
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-4">
-        {% for person in staff %}
-          {% include person_card.html person=person %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
 
   <!-- Alumni Section -->
   {% assign alumni = site.teams | where: "category", "Alumni" | sort: "graduation_end" %}
