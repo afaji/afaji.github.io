@@ -12,11 +12,11 @@
           {{ person.name }}
         </h6>
         {% if person.category == "Staff" %}
-        <span class="card-text">
+        <div class="card-text">
             ({{ person.role }})
-        </span><br>
+        </div><br>
         {% endif %}
-        <span class="card-text">
+        <div class="card-text">
           {{ person.category }} student, {{ person.university }} ({{ person.starting_year }} - )
         <br>
         {% if person.co_advisor %}
@@ -26,7 +26,7 @@
         {% elsif person.main_advisor %}
           (Main advisor: {{ person.main_advisor }})
         {% endif %}
-        </span>
+        </div>
         <!-- Social Icons -->
         <div class="social-icons mt-2">
           {% if person.google_scholar %}
