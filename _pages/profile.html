@@ -107,6 +107,9 @@ redirect_from:
             border: 1px solid var(--border);
             position: relative;
             transition: all 0.3s ease;
+            flex-wrap: wrap; /* Allows wrapping for subtitle */
+            align-items: center;
+            display: flex;
         }
 
         .timeline-content:hover {
@@ -121,6 +124,8 @@ redirect_from:
             letter-spacing: 0.5px;
             margin-left: auto; /* Pushes the date to the right */
             white-space: nowrap;
+            align-self: center;
+            margin-right: 1rem;
         }
 
         .timeline-title {
@@ -149,8 +154,8 @@ redirect_from:
                 <div class="timeline-item" style="animation-delay: 0.1s">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">Jan 2023 - Present</div>
                         <div class="timeline-title">Assistant Professor</div>
+                        <div class="timeline-date">Jan 2023 - Present</div>
                         <div class="timeline-subtitle">
                           <i class="fas fa-map-marker-alt" style="color: #0073e6; margin-right: 5px;"></i>
                           MBZUAI
