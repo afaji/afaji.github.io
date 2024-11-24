@@ -5,7 +5,8 @@ photo: "https://github.com/afaji/afaji.github.io/blob/master/images/farid-vouge.
 alt_photo: "https://github.com/afaji/afaji.github.io/blob/master/images/farid-vouge-2.png?raw=true"
 bio: "Doing research and stuff"
 website: "google.com"
-graduation_start: 2023
-graduation_end: 2023
+starting_year: 2023
+finish_year: 2023
+role: "Visiting PhD"
 current_position: "Research Scientist at Meta"
 ---
