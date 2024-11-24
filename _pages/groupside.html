@@ -16,26 +16,13 @@ redirect_from:
 .card {
   display: flex;
   align-items: center;
-  transition: box-shadow 0.3s ease, border-color 0.3s ease;
-  border: 2px solid transparent; /* Default border */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: none; /* No border by default */
 }
 
 .card:hover {
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
-  border-color: rgba(0, 0, 0, 0.1); /* Add subtle border on hover */
-}
-
-/* Border Colors by Category */
-.category-phd {
-  border-color: rgba(255, 215, 0, 0.5); /* Gold for PhD */
-}
-
-.category-msc {
-  border-color: rgba(128, 0, 128, 0.5); /* Purple for MSc */
-}
-
-.category-staff {
-  border-color: rgba(0, 0, 255, 0.5); /* Blue for Staff */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  transform: translateY(-5px); /* Slight lift effect on hover */
 }
 
 /* Photo Styling */
@@ -50,14 +37,31 @@ redirect_from:
   height: 100%;
   object-fit: cover;
   border-radius: 50%; /* Circular photo */
-  border: 2px solid #ddd; /* Light gray border for the photo */
+  border: 3px solid transparent; /* Border based on category */
+  transition: border-color 0.3s ease;
+}
+
+/* Border Colors by Category */
+.category-phd .photo {
+  border-color: rgba(255, 215, 0, 0.5); /* Gold for PhD */
+}
+
+.category-msc .photo {
+  border-color: rgba(128, 0, 128, 0.5); /* Purple for MSc */
+}
+
+.category-staff .photo {
+  border-color: rgba(0, 0, 255, 0.5); /* Blue for Staff */
 }
 
 /* Card Body */
 .card-body {
   flex-grow: 1;
+  padding: 3px; /* Add space between the text and the photo */
+  text-align: left;
   position: relative;
 }
+
 
 .card-title {
   font-weight: bold;
