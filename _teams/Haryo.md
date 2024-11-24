@@ -11,4 +11,5 @@ linkedin: "google.com"
 x: "google.com"
 github: "google.com"
 google_scholar: "google.com"
+second_advisor: "Thamar Solorio"
 ---
