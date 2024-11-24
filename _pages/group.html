@@ -151,13 +151,16 @@ redirect_from:
   <h1 class="text-center mb-4">Research Group</h1>
   
   <!-- Graduate Students (PhD + MSc) -->
-  {% assign phd_and_msc = site.teams | where_exp: "item", "item.category == 'PhD' or item.category == 'MSc'" | sort: "category" %}
+  {% assign phd_students = site.teams | where: "category", "PhD" %}
+  {% assign msc_students = site.teams | where: "category", "MSc" %}
+  {% assign phd_and_msc = phd_students | concat: msc_students %}
+  
   {% if phd_and_msc.size > 0 %}
     <div class="mb-5">
       <h2 class="text-uppercase text-center mb-4">Students</h2>
       <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-3 row-cols-xl-4 g-4">
         {% for person in phd_and_msc %}
-          {{ person.name }}
+          {% include person_card.html person=person %}
         {% endfor %}
       </div>
     </div>
