@@ -1,58 +1,74 @@
-<div class="col {{ person.category | downcase }}-color">
-  <a href="{{ person.website }}" class="card-link" target="_blank">
-    <div class="card h-100 text-center border-0">
-      <div class="image-container">
-        <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
-        {% if person.alt_photo %}
-          <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
+<div class="{{ person.category | downcase }}-color p-2">
+  <div class="card h-100 text-center border-0">
+    <div class="image-container">
+      {% if person.photo %}
+          <img src="{{ person.photo }}" class="main-photo" alt="{{ person.name }}">
+      {% else %}
+          <div class="main-photo fallback" style="background-color: var(--theme-color); opacity: 0.7; color: white; display: flex; justify-content: center; align-items: center; font-size: 7em">
+              {{ person.name | slice: 0, 1 | upcase }}
+          </div>
+      {% endif %}
+      {% if person.alt_photo %}
+      <img src="{{ person.alt_photo }}" class="alt-photo" alt="Alternate Photo of {{ person.name }}">
+      {% endif %}
+
+      <!-- Social Icons -->
+      <div class="social-icons-card">
+        {% if person.google_scholar %}
+          <a href="{{ person.google_scholar }}" target="_blank" class="me-1">
+            <fas class="fa fa-graduation-cap"></fas>
+          </a>
+        {% endif %}
+        {% if person.github %}
+          <a href="{{ person.github }}" target="_blank" class="me-1">
+            <i class="bi bi-github"></i>
+          </a>
+        {% endif %}
+        {% if person.linkedin %}
+          <a href="{{ person.linkedin }}" target="_blank" class="me-1">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        {% endif %}
+        {% if person.x %}
+          <a href="{{ person.x }}" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
         {% endif %}
       </div>
-      <div class="card-body d-flex flex-column text-start">
-        <div class="flex-grow-1">
-          <h6 class="card-title mb-1">
+    </div>
+    <div class="card-body d-flex flex-column text-start">
+      <div class="flex-grow-1">
+        <h6 class="card-title mb-1">
+          <a href="{{ person.url }}" target="_blank" class="text-decoration-none">
             {{ person.name }}
-          </h6>
-          {% if person.category == "Staff" %}
-          <div class="card-text">
-              ({{ person.role }})
-          </div><br>
-          {% endif %}
-          <div class="card-text">
-            {{ person.category }} student, {% if person.university != "MBZUAI" %} {{ person.university }} {% endif %} ({{ person.starting_year }} - )
-          <br>
-          {% if person.co_advisor %}
-            Co-advised with {{ person.co_advisor }}
-          {% elsif person.second_advisor %}
-            2nd advisor: {{ person.second_advisor }}
-          {% elsif person.main_advisor %}
-            Main advisor: {{ person.main_advisor }}
-          {% endif %}
-          </div>
-        </div>
-        <!-- Social Icons -->
-        <div class="social-icons">
-          {% if person.google_scholar %}
-            <a href="{{ person.google_scholar }}" target="_blank" class="me-2">
-              <i class="bi bi-google"></i>
-            </a>
-          {% endif %}
-          {% if person.github %}
-            <a href="{{ person.github }}" target="_blank" class="me-2">
-              <i class="bi bi-github"></i>
-            </a>
-          {% endif %}
-          {% if person.linkedin %}
-            <a href="{{ person.linkedin }}" target="_blank" class="me-2">
-              <i class="bi bi-linkedin"></i>
-            </a>
-          {% endif %}
-          {% if person.x %}
-            <a href="{{ person.x }}" target="_blank">
-              <i class="bi bi-twitter"></i>
-            </a>
+          </a>
+        </h6>
+
+        <div class="card-text">
+          {% if person.category != "Staff" %}
+            {{ person.category }} student({{ person.starting_year }} - )
+          {% else %}
+            {{ person.role }}
           {% endif %}
         </div>
+        <div class="card-text more-info">
+        {% if person.co_advisor %}
+          Co-advised with {{ person.co_advisor }}
+        {% elsif person.second_advisor %}
+          2nd advisor: {{ person.second_advisor }}
+        {% elsif person.main_advisor %}
+          Main advisor: {{ person.main_advisor }}
+        {% endif %}
+        </div>
+        
+        <div class="card-subtext">
+            {% if person.location != "MBZUAI" %}
+            <i class="fas fa-map-marker-alt" style="margin-top: 7px; margin-right: 1px;"></i> {{ person.location }}
+            {% endif %}
+        </div>
+
+
       </div>
     </div>
-  </a>
+  </div>
 </div>

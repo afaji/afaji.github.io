@@ -1,127 +1,284 @@
-student:
-  - name: Haryo Akbarianto Wibowo
-    role: Primary Advisor
-    rolejob: PhD at MBZUAI
-    co: Thamar Solorio
-    period: Aug 2023
-    url: https://www.linkedin.com/in/haryoaw/
-  - name: Ahmed Elshabrawy
-    rolejob: MSc at MBZUAI
-    role: Primary Advisor
-    co: Iryna Gurevych
-    period: Aug 2023
-    url: https://www.linkedin.com/in/ashabrawy/
-    
-  - name: Zayd Muhammad Kawakibi Zuhri
-    role: Co Advisor
-    rolejob: MSc at Institut Teknologi Bandung
-    co: Ayu Purwarianti
-    period: Aug 2023
-    url: https://www.linkedin.com/in/zayd-muhammad-kawakibi-zuhri-46a391191/
-    
-  - name: Moses Ananta
-    role: Secondary Advisor
-    rolejob: MSc at Institut Teknologi Bandung
-    co: Ayu Purwarianti
-    period: Aug 2023
-    url: https://www.linkedin.com/in/moses-ananta
-    
-  - name: Fathinah Asma Izzati
-    role: Secondary Advisor
-    rolejob: MSc at MBZUAI
-    co: Gus Xia
-    period: Aug 2023
-    url: https://www.linkedin.com/in/fathinah-izzati/
-    
-  - name: Aidar Myrzakhan
-    role: Secondary Advisor
-    rolejob: MSc at MBZUAI
-    co: Zhiqiang Shen
-    period: Aug 2023
-    url: https://www.linkedin.com/in/aidar-myrzakhan/
+students:
+  - name: "Haryo Akbarianto Wibowo"
+    category: "PhD"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    second_advisor: "Thamar Solorio"
+    starting_year: "2023"
+    linkedin: "https://www.linkedin.com/in/haryoaw/"
+    x: "https://x.com/haryoaw"
+    github: "https://github.com/haryoa"
+    google_scholar: "https://scholar.google.com/citations?user=X5tK6xsAAAAJ&hl=en&oi=ao"
+    url: "https://haryoaw.github.io"
+    photo: "/images/team/haryo.jpg"
+    alt_photo: 
 
-paststudent:
-  - name: Jonibek Mansurov
-    job: PhD at MBZUAI
-    role: Main Advisor
-    rolejob: MSc at MBZUAI
-    co: Preslav Nakov
-    period: Jan 2023 - Jun 2024
-    url: https://www.linkedin.com/in/jonibek-mansurov-baa667212/
-    
-  - name: Ni Putu Intan Maharani
-    job: Delloite
-    role: Co Advisor
-    rolejob: MSc at Institut Teknologi Bandung
-    co: Ayu Purwarianti
-    period: Aug 2022 - Mar 2024
-    url: https://www.linkedin.com/in/intanmaha/
-    
-  - name: Jalaluddin Al-Mursyidy Fadhlurrahman
-    role: Co Advisor
-    rolejob: MSc at Institut Teknologi Bandung
-    co: Ayu Purwarianti
-    period: Aug 2022 - Mar 2024
-    url: https://www.linkedin.com/in/jalaluddin-al-mursyidy-fadhlurrahman-05b535191/
-    
-  - name: Muhammad Razif Rizqullah
-    role: Co Advisor
-    rolejob: MSc at Institut Teknologi Bandung
-    co: Ayu Purwarianti
-    period: Aug 2022 - Mar 2024
-    url: https://www.linkedin.com/in/razifrizqullah/
-    
-  - name: Minghao Wu
-    role: Research Advisor
-    rolejob: Visiting PhD Student
-    job: PhD at Monash University
-    period: Apr 2023 - Oct 2023
-    url: https://minghao-wu.github.io
-    
-  - name: Chenxi Whitehouse
-    role: Research Advisor
-    rolejob: Visiting PhD Student
-    job: Research Scientist at Amazon
-    period: Apr 2023 - Oct 2023
-    url: https://chenxwh.github.io
-    
-  - name: Muhammad Ravi Sulthan Habibi
-    role: Co Advisor
-    rolejob: BSc at Universitas Indonesia
-    co: Rahmad Mahendra
-    period: Aug 2022 - Aug 2023
-    url: https://muhammadravi251001.github.io
-  
-staff:
-  - name: Chenyang Lyu
-    role: Research Advisor
-    rolejob: Postdoctoral Researcher at MBZUAI
-    period: Aug 2023 - Present
-    url: https://lyuchenyang.github.io
-  - name: Mohamed Fazli Mohamed Imam
-    role: Research Advisor
-    rolejob: Research Assistant at MBZUAI
-    period: Jul 2024 - Present
-    url: https://lk.linkedin.com/in/fazliimaam
-  - name: Muhammad Farid Adilauzarda
-    role: Research Advisor
-    rolejob: Research Assistant at MBZUAI
-    period: Aug 2023 - Present
-    url: https://faridlazuarda.github.io/
-  - name: Rendi Chevi
-    role: Research Advisor
-    rolejob: Research Assistant at MBZUAI
-    period: Aug 2023 - Present
-    url: https://www.linkedin.com/in/rendichevi/?originalSubdomain=ae
-  - name: Jinheon Baek
-    role: Research Advisor
-    job: PhD at KAIST
-    rolejob: Research Intern at Amazon Alexa
-    period: Oct 2022 - Jan 2023
-    url: https://jinheonbaek.github.io
-  - name: Tirana Noor Fatyanosa
-    role: Research Advisor
-    rolejob: Research Intern at Kata.ai
-    job: Assistant Professor at Universitas Brawijaya
-    period: Nov 2020 - Apr 2021
-    url: https://filkom.ub.ac.id/profile/dosen/tirana.noor.fatyanosa
+  - name: "Jan Christian Blaise Cruz"
+    category: "PhD"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    second_advisor: "Thamar Solorio"
+    starting_year: "2024"
+    x: "https://x.com/jcblaisecruz"
+    github: "https://github.com/jcblaisecruz02"
+    google_scholar: "https://scholar.google.com/citations?user=iBuxBEUAAAAJ&hl=en&oi=ao"
+    url: "https://www.blaisecruz.com"
+    photo: "/images/team/blaise.jpg"
+    alt_photo: 
+
+  - name: "Jonibek Mansurov"
+    category: "PhD"
+    location: "MBZUAI"
+    my_role: "Main Advisor"
+    starting_year: "2024"
+    url: "https://www.linkedin.com/in/jonibek-mansurov-baa667212/"
+    github: "https://github.com/MJonibek"
+    x: "https://x.com/M_Jonibek"
+    google_scholar: "https://scholar.google.com/citations?user=oTRAXkYAAAAJ&hl=en&oi=ao"
+    photo: "/images/team/joni.jpg"
+    alt_photo: 
+
+  - name: "Ahmed Elshabrawy"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    second_advisor: "Iryna Gurevych"
+    starting_year: "2023"
+    url: "https://www.linkedin.com/in/ashabrawy/"
+    photo:
+    alt_photo: 
+
+  - name: "Erland Fuadi"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    starting_year: "2024"
+    url: ""
+    photo: "/images/team/erland.jpg"
+    alt_photo: 
+
+  - name: "Ahmed Attia"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    starting_year: "2024"
+    url: ""
+    photo: "/images/team/ahmeda.jpg"
+    alt_photo: 
+
+  - name: "Sama Hadhoud"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    starting_year: "2024"
+    url: ""
+    photo: "/images/team/sama.jpg"
+    alt_photo: 
+
+  - name: "Alaa Elsetohy"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    starting_year: "2024"
+    url: ""
+    photo: "/images/team/alaa.jpg"
+    alt_photo: 
+
+  - name: "Zayd Muhammad Kawakibi Zuhri"
+    category: "Alumni"
+    role: "MSc student"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2023"
+    finish_year: "2024"
+    url: "https://www.linkedin.com/in/zayd-muhammad-kawakibi-zuhri-46a391191/"
+    linkedin: "google.com"
+
+  - name: "Zayd Muhammad Kawakibi Zuhri"
+    category: "Staff"
+    role: "Research Assistant"
+    location: "MBZUAI"
+    my_role: "Research Advisor"
+    starting_year: "2024"
+    url: "https://www.linkedin.com/in/zayd-muhammad-kawakibi-zuhri-46a391191/"
+    linkedin: "google.com"
+
+  - name: "Moses Ananta"
+    category: "MSc"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2023"
+    url: "https://www.linkedin.com/in/moses-ananta"
+    photo:
+    alt_photo:
+
+  - name: "Hanif Muhammad Zhafran"
+    category: "BSc"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2024"
+    url: ""
+    photo:
+    alt_photo:
+
+  - name: "M Rifqi Farhansyah"
+    category: "BSc"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2024"
+    url: ""
+    photo:
+    alt_photo:
+
+  - name: "Lyzander Andrylie"
+    category: "BSc"
+    location: "Universitas Indonesia"
+    my_role: "Co Advisor"
+    co_advisor: "Alfan Farizki"
+    starting_year: "2024"
+    url: ""
+    photo:
+    alt_photo:
+
+  - name: "Inaya Rahmanisa"
+    category: "BSc"
+    location: "Universitas Indonesia"
+    my_role: "Co Advisor"
+    co_advisor: "Alfan Farizki"
+    starting_year: "2024"
+    url: ""
+    photo:
+    alt_photo:
+
+  - name: "Fathinah Asma Izzati"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Secondary Advisor"
+    main_advisor: "Gus Xia"
+    starting_year: "2023"
+    exclude_from_team: true
+    url: "https://www.linkedin.com/in/fathinah-izzati/"
+
+  - name: "Aidar Myrzakhan"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Secondary Advisor"
+    main_advisor: "Zhiqiang Shen"
+    starting_year: "2023"
+    exclude_from_team: true
+    url: "https://www.linkedin.com/in/aidar-myrzakhan/"
+
+  - name: "Ni Putu Intan Maharani"
+    category: "Alumni"
+    role: "MSc"
+    current_position: "Consulting at Delloite"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2022"
+    finish_year: "2024"
+    url: "https://www.linkedin.com/in/intanmaha/"
+
+  - name: "Jalaluddin Al-Mursyidy Fadhlurrahman"
+    category: "Alumni"
+    role: "MSc"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2022"
+    finish_year: "2024"
+    url: "https://www.linkedin.com/in/jalaluddin-al-mursyidy-fadhlurrahman-05b535191/"
+
+  - name: "Muhammad Razif Rizqullah"
+    category: "Alumni"
+    role: "MSc"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2022"
+    finish_year: "2024"
+    url: "https://www.linkedin.com/in/razifrizqullah/"
+
+  - name: "Minghao Wu"
+    category: "Alumni"
+    role: "Visiting PhD Student"
+    location: "MBZUAI"
+    my_role: "Research Advisor"
+    starting_year: "2023"
+    url: "https://minghao-wu.github.io"
+
+  - name: "Chenxi Whitehouse"
+    category: "Alumni"
+    role: "Visiting PhD Student"
+    location: "MBZUAI"
+    current_position: "Research Scientist at Meta"
+    my_role: "Research Advisor"
+    starting_year: "2023"
+    url: "https://chenxwh.github.io"
+
+  - name: "Muhammad Ravi Sulthan Habibi"
+    category: "Alumni"
+    role: "BSc"
+    location: "Universitas Indonesia"
+    my_role: "Co Advisor"
+    second_advisor: "Rahmad Mahendra"
+    current_position: "AI Engineer at Mekari"
+    starting_year: "2022"
+    finish_year: "2023"
+    url: "https://muhammadravi251001.github.io"
+
+  - name: "Chenyang Lyu"
+    category: "Alumni"
+    role: "Postdoctoral Researcher"
+    location: "MBZUAI"
+    my_role: "Research Advisor"
+    current_position: "Research Scientist at Alibaba"
+    starting_year: "2023"
+    url: "https://lyuchenyang.github.io"
+
+  - name: "Mohamed Fazli Mohamed Imam"
+    category: "Staff"
+    role: "Research Assistant"
+    location: "MBZUAI"
+    my_role: "Research Advisor"
+    starting_year: "2024"
+    url: "https://lk.linkedin.com/in/fazliimaam"
+    photo: "/images/team/fazli.jpg"
+
+  - name: "Muhammad Farid Adilauzarda"
+    category: "Staff"
+    role: "Research Assistant"
+    location: "MBZUAI"
+    my_role: "Research Advisor"
+    starting_year: "2023"
+    url: "https://faridlazuarda.github.io/"
+    photo: "/images/team/farid.jpg"
+
+  - name: "Rendi Chevi"
+    category: "Staff"
+    role: "Research Assistant"
+    location: "MBZUAI"
+    my_role: "Research Advisor"
+    starting_year: "2023"
+    url: "https://www.linkedin.com/in/rendichevi/?originalSubdomain=ae"
+    photo: "/images/team/rendi.jpg"
+
+  - name: "Jinheon Baek"
+    category: "Research Intern"
+    location: "KAIST"
+    my_role: "Research Advisor"
+    starting_year: "2022"
+    exclude_from_team: true
+    url: "https://jinheonbaek.github.io"
+
+  - name: "Tirana Noor Fatyanosa"
+    category: "Research Intern"
+    location: "Kata.ai"
+    my_role: "Research Advisor"
+    exclude_from_team: true
+    starting_year: "2020"
+    url: "https://filkom.ub.ac.id/profile/dosen/tirana.noor.fatyanosa"
