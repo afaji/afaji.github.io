@@ -1,9 +1,94 @@
 conference:
+  - title: "CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark"
+    authors: "David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, ... , <b>Alham Fikri Aji</b>"
+    date: "2024"
+    venue: "NeurIPS"
+    url: https://arxiv.org/abs/2406.05967
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "LinguAlchemy: Fusing Typological and Geographical Elements for Unseen Language Generalization"
+    authors: "Muhammad Farid Adilazuarda, Samuel Cahyawijaya, Genta Indra Winata, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
+    date: "2024"
+    venue: "EMNLP"
+    url: https://aclanthology.org/2024.findings-emnlp.225.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "Cultural Conditioning or Placebo? On the Effectiveness of Socio-Demographic Prompting"
+    authors: "Sagnik Mukherjee, Muhammad Farid Adilazuarda, Sunayana Sitaram, Kalika Bali, <b>Alham Fikri Aji</b>, Monojit Choudhury"
+    date: "2024"
+    venue: "EMNLP"
+    url: https://aclanthology.org/2024.emnlp-main.884.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "Re-Evaluating Evaluation for Multilingual Summarization"
+    authors: "Jessica Zosa Forde, Ruochen Zhang, Lintang Sutawika, <b>Alham Fikri Aji</b>, Samuel Cahyawijaya, Genta Indra Winata, Minghao Wu, Carsten Eickhoff, Stella Biderman, Ellie Pavlick"
+    date: "2024"
+    venue: "EMNLP"
+    url: https://aclanthology.org/2024.emnlp-main.1085.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "LLM-DetectAIve: a Tool for Fine-Grained Machine-Generated Text Detection"
+    authors: "Mervat Abassy, Kareem Elozeiri, Alexander Aziz, Minh Ngoc Ta, Raj Vardhan Tomar, Bimarsha Adhikari, Saad El Dine Ahmed, Yuxia Wang, Osama Mohammed Afzal, Zhuohan Xie, Jonibek Mansurov, Ekaterina Artemova, Vladislav Mikhailov, Rui Xing, Jiahui Geng, Hasan Iqbal, Zain Muhammad Mujahid, Tarek Mahmoud, Akim Tsvigun, <b>Alham Fikri Aji</b>, Artem Shelmanov, Nizar Habash, Iryna Gurevych, Preslav Nakov"
+    date: "2024"
+    venue: "EMNLP System Demonstrations"
+    url: https://aclanthology.org/2024.emnlp-demo.35.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: 
+
+  - title: "Efficient and Interpretable Grammatical Error Correction with Mixture of Experts"
+    authors: "Muhammad Reza Qorib, <b>Alham Fikri Aji</b>, Hwee Tou Ng"
+    date: "2024"
+    venue: "EMNLP"
+    url: https://aclanthology.org/2024.findings-emnlp.997.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "Towards Measuring and Modeling “Culture” in LLMs: A Survey"
+    authors: "Muhammad Farid Adilazuarda, Sagnik Mukherjee, Pradhyumna Lavania, Siddhant Shivdutt Singh, <b>Alham Fikri Aji</b>, Jacki O’Neill, Ashutosh Modi, Monojit Choudhury"
+    date: "2024"
+    venue: "EMNLP"
+    url: https://aclanthology.org/2024.emnlp-main.882.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages"
+    authors_full: "Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James Validad Miranda, Jennifer Santoso, Elyanah Aco, Akhdan Fadhilah, Jonibek Mansurov, Joseph Marvin Imperial, Onno P. Kampman, Joel Ruben Antony Moniz, Muhammad Ravi Shulthan Habibi, Frederikus Hudi, Jann Railey Montalan, Ryan Ignatius Hadiwijaya, Joanito Agili Lopo, William Nixon, Börje F. Karlsson, James Jaya, Ryandito Diandaru, Yuze Gao, Patrick Amadeus Irawan, Bin Wang, Jan Christian Blaise Cruz, Chenxi Whitehouse, Ivan Halim Parmonangan, Maria Khelli, Wenyu Zhang, Lucky Susanto, Reynard Adha Ryanda, Sonny Lazuardi Hermawan, Dan John Velasco, Muhammad Dehan Al Kautsar, Willy Fitra Hendria, Yasmin Moslem, Noah Flynn, Muhammad Farid Adilazuarda, Haochen Li, Johanes Lee, R. Damanhuri, Shuo Sun, Muhammad Reza Qorib, Amirbek Djanibekov, Wei Qi Leong, Quyet V. Do, Niklas Muennighoff, Tanrada Pansuwan, Ilham Firdausi Putra, Yan Xu, Tai Ngee Chia, Ayu Purwarianti, Sebastian Ruder, William Chandra Tjhi, Peerat Limkonchotiwat, <b>Alham Fikri Aji</b>, Sedrick Keh, Genta Indra Winata, Ruochen Zhang, Fajri Koto, Zheng Xin Yong, Samuel Cahyawijaya"
+    authors: "Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James Validad Miranda, Jennifer Santoso, Elyanah Aco, Akhdan Fadhilah, Jonibek Mansurov, Joseph Marvin Imperial, Onno P. Kampman, Joel Ruben Antony Moniz, Muhammad Ravi Shulthan Habibi, Frederikus Hudi, Jann Railey Montalan, ... , Peerat Limkonchotiwat, <b>Alham Fikri Aji</b>, Sedrick Keh, Genta Indra Winata, Ruochen Zhang, Fajri Koto, Zheng Xin Yong, Samuel Cahyawijaya"
+    date: "2024"
+    venue: "EMNLP"
+    url: https://aclanthology.org/2024.emnlp-main.296.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
   - title: "Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages"
     authors: "Samuel Cahyawijaya, Holy Lovenia, Fajri Koto, Rifki Afina Putri, Emmanuel Dave, Jhonson Lee, Nuur Shadieq, Wawan Cenggoro, Salsabil Maulana Akbar, Muhammad Ihza Mahendra, Dea Annisayanti Putri, Bryan Wilie, Genta Indra Winata, <b>Alham Fikri Aji</b>, Ayu Purwarianti, Pascale Fung"
     date: "2024"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2024.acl-long.796.pdf
     data:
     model:
     tags:
@@ -13,7 +98,7 @@ conference:
     authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Osama Mohanned Afzal, Tarek Mahmoud, Giovanni Puccetti, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
     date: "2024"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2024.acl-long.218.pdf
     data:
     model:
     tags:
@@ -22,7 +107,7 @@ conference:
     authors: "Nedjma Ousidhoum, Shamsuddeen Hassan Muhammad, Mohamed Abdalla, Idris Abdulmumin, Ibrahim Said Ahmad, Sanchit Ahuja,<b> Alham Fikri Aji</b>, Vladimir Araujo, Abinew Ali Ayele, Pavan Baswani, Meriem Beloucif, Chris Biemann, Sofia Bourhim, Christine De Kock, Genet Shanko Dekebo, Oumaima Hourrane, Gopichand Kanumolu, Lokesh Madasu, Samuel Rutunda, Manish Shrivastava, Thamar Solorio, Nirmal Surange, Hailegnaw Getaneh Tilaye, Krishnapriya Vishnubhotla, Genta Winata, Seid Muhie Yimam, Saif M Mohammad"
     date: "2024"
     venue: "ACL"
-    url:
+    url: https://aclanthology.org/2024.findings-acl.147.pdf
     data:
     model:
     tags:
@@ -31,7 +116,7 @@ conference:
     authors: "Haryo Akbarianto Wibowo, Erland Hilman Fuadi, Made Nindyatama Nityasya, Radityo Eko Prasojo, <b>Alham Fikri Aji</b>"
     date: "2024"
     venue: "NAACL"
-    url:
+    url: https://aclanthology.org/2024.naacl-long.77.pdf
     data:
     model:
     tags:
@@ -312,6 +397,26 @@ conference:
     author: "first"
 
 workshop:
+  - title: "Beyond Probabilities: Unveiling the Misalignment in Evaluating Large Language Models"
+    authors: "Chenyang Lyu, Minghao Wu, <b>Alham Fikri Aji</b>"
+    date: "2024"
+    venue: "KnowLLM at ACL"
+    url: https://aclanthology.org/2024.knowllm-1.10.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "Daisy at WASSA 2024 Empathy and Personality Shared Task: A Quick Exploration on Emotional Pattern of Empathy and Distress"
+    authors: "Rendi Chevi, <b>Alham Fikri Aji</b>"
+    date: "2024"
+    venue: "WASSA at ACL"
+    url: https://aclanthology.org/2024.wassa-1.37.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
   - title: "Prompting Multilingual Large Language Models to Generate Code-Mixed Texts: The Case of South East Asian Languages"
     authors: "Zheng Xin Yong, Ruochen Zhang, Jessica Forde, Skyler Wang, Arjun Subramonian, Holy Lovenia, Samuel Cahyawijaya, Genta Winata, Lintang Sutawika, Jan Christian Blaise Cruz, Yin Lin Tan, Long Phan, Long Phan, Rowena Garcia, Thamar Solorio, <b>Alham Fikri Aji</b>"
     date: "2023"

@@ -86,7 +86,7 @@ students:
 
   - name: "Zayd Muhammad Kawakibi Zuhri"
     category: "Alumni"
-    role: "MSc student"
+    role: "MSc"
     location: "Institut Teknologi Bandung"
     my_role: "Co Advisor"
     co_advisor: "Ayu Purwarianti"
@@ -209,6 +209,7 @@ students:
     location: "MBZUAI"
     my_role: "Research Advisor"
     starting_year: "2023"
+    finish_year: "2023"
     url: "https://minghao-wu.github.io"
 
   - name: "Chenxi Whitehouse"
@@ -218,6 +219,7 @@ students:
     current_position: "Research Scientist at Meta"
     my_role: "Research Advisor"
     starting_year: "2023"
+    finish_year: "2023"
     url: "https://chenxwh.github.io"
 
   - name: "Muhammad Ravi Sulthan Habibi"
@@ -238,6 +240,7 @@ students:
     my_role: "Research Advisor"
     current_position: "Research Scientist at Alibaba"
     starting_year: "2023"
+    finish_year: "2024"
     url: "https://lyuchenyang.github.io"
 
   - name: "Mohamed Fazli Mohamed Imam"
@@ -268,17 +271,21 @@ students:
     photo: "/images/team/rendi.jpg"
 
   - name: "Jinheon Baek"
-    category: "Research Intern"
-    location: "KAIST"
+    category: "Alumni"
+    role: "Research Intern"
+    location: "Amazon"
     my_role: "Research Advisor"
     starting_year: "2022"
+    finish_year: "2022"
     exclude_from_team: true
     url: "https://jinheonbaek.github.io"
 
   - name: "Tirana Noor Fatyanosa"
-    category: "Research Intern"
+    category: "Alumni"
+    role: "Research Intern"
     location: "Kata.ai"
     my_role: "Research Advisor"
     exclude_from_team: true
     starting_year: "2020"
+    finish_year: "2021"
     url: "https://filkom.ub.ac.id/profile/dosen/tirana.noor.fatyanosa"

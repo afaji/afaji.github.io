@@ -42,26 +42,43 @@ layout: compress
       }
 
       
-      .last-author::marker {
-          color: orange;
-      }
-      .last-author {
-        list-style-type: disc
-      }
+.default-author {
+    list-style-type: '\25CB' !important; /* Hollow circle */
+    padding-left: 0.8em;
+}
 
-      .default-author::marker {
-      }
-  
-      .default-author {
-        list-style-type: circle
-      }
+.last-author {
+    list-style-type: '\25CF' !important; /* Full circle */
+    padding-left: 0.8em;
 
-      .first-author::marker {
-          color: teal;
-      }
-      .first-author {
-        list-style-type: square
-      }
+}
+
+.first-author {
+    list-style-type: '\25A0' !important; /* Full block */
+    padding-left: 0.8em;
+
+}
+
+
+.default-author::marker {
+    font-size: 0.7em; /* Bigger marker */
+    color: black; /* Marker color */
+}
+
+
+.last-author::marker {
+    font-size: 0.7em; /* Bigger marker */
+    color: orange; /* Marker color */
+}
+
+
+.first-author::marker {
+    font-size: 0.7em; /* Bigger marker */
+    color: teal; /* Marker color */
+}
+
+
+
       
       
      

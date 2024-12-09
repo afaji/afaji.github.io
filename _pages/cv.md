@@ -29,6 +29,7 @@ redirect_from:
 
 ## Working Experience
 
+* **Visiting Research Scientist**, Google Research <span style="float: right;"> Sep 2024 - Current</span>
 * **Adjunct Assistant Professor**, Monash Indonesia <span style="float: right;"> Jan 2024 - Current</span>
 * **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Current</span>
 * **Applied Scientist**, Amazon Alexa AI <span style="float: right;"> Oct 2021 - Jan 2023</span>
@@ -52,20 +53,22 @@ redirect_from:
 
 ### Services to Scientific Communities
 
+* **Adversary Board**: The ACL Special Interest Group on SEA NLP (SIGSEA)
 * **Reviewer and Program Committee Member**
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP
-* **Area Chair**: ACL (2023), EMNLP (2023), COLM (2024)
+* **Area Chair**: ARR (2024+), ACL (2023), EMNLP (2023), COLM (2024)
 * **Local Chair**: COLING (2025)
-* **Organizer**: South-East Asia Language Processing (SEALP) 2023, Semeval shared task organizer (2024, 2025)
+* **Organizer**: South-East Asia Language Processing (2023, 2025), Semeval shared task organizer (2024, 2025)
 
 ### University Services
 
+* MBZUAI Admission Commitee, MBZUAI 2024
 * MBZUAI HPC Committee, MBZUAI 2023
 * MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
 * MBZUAI Executive Education Program advisor, 2023
-* MBZUAI PhD Candidacy Exam Committee: 4 students
-  <!-- 2024 (2): Muhammad Taimoor Haseeb (student of Gus Jia), Artem Agafonov (student of Martin Takac) -->
+* MBZUAI PhD Candidacy Exam Committee: 5 students
+  <!-- 2024 (3): Muhammad Taimoor Haseeb (student of Gus Jia), Artem Agafonov (student of Martin Takac), Hanshuo Zhai (student of Qirong Ho) -->
   <!-- 2023 (2): Muhammad Arslan Manzoor (student of Preslav Nakov), Abdulla Jasem Ahmed Jaber Almansoori (student of Martin Takac) -->
 * MBZUAI MSc Thesis Defence Committee: 7 students
   <!-- 2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki -->
@@ -78,10 +81,10 @@ redirect_from:
   * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
   * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
 
-<div class="page-break"></div>
+<!-- <div class="page-break"></div> -->
 
 ## Publications
-I mainly publish at ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. My papers have accumulated over 4,000 citations and I have achieved an h-index of 20.<br>
+I mainly publish at ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. <br>
 <span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.
 ### Peer-Reviewed Conferences
 <div class="compact-ul">
@@ -111,13 +114,26 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 ## Supervision and Mentorship
 
 ### Current Students
-Aside from MBZUAI, I co-supervise students from Indonesian universities, where I commit to meeting them weekly.
+
+Note: <br>As a Co-Advisor, I actively advise students (mainly from different universities) and I commit to meeting them frequently to discuss their work. <br>As a Secondary Advisor, I usually do not interact with the students regularly and am not typically involved in the research work.
 
 <ul>
-{% for student in site.data.student.student %}
+{% assign phd_students = site.data.student.students | where: "category", "PhD" %}
+{% assign msc_students = site.data.student.students | where: "category", "MSc" %}
+{% assign bsc_students = site.data.student.students | where: "category", "BSc" %}
+
+{% assign students = phd_students | concat: msc_students %}
+{% assign students = students | concat: bsc_students %}
+
+{% for student in students %}
   <li>
-   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
-    Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
+   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
+    Role: {{ student.category | raw }}
+    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}
+    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
+    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
+    <br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -127,31 +143,53 @@ Aside from MBZUAI, I co-supervise students from Indonesian universities, where I
 
 ### Past Students
 <ul>
-{% for student in site.data.student.paststudent %}
+{% assign alumni = site.data.student.students | where: "category", "Alumni" | sort: "finish_year" | reverse %}
+
+{% for student in alumni %}
+{% if student.role == "PhD" or student.role == "MSc" or student.role == "BSc" %}
   <li>
-    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
-    Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
+   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - {{ student.finish_year }}</span><br>
+    Role: {{ student.role | raw }}
+    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}
+    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
+    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
+    <br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
   </li>
+{% endif %}
 {% endfor %}
 </ul>
 
 ### Research Advisorship
 <ul>
-{% for student in site.data.student.staff %}
+{% assign alumni = site.data.student.students | where: "category", "Alumni" | sort: "finish_year" | reverse %}
+{% assign staff = site.data.student.students | where: "category", "Staff" | sort: "finish_year" | reverse %}
+
+{% assign alumni = staff | concat: alumni %}
+{% for student in alumni %}
+{% if student.role != "PhD" and student.role != "MSc" and student.role != "BSc" %}
   <li>
-    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.rolejob | raw }}<span style="float: right;">{{ student.period | raw }}</span><br>
-    Role: {{ student.role | raw }}{% if student.co %}; with {{ student.co }}{% endif %}<br>
+   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - {{ student.finish_year }}</span><br>
+    Role: {{ student.role | raw }}
+    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}
+    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
+    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
+    <br>
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
   </li>
+{% endif %}
 {% endfor %}
 </ul>
 
 ## Grants and Funding
+ * Google Cloud Research Credit\
+   **Amount**: 5,000 USD
  * Microsoft Research: "Developing Robust Methodology and Datasets for Holistic Evaluation of Cultural Awareness and Bias in Foundation Models" (Co-PI)\
    **Amount**: 20,000 USD
  * Cohere For AI research grants: "SEACrowd: Consolidating South-east Asia NLP dataset" (Co-PI)\
@@ -160,6 +198,8 @@ Aside from MBZUAI, I co-supervise students from Indonesian universities, where I
    **Amount**: Postdoctoral support of Chenyang Lyu of 100,000 USD 
 
 ## Teachings
+  * NLP702/NLP806: Advanced Natural Language Processing (for MSc and PhD) - MBZUAI <span style="float: right;">Spring 2025</span>\
+    Main instructor. Covered advanced NLP topics, including LLMs, distributed training, multilinguality, interpretability, and multimodality in NLP.
   * FIT5145: Intro to Data Science (for MSc) - Monash Indonesia <span style="float: right;">Term 4 2024</span>\
     Main instructor. Introduction to Python, data science, and AI.
   * NLP702: Advanced Natural Language Processing (for MSc) - MBZUAI <span style="float: right;">Spring 2024</span>\
@@ -168,8 +208,12 @@ Aside from MBZUAI, I co-supervise students from Indonesian universities, where I
     Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
 
 ## Talks
+  * **Collaborative Multilingual Data Collection**\
+    Keynote at WiNLP, Co-located with EMNLP 2024 (15th November 2024)
+  * **Insights from Language Resource Collection in Linguistically Diverse Southeast Asian Languages**\
+    Keynote at Field Matter Workshop, Co-located with ACL 2024 (16th August 2024)
   * **Training Lightweight Model via Knowledge Distillation and Parameter Efficient Finetuning**\
-    Mexican NLP Summer School, Co-located with NAACL (14-15th June 2024)
+    Mexican NLP Summer School, Co-located with NAACL 2024 (14-15th June 2024)
   * **Consolidating NLP Resources for South-East Asian Languages**\
     Google Singapore, Invited Talk (27th May 2024)  
   * **Constructing High-Quality Corpora for Underrepresented and Extremely Low-Resource
