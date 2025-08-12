@@ -41,6 +41,8 @@ redirect_from:
 
 ## Awards
 
+* Best Resource Paper Award, ACL 2025
+* Best Theme Paper Award, NAACL 2025
 * Best Resource Paper Award, EACL 2024
 * Best Resource Paper Award, AACL 2023
 * Outstanding Paper Award, EACL 2023
@@ -59,7 +61,7 @@ redirect_from:
   * **Workshop**: WNGT, TL4NLP
 * **Area Chair**: ARR (2024+), ACL (2023), EMNLP (2023), COLM (2024)
 * **Local Chair**: COLING (2025)
-* **Organizer**: South-East Asia Language Processing (2023, 2025), Semeval shared task organizer (2024, 2025)
+* **Organizer**: South-East Asia Language Processing (2023, 2025), Semeval shared task organizer (2024, 2025), MELT at COLM 2025
 
 ### University Services
 
@@ -74,11 +76,14 @@ redirect_from:
   <!-- 2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki -->
   <!-- 2023 (2): Sarah Albarri, Muhammad Umar Salman -->
 
+* PhD Thesis Defence Commitee:
+* ** 2025: Muhammad Arslan Manzoor
 
-### Informatics Olympiad
 
-  * **Problem Setter**: OSN Indonesia (2013, 2014, 2015), ACM-ICPC (2014, 2015), APIO (2015), Gemastik (2016)
-  * **Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
+### Informatics and AI Olympiad
+
+  * **Problem Setter/Jury**: OSN Indonesia (2013, 2014, 2015), ACM-ICPC Regional Jakarta (2014, 2015), APIO (2015), Gemastik (2016), ICPC Asia Championship (2025), IOAI (2025)
+  * **Scientific Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
   * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
 
 <!-- <div class="page-break"></div> -->
@@ -155,8 +160,8 @@ Note: <br>As a Co-Advisor, I actively advise students (mainly from different uni
     {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
     <br>
-    {% if student.job %}
-      <strong>Current position</strong>: {{ student.job | raw }}<br>
+    {% if student.current_position %}
+      <strong>Current position</strong>: {{ student.current_position | raw }}<br>
     {% endif %}
   </li>
 {% endif %}
@@ -179,8 +184,8 @@ Note: <br>As a Co-Advisor, I actively advise students (mainly from different uni
     {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
     <br>
-    {% if student.job %}
-      <strong>Current position</strong>: {{ student.job | raw }}<br>
+    {% if student.current_position %}
+      <strong>Current position</strong>: {{ student.current_position | raw }}<br>
     {% endif %}
   </li>
 {% endif %}
@@ -208,6 +213,10 @@ Note: <br>As a Co-Advisor, I actively advise students (mainly from different uni
     Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
 
 ## Talks
+  * **Code-Switching Thought Patterns in Multilingual Language Models**\
+    Keynote on CALCS, Co-located with NAACL 2025 (3rd May 2025)
+  * **On Grassroots Effort for Low-Resource Data Collection**\
+    Keynote at CLTW, Co-located with COLING 2025 (20th January 2025)
   * **Collaborative Multilingual Data Collection**\
     Keynote at WiNLP, Co-located with EMNLP 2024 (15th November 2024)
   * **Insights from Language Resource Collection in Linguistically Diverse Southeast Asian Languages**\

@@ -29,7 +29,7 @@ students:
   - name: "Jonibek Mansurov"
     category: "PhD"
     location: "MBZUAI"
-    my_role: "Main Advisor"
+    my_role: "Primary Advisor"
     starting_year: "2024"
     url: "https://www.linkedin.com/in/jonibek-mansurov-baa667212/"
     github: "https://github.com/MJonibek"
@@ -39,11 +39,13 @@ students:
     alt_photo: 
 
   - name: "Ahmed Elshabrawy"
-    category: "MSc"
+    category: "Alumni"
+    role: "MSc"
     location: "MBZUAI"
     my_role: "Primary Advisor"
     second_advisor: "Iryna Gurevych"
     starting_year: "2023"
+    finish_year: "2025"
     url: "https://www.linkedin.com/in/ashabrawy/"
     photo:
     alt_photo: 
@@ -86,7 +88,7 @@ students:
 
   - name: "Zayd Muhammad Kawakibi Zuhri"
     category: "Alumni"
-    role: "MSc"
+    role: "BSc"
     location: "Institut Teknologi Bandung"
     my_role: "Co Advisor"
     co_advisor: "Ayu Purwarianti"
@@ -105,11 +107,13 @@ students:
     linkedin: "google.com"
 
   - name: "Moses Ananta"
-    category: "MSc"
+    category: "Alumni"
+    role: "MSc"
     location: "Institut Teknologi Bandung"
     my_role: "Co Advisor"
     co_advisor: "Ayu Purwarianti"
     starting_year: "2023"
+    finish_year: "2024"
     url: "https://www.linkedin.com/in/moses-ananta"
     photo:
     alt_photo:
@@ -253,11 +257,13 @@ students:
     photo: "/images/team/fazli.jpg"
 
   - name: "Muhammad Farid Adilauzarda"
-    category: "Staff"
+    category: "Alumni"
     role: "Research Assistant"
     location: "MBZUAI"
     my_role: "Research Advisor"
     starting_year: "2023"
+    finish_year: "2024"
+    current_position: "PhD at University of Edinburgh"
     url: "https://faridlazuarda.github.io/"
     photo: "/images/team/farid.jpg"
 
@@ -269,23 +275,3 @@ students:
     starting_year: "2023"
     url: "https://www.linkedin.com/in/rendichevi/?originalSubdomain=ae"
     photo: "/images/team/rendi.jpg"
-
-  - name: "Jinheon Baek"
-    category: "Alumni"
-    role: "Research Intern"
-    location: "Amazon"
-    my_role: "Research Advisor"
-    starting_year: "2022"
-    finish_year: "2022"
-    exclude_from_team: true
-    url: "https://jinheonbaek.github.io"
-
-  - name: "Tirana Noor Fatyanosa"
-    category: "Alumni"
-    role: "Research Intern"
-    location: "Kata.ai"
-    my_role: "Research Advisor"
-    exclude_from_team: true
-    starting_year: "2020"
-    finish_year: "2021"
-    url: "https://filkom.ub.ac.id/profile/dosen/tirana.noor.fatyanosa"

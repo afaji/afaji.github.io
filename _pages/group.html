@@ -208,10 +208,12 @@ redirect_from:
   <div class="col-md-6">
     <h2>Research Group</h2>
 
-    Our research lab (name TBA) consists mainly from MBZUAI but also some students that I co-advertise from Indonesia.
+    Our research lab (internally named Alham Group Ltd.) consists mainly from MBZUAI but also some students that I co-advertise from Indonesia.
     <br>
 
-    We do research on multilinguality, low-resource NLP, efficiency, or any other exiting research direction. 
+    We are interested in research that aligns with our interests.
+
+    Currently, our focus is on multilingualism, multiculturalism, low-resource and efficient NLP, as well as aspects of human-computer interaction, particularly those that correlate across multilingual and multicultural domains.
 
   </div>
   <div class="col-md-6">
@@ -258,10 +260,10 @@ redirect_from:
   {% endif %}
   
   <!-- Alumni Section -->
-  {% assign alumni = site.data.student.students | where: "category", "Alumni" | sort: "graduation_end" %}
+  {% assign alumni = site.data.student.students | where: "category", "Alumni" | where: "location", "MBZUAI" | sort: "graduation_end" %}
   {% if alumni.size > 0 %}
     <div class="mb-5">
-      <h3>Alumni</h3>
+      <h3>MBZUAI Alumni</h3>
       <div>
         <ul>
         {% for person in alumni %}
@@ -272,6 +274,29 @@ redirect_from:
           {% if person.current_position %}
             <br>Current: {{ person.current_position }}
           {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endif %}
+
+    <!-- Alumni Section -->
+  {% assign alumni = site.data.student.students | where: "category", "Alumni" | sort: "graduation_end" %}
+  {% if alumni.size > 0 %}
+    <div class="mb-5">
+      <h3>Past External Advisee</h3>
+      <div>
+        <ul>
+        {% for person in alumni %}
+        {% if person.location != "MBZUAI" %}
+          <li style="font-size: 0.8em;"> 
+            <a href="{{ person.url }}" target="_blank" class="text-decoration-none">
+            {{ person.name }}
+          </a> <span>&#8212;</span> {{ person.role }} at {{ person.location }} ({{ person.starting_year }} - {{ person.finish_year }})
+          {% if person.current_position %}
+            <br>Current: {{ person.current_position }}
+          {% endif %}
+        {% endif %}
         {% endfor %}
         </ul>
       </div>

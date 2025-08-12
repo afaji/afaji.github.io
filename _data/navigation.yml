@@ -3,9 +3,9 @@ main:
   - title: "Publications"
     url: https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate
 
-  - title: "Join"
-    url: /join/    
+  - title: "Team"
+    url: /group/    
 
   - title: "CV"
-    url: /cv/    
+    url: /cv/  
 

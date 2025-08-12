@@ -1,4 +1,152 @@
 conference:
+  - title: "Data Laundering: Artificially Boosting Benchmark Results through Knowledge Distillation"
+    authors: "Jonibek Mansurov, Akhmed Sakip, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "ACL"
+    url: "https://aclanthology.org/2025.acl-long.407.pdf"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "BRIGHTER: BRIdging the Gap in Human-Annotated Textual Emotion Recognition Datasets for 28 Languages"
+    authors: "Shamsuddeen Hassan Muhammad, Nedjma Ousidhoum, Idris Abdulmumin, Jan Philip Wahle, Terry Ruas, Meriem Beloucif, Christine de Kock, Nirmal Surange, Daniela Teodorescu, Ibrahim Said Ahmad, David Ifeoluwa Adelani, <b>Alham Fikri Aji</b>, Felermino D. M. A. Ali, Ilseyar Alimova, Vladimir Araujo, Nikolay Babakov, Naomi Baes, Ana-Maria Bucur, Andiswa Bukula, Guanqun Cao, Rodrigo Tufiño, Rendi Chevi, Chiamaka Ijeoma Chukwuneke, Alexandra Ciobotaru, Daryna Dementieva, Murja Sani Gadanya, Robert Geislinger, Bela Gipp, Oumaima Hourrane, Oana Ignat, Falalu Ibrahim Lawan, Rooweither Mabuya, Rahmad Mahendra, Vukosi Marivate, Alexander Panchenko, Andrew Piper, Charles Henrique Porto Ferreira, Vitaly Protasov, Samuel Rutunda, Manish Shrivastava, Aura Cristina Udrea, Lilian Diana Awuor Wanzare, Sophie Wu, Florian Valentin Wunderlich, Hanif Muhammad Zhafran, Tianhui Zhang, Yi Zhou, Saif M. Mohammad"
+    date: "2025"
+    venue: "ACL"
+    url: "https://aclanthology.org/2025.acl-long.436.pdf"
+    data:
+    model:
+    tags:
+    notes: Best Resource Paper🏅
+    author:
+
+  - title: "Do Language Models Understand Honorific Systems in Javanese?"
+    authors: "Mohammad Rifqi Farhansyah, Iwan Darmawan, Adryan Kusumawardhana, Genta Indra Winata, <b>Alham Fikri Aji</b>, Derry Tanti Wijaya"
+    date: "2025"
+    venue: "ACL"
+    url: "https://aclanthology.org/2025.acl-long.1296.pdf"
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "NusaAksara: A Multimodal and Multilingual Benchmark for Preserving Indonesian Indigenous Scripts"
+    authors: "Muhammad Farid Adilazuarda, Musa Izzanardi Wijanarko, Lucky Susanto, Khumaisa Nur'aini, Derry Tanti Wijaya, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "ACL"
+    url: "https://aclanthology.org/2025.acl-long.1377.pdf"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "KazMMLU: Evaluating Language Models on Kazakh, Russian, and Regional Knowledge of Kazakhstan"
+    authors: "Mukhammed Togmanov, Nurdaulet Mukhituly, Diana Turmakhan, Jonibek Mansurov, Maiya Goloburda, Akhmed Sakip, Zhuohan Xie, Yuxia Wang, Bekassyl Syzdykov, Nurkhan Laiyk, <b>Alham Fikri Aji</b>, Ekaterina Kochmar, Preslav Nakov, Fajri Koto"
+    date: "2025"
+    venue: "ACL"
+    url: "https://aclanthology.org/2025.acl-long.701.pdf"
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "Crowdsource, Crawl, or Generate? Creating SEA-VL, a Multicultural Vision-Language Dataset for Southeast Asia"
+    authors: "Samuel Cahyawijaya, Holy Lovenia, Joel Ruben Antony Moniz, Tack Hwa Wong, Mohammad Rifqi Farhansyah, Thant Thiri Maung, Frederikus Hudi, David Anugraha, Muhammad Ravi Shulthan Habibi, Muhammad Reza Qorib, Amit Agarwal, Joseph Marvin Imperial, Hitesh Laxmichand Patel, Vicky Feliren, Bahrul Ilmi Nasution, Manuel Antonio Rufino, Genta Indra Winata, Rian Adam Rajagede, Carlos Rafael Catalan, Mohamed Fazli Mohamed Imam, Priyaranjan Pattnayak, Salsabila Zahirah Pranida, Kevin Pratama, Yeshil Bangera, Adisai Na-Thalang, Patricia Nicole Monderin, Yueqi Song, christian simon, Lynnette Hui Xian Ng, Richardy Lobo Sapan, Bin Wang, Supryadi, Kanyakorn Veerakanjana, Piyalitt Ittichaiwong, Matthew Theodore Roque, Karissa Vincentio, Takdanai Kreangphet, Phakphum Artkaew, Kadek Hendrawan Palgunadi, Yanzhi Yu, Rochana Prih Hastuti, William Nixon, Mithil Bangera, Adrian Xuan Wei Lim, Aye Hninn Khine, Hanif Muhammad Zhafran, Teddy Ferdinan, Audra Aurora Izzani, Ayushman Singh, Evan, Jauza Akbar Krito, Michael Anugraha, Fenal Ashokbhai Ilasariya, Haochen Li, John Amadeo Daniswara, Filbert Aurelian Tjiaranata, Eryawan Presma Yulianrifat, Can Udomcharoenchaikit, Fadil Risdian Ansori, Mahardika Krisna Ihsani, Giang Nguyen, Anab Maulana Barik, Dan John Velasco, Rifo Ahmad Genadi, Saptarshi Saha, Chengwei Wei, Isaiah Edri W. Flores, Kenneth Chen Ko Han, Anjela Gail D. Santos, Wan Shen Lim, Kaung Si Phyo, Tim Santos, Meisyarah Dwiastuti, Jiayun Luo, Jan Christian Blaise Cruz, Ming Shan Hee, Ikhlasul Akmal Hanif, M.Alif Al Hakim, Muhammad Rizky Sya'ban, Kun Kerdthaisong, Lester James Validad Miranda, Fajri Koto, Tirana Noor Fatyanosa, <b>Alham Fikri Aji</b>, Jostin Jerico Rosal, Jun Kevin, Robert Wijaya, Onno P. Kampman, Ruochen Zhang, Börje F. Karlsson, Peerat Limkonchotiwat"
+    date: "2025"
+    venue: "ACL"
+    url: https://aclanthology.org/2025.acl-long.916.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models"
+    authors: "Ahmed Elshabrawy, Thanh-Nhi Nguyen, Yeeun Kang, Lihan Feng, Annant Jain, Faadil Abdullah Shaikh, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "ACL"
+    url: https://aclanthology.org/2025.findings-acl.835.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "A Multi-Labeled Dataset for Indonesian Discourse: Examining Toxicity, Polarization, and Demographics Information"
+    authors: "Lucky Susanto, Musa Izzanardi Wijanarko, Prasetia Anugrah Pratama, Zilu Tang, Fariz Akyas, Traci Hong, Ika Karlina Idris, <b>Alham Fikri Aji</b>, Derry Tanti Wijaya"
+    date: "2025"
+    venue: "ACL"
+    url: https://aclanthology.org/2025.findings-acl.966.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "Thank You, Stingray: Multilingual Large Language Models Can Not (Yet) Disambiguate Cross-Lingual Word Senses"
+    authors: "Samuel Cahyawijaya, Ruochen Zhang, Jan Christian Blaise Cruz, Holy Lovenia, Elisa Gilbert, Hiroki Nomoto, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "NAACL"
+    url: https://aclanthology.org/2025.findings-naacl.178.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding"
+    authors: "Zayd Muhammad Kawakibi Zuhri, Muhammad Farid Adilazuarda, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "NAACL"
+    url: https://aclanthology.org/2025.findings-naacl.305.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "Enabling Natural Zero-Shot Prompting on Encoder Models via Statement-Tuning"
+    authors: "Ahmed Elshabrawy, Yongxin Huang, Iryna Gurevych, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "NAACL"
+    url: https://aclanthology.org/2025.findings-naacl.465.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines"
+    authors: "Genta Indra Winata, Frederikus Hudi, Patrick Amadeus Irawan, David Anugraha, Rifki Afina Putri, WANG YUTONG, Adam Nohejl, Ubaidillah Ariq Prathama, Nedjma Ousidhoum, Afifa Amriani, Anar Rzayev, Anirban Das, Ashmari Pramodya, Aulia Adila, Bryan Wilie, Candy Olivia Mawalim, CHENG Ching Lam, Daud Abolade, Emmanuele Chersoni, Enrico Santus, Fariz Ikhwantri, Garry Kuwanto, Hanyang Zhao, Haryo Akbarianto Wibowo, Holy Lovenia, Jan Christian Blaise Cruz, Jan Wira Gotama Putra, Junho Myung, Lucky Susanto, Maria Angelica Riera Machin, Marina Zhukova, Michael Anugraha, Muhammad Farid Adilazuarda, Natasha Christabelle Santosa, Peerat Limkonchotiwat, Raj Dabre, Rio Alexander Audino, Samuel Cahyawijaya, Shi-Xiong Zhang, Stephanie Yulia Salim, Yi Zhou, Yinxuan Gui, David Ifeoluwa Adelani, En-Shiun Annie Lee, Shogo Okada, Ayu Purwarianti, <b>Alham Fikri Aji</b>, Taro Watanabe, Derry Tanti Wijaya, Alice Oh, Chong-Wah Ngo"
+    date: "2025"
+    venue: "NAACL"
+    url: https://aclanthology.org/2025.naacl-long.167.pdf
+    data:
+    model:
+    tags:
+    notes: Theme Paper Award🏅
+    author: "last"
+  - title: "Style Over Substance: Evaluation Biases for Large Language Models"
+    authors: "Minghao Wu, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "COLING"
+    url: https://aclanthology.org/2025.coling-main.21.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "From Multiple-Choice to Extractive QA: A Case Study for English and Arabic"
+    authors: "Teresa Lynn, Malik H. Altakrori, Samar M. Magdy, Rocktim Jyoti Das, Chenyang Lyu, Mohamed Nasr, Younes Samih, Kirill Chirkunov, <b>Alham Fikri Aji</b>, Preslav Nakov, Shantanu Godbole, Salim Roukos, Radu Florian and Nizar Habash"
+    date: "2025"
+    venue: "COLING"
+    url: https://aclanthology.org/2025.coling-main.168.pdf
+    data:
+    model:
+    tags:
+    notes:
+    author:
   - title: "CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark"
     authors: "David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, ... , <b>Alham Fikri Aji</b>"
     date: "2024"
@@ -29,7 +177,6 @@ conference:
     tags:
     notes:
     author: "last"
-
   - title: "Re-Evaluating Evaluation for Multilingual Summarization"
     authors: "Jessica Zosa Forde, Ruochen Zhang, Lintang Sutawika, <b>Alham Fikri Aji</b>, Samuel Cahyawijaya, Genta Indra Winata, Minghao Wu, Carsten Eickhoff, Stella Biderman, Ellie Pavlick"
     date: "2024"
