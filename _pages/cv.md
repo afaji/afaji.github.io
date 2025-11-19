@@ -68,9 +68,13 @@ redirect_from:
 
 ### University Services
 
-* MBZUAI Admission Commitee, MBZUAI 2024
-* MBZUAI HPC Committee, MBZUAI 2023
-* MBZUAI PhD Qualifying Exam Committee, MBZUAI 2023
+* MBZUAI NLP Admission Commitee lead, MBZUAI 2025/2026
+* MBZUAI Undergraduate Admission Commitee lead, MBZUAI 2025/2026
+* MBZUAI Postgraduate Online Admission Exam Committee member, MBZUAI 2025
+* MBZUAI PhD Qualifying Exam Committee lead, MBZUAI 2025
+* MBZUAI NLP Admission Commitee member, MBZUAI 2024/2025
+* MBZUAI HPC Committee member, MBZUAI 2023
+* MBZUAI PhD Qualifying Exam Committee member, MBZUAI 2023
 * MBZUAI Executive Education Program advisor, 2023
 * MBZUAI PhD Candidacy Exam Committee: 5 students
   <!-- 2024 (3): Muhammad Taimoor Haseeb (student of Gus Jia), Artem Agafonov (student of Martin Takac), Hanshuo Zhai (student of Qirong Ho) -->
