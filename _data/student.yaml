@@ -3,7 +3,7 @@ students:
     category: "PhD"
     location: "MBZUAI"
     my_role: "Primary Advisor"
-    second_advisor: "Thamar Solorio"
+    second_advisor: ""
     starting_year: "2023"
     linkedin: "https://www.linkedin.com/in/haryoaw/"
     x: "https://x.com/haryoaw"
@@ -17,7 +17,7 @@ students:
     category: "PhD"
     location: "MBZUAI"
     my_role: "Primary Advisor"
-    second_advisor: "Thamar Solorio"
+    second_advisor: ""
     starting_year: "2024"
     x: "https://x.com/jcblaisecruz"
     github: "https://github.com/jcblaisecruz02"
@@ -39,13 +39,20 @@ students:
     alt_photo: 
 
   - name: "Ahmed Elshabrawy"
-    category: "Alumni"
-    role: "MSc"
+    category: "PhD"
     location: "MBZUAI"
     my_role: "Primary Advisor"
-    second_advisor: "Iryna Gurevych"
-    starting_year: "2023"
-    finish_year: "2025"
+    starting_year: "2025"
+    url: "https://www.linkedin.com/in/ashabrawy/"
+    photo:
+    alt_photo: 
+
+  - name: "Patrick Amadeus Irawan"
+    category: "PhD"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    co_advisor: "Yova Kementchedjhieva"
+    starting_year: "2025"
     url: "https://www.linkedin.com/in/ashabrawy/"
     photo:
     alt_photo: 
@@ -119,62 +126,52 @@ students:
     alt_photo:
 
   - name: "Hanif Muhammad Zhafran"
-    category: "BSc"
+    category: "Alumni"
+    role: "BSc"
     location: "Institut Teknologi Bandung"
     my_role: "Co Advisor"
     co_advisor: "Ayu Purwarianti"
     starting_year: "2024"
+    finish_year: "2025"
     url: ""
     photo:
     alt_photo:
 
   - name: "M Rifqi Farhansyah"
-    category: "BSc"
+    category: "Alumni"
+    role: "BSc"
     location: "Institut Teknologi Bandung"
     my_role: "Co Advisor"
     co_advisor: "Ayu Purwarianti"
     starting_year: "2024"
+    finish_year: "2025"
     url: ""
     photo:
     alt_photo:
 
   - name: "Lyzander Andrylie"
-    category: "BSc"
+    category: "Alumni"
+    role: "BSc"
     location: "Universitas Indonesia"
     my_role: "Co Advisor"
     co_advisor: "Alfan Farizki"
     starting_year: "2024"
+    finish_year: "2025"
     url: ""
     photo:
     alt_photo:
 
   - name: "Inaya Rahmanisa"
-    category: "BSc"
+    category: "Alumni"
+    role: "BSc"
     location: "Universitas Indonesia"
     my_role: "Co Advisor"
     co_advisor: "Alfan Farizki"
     starting_year: "2024"
+    finish_year: "2025"
     url: ""
     photo:
     alt_photo:
-
-  - name: "Fathinah Asma Izzati"
-    category: "MSc"
-    location: "MBZUAI"
-    my_role: "Secondary Advisor"
-    main_advisor: "Gus Xia"
-    starting_year: "2023"
-    exclude_from_team: true
-    url: "https://www.linkedin.com/in/fathinah-izzati/"
-
-  - name: "Aidar Myrzakhan"
-    category: "MSc"
-    location: "MBZUAI"
-    my_role: "Secondary Advisor"
-    main_advisor: "Zhiqiang Shen"
-    starting_year: "2023"
-    exclude_from_team: true
-    url: "https://www.linkedin.com/in/aidar-myrzakhan/"
 
   - name: "Ni Putu Intan Maharani"
     category: "Alumni"
@@ -248,11 +245,12 @@ students:
     url: "https://lyuchenyang.github.io"
 
   - name: "Mohamed Fazli Mohamed Imam"
-    category: "Staff"
+    category: "Alumni"
     role: "Research Assistant"
     location: "MBZUAI"
     my_role: "Research Advisor"
     starting_year: "2024"
+    finish_year: "2025"
     url: "https://lk.linkedin.com/in/fazliimaam"
     photo: "/images/team/fazli.jpg"
 
@@ -262,16 +260,17 @@ students:
     location: "MBZUAI"
     my_role: "Research Advisor"
     starting_year: "2023"
-    finish_year: "2024"
+    finish_year: "2025"
     current_position: "PhD at University of Edinburgh"
     url: "https://faridlazuarda.github.io/"
     photo: "/images/team/farid.jpg"
 
   - name: "Rendi Chevi"
-    category: "Staff"
+    category: "Alumni"
     role: "Research Assistant"
     location: "MBZUAI"
     my_role: "Research Advisor"
     starting_year: "2023"
+    finish_year: "2025"
     url: "https://www.linkedin.com/in/rendichevi/?originalSubdomain=ae"
     photo: "/images/team/rendi.jpg"
