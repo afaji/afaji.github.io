@@ -41,6 +41,7 @@ redirect_from:
 
 ## Awards
 
+* MBZUAI's "Early Career Researcher Award" 2025
 * Best Resource Paper Award, ACL 2025
 * Best Theme Paper Award, NAACL 2025
 * Best Resource Paper Award, EACL 2024
@@ -55,7 +56,9 @@ redirect_from:
 
 ### Services to Scientific Communities
 
-* **Adversary Board**: The ACL Special Interest Group on SEA NLP (SIGSEA)
+* **Adversary Board**: 
+  * The ACL Special Interest Group on SEA NLP (SIGSEA) (2025 - present)
+  * WiNLP (2025 - present)
 * **Reviewer and Program Committee Member**
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP
@@ -72,18 +75,19 @@ redirect_from:
 * MBZUAI PhD Candidacy Exam Committee: 5 students
   <!-- 2024 (3): Muhammad Taimoor Haseeb (student of Gus Jia), Artem Agafonov (student of Martin Takac), Hanshuo Zhai (student of Qirong Ho) -->
   <!-- 2023 (2): Muhammad Arslan Manzoor (student of Preslav Nakov), Abdulla Jasem Ahmed Jaber Almansoori (student of Martin Takac) -->
-* MBZUAI MSc Thesis Defence Committee: 7 students
+* MBZUAI MSc Thesis Defence Committee: 10 students
+  <!-- 2025 (3): Renxi Wang, Ilia Lialin, Phu -->
   <!-- 2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki -->
   <!-- 2023 (2): Sarah Albarri, Muhammad Umar Salman -->
 
 * PhD Thesis Defence Commitee:
-* ** 2025: Muhammad Arslan Manzoor
+  * 2025: Dr. Muhammad Arslan Manzoor
 
 
 ### Informatics and AI Olympiad
 
   * **Problem Setter/Jury**: OSN Indonesia (2013, 2014, 2015), ACM-ICPC Regional Jakarta (2014, 2015), APIO (2015), Gemastik (2016), ICPC Asia Championship (2025), IOAI (2025)
-  * **Scientific Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022)
+  * **Scientific Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022), Indonesia's National Olympiad in AI (2025)
   * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
 
 <!-- <div class="page-break"></div> -->
@@ -120,7 +124,6 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 
 ### Current Students
 
-Note: <br>As a Co-Advisor, I actively advise students (mainly from different universities) and I commit to meeting them frequently to discuss their work. <br>As a Secondary Advisor, I usually do not interact with the students regularly and am not typically involved in the research work.
 
 <ul>
 {% assign phd_students = site.data.student.students | where: "category", "PhD" %}
@@ -130,11 +133,14 @@ Note: <br>As a Co-Advisor, I actively advise students (mainly from different uni
 {% assign students = phd_students | concat: msc_students %}
 {% assign students = students | concat: bsc_students %}
 
-{% for student in students %}
+#### PhD
+
+{% for student in phd_students %}
+{% if student.location == "MBZUAI" %}
   <li>
    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
     Role: {{ student.category | raw }}
-    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}
+    <!--{% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
     {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
     {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
@@ -143,8 +149,51 @@ Note: <br>As a Co-Advisor, I actively advise students (mainly from different uni
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
   </li>
+{% endif %}
 {% endfor %}
 </ul>
+
+#### MSc
+
+{% for student in msc_students %}
+{% if student.location == "MBZUAI" %}
+  <li>
+   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
+    Role: {{ student.category | raw }}
+    <!--{% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
+    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
+    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
+    <br>
+    {% if student.job %}
+      <strong>Current position</strong>: {{ student.job | raw }}<br>
+    {% endif %}
+  </li>
+{% endif %}
+{% endfor %}
+</ul>
+
+#### External Advisorship
+
+I also advise some external students, mostly UG and mainly from Indonesia.
+
+{% for student in students %}
+{% if student.location != "MBZUAI" %}
+  <li>
+   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
+    Role: {{ student.category | raw }}
+    <!--{% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
+    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
+    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
+    <br>
+    {% if student.job %}
+      <strong>Current position</strong>: {{ student.job | raw }}<br>
+    {% endif %}
+  </li>
+{% endif %}
+{% endfor %}
+
 
 ### Past Students
 <ul>
@@ -155,7 +204,7 @@ Note: <br>As a Co-Advisor, I actively advise students (mainly from different uni
   <li>
    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - {{ student.finish_year }}</span><br>
     Role: {{ student.role | raw }}
-    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}
+    <!--{% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
     {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
     {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
@@ -193,14 +242,25 @@ Note: <br>As a Co-Advisor, I actively advise students (mainly from different uni
 </ul>
 
 ## Grants and Funding
- * Google Cloud Research Credit\
+
+ * (2024) Google Cloud Research Credit\
    **Amount**: 5,000 USD
- * Microsoft Research: "Developing Robust Methodology and Datasets for Holistic Evaluation of Cultural Awareness and Bias in Foundation Models" (Co-PI)\
+ * (2024) Microsoft Research: "Developing Robust Methodology and Datasets for Holistic Evaluation of Cultural Awareness and Bias in Foundation Models" (Co-PI)\
    **Amount**: 20,000 USD
- * Cohere For AI research grants: "SEACrowd: Consolidating South-east Asia NLP dataset" (Co-PI)\
+ * (2024) Cohere For AI research grants: "SEACrowd: Consolidating South-east Asia NLP dataset" (Co-PI)\
    **Amount**: 3,000 USD
- * IBM: "Question Answering for Arabic Dialects"\
-   **Amount**: Postdoctoral support of Chenyang Lyu of 100,000 USD 
+ * (2024 - 2025) IBM-MBZUAI collaboration: "Question Answering for Arabic Dialects" (Co-PI)\
+   **Amount**: Postdoctoral support and Data annotation support (Approximately 150,000 USD)\
+   Fund is from MBZUAI
+ * (2025) Etihad: "Persuasive Booking Agent Chatbot" (Co-PI)\
+   **Amount**: 450,000 USD
+ * (2025) Fal.ai research grant for Sink-free Attention\
+   **Amount**: 12,500 USD
+ * (2025) Manifold Labs: Token-Order Prediction\
+   **Amount**: unlimited access to 8xH200 cluster (Approximately 100,000 USD)
+ * (2025) Lambda multimodal AI grand challenge\
+   **Amount**: 10,000 USD
+   
 
 ## Teachings
   * NLP702/NLP806: Advanced Natural Language Processing (for MSc and PhD) - MBZUAI <span style="float: right;">Spring 2025</span>\
