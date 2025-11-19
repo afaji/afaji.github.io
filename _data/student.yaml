@@ -57,6 +57,31 @@ students:
     photo:
     alt_photo: 
 
+  - name: "Qinrong Cui"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    starting_year: "2025"
+    url: ""
+    photo: "/images/team/erland.jpg"
+    alt_photo: 
+  - name: "Ryandito Diandaru"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    starting_year: "2025"
+    url: ""
+    photo: "/images/team/erland.jpg"
+    alt_photo: 
+  - name: "Badrinath Chandana"
+    category: "MSc"
+    location: "MBZUAI"
+    my_role: "Primary Advisor"
+    starting_year: "2025"
+    url: ""
+    photo: "/images/team/erland.jpg"
+    alt_photo: 
+
   - name: "Erland Fuadi"
     category: "MSc"
     location: "MBZUAI"
