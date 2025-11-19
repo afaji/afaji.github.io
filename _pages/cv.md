@@ -144,7 +144,7 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
     {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
     {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-    <br>
+
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -164,7 +164,7 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
     {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
     {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-    <br>
+
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -186,7 +186,7 @@ I also advise some external students, mostly UG and mainly from Indonesia.
     {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
     {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-    <br>
+
     {% if student.job %}
       <strong>Current position</strong>: {{ student.job | raw }}<br>
     {% endif %}
@@ -208,7 +208,7 @@ I also advise some external students, mostly UG and mainly from Indonesia.
     {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
     {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-    <br>
+
     {% if student.current_position %}
       <strong>Current position</strong>: {{ student.current_position | raw }}<br>
     {% endif %}
@@ -232,7 +232,7 @@ I also advise some external students, mostly UG and mainly from Indonesia.
     {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
     {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-    <br>
+
     {% if student.current_position %}
       <strong>Current position</strong>: {{ student.current_position | raw }}<br>
     {% endif %}
