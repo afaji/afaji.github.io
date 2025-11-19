@@ -118,6 +118,37 @@ students:
     photo: "/images/team/alaa.jpg"
     alt_photo: 
 
+  - name: "Rafael"
+    category: "BSc"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2025"
+    url: 
+    photo:
+    alt_photo:
+
+  - name: "Mohamad Maulana Firdaus Ramadhan"
+    category: "BSc"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2025"
+    url: 
+    photo:
+    alt_photo:
+
+  - name: "Abel Aprilani"
+    category: "BSc"
+    location: "Institut Teknologi Bandung"
+    my_role: "Co Advisor"
+    co_advisor: "Ayu Purwarianti"
+    starting_year: "2025"
+    url: 
+    photo:
+    alt_photo:
+
+
   - name: "Zayd Muhammad Kawakibi Zuhri"
     category: "Alumni"
     role: "BSc"
