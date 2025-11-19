@@ -139,10 +139,10 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 {% if student.location == "MBZUAI" %}
   <li>
    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
-    Role: {{ student.category | raw }}
-    <!--{% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
-    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
-    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
+    <!--Role: {{ student.category | raw }}
+    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
+    {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
     <br>
     {% if student.job %}
@@ -161,8 +161,8 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
     <!--Role: {{ student.category | raw }}
     {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
-    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
-    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
+    {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
     <br>
     {% if student.job %}
@@ -171,7 +171,7 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
   </li>
 {% endif %}
 {% endfor %}
-
+</ul>
 
 #### External Advisorship
 
@@ -205,8 +205,8 @@ I also advise some external students, mostly UG and mainly from Indonesia.
    {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - {{ student.finish_year }}</span><br>
     <!--Role: {{ student.role | raw }}
     {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
-    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
-    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
+    {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
     {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
     <br>
     {% if student.current_position %}

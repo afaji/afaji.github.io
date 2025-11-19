@@ -1,4 +1,100 @@
 conference:
+  - title: "Unveiling the Influence of Amplifying Language-Specific Neurons"
+    authors: "Inaya Rahmanisa, Lyzander Marciano Andrylie, Mahardika Krisna Ihsani, Alfan Farizki Wicaksono, Haryo Akbarianto Wibowo, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "AACL"
+    url: "https://arxiv.org/abs/2507.22581v2"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "Multilingual Iterative Model Pruning: What Matters?"
+    authors: "Haryo Akbarianto Wibowo, Haiyue Song, Hideki Tanaka, Masao Utiyama, <b>Alham Fikri Aji</b>, Raj Dabre"
+    date: "2025"
+    venue: "AACL"
+    url: ""
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "ThaiInstruct: An instruction-following Dataset for Culturally-Aware, Multitask, and Multi-domain Evaluation in Thai"
+    authors: "Peerat Limkonchotiwat, Pume Tuchinda, Lalita Lowphansirikul, Surapon Nonesung, Panuthep Tasawong, <b>Alham Fikri Aji</b>, Can Udomcharoenchaikit, Sarana Nutanong"
+    date: "2025"
+    venue: "EMNLP"
+    url: "https://aclanthology.org/2025.emnlp-main.175.pdf"
+    data:
+    model:
+    tags:
+    notes:
+    author:
+  - title: "LORAXBENCH: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages"
+    authors: "<b>Alham Fikri Aji</b>, Trevor Cohn"
+    date: "2025"
+    venue: "EMNLP"
+    url: "https://aclanthology.org/2025.emnlp-main.881.pdf"
+    data:
+    model:
+    tags:
+    notes:
+    author: "first"
+  - title: "From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs"
+    authors: "Muhammad Farid Adilazuarda, Chen Cecilia Liu, Iryna Gurevych, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "EMNLP"
+    url: "https://aclanthology.org/2025.emnlp-main.912/"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+  - title: "From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs"
+    authors: "Muhammad Farid Adilazuarda, Chen Cecilia Liu, Iryna Gurevych, <b>Alham Fikri Aji</b>"
+    date: "2025"
+    venue: "EMNLP"
+    url: "https://aclanthology.org/2025.emnlp-main.912/"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "Balanced Multi-Factor In-Context Learning for Multilingual Large Language Models"
+    authors: "Masahiro Kaneko, <b>Alham Fikri Aji</b>, Timothy Baldwin"
+    date: "2025"
+    venue: "EMNLP"
+    url: "https://aclanthology.org/2025.emnlp-main.1016.pdf"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation"
+    authors: "Emilio Villa-Cueva, Sholpan Bolatzhanova, Diana Turmakhan, Kareem Elzeky, Henok Biadglign Ademtew, <b>Alham Fikri Aji</b>, Israel Abebe Azime, Jinheon Baek, Frederico Belcavello, Fermin Cristobal, Jan Christian Blaise Cruz, Mary Dabre, Raj Dabre, Toqeer Ehsan, Naome A Etori, Fauzan Farooqui, Jiahui Geng, Guido Ivetta, Thanmay Jayakumar, Soyeong Jeong, Zheng Wei Lim, Aishik Mandal, Sofía Martinelli, Mihail Minkov Mihaylov, Daniil Orel, Aniket Pramanick, Sukannya Purkayastha, Israfel Salazar, Haiyue Song, Tiago Timponi Torrent, Debela Desalegn Yadeta, Injy Hamed, Atnafu Lambebo Tonja, Thamar Solorio"
+    date: "2025"
+    venue: "Findings of the Association for Computational Linguistics: EMNLP 2025"
+    url: "https://aclanthology.org/2025.findings-emnlp.1220/"
+    data:
+    model:
+    tags:
+    notes:
+    author: 
+
+  - title: "MoMentS: A Comprehensive Multimodal Benchmark for Theory of Mind"
+    authors: "Emilio Villa-Cueva, S M Masrur Ahmed, Rendi Chevi, Jan Christian Blaise Cruz, Kareem Elzeky, Fermin Cristobal, <b>Alham Fikri Aji</b>, Skyler Wang, Rada Mihalcea, Thamar Solorio"
+    date: "2025"
+    venue: "Findings of the Association for Computational Linguistics: EMNLP 2025"
+    url: "https://aclanthology.org/2025.findings-emnlp.1230/"
+    data:
+    model:
+    tags:
+    notes:
+    author: 
+
   - title: "Data Laundering: Artificially Boosting Benchmark Results through Knowledge Distillation"
     authors: "Jonibek Mansurov, Akhmed Sakip, <b>Alham Fikri Aji</b>"
     date: "2025"
