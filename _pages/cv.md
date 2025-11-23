@@ -8,13 +8,48 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+<style>
+  /* Global font reset to ensure consistency */
+  body, p, li, td, th {
+    font-size: 0.9rem !important;
+  }
+
+  /* Helper class for grey, smaller details (used in lists) */
+  .desc {
+    font-size: 0.9em;
+    color: #606060;
+  }
+
+  /* TABLE STYLING (Only for Grants) */
+  table.cv-table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    border-spacing: 0;
+    margin-bottom: 2em;
+    border: none !important; /* No outer box */
+  }
+  
+  table.cv-table th, 
+  table.cv-table td { 
+    border: none !important;
+    border-bottom: 1px solid #e0e0e0 !important; 
+    padding: 12px 0px; /* Reduced side padding for cleaner look */
+    vertical-align: top; 
+    text-align: left; 
+  }
+  
+  table.cv-table th { 
+    border-bottom: 2px solid #444 !important; 
+    font-weight: bold;
+    color: #333;
+  }
+</style>
+
 <p style="font-size: 2em; font-weight: bold;">Alham Fikri Aji / Curriculum Vitae</p>
 [alham.fikri@mbzuai.ac.ae](mailto:alham.fikri@mbzuai.ac.ae)
 
-[//]: # (I am an assistant professor at MBZUAI. I obtained my Ph.D. from the University of Edinburgh’s Institute for Language, Cognition, and Computation, where I focused on enhancing the training and inference speed of machine translation. My studies were supervised by Dr. Kenneth Heafield and Dr. Rico Sennrich. Presently, my research centers on multilingual, low-resource, and low-compute NLP. I have worked on lightweight models via distillation, as well as adapting models to unseen languages in cases of limited training data.)
-[//]: # (I have been developing various multilingual large language models such as BLOOMZ/mT0, Jais, Bactrian-X, and more. I have also worked on building multilingual and under-represented NLP resources and benchmarks, especially those that capture local culture and nuances, some of which were awarded best resource papers.)
-[//]: # (In the past, I have gained industry experience at companies such as Amazon, Google, and Apple.)
-
+[//]: # (BIO SECTION HIDDEN)
 
 ## Education
 
@@ -56,49 +91,80 @@ redirect_from:
 
 ### Services to Scientific Communities
 
-* **Adversary Board**: 
+* **Advisory Board**
   * The ACL Special Interest Group on SEA NLP (SIGSEA) (2025 - present)
   * WiNLP (2025 - present)
-* **Reviewer and Program Committee Member**
-  * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
-  * **Workshop**: WNGT, TL4NLP
-* **Area Chair**: ARR (2024+), ACL (2023), EMNLP (2023), COLM (2024)
-* **Local Chair**: COLING (2025)
-* **Organizer**: South-East Asia Language Processing (2023, 2025), Semeval shared task organizer (2024, 2025), MELT at COLM 2025
+* **Reviewer / AC**
+  * *Conferences:* ARR, ACL, COLM, COLING, ICML, ICLR, NeurIPS, LREC
+  * *Workshops:* WNGT, TL4NLP
+* **Organizing Committee**
+  * *Local Chair:* COLING (2025)
+  * *Organizer:* South-East Asia Language Processing (2023, 2025), Semeval shared task organizer (2024, 2025), MELT at COLM 2025
 
 ### University Services
 
-* MBZUAI NLP Admission Commitee lead, MBZUAI 2025/2026
-* MBZUAI Undergraduate Admission Commitee lead, MBZUAI 2025/2026
-* MBZUAI Postgraduate Online Admission Exam Committee member, MBZUAI 2025
-* MBZUAI PhD Qualifying Exam Committee lead, MBZUAI 2025
-* MBZUAI NLP Admission Commitee member, MBZUAI 2024/2025
-* MBZUAI HPC Committee member, MBZUAI 2023
-* MBZUAI PhD Qualifying Exam Committee member, MBZUAI 2023
-* MBZUAI Executive Education Program advisor, 2023
-* MBZUAI PhD Candidacy Exam Committee: 5 students
-  <!-- 2024 (3): Muhammad Taimoor Haseeb (student of Gus Jia), Artem Agafonov (student of Martin Takac), Hanshuo Zhai (student of Qirong Ho) -->
-  <!-- 2023 (2): Muhammad Arslan Manzoor (student of Preslav Nakov), Abdulla Jasem Ahmed Jaber Almansoori (student of Martin Takac) -->
-* MBZUAI MSc Thesis Defence Committee: 10 students
-  <!-- 2025 (3): Renxi Wang, Ilia Lialin, Phu -->
-  <!-- 2024 (5): Yichen (Will) Huang, Amirbek Djanibekov, Adham Ibrahim, Ahmed Rashed Ahmed Mubarak Almansoori, Ahmed Mohamed Mubarak Ali Albreiki -->
-  <!-- 2023 (2): Sarah Albarri, Muhammad Umar Salman -->
-
-* PhD Thesis Defence Commitee:
-  * 2025: Dr. Muhammad Arslan Manzoor
-
+<ul>
+  <li>
+    <strong>NLP Admission Committee Lead</strong> (MBZUAI)
+    <span style="float: right;">2025/2026</span>
+  </li>
+  <li>
+    <strong>Undergraduate Admission Committee Lead</strong> (MBZUAI)
+    <span style="float: right;">2025/2026</span>
+  </li>
+  <li>
+    <strong>PhD Qualifying Exam Committee Lead</strong> (MBZUAI)
+    <span style="float: right;">2025</span>
+  </li>
+  <li>
+    <strong>Postgraduate Online Admission Exam Committee Member</strong> (MBZUAI)
+    <span style="float: right;">2025</span>
+  </li>
+  <li>
+    <strong>NLP Admission Committee Member</strong> (MBZUAI)
+    <span style="float: right;">2024/2025</span>
+  </li>
+  <li>
+    <strong>HPC Committee Member</strong> (MBZUAI)
+    <span style="float: right;">2023</span>
+  </li>
+  <li>
+    <strong>PhD Qualifying Exam Committee Member</strong> (MBZUAI)
+    <span style="float: right;">2023</span>
+  </li>
+  <li>
+    <strong>Executive Education Program Advisor</strong> (MBZUAI)
+    <span style="float: right;">2023</span>
+  </li>
+  <li>
+    <strong>PhD Thesis Defence Committee</strong>
+    <ul>
+      <li>Dr. Muhammad Arslan Manzoor (2025)</li>
+    </ul>
+  </li>
+  <li>
+    <strong>PhD Candidacy Exam Committee</strong>
+    <span class="desc">(Total: 5 students)</span>
+  </li>
+  <li>
+    <strong>MSc Thesis Defence Committee</strong>
+    <span class="desc">(Total: 10 students)</span>
+  </li>
+</ul>
 
 ### Informatics and AI Olympiad
 
-  * **Problem Setter/Jury**: OSN Indonesia (2013, 2014, 2015), ACM-ICPC Regional Jakarta (2014, 2015), APIO (2015), Gemastik (2016), ICPC Asia Championship (2025), IOAI (2025)
-  * **Scientific Committee**: Gemastik (2016), TOKI-Open (2018), IOI (2022), Indonesia's National Olympiad in AI (2025)
-  * **Training**: Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011, 2012, 2013), University of Edinburgh ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
-
-<!-- <div class="page-break"></div> -->
+* **Problem Setter / Jury**
+  * OSN Indonesia (2013-2015), ACM-ICPC Regional Jakarta (2014, 2015), APIO (2015), Gemastik (2016), ICPC Asia Championship (2025), IOAI (2025)
+* **Scientific Committee**
+  * Gemastik (2016), TOKI-Open (2018), IOI (2022), Indonesia's National Olympiad in AI (2025)
+* **Training**
+  * Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011-2013), UoE ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
 
 ## Publications
 I mainly publish at ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. <br>
 <span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.
+
 ### Peer-Reviewed Conferences
 <div class="compact-ul">
 <ul>
@@ -124,75 +190,87 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 {% endfor %}
 </ul>
 </div>
+
 ## Supervision and Mentorship
 
+
 ### Current Students
-
-
-
+<ul>
 {% assign phd_students = site.data.student.students | where: "category", "PhD" %}
 {% assign msc_students = site.data.student.students | where: "category", "MSc" %}
-{% assign bsc_students = site.data.student.students | where: "category", "BSc" %}
 
-{% assign students = phd_students | concat: msc_students %}
-{% assign students = students | concat: bsc_students %}
-
-#### PhD
-<ul>
 {% for student in phd_students %}
 {% if student.location == "MBZUAI" %}
   <li>
-   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
-    <!--Role: {{ student.category | raw }}
-    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
-    {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
-    {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
-    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-
+    {% if student.url %}<a href="{{ student.url }}"><strong>{{ student.name | raw }}</strong></a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} (PhD)
+    <span style="float: right;">{{ student.starting_year | raw }} - Present</span><br>
+    
+    {% if student.co_advisor %}
+      <span class="desc">Co-advised with {{ student.co_advisor }}</span><br>
+    {% endif %}
+    {% if student.main_advisor %}
+       <span class="desc">Main Supervisor: {{ student.main_advisor }}</span><br>
+    {% endif %}
     {% if student.job %}
-      <strong>Current position</strong>: {{ student.job | raw }}<br>
+       <span class="desc">Current: {{ student.job | raw }}</span>
     {% endif %}
   </li>
 {% endif %}
 {% endfor %}
-</ul>
 
-#### MSc
-<ul>
 {% for student in msc_students %}
 {% if student.location == "MBZUAI" %}
   <li>
-   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
-    <!--Role: {{ student.category | raw }}
-    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
-    {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
-    {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
-    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-
+    {% if student.url %}<a href="{{ student.url }}"><strong>{{ student.name | raw }}</strong></a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} (MSc)
+    <span style="float: right;">{{ student.starting_year | raw }} - Present</span><br>
+    
+    {% if student.co_advisor %}
+      <span class="desc">Co-advised with {{ student.co_advisor }}</span><br>
+    {% endif %}
+    {% if student.main_advisor %}
+       <span class="desc">Main Supervisor: {{ student.main_advisor }}</span><br>
+    {% endif %}
     {% if student.job %}
-      <strong>Current position</strong>: {{ student.job | raw }}<br>
+       <span class="desc">Current: {{ student.job | raw }}</span>
     {% endif %}
   </li>
 {% endif %}
 {% endfor %}
 </ul>
 
-#### External Advisorship
+### Research Staff
+<ul>
+{% assign staff = site.data.student.students | where: "category", "Staff" %}
+{% for person in staff %}
+  <li>
+    {% if person.url %}<a href="{{ person.url }}"><strong>{{ person.name | raw }}</strong></a>{% else %}<strong>{{ person.name | raw }}</strong>{% endif %}
+    <span style="float: right;">{{ person.starting_year | raw }} - Present</span><br>
+    <span class="desc">{{ person.role }}</span>
+  </li>
+{% endfor %}
+</ul>
 
+### External Advisorship
 I also advise some external students, mostly UG and mainly from Indonesia.
 <ul>
-{% for student in students %}
+{% assign bsc_students = site.data.student.students | where: "category", "BSc" %}
+{% assign all_current = phd_students | concat: msc_students | concat: bsc_students %}
+
+{% for student in all_current %}
 {% if student.location != "MBZUAI" %}
   <li>
-   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - present</span><br>
-    Role: {{ student.category | raw }}
-    <!--{% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
-    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
-    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
-    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-
+    {% if student.url %}<a href="{{ student.url }}"><strong>{{ student.name | raw }}</strong></a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %}
+    ({{ student.location }})
+    <span style="float: right;">{{ student.starting_year | raw }} - Present</span><br>
+    
+    {% if student.co_advisor %}
+      <span class="desc">Co-advised with {{ student.co_advisor }}</span><br>
+    {% endif %}
+    {% if student.main_advisor %}
+       <span class="desc">Main Supervisor: {{ student.main_advisor }}</span><br>
+    {% endif %}
     {% if student.job %}
-      <strong>Current position</strong>: {{ student.job | raw }}<br>
+       <span class="desc">Current: {{ student.job | raw }}</span>
     {% endif %}
   </li>
 {% endif %}
@@ -202,111 +280,198 @@ I also advise some external students, mostly UG and mainly from Indonesia.
 ### Past Students
 <ul>
 {% assign alumni = site.data.student.students | where: "category", "Alumni" | sort: "finish_year" | reverse %}
+{% assign alumni_mbzuai = alumni | where: "location", "MBZUAI" %}
+{% assign alumni_external = alumni | where_exp: "item", "item.location != 'MBZUAI'" %}
 
-{% for student in alumni %}
-{% if student.role == "PhD" or student.role == "MSc" or student.role == "BSc" %}
+{% for student in alumni_mbzuai %}
   <li>
-   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - {{ student.finish_year }}</span><br>
-    <!--Role: {{ student.role | raw }}
-    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}-->
-    {% if student.co_advisor %}co-supervising with: {{ student.co_advisor }}{% endif %}
-    {% if student.main_advisor %}main supervisor: {{ student.main_advisor }}{% endif %}
-    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-
-    {% if student.current_position %}
-      <strong>Current position</strong>: {{ student.current_position | raw }}<br>
-    {% endif %}
+    {% if student.url %}<a href="{{ student.url }}"><strong>{{ student.name | raw }}</strong></a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %}
+    <span style="float: right;">{{ student.starting_year | raw }} - {{ student.finish_year }}</span><br>
+    
+    <span class="desc">
+    {{ student.role | default: student.my_role | default: student.category }}
+    {% if student.co_advisor %}| Co-advised with {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}| Main: {{ student.main_advisor }}{% endif %}
+    {% if student.current_position %}<br>Now: {{ student.current_position | raw }}{% endif %}
+    </span>
   </li>
-{% endif %}
 {% endfor %}
-</ul>
 
-### Research Advisorship
-<ul>
-{% assign alumni = site.data.student.students | where: "category", "Alumni" | sort: "finish_year" | reverse %}
-{% assign staff = site.data.student.students | where: "category", "Staff" | sort: "finish_year" | reverse %}
-
-{% assign alumni = staff | concat: alumni %}
-{% for student in alumni %}
-{% if student.role != "PhD" and student.role != "MSc" and student.role != "BSc" %}
+{% for student in alumni_external %}
   <li>
-   {% if student.url %}<a href="{{ student.url }}">{{ student.name | raw }}</a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %} — {{ student.my_role | raw }}<span style="float: right;">{{ student.starting_year | raw }} - {{ student.finish_year }}</span><br>
-    Role: {{ student.role | raw }}
-    {% if student.second_advisor %}; 2nd supervisor: {{ student.second_advisor }}{% endif %}
-    {% if student.co_advisor %}; co-supervising with: {{ student.co_advisor }}{% endif %}
-    {% if student.main_advisor %}; main supervisor: {{ student.main_advisor }}{% endif %}
-    {% if student.location != "MBZUAI" %} ({{ student.location }}) {% endif %}
-
-    {% if student.current_position %}
-      <strong>Current position</strong>: {{ student.current_position | raw }}<br>
-    {% endif %}
+    {% if student.url %}<a href="{{ student.url }}"><strong>{{ student.name | raw }}</strong></a>{% else %}<strong>{{ student.name | raw }}</strong>{% endif %}
+    ({{ student.location }})
+    <span style="float: right;">{{ student.starting_year | raw }} - {{ student.finish_year }}</span><br>
+    
+    <span class="desc">
+    {{ student.role | default: student.my_role | default: student.category }}
+    {% if student.co_advisor %}| Co-advised with {{ student.co_advisor }}{% endif %}
+    {% if student.main_advisor %}| Main: {{ student.main_advisor }}{% endif %}
+    {% if student.current_position %}<br>Now: {{ student.current_position | raw }}{% endif %}
+    </span>
   </li>
-{% endif %}
 {% endfor %}
 </ul>
 
 ## Grants and Funding
 
- * (2024) Google Cloud Research Credit\
-   **Amount**: 5,000 USD
- * (2024) Microsoft Research: "Developing Robust Methodology and Datasets for Holistic Evaluation of Cultural Awareness and Bias in Foundation Models" (Co-PI)\
-   **Amount**: 20,000 USD
- * (2024) Cohere For AI research grants: "SEACrowd: Consolidating South-east Asia NLP dataset" (Co-PI)\
-   **Amount**: 3,000 USD
- * (2024 - 2025) IBM-MBZUAI collaboration: "Question Answering for Arabic Dialects" (Co-PI)\
-   **Amount**: Postdoctoral support and Data annotation support (Approximately 150,000 USD)\
-   Fund is from MBZUAI
- * (2025) Etihad: "Persuasive Booking Agent Chatbot" (Co-PI)\
-   **Amount**: 450,000 USD
- * (2025) Fal.ai research grant for Sink-free Attention\
-   **Amount**: 12,500 USD
- * (2025) Manifold Labs: Token-Order Prediction\
-   **Amount**: unlimited access to 8xH200 cluster (Approximately 100,000 USD)
- * (2025) Lambda multimodal AI grand challenge\
-   **Amount**: 10,000 USD
-   
+<table class="cv-table">
+  <thead>
+    <tr>
+      <th width="35%">Project</th>
+      <th width="15%">Awarding Body</th>
+      <th width="15%">Amount</th>
+      <th width="15%">Dates</th>
+      <th width="20%">Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Persuasive Booking Agent Chatbot</td>
+      <td>Etihad</td>
+      <td>$450,000</td>
+      <td>2025-2026</td>
+      <td>Nils Lukas (PI), Salem Lahlou, Alham Fikri Aji, Mingming Gong, Martin Takac</td>
+    </tr>
+    <tr>
+      <td>Question Answering for Arabic Dialects</td>
+      <td>IBM-MBZUAI Collaboration</td>
+      <td>~$150,000</td>
+      <td>2023–2027</td>
+      <td>Part of IBM-MBZUAI collaboration. No money change between parties, so fund comes from MBZUAI for postdoc hiring and data-annotation cost.</td>
+    </tr>
+    <tr>
+      <td>Token-Order Prediction</td>
+      <td>Manifold Labs</td>
+      <td>~$50,000</td>
+      <td>2025</td>
+      <td>Alham Fikri Aji and Zayd Zuhri (Research Engineer, MBZUAI). Unlimited acess to 8xH200 node.</td>
+    </tr>
+    <tr>
+      <td>Sink-free Attention in Transformers</td>
+      <td>Fal.ai</td>
+      <td>$12,500</td>
+      <td>2025</td>
+      <td>Alham Fikri Aji and Zayd Zuhri (Research Engineer, MBZUAI).</td>
+    </tr>
+    <tr>
+      <td>Lambda Multimodal AI Grand Challenge</td>
+      <td>Lambda</td>
+      <td>$10,000</td>
+      <td>2025</td>
+      <td>Genta Indra Winata (Capital One), Patrick Amadeus Irawan (PhD student, MBZUAI), Alham Fikri Aji</td>
+    </tr>
+    <tr>
+      <td>Google Cloud Research Credit</td>
+      <td>Google</td>
+      <td>$5,000</td>
+      <td>2024</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SEACrowd: Consolidating South-east Asia NLP dataset</td>
+      <td>Cohere For AI</td>
+      <td>$3,000</td>
+      <td>2024</td>
+      <td>Together in collaboration with SEACrowd communities</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Teachings
-  * NLP702/NLP806: Advanced Natural Language Processing (for MSc and PhD) - MBZUAI <span style="float: right;">Spring 2025</span>\
-    Main instructor. Covered advanced NLP topics, including LLMs, distributed training, multilinguality, interpretability, and multimodality in NLP.
-  * FIT5145: Intro to Data Science (for MSc) - Monash Indonesia <span style="float: right;">Term 4 2024</span>\
-    Main instructor. Introduction to Python, data science, and AI.
-  * NLP702: Advanced Natural Language Processing (for MSc) - MBZUAI <span style="float: right;">Spring 2024</span>\
-    Co-instructor. Covered efficient and large-scale NLP, including LLM, distributed training, distillation, parameter-efficient fine-tuning, and linear Transformers.
-  * NLP801: Deep Learning for Language Processing (for PhD) - MBZUAI <span style="float: right;">Fall 2023</span>\
-    Main instructor. Designed and taught the module, covering various recent research topics and trends in NLP.
+  * **NLP702/NLP806: Advanced Natural Language Processing (for MSc and PhD)** <span style="float: right;">Spring 2026</span><br>
+    <span class="desc">MBZUAI (Co-instructor). Covered advanced NLP topics, including LLMs, distributed training, multilinguality, interpretability, and multimodality in NLP.</span>
+  * **NLP702/NLP806: Advanced Natural Language Processing (for MSc and PhD)** <span style="float: right;">Spring 2025</span><br>
+    <span class="desc">MBZUAI (Main instructor). Covered advanced NLP topics, including LLMs, distributed training, multilinguality, interpretability, and multimodality in NLP.</span>
+  * **FIT5145: Intro to Data Science (for MSc)** <span style="float: right;">Term 4 2024</span><br>
+    <span class="desc">Monash Indonesia (Main instructor). Introduction to Python, data science, and AI.</span>
+  * **NLP702: Advanced Natural Language Processing (for MSc)** <span style="float: right;">Spring 2024</span><br>
+    <span class="desc">MBZUAI (Co-instructor). Covered efficient and large-scale NLP, including LLM, distributed training, distillation, parameter-efficient fine-tuning, and linear Transformers.</span>
+  * **NLP801: Deep Learning for Language Processing (for PhD)** <span style="float: right;">Fall 2023</span><br>
+    <span class="desc">MBZUAI (Main instructor). Designed and taught the module, covering various recent research topics and trends in NLP.</span>
 
 ## Talks
-  * **Code-Switching Thought Patterns in Multilingual Language Models**\
-    Keynote on CALCS, Co-located with NAACL 2025 (3rd May 2025)
-  * **On Grassroots Effort for Low-Resource Data Collection**\
-    Keynote at CLTW, Co-located with COLING 2025 (20th January 2025)
-  * **Collaborative Multilingual Data Collection**\
-    Keynote at WiNLP, Co-located with EMNLP 2024 (15th November 2024)
-  * **Insights from Language Resource Collection in Linguistically Diverse Southeast Asian Languages**\
-    Keynote at Field Matter Workshop, Co-located with ACL 2024 (16th August 2024)
-  * **Training Lightweight Model via Knowledge Distillation and Parameter Efficient Finetuning**\
-    Mexican NLP Summer School, Co-located with NAACL 2024 (14-15th June 2024)
-  * **Consolidating NLP Resources for South-East Asian Languages**\
-    Google Singapore, Invited Talk (27th May 2024)  
-  * **Constructing High-Quality Corpora for Underrepresented and Extremely Low-Resource
-Languages**\
-    Google Singapore, Invited Talk (21th November 2023)  
-  * **Building Multilingual & Multicultural LLMs: Methods and Challenges**\
-    AI Singapore, Invited Talk (20th November 2023)
-  * **Q2AI: A Quick Course to Quick AI**\
-    PRICAI, Tutorial (17th November 2023)
-  * **Current Status of NLP in South East Asia with Insights from Multilingualism and Language Diversity**\
-    AACL, Tutorial (1st November 2023)
-  * **Surviving your PhD Study**\
-    Telkom University, Invited Talk (2nd August 2023)
-  * **Generative AI with Large Language Models Workshop**\
-    Institut Teknologi Bandung, Invited Talk (1st August 2023)
-  * **Multilingual and Low-Resource NLP**\
-    Universitas Indonesia & Tokopedia AI Center, Invited Talk (25th May 2023)
-  * **Can AI Complete My Academic Writings?**\
-    Doctrine UK, Online Talk (14th May 2023)
-  * **Multilingual NLP through Collaborative Research**\
-    The 2nd Composable, Automatic and Scalable Learning Workshop (CASL), Invited Talk (23rd February 2023)
-  * **Sequence-to-Sequence and Neural Machine Translation Model**\
-    Universitas Indonesia, Guest Lecture (28th April 2021)
+
+<ul>
+  <li>
+    <strong>Code-Switching Thought Patterns in Multilingual Language Models</strong>
+    <span style="float: right;">3rd May 2025</span><br>
+    <span class="desc">Keynote at CALCS, Co-located with NAACL 2025</span>
+  </li>
+  <li>
+    <strong>On Grassroots Effort for Low-Resource Data Collection</strong>
+    <span style="float: right;">20th Jan 2025</span><br>
+    <span class="desc">Keynote at CLTW, Co-located with COLING 2025</span>
+  </li>
+  <li>
+    <strong>Collaborative Multilingual Data Collection</strong>
+    <span style="float: right;">15th Nov 2024</span><br>
+    <span class="desc">Keynote at WiNLP, Co-located with EMNLP 2024</span>
+  </li>
+  <li>
+    <strong>Insights from Language Resource Collection in Linguistically Diverse Southeast Asian Languages</strong>
+    <span style="float: right;">16th Aug 2024</span><br>
+    <span class="desc">Keynote at Field Matter Workshop, Co-located with ACL 2024</span>
+  </li>
+  <li>
+    <strong>Training Lightweight Model via Knowledge Distillation and Parameter Efficient Finetuning</strong>
+    <span style="float: right;">14-15th Jun 2024</span><br>
+    <span class="desc">Mexican NLP Summer School, Co-located with NAACL 2024</span>
+  </li>
+  <li>
+    <strong>Consolidating NLP Resources for South-East Asian Languages</strong>
+    <span style="float: right;">27th May 2024</span><br>
+    <span class="desc">Google Singapore, Invited Talk</span>
+  </li>
+  <li>
+    <strong>Constructing High-Quality Corpora for Underrepresented and Extremely Low-Resource Languages</strong>
+    <span style="float: right;">21st Nov 2023</span><br>
+    <span class="desc">Google Singapore, Invited Talk</span>
+  </li>
+  <li>
+    <strong>Building Multilingual & Multicultural LLMs: Methods and Challenges</strong>
+    <span style="float: right;">20th Nov 2023</span><br>
+    <span class="desc">AI Singapore, Invited Talk</span>
+  </li>
+  <li>
+    <strong>Q2AI: A Quick Course to Quick AI</strong>
+    <span style="float: right;">17th Nov 2023</span><br>
+    <span class="desc">PRICAI, Tutorial</span>
+  </li>
+  <li>
+    <strong>Current Status of NLP in South East Asia with Insights from Multilingualism and Language Diversity</strong>
+    <span style="float: right;">1st Nov 2023</span><br>
+    <span class="desc">AACL, Tutorial</span>
+  </li>
+  <li>
+    <strong>Surviving your PhD Study</strong>
+    <span style="float: right;">2nd Aug 2023</span><br>
+    <span class="desc">Telkom University, Invited Talk</span>
+  </li>
+  <li>
+    <strong>Generative AI with Large Language Models Workshop</strong>
+    <span style="float: right;">1st Aug 2023</span><br>
+    <span class="desc">Institut Teknologi Bandung, Invited Talk</span>
+  </li>
+  <li>
+    <strong>Multilingual and Low-Resource NLP</strong>
+    <span style="float: right;">25th May 2023</span><br>
+    <span class="desc">Universitas Indonesia & Tokopedia AI Center, Invited Talk</span>
+  </li>
+  <li>
+    <strong>Can AI Complete My Academic Writings?</strong>
+    <span style="float: right;">14th May 2023</span><br>
+    <span class="desc">Doctrine UK, Online Talk</span>
+  </li>
+  <li>
+    <strong>Multilingual NLP through Collaborative Research</strong>
+    <span style="float: right;">23rd Feb 2023</span><br>
+    <span class="desc">The 2nd Composable, Automatic and Scalable Learning Workshop (CASL), Invited Talk</span>
+  </li>
+  <li>
+    <strong>Sequence-to-Sequence and Neural Machine Translation Model</strong>
+    <span style="float: right;">28th Apr 2021</span><br>
+    <span class="desc">Universitas Indonesia, Guest Lecture</span>
+  </li>
+</ul>

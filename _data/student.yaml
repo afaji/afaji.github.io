@@ -284,7 +284,7 @@ students:
     role: "BSc"
     location: "Universitas Indonesia"
     my_role: "Co Advisor"
-    second_advisor: "Rahmad Mahendra"
+    co_advisor: "Rahmad Mahendra"
     current_position: "AI Engineer at Mekari"
     starting_year: "2022"
     finish_year: "2023"
