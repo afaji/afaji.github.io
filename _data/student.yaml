@@ -44,7 +44,7 @@ students:
     my_role: "Primary Advisor"
     starting_year: "2025"
     url: "https://www.linkedin.com/in/ashabrawy/"
-    photo:
+    photo: "/images/team/erland.jpg"
     alt_photo: 
 
   - name: "Patrick Amadeus Irawan"
@@ -54,7 +54,7 @@ students:
     co_advisor: "Yova Kementchedjhieva"
     starting_year: "2025"
     url: "https://www.linkedin.com/in/ashabrawy/"
-    photo:
+    photo: "/images/team/erland.jpg"
     alt_photo: 
 
   - name: "Qinrong Cui"

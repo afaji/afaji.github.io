@@ -311,3 +311,23 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+scholar:
+  style: association-for-computational-linguistics
+  source: ./_bibliography
+  bibliography: references.bib
+  sort_by: year, author, title
+  order: ascending
+  
+  bibliography_template: >
+    <div class="csl-entry" id="{{entry.key}}">
+      {{entry.author}}. {{entry.year}}.
+      <a href="{{entry.url}}"><strong>{{entry.title}}</strong></a>.
+      {% if entry.booktitle %}
+        <em>{{entry.booktitle}}</em>
+      {% elsif entry.journal %}
+        <em>{{entry.journal}}</em>
+      {% else %}
+        <em>Preprint</em>
+      {% endif %}.
+    </div> 

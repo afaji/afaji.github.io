@@ -16,10 +16,30 @@ layout: compress
         }
       }
 
+      @media screen {
+        /* Global font reset to ensure consistency */
+        body, p, li, td, th {
+          font-size: 0.9rem !important;
+        }
+      }
       @media print {
           body {
               font-size: 55%;
+              -webkit-print-color-adjust: exact;
+              print-color-adjust: exact; /* Standard property for non-webkit browsers */
           }
+      }
+
+      @media print {
+        #main {
+          padding-left: 5em !important;
+          padding-right: 3em !important;
+        }
+      }
+
+      #main {
+        padding-left: 4em;
+        padding-right: 2em;
       }
 
       ul li {

@@ -10,11 +10,6 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  /* Global font reset to ensure consistency */
-  body, p, li, td, th {
-    font-size: 0.9rem !important;
-  }
-
   /* Helper class for grey, smaller details (used in lists) */
   .desc {
     font-size: 0.9em;

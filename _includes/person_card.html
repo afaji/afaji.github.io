@@ -54,8 +54,6 @@
         <div class="card-text more-info">
         {% if person.co_advisor %}
           Co-advised with {{ person.co_advisor }}
-        {% elsif person.second_advisor %}
-          2nd advisor: {{ person.second_advisor }}
         {% elsif person.main_advisor %}
           Main advisor: {{ person.main_advisor }}
         {% endif %}

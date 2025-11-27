@@ -237,7 +237,9 @@ redirect_from:
       <div class="row row-cols-3 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 g-4">
         {% for person in students %}
           {% if person.exclude_from_team != true %}
-            {% include person_card.html person=person %}
+            {% if person.location == "MBZUAI" %}
+              {% include person_card.html person=person %}
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>
@@ -280,8 +282,31 @@ redirect_from:
     </div>
   {% endif %}
 
-    <!-- Alumni Section -->
+    <!-- External Advisee -->
   {% assign alumni = site.data.student.students | where: "category", "Alumni" | sort: "graduation_end" %}
+  {% assign external = site.data.student.students 
+     | where_exp: "item", "item.category != 'Alumni'" %}
+  
+  {% if external.size > 0 %}
+    <div class="mb-5">
+      <h3>External Advisee</h3>
+      <div>
+        <ul>
+        {% for person in external %}
+        {% if person.location != "MBZUAI" %}
+          <li style="font-size: 0.8em;"> 
+            <a href="{{ person.url }}" target="_blank" class="text-decoration-none">
+            {{ person.name }}
+          </a> <span>&#8212;</span> {{ person.role }} at {{ person.location }} ({{ person.starting_year }} - {{ person.finish_year }})
+          {% if person.current_position %}
+            <br>Current: {{ person.current_position }}
+          {% endif %}
+        {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endif %}
   {% if alumni.size > 0 %}
     <div class="mb-5">
       <h3>Past External Advisee</h3>
