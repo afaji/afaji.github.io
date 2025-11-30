@@ -1,0 +1,137 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <style>
+      @media print {
+        .page-break {
+            page-break-before: always;
+        }
+      }
+
+      @media screen {
+        /* Global font reset to ensure consistency */
+        body, p, li, td, th {
+          font-size: 0.9rem !important;
+        }
+      }
+      @media print {
+          body {
+              font-size: 55%;
+              -webkit-print-color-adjust: exact;
+              print-color-adjust: exact; /* Standard property for non-webkit browsers */
+          }
+      }
+
+      @media print {
+        #main {
+          padding-left: 5em !important;
+          padding-right: 3em !important;
+        }
+      }
+
+      #main {
+        padding-left: 4em;
+        padding-right: 2em;
+      }
+
+      ul li {
+        margin-bottom: 0.5em;
+        margin-top: 0.2em;
+        list-style-type: circle;
+      }
+      
+      .compact-ul ul li,
+      #awards + ul li,
+      #professional-activity + * + ul li {
+        margin-bottom: 0.1em;
+        margin-top: 0.0em;
+        list-style-type: circle;
+      }
+      .page__content a[href^="#"] {
+          color: #1E93AB;
+          text-decoration: none;
+          border-radius: 3px;
+          padding: 0 3px;
+          font-size: 0.95em;
+          font-weight: 500;
+      }
+      .page__content a[href^="#"]:hover {
+          color: #156B7E; /* darker teal */
+      }
+
+/* 2. EXTERNAL LINKS (Achievement Gold) */
+      .page__content a[href^="http"] {
+          color: #C59200; /* Deep Metallic Gold */
+          text-decoration: none;
+          font-weight: 700; /* Extra bold for "heavy" gold feel */
+      }
+      .page__content a[href^="http"]:hover {
+          color: #997000; /* Burnished Bronze / Darker Gold */
+          background-color: #FFF9E5; /* Pale Gold Tint */
+      }
+
+      .page__content h2 {
+        font-size: 1.05em;
+        border-bottom: 1px solid #bbbbbb;
+      }
+
+      .page__content h1 {
+
+        font-size: 2em;
+        border-bottom: 1px solid #bbbbbb;
+
+      }
+
+      /* Update the selector to target the class directly (which is now on a div) */
+      .run-in-section {
+          margin-top: 1.5em; 
+      }
+
+      p {
+          text-indent: 2em;
+          margin-top: 0em !important;
+          margin-bottom: 0.5em !important;
+          text-align: justify;
+          text-justify: inter-word;
+      }
+      .run-in-section p {
+          margin: 0;
+          text-indent: 0em;
+      }
+    </style>
+  </head>
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main">
+      <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+        {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    
+        <section class="page__content" itemprop="text">
+          {{ content }}
+        </section>
+      </article>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
