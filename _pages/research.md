@@ -17,12 +17,13 @@ large language models, it is even more prohibitive for many communities
 to participate in NLP research and deployment.
 
 My research goal can be summarized as “**making NLP technology inclusive
-and accessible**”. Consequently, my research direction focuses on
-enabling capabilities across languages and cultures while making the
-technology as efficient as possible. I primarily publish in \*CL venues,
-maintaining an h-index of 35 and close to 8,000 citations according to
-[Semantic
-Scholar](https://www.semanticscholar.org/author/Alham-Fikri-Aji/3446059).
+and accessible**”. To achieve this, my technical depth lies in two
+synergistic areas: (1) rigorous data-centric methodologies to construct
+high-quality benchmarks for low-resource languages, and (2) algorithmic
+efficiency to develop lightweight, accessible models. I primarily
+publish in \*CL venues, maintaining an h-index of 35 and close to 8,000
+citations according to [Semantic
+Scholar](https://www.semanticscholar.org/author/Alham-Fikri-Aji/8129718).
 I have received [5 paper awards](https://afaji.github.io/cv/#awards) at
 these conferences and was recently honored with the [2025 MBZUAI Early
 Career Researcher
@@ -39,12 +40,13 @@ Most of my research awards also fall into this area of work.
 
 **Multilingual NLP Resources and Benchmarks** A persistent challenge in
 multilingual NLP is the scarcity of high‑quality datasets for both
-training and nuanced evaluation. My work addresses this gap by
-developing robust resources that span diverse languages and tasks. We
-prioritize high-quality, human-annotated datasets to ensure the
-reliability and integrity of evaluation benchmarks. These efforts have
-significantly impacted the field, with several resources earning Best
-Paper or Best Resource awards. Key contributions are highlighted below.
+training and nuanced evaluation. My current primary area of depth lies
+in multilingual and culturally grounded data construction. I address the
+scarcity of high-quality data not merely by collection, but by
+developing robust, high-quality methodologies for resource building and
+evaluation. This involves designing protocols for human annotation,
+quality control, and cultural relevance. Some resources that I worked on
+are highlighted below.
 
 </div>
 
@@ -179,6 +181,14 @@ Indonesian languages.</td>
 
 </div>
 
+Looking forward, I aim to evolve beyond static resources toward dynamic
+benchmarking and training paradigms. Recognizing that static datasets
+are prone to staleness and contamination, my team is actively exploring
+agentic interactions, such as strategic gaming and debating simulations
+as a robust alternative. This approach shifts the focus from fixed-set
+evaluation to dynamic, interactive assessments that better capture the
+nuances of reasoning and adaptability.
+
 <div class="run-in-section" markdown="1">
 
 **Culturally‑Nuanced NLP** Beyond language coverage, my work examines
@@ -222,16 +232,19 @@ studied current issues with regard to models that are not capable of
 dealing with Indonesian native scripts, while releasing a benchmark.
 Similarly, in {% cite farhansyah-etal-2025-language %}, we studied
 various Javanese honorific systems in several models, showing that many
-models face challenges. With the Indonesian NLP community, of which I am
-an active member, we built
+models face challenges.
+
+In a collaborative effort with the Indonesian NLP community, we built
 [NusaCrowd](https://github.com/IndoNLP/nusa-crowd), a resource catalog
 that standardizes NLP resources for Indonesian
-languages {% cite cahyawijaya-etal-2023-nusacrowd %}. NusaCrowd gained
-more than **270 stars on GitHub**. A follow-up for South-East Asian
-languages, SEACrowd {% cite lovenia-etal-2024-seacrowd %}, was also
-released and served as the embryo of the [SEA-NLP
-community](https://seacrowd.org) of the same name, in which I am now a
-member of the advisory board.
+languages {% cite cahyawijaya-etal-2023-nusacrowd %}. I was part of the
+core team that initiated and designed the project from the very
+beginning. NusaCrowd gained more than **270 stars on GitHub**. A
+follow-up for South-East Asian languages,
+SEACrowd {% cite lovenia-etal-2024-seacrowd %}, was also released; I
+similarly served as a core initiator for this expansion, which served as
+the embryo of the [SEA-NLP community](https://seacrowd.org) of the same
+name, in which I am now a member of the advisory board.
 
 <div class="run-in-section" markdown="1">
 
@@ -396,21 +409,22 @@ fits my overarching goal that I recently explored.
 <div class="run-in-section" markdown="1">
 
 **Multimodal-Multicultural Datasets and Benchmarks** I have been working
-on data set construction for a while; hence, multimodal datasets were
-one of the extensions.
-[CVQA](https://huggingface.co/datasets/afaji/cvqa) is one of the largest
-human-made multimodal multilingual datasets that we created. I lead this
-initiative with the support of communities to construct culturally
-relevant visual question answering for more than 30 language and country
-pairs.
+on data set construction for a while; hence, multimodal datasets were a
+natural extension. [CVQA](https://huggingface.co/datasets/afaji/cvqa) is
+one of the largest human-made multimodal multilingual datasets. I served
+as the primary lead and organizer of this initiative, conceptualizing
+the project and spearheading a massive collaboration of over 70 authors
+to construct culturally relevant visual question answering for more than
+30 language and country pairs.
 
 </div>
 
-In {% cite winata-etal-2025-worldcuisines %}, we gather images of food
-and cuisine from around the world and annotate them. A recent follow-up
-work on that in {% cite irawan2025visionlanguagemodelsconfused %}, in
-which we perform adversarial image editing by replacing the background
-with landmarks of different countries, or by adding flags of different
+In {% cite winata-etal-2025-worldcuisines %}, where I served as a senior
+advisor working closely with the core team, we gather images of food and
+cuisine from around the world and annotate them. A recent follow-up work
+on that in {% cite irawan2025visionlanguagemodelsconfused %}, in which
+we perform adversarial image editing by replacing the background with
+landmarks of different countries, or by adding flags of different
 countries, noted that VLMs are easily distracted.
 
 <div class="run-in-section" markdown="1">
@@ -425,47 +439,94 @@ multimodal reward models.
 
 </div>
 
+## Human-Computer Interaction of NLP Systems
+
+I have recently initiated a new line of research into Human-AI
+interaction. This is particularly important for inclusive technology, as
+different demographics and cultural backgrounds significantly influence
+how users perceive and expect AI to behave.
+
 <div class="run-in-section" markdown="1">
 
-Beyond what is mentioned above, I see interesting directions that fit,
-such as efficient multimodal architectures.
+**Bias in Human Preferences** In {% textcite wu-aji-2025-style %}, we
+explored typical human-preference evaluations used in standard
+leaderboards. We noted that humans exhibit a bias towards output length
+and grammatical correctness to such a degree that they often prefer
+hallucinated outputs, provided they are long and grammatically polished.
 
 </div>
 
-## Human-Computer Interaction of NLP Systems
+<div class="run-in-section" markdown="1">
 
-I have recently gained a strong interest in the area of Human-AI
-interaction, especially with the goal of developing inclusive and
-accessible NLP technology. This is particularly important because
-different demographics, including cultural backgrounds, can influence
-how people perceive and expect AI to behave.
+**Personality-Driven Alignment** In our follow-up work
+{% cite chevi-2025-individual %}, we found that this preference
+correlates with the user’s personality traits. Specifically, users with
+different personality profiles prioritize distinct aspects of model
+responses, suggesting that a single universal reward model is
+insufficient to capture the diversity of human preferences.
 
-In {% textcite wu-aji-2025-style %}, we explored typical
-human-preference evaluations commonly used in standard leaderboards and
-noted that humans exhibit a bias towards output length and grammatical
-correctness, to such a degree that they prefer hallucinated outputs
-provided they are long and grammatically polished.
-
-In our follow-up work {% cite chevi-2025-individual %}, we found that
-this preference correlates with the user’s personality traits.
-Specifically, we observed that users with different personality profiles
-prioritize distinct aspects of model responses, suggesting that a single
-universal reward model is insufficient to capture the diversity of human
-preferences.
-
-In ongoing work, we are exploring the’ AI literacy of Indonesian
-teachers and their impact on teaching pedagogy. We hope to uncover the
-current level of AI literacy in Indonesia and provide recommendations to
-policy makers so that AI is used appropriately in classroom activities.
+</div>
 
 <div class="run-in-section" markdown="1">
 
-My experience in this area is still developing and I continue to learn
-and collaborate. Even so, I see many promising directions that intersect
-with my research interests. As NLP technology becomes increasingly
-prominent, I am interested in how people engage with these systems in
-relation to their language and background, as well as the risks that may
-arise and how we can mitigate them.
+**AI Literacy in Education** In ongoing work, we are exploring the AI
+literacy of Indonesian teachers and their impact on teaching pedagogy.
+We aim to uncover the current level of AI literacy in Indonesia and
+provide recommendations to policymakers to ensure AI is used effectively
+and appropriately in classroom activities.
+
+</div>
+
+## Future Research Agenda: A 5-Year Vision
+
+My long-term goal remains to democratize NLP technology. Having
+established strong foundations in data-centric NLP and model efficiency,
+my next phase focuses on converging these streams into a unified
+framework for accessible and inclusive AI technology.
+
+<div class="run-in-section" markdown="1">
+
+**From Static Resources to Dynamic Simulation.** While my previous work
+established static benchmarks, the future of evaluation lies in dynamic
+environments. I aim to transition from fixed datasets to interactive
+simulations and games. By utilizing scenarios where models engage in
+culturally-grounded games, role-play, or debates, we can create
+self-evolving benchmarks that resist contamination. Furthermore, this
+simulation-based approach will serve as a data synthesis engine,
+generating high-quality training signals for underrepresented languages
+where natural data is scarce.
+
+</div>
+
+<div class="run-in-section" markdown="1">
+
+**Operationalizing Efficient Cultural Multimodality.** The move toward
+multimodal models comes with a significant increase in cost. These
+models are significantly more resource-intensive than text-only
+baselines, making them prohibitive for many communities to utilize.
+Furthermore, they are extremely data-hungry, exacerbating the challenge
+for low-resource cultures where paired visual-linguistic data is
+exceptionally scarce. To bridge this, I will connect my efficiency
+research, both training and deployment efficiency for multimodality. My
+goal is to develop methods that maximize learning from scarce signals
+while reducing the computational burden, ensuring that systems capable
+of capturing complex, cultural visual nuances remain accessible to train
+and deploy on consumer-grade hardware.
+
+</div>
+
+<div class="run-in-section" markdown="1">
+
+**Deepening Cross-Cultural Human-Computer Interaction.** Moving beyond
+preliminary preference analysis, I plan to establish a rigorous HCI
+research agenda focused on the global user experience. Rather than
+purely optimizing model parameters, I aim to conduct empirical studies
+on how cultural backgrounds and diverse demographics shape mental
+models, trust, and interaction patterns with AI systems. By
+investigating these dynamics through a user-centric lens, I seek to
+uncover how distinct communities perceive and utilize AI, providing the
+foundational insights needed to design interfaces and workflows that are
+truly intuitive and inclusive for a global population.
 
 </div>
 

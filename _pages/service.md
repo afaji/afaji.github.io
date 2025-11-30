@@ -8,7 +8,7 @@ title: Service Statement
 
 ## Service for Institution
 
-have prioritized service to my institution and the NLP department
+I have prioritized service to my institution and the NLP department
 through various roles, contributing significantly to the academic and
 research environment at MBZUAI. Since joining, I have examined 5 PhD
 candidacy exams (for 2nd-year students) and 9 master’s thesis defenses,
