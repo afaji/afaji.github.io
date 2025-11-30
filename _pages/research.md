@@ -181,13 +181,6 @@ Indonesian languages.</td>
 
 </div>
 
-Looking forward, I aim to evolve beyond static resources toward dynamic
-benchmarking and training paradigms. Recognizing that static datasets
-are prone to staleness and contamination, my team is actively exploring
-agentic interactions, such as strategic gaming and debating simulations
-as a robust alternative. This approach shifts the focus from fixed-set
-evaluation to dynamic, interactive assessments that better capture the
-nuances of reasoning and adaptability.
 
 <div class="run-in-section" markdown="1">
 
@@ -355,11 +348,7 @@ efficiency.
 show that in neural machine translation transfer learning, copying the
 inner layers of a model is essential for quality gains. Our recent work
 in {% cite wibowo2025iterabre %} similarly investigates model copying in
-knowledge distillation in multilingual settings.
-
-</div>
-
-We also study the potential harm of knowledge distillation. In
+knowledge distillation in multilingual settings. We also study the potential harm of knowledge distillation. In
 {% cite mansurov-etal-2025-data %}, we find that leaked data (such as
 test data) can also be accidentally leaked by knowledge distillation. At
 the moment, we are investigating leakage of PIIs or poisoned data via
@@ -456,16 +445,13 @@ hallucinated outputs, provided they are long and grammatically polished.
 
 </div>
 
-<div class="run-in-section" markdown="1">
-
-**Personality-Driven Alignment** In our follow-up work
+In our follow-up work
 {% cite chevi-2025-individual %}, we found that this preference
 correlates with the user’s personality traits. Specifically, users with
 different personality profiles prioritize distinct aspects of model
 responses, suggesting that a single universal reward model is
 insufficient to capture the diversity of human preferences.
 
-</div>
 
 <div class="run-in-section" markdown="1">
 
@@ -477,7 +463,7 @@ and appropriately in classroom activities.
 
 </div>
 
-## Future Research Agenda: A 5-Year Vision
+## Future Research Agenda
 
 My long-term goal remains to democratize NLP technology. Having
 established strong foundations in data-centric NLP and model efficiency,
