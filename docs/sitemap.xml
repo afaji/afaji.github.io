@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://afaji.github.io/portfolio/portfolio-1/</loc>
-<lastmod>2025-11-30T01:38:53-08:00</lastmod>
+<lastmod>2025-11-30T03:03:06-08:00</lastmod>
 </url>
 <url>
 <loc>https://afaji.github.io/portfolio/portfolio-2/</loc>
-<lastmod>2025-11-30T01:38:53-08:00</lastmod>
+<lastmod>2025-11-30T03:03:06-08:00</lastmod>
 </url>
 <url>
 <loc>https://afaji.github.io/posts/2012/08/blog-post-1/</loc>
@@ -135,6 +135,9 @@
 </url>
 <url>
 <loc>https://afaji.github.io/tenure/teaching</loc>
+</url>
+<url>
+<loc>https://afaji.github.io/tenure</loc>
 </url>
 <url>
 <loc>https://afaji.github.io/terms/</loc>
