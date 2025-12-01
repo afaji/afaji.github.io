@@ -1,6 +1,6 @@
 ---
 layout: tenure
-permalink: research
+permalink: tenure/research
 title: Research Statement
 ---
 
