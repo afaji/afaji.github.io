@@ -8,7 +8,7 @@ title: Service Statement
 
 ## Service for Institution
 
-I have prioritized service to my institution and the NLP department
+have prioritized service to my institution and the NLP department
 through various roles, contributing significantly to the academic and
 research environment at MBZUAI. Since joining, I have examined 5 PhD
 candidacy exams (for 2nd-year students) and 9 master’s thesis defenses,
@@ -86,7 +86,7 @@ participants to detect machine-generated text across different domains.
 In 2025, I co-organized [Task
 11](https://github.com/emotion-analysis-project/SemEval2025-Task11),
 focusing on emotion detection for low-resource languages. These
-community challenges were well-received, **attracting arond 160, 280,
+community challenges were well-received, **attracting around 160, 280,
 and 800 participants**, respectively.
 
 ## Service for Grassroots NLP Community
@@ -111,7 +111,8 @@ actively involved. We organize Birds-of-a-Feather sessions at major
 conferences and host our own workshop,
 [SEALP](https://sealp-workshop.github.io). We also work on collaborative
 initiatives; currently, we are building a Southeast Asian
-Vision-Language Model.
+Vision-Language Model. Not only do we work with my local communities, we
+collaborate widely with other communities outside of South East Asia.
 
 Since 2024, SEACrowd also runs an [apprenticeship
 program](https://seacrowd.org/apprenticeship.html) where junior

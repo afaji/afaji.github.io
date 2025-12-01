@@ -32,8 +32,8 @@
 <meta property="og:title" content="Research Statement">
 
 
-  <link rel="canonical" href="https://afaji.github.io/tenure/research">
-  <meta property="og:url" content="https://afaji.github.io/tenure/research">
+  <link rel="canonical" href="https://afaji.github.io/research">
+  <meta property="og:url" content="https://afaji.github.io/research">
 
 
 
@@ -42,7 +42,7 @@
   <meta name="twitter:site" content="@alhamfikri">
   <meta name="twitter:title" content="Research Statement">
   <meta name="twitter:description" content="NLP scientist - Assistant Professor at MBZUAI &amp; Monash Indonesia">
-  <meta name="twitter:url" content="https://afaji.github.io/tenure/research">
+  <meta name="twitter:url" content="https://afaji.github.io/research">
 
   
     <meta name="twitter:card" content="summary">
@@ -227,7 +227,7 @@
       }
 
       p {
-          text-indent: 2em;
+          text-indent: 0em;
           margin-top: 0em !important;
           margin-bottom: 0.5em !important;
           text-align: justify;
@@ -433,6 +433,14 @@ Indonesian languages.</td>
 
 </div>
 
+<p>Looking forward, I aim to evolve beyond static resources toward dynamic
+benchmarking and training paradigms. Recognizing that static datasets
+are prone to staleness and contamination, my team is actively exploring
+agentic interactions, such as strategic gaming and debating simulations
+as a robust alternative. This approach shifts the focus from fixed-set
+evaluation to dynamic, interactive assessments that better capture the
+nuances of reasoning and adaptability.</p>
+
 <div class="run-in-section">
 
   <p><strong>Culturally‑Nuanced NLP</strong> Beyond language coverage, my work examines
@@ -599,21 +607,25 @@ efficiency.</p>
 show that in neural machine translation transfer learning, copying the
 inner layers of a model is essential for quality gains. Our recent work
 in <a class="citation" href="#wibowo2025iterabre">(Wibowo et al., 2025)</a> similarly investigates model copying in
-knowledge distillation in multilingual settings. We also study the potential harm of knowledge distillation. In
+knowledge distillation in multilingual settings.</p>
+
+</div>
+
+<p>We also study the potential harm of knowledge distillation. In
 <a class="citation" href="#mansurov-etal-2025-data">(Mansurov et al., 2025)</a>, we find that leaked data (such as
 test data) can also be accidentally leaked by knowledge distillation. At
 the moment, we are investigating leakage of PIIs or poisoned data via
 distillation.</p>
 
-  <h2 id="efficient-training-of-nlp-systems">Efficient Training of NLP Systems</h2>
+<h2 id="efficient-training-of-nlp-systems">Efficient Training of NLP Systems</h2>
 
-  <p>Not only inference, but lack of data could also be the issue of
+<p>Not only inference, but lack of data could also be the issue of
 inaccessible NLP systems. Some of my work explores faster or better
 learning.</p>
 
-  <div class="run-in-section">
+<div class="run-in-section">
 
-    <p><strong>Effective Language Extension of NLP Models</strong> With the lack of training
+  <p><strong>Effective Language Extension of NLP Models</strong> With the lack of training
 data for many languages, we investigate various methods to address this.
 In <a class="citation" href="#adilazuarda-etal-2024-lingualchemy">(Adilazuarda et al., 2024)</a>, we enable unseen
 generalization of encoder models through an additional loss, in which we
@@ -621,9 +633,9 @@ ask the model to learn the language representation vector of the input
 and use URIEL vectors as label. This method significantly improves the
 performance of some unseen languages, such as Amharic.</p>
 
-  </div>
+</div>
 
-  <p>In <a class="citation" href="#elshabrawy-etal-2025-statement">(Elshabrawy et al., 2025)</a>, we enable zero-shot
+<p>In <a class="citation" href="#elshabrawy-etal-2025-statement">(Elshabrawy et al., 2025)</a>, we enable zero-shot
 language and task generalization for encoder models by training the
 model with true/false statements across languages, enabling ‘prompting’
 for encoder models. This project was part of MBZUAI’s 2024 internship
@@ -631,24 +643,24 @@ program with talented undergraduate interns visiting for a month. Our
 project was awarded the <strong>best team award</strong> among other MBZUAI
 internship projects.</p>
 
-  <div class="run-in-section">
+<div class="run-in-section">
 
-    <p><strong>Multi-Token Learning</strong> An ongoing work in
+  <p><strong>Multi-Token Learning</strong> An ongoing work in
 <a class="citation" href="#zuhri2025predicting">(Zuhri et al., 2025)</a>, we proposed a new learning objective to
 learn from multiple tokens at once, with the aim of better training the
 model. Specifically, we instruct the model to predict token ordering.</p>
 
-  </div>
+</div>
 
-  <h2 id="multimodal-multicultural-nlp">Multimodal-Multicultural NLP</h2>
+<h2 id="multimodal-multicultural-nlp">Multimodal-Multicultural NLP</h2>
 
-  <p>Most of my work has focused purely on text. With the advancement of AI
+<p>Most of my work has focused purely on text. With the advancement of AI
 technology going beyond text, multimodality is the next direction that
 fits my overarching goal that I recently explored.</p>
 
-  <div class="run-in-section">
+<div class="run-in-section">
 
-    <p><strong>Multimodal-Multicultural Datasets and Benchmarks</strong> I have been working
+  <p><strong>Multimodal-Multicultural Datasets and Benchmarks</strong> I have been working
 on data set construction for a while; hence, multimodal datasets were a
 natural extension. <a href="https://huggingface.co/datasets/afaji/cvqa">CVQA</a> is
 one of the largest human-made multimodal multilingual datasets. I served
@@ -657,9 +669,9 @@ the project and spearheading a massive collaboration of over 70 authors
 to construct culturally relevant visual question answering for more than
 30 language and country pairs.</p>
 
-  </div>
+</div>
 
-  <p>In <a class="citation" href="#winata-etal-2025-worldcuisines">(Winata et al., 2025)</a>, where I served as a senior
+<p>n <a class="citation" href="#winata-etal-2025-worldcuisines">(Winata et al., 2025)</a>, where I served as a senior
 advisor working closely with the core team, we gather images of food and
 cuisine from around the world and annotate them. A recent follow-up work
 on that in <a class="citation" href="#irawan2025visionlanguagemodelsconfused">(Irawan et al., 2025)</a>, in which
@@ -667,9 +679,9 @@ we perform adversarial image editing by replacing the background with
 landmarks of different countries, or by adding flags of different
 countries, noted that VLMs are easily distracted.</p>
 
-  <div class="run-in-section">
+<div class="run-in-section">
 
-    <p><strong>Multimodal-Multicultural Models</strong> In an ongoing project with the
+  <p><strong>Multimodal-Multicultural Models</strong> In an ongoing project with the
 SEACrowd community, we are building
 <a href="https://seacrowd.org/projects/2025-seavl-phase-2">SeaVL</a>, a multimodal
 language model for Southeast Asian people. We started with the data
@@ -677,52 +689,56 @@ set <a class="citation" href="#cahyawijaya-etal-2025-crowdsource">(Cahyawijaya 
 model. Another ongoing project focuses on building multilingual,
 multimodal reward models.</p>
 
-  </div>
+</div>
 
-  <h2 id="human-computer-interaction-of-nlp-systems">Human-Computer Interaction of NLP Systems</h2>
+<h2 id="human-computer-interaction-of-nlp-systems">Human-Computer Interaction of NLP Systems</h2>
 
-  <p>I have recently initiated a new line of research into Human-AI
+<p>I have recently initiated a new line of research into Human-AI
 interaction. This is particularly important for inclusive technology, as
 different demographics and cultural backgrounds significantly influence
 how users perceive and expect AI to behave.</p>
 
-  <div class="run-in-section">
+<div class="run-in-section">
 
-    <p><strong>Bias in Human Preferences</strong> In <a href="#wu-aji-2025-style">Wu and Aji (2025)</a>, we
+  <p><strong>Bias in Human Preferences</strong> In <a href="#wu-aji-2025-style">Wu and Aji (2025)</a>, we
 explored typical human-preference evaluations used in standard
 leaderboards. We noted that humans exhibit a bias towards output length
 and grammatical correctness to such a degree that they often prefer
 hallucinated outputs, provided they are long and grammatically polished.</p>
 
-  </div>
+</div>
 
-  <p>In our follow-up work
+<div class="run-in-section">
+
+  <p><strong>Personality-Driven Alignment</strong> In our follow-up work
 <a class="citation" href="#chevi-2025-individual">(Chevi et al., 2025)</a>, we found that this preference
 correlates with the user’s personality traits. Specifically, users with
 different personality profiles prioritize distinct aspects of model
 responses, suggesting that a single universal reward model is
 insufficient to capture the diversity of human preferences.</p>
 
-  <div class="run-in-section">
+</div>
 
-    <p><strong>AI Literacy in Education</strong> In ongoing work, we are exploring the AI
+<div class="run-in-section">
+
+  <p><strong>AI Literacy in Education</strong> In ongoing work, we are exploring the AI
 literacy of Indonesian teachers and their impact on teaching pedagogy.
 We aim to uncover the current level of AI literacy in Indonesia and
 provide recommendations to policymakers to ensure AI is used effectively
 and appropriately in classroom activities.</p>
 
-  </div>
+</div>
 
-  <h2 id="future-research-agenda">Future Research Agenda</h2>
+<h2 id="future-research-agenda-a-5-year-vision">Future Research Agenda: A 5-Year Vision</h2>
 
-  <p>My long-term goal remains to democratize NLP technology. Having
+<p>My long-term goal remains to democratize NLP technology. Having
 established strong foundations in data-centric NLP and model efficiency,
 my next phase focuses on converging these streams into a unified
 framework for accessible and inclusive AI technology.</p>
 
-  <div class="run-in-section">
+<div class="run-in-section">
 
-    <p><strong>From Static Resources to Dynamic Simulation.</strong> While my previous work
+  <p><strong>From Static Resources to Dynamic Simulation.</strong> While my previous work
 established static benchmarks, the future of evaluation lies in dynamic
 environments. I aim to transition from fixed datasets to interactive
 simulations and games. By utilizing scenarios where models engage in
@@ -732,11 +748,11 @@ simulation-based approach will serve as a data synthesis engine,
 generating high-quality training signals for underrepresented languages
 where natural data is scarce.</p>
 
-  </div>
+</div>
 
-  <div class="run-in-section">
+<div class="run-in-section">
 
-    <p><strong>Operationalizing Efficient Cultural Multimodality.</strong> The move toward
+  <p><strong>Operationalizing Efficient Cultural Multimodality.</strong> The move toward
 multimodal models comes with a significant increase in cost. These
 models are significantly more resource-intensive than text-only
 baselines, making them prohibitive for many communities to utilize.
@@ -749,11 +765,11 @@ while reducing the computational burden, ensuring that systems capable
 of capturing complex, cultural visual nuances remain accessible to train
 and deploy on consumer-grade hardware.</p>
 
-  </div>
+</div>
 
-  <div class="run-in-section">
+<div class="run-in-section">
 
-    <p><strong>Deepening Cross-Cultural Human-Computer Interaction.</strong> Moving beyond
+  <p><strong>Deepening Cross-Cultural Human-Computer Interaction.</strong> Moving beyond
 preliminary preference analysis, I plan to establish a rigorous HCI
 research agenda focused on the global user experience. Rather than
 purely optimizing model parameters, I aim to conduct empirical studies
@@ -764,13 +780,13 @@ uncover how distinct communities perceive and utilize AI, providing the
 foundational insights needed to design interfaces and workflows that are
 truly intuitive and inclusive for a global population.</p>
 
-  </div>
+</div>
 
-  <div class="page-break"></div>
+<div class="page-break"></div>
 
-  <h2 id="reference">Reference</h2>
+<h2 id="reference">Reference</h2>
 
-  <ol class="bibliography"><li><div class="csl-entry" id="aji-etal-2020-neural">
+<ol class="bibliography"><li><div class="csl-entry" id="aji-etal-2020-neural">
   Aji, Alham Fikri and Bogoychev, Nikolay and Heafield, Kenneth and Sennrich, Rico. 2020.
   <a href="https://aclanthology.org/2020.acl-main.688"><strong>In Neural Machine Translation, What Does Transfer Learning Transfer?</strong></a>.
   
@@ -1138,7 +1154,6 @@ truly intuitive and inclusive for a global population.</p>
   .
 </div> 
 </li></ol>
-</div>
 
         </section>
       </article>
