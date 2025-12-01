@@ -5,7 +5,7 @@ pandoc research_statement.tex -o research.md \
   --standalone \
   -M title="Research Statement" \
   -M layout="tenure" \
--M permalink="research"
+-M permalink="tenure/research"
 
 cat <<EOF >> research.md
 
