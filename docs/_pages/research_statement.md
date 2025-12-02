@@ -13,6 +13,7 @@ My research goal can be summarized as ``\textbf{making NLP technology inclusive 
 
 I primarily publish in *CL venues, maintaining an h-index of 35 and close to 8,000 citations according to \href{https://www.semanticscholar.org/author/Alham-Fikri-Aji/8129718}{Semantic Scholar}. I have received \href{https://afaji.github.io/cv/#awards}{5 paper awards} at these conferences and was recently honored with the \href{https://mbzuai.ac.ae/news/mbzuai-celebrates-faculty-excellence-at-annual-recognition-reception/}{2025 MBZUAI Early Career Researcher Award}, which recognizes assistant professors with exceptional research promise.
 
+
 \subsection*{Multilingual and Cultural NLP}
 
 Most of my recent work focuses on multilingual and culturally grounded NLP, covering various topics from resource building to interpretability. Most of my research awards also fall into this area of work.

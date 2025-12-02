@@ -17,12 +17,21 @@ large language models, it is even more prohibitive for many communities
 to participate in NLP research and deployment.
 
 My research goal can be summarized as “**making NLP technology inclusive
-and accessible**”. To achieve this, my technical depth lies in two
-synergistic areas: (1) rigorous data-centric methodologies to construct
-high-quality benchmarks for low-resource languages, and (2) algorithmic
-efficiency to develop lightweight, accessible models. I primarily
-publish in \*CL venues, maintaining an h-index of 35 and close to 8,000
-citations according to [Semantic
+and accessible**”. Realizing this vision requires a multifaceted
+approach: we must not only expand model capabilities to support diverse
+languages and cultural contexts, but also democratize access by lowering
+computational barriers and refine the interaction dynamics to suit
+global users. To address these interconnected challenges, I pursue the
+following research directions:
+
+- Multilingual and Cultural NLP
+- Lightweight NLP system
+- Efficient Training of NLP system
+- Multimodal-Multicultural NLP
+- Human-Computer Interaction of NLP Systems
+
+I primarily publish in \*CL venues, maintaining an h-index of 35 and
+close to 8,000 citations according to [Semantic
 Scholar](https://www.semanticscholar.org/author/Alham-Fikri-Aji/8129718).
 I have received [5 paper awards](https://afaji.github.io/cv/#awards) at
 these conferences and was recently honored with the [2025 MBZUAI Early
@@ -181,14 +190,6 @@ Indonesian languages.</td>
 
 </div>
 
-Looking forward, I aim to evolve beyond static resources toward dynamic
-benchmarking and training paradigms. Recognizing that static datasets
-are prone to staleness and contamination, my team is actively exploring
-agentic interactions, such as strategic gaming and debating simulations
-as a robust alternative. This approach shifts the focus from fixed-set
-evaluation to dynamic, interactive assessments that better capture the
-nuances of reasoning and adaptability.
-
 <div class="run-in-section" markdown="1">
 
 **Culturally‑Nuanced NLP** Beyond language coverage, my work examines
@@ -326,10 +327,11 @@ lightweight models continues in the same direction.
 distilled ChatGPT into several smaller-sized models smaller than 1B
 parameters with, back then, reasonable performance in our
 [Lamini-LM](https://github.com/mbzuai-nlp/LaMini-LM)
-project {% cite wu-etal-2024-lamini %}. Lamini models are still one of
-the most downloaded models in MBZUAI’s HuggingFace repo and gained more
-than **800 GitHub stars**. Some of the lightweight model efforts focus
-on multilingual capabilities. For example,
+project {% cite wu-etal-2024-lamini %}. In this project, we release
+several Lamini models, which are still one of the most downloaded models
+in MBZUAI’s HuggingFace repo and gained more than **800 GitHub stars**.
+Some of the lightweight model efforts focus on multilingual
+capabilities. For example,
 [Bactrian-X](https://huggingface.co/datasets/MBZUAI/Bactrian-X) is a
 distilled multilingual model that covers 52
 languages {% cite li2023bactrian %}. We have also attempted to distill a
@@ -341,11 +343,23 @@ languages {% cite cruz-2025-extracting %}.
 <div class="run-in-section" markdown="1">
 
 **Sink-Free Attention Transformers** In our ongoing work
-{% cite zuhri2025softpick %}, we proposed a softmax replacement named
-SoftPick, whose objective is to remove the attention sink. We managed to
-remove the attention sink, thus making the attention sparse. With this,
-we show that the model can be better quantized, hence improving the
-efficiency.
+{% cite zuhri2025softpick %}, we proposed a new softmax replacement
+named SoftPick, whose objective is to remove the attention sink. We
+managed to remove the attention sink, thus making the attention sparse.
+With this, we show that the model can be better quantized, hence
+improving the efficiency.
+
+</div>
+
+<div class="run-in-section" markdown="1">
+
+**Efficient Inference Memory via KV Sharing** In
+{% cite zuhri-etal-2025-mlkv %}, we address the memory bottlenecks of
+large-scale inference by introducing Multi-Layer Key-Value sharing. By
+extending key-value sharing across the depth dimension—rather than just
+within attention heads—we reduced the KV cache footprint. This
+modification significantly lowers the memory barrier for deploying large
+models.
 
 </div>
 
@@ -355,15 +369,14 @@ efficiency.
 show that in neural machine translation transfer learning, copying the
 inner layers of a model is essential for quality gains. Our recent work
 in {% cite wibowo2025iterabre %} similarly investigates model copying in
-knowledge distillation in multilingual settings.
-
-</div>
-
-We also study the potential harm of knowledge distillation. In
+knowledge distillation in multilingual settings. We also study the
+potential harm of knowledge distillation. In
 {% cite mansurov-etal-2025-data %}, we find that leaked data (such as
 test data) can also be accidentally leaked by knowledge distillation. At
 the moment, we are investigating leakage of PIIs or poisoned data via
 distillation.
+
+</div>
 
 ## Efficient Training of NLP Systems
 
@@ -375,11 +388,15 @@ learning.
 
 **Effective Language Extension of NLP Models** With the lack of training
 data for many languages, we investigate various methods to address this.
-In {% cite adilazuarda-etal-2024-lingualchemy %}, we enable unseen
-generalization of encoder models through an additional loss, in which we
-ask the model to learn the language representation vector of the input
-and use URIEL vectors as label. This method significantly improves the
-performance of some unseen languages, such as Amharic.
+In {% cite adilazuarda-etal-2024-lingualchemy %}, we introduce a novel
+typological alignment objective that bridges the gap between neural
+representations and discrete linguistics. Our method leverages URIEL
+vectors to explicitly supervise the model’s language embedding space as
+an additional training loss. This innovation allows the model to
+synthesize representations for unseen languages by interpolating their
+linguistic features, effectively enabling zero-shot generalization. This
+method significantly improves the performance of some unseen languages,
+such as Amharic.
 
 </div>
 
@@ -394,9 +411,11 @@ internship projects.
 <div class="run-in-section" markdown="1">
 
 **Multi-Token Learning** An ongoing work in
-{% cite zuhri2025predicting %}, we proposed a new learning objective to
-learn from multiple tokens at once, with the aim of better training the
-model. Specifically, we instruct the model to predict token ordering.
+{% cite zuhri2025predicting %}, we proposed a novel learning objective
+to learn from multiple tokens at once, with the aim of better training
+the model. Specifically, we instruct the model to predict token
+ordering. Manifold Labs has supported this work through the support of
+computational resources, approximately \$50k in value.
 
 </div>
 
@@ -412,10 +431,10 @@ fits my overarching goal that I recently explored.
 on data set construction for a while; hence, multimodal datasets were a
 natural extension. [CVQA](https://huggingface.co/datasets/afaji/cvqa) is
 one of the largest human-made multimodal multilingual datasets. I served
-as the primary lead and organizer of this initiative, conceptualizing
-the project and spearheading a massive collaboration of over 70 authors
-to construct culturally relevant visual question answering for more than
-30 language and country pairs.
+as the main lead and organizer of this initiative, conceptualizing the
+project and spearheading a massive collaboration of over 70 authors to
+construct culturally relevant visual question answering for more than 30
+language and country pairs.
 
 </div>
 
@@ -453,36 +472,24 @@ explored typical human-preference evaluations used in standard
 leaderboards. We noted that humans exhibit a bias towards output length
 and grammatical correctness to such a degree that they often prefer
 hallucinated outputs, provided they are long and grammatically polished.
+In our follow-up work {% cite chevi-2025-individual %}, we found that
+this preference correlates with the user’s personality traits.
+Specifically, users with different personality profiles prioritize
+distinct aspects of model responses, suggesting that a single universal
+reward model is insufficient to capture the diversity of human
+preferences. To extend this line of exploration into practical
+applications, we have been awarded a \$450k grant by Etihad for
+persuasive LLMs, where the relationship between user demographics and
+the susceptibility to different persuasive strategies is relevant.
 
 </div>
 
-<div class="run-in-section" markdown="1">
-
-**Personality-Driven Alignment** In our follow-up work
-{% cite chevi-2025-individual %}, we found that this preference
-correlates with the user’s personality traits. Specifically, users with
-different personality profiles prioritize distinct aspects of model
-responses, suggesting that a single universal reward model is
-insufficient to capture the diversity of human preferences.
-
-</div>
-
-<div class="run-in-section" markdown="1">
-
-**AI Literacy in Education** In ongoing work, we are exploring the AI
-literacy of Indonesian teachers and their impact on teaching pedagogy.
-We aim to uncover the current level of AI literacy in Indonesia and
-provide recommendations to policymakers to ensure AI is used effectively
-and appropriately in classroom activities.
-
-</div>
-
-## Future Research Agenda: A 5-Year Vision
+## Future Research Agenda
 
 My long-term goal remains to democratize NLP technology. Having
 established strong foundations in data-centric NLP and model efficiency,
-my next phase focuses on converging these streams into a unified
-framework for accessible and inclusive AI technology.
+my next 5-year phase focuses on converging these streams into a unified
+framework of my vision for accessible and inclusive AI technology.
 
 <div class="run-in-section" markdown="1">
 
@@ -500,18 +507,18 @@ where natural data is scarce.
 
 <div class="run-in-section" markdown="1">
 
-**Operationalizing Efficient Cultural Multimodality.** The move toward
-multimodal models comes with a significant increase in cost. These
-models are significantly more resource-intensive than text-only
-baselines, making them prohibitive for many communities to utilize.
-Furthermore, they are extremely data-hungry, exacerbating the challenge
-for low-resource cultures where paired visual-linguistic data is
-exceptionally scarce. To bridge this, I will connect my efficiency
-research, both training and deployment efficiency for multimodality. My
-goal is to develop methods that maximize learning from scarce signals
-while reducing the computational burden, ensuring that systems capable
-of capturing complex, cultural visual nuances remain accessible to train
-and deploy on consumer-grade hardware.
+**Operationalizing Efficient Multimodality.** The move toward multimodal
+models comes with a significant increase in cost. These models are
+significantly more resource-intensive than text-only baselines, making
+them prohibitive for many communities to utilize. Furthermore, they are
+extremely data-hungry, exacerbating the challenge for low-resource
+cultures where paired visual-linguistic data is exceptionally scarce. To
+bridge this gap, I will connect my research on efficiency, both training
+and deployment efficiency for multimodality. My goal is to develop
+methods that maximize learning from scarce signals while reducing the
+computational burden, ensuring that systems capable of capturing
+complex, cultural visual nuances remain accessible to train and deploy
+on consumer-grade hardware.
 
 </div>
 
