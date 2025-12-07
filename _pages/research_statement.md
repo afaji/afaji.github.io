@@ -1,0 +1,169 @@
+\section*{Research Statement}
+
+NLP technology has progressed significantly over the years. Yet, the focus is still heavily English-centric, leaving many languages behind. My research interest focuses on working on NLP for underrepresented languages. However, the English-centric nature of AI research is not just about progress in terms of models or data. AI resources are also heavily distributed to a limited number of communities, leaving compute resources scarce for many NLP communities. With trends moving towards large language models, it is even more prohibitive for many communities to participate in NLP research and deployment.
+
+My research goal can be summarized as ``\textbf{making NLP technology inclusive and accessible}''. Realizing this vision requires a multifaceted approach: we must not only expand model capabilities to support diverse languages and cultural contexts, but also democratize access by lowering computational barriers and refine the interaction dynamics to suit global users. To address these interconnected challenges, I pursue the following research directions:
+\begin{itemize}
+    \item Multilingual and Cultural NLP
+    \item Lightweight NLP system
+    \item Efficient Training of NLP system
+    \item Multimodal-Multicultural NLP
+    \item Human-Computer Interaction of NLP Systems
+\end{itemize}
+
+I primarily publish in *CL venues, maintaining an h-index of 35 and close to 8,000 citations according to \href{https://www.semanticscholar.org/author/Alham-Fikri-Aji/8129718}{Semantic Scholar}. I have received \href{https://afaji.github.io/cv/#awards}{5 paper awards} at these conferences and was recently honored with the \href{https://mbzuai.ac.ae/news/mbzuai-celebrates-faculty-excellence-at-annual-recognition-reception/}{2025 MBZUAI Early Career Researcher Award}, which recognizes assistant professors with exceptional research promise.
+
+
+\subsection*{Multilingual and Cultural NLP}
+
+Most of my recent work focuses on multilingual and culturally grounded NLP, covering various topics from resource building to interpretability. Most of my research awards also fall into this area of work.
+
+\paragraph{Multilingual NLP Resources and Benchmarks}
+
+
+A persistent challenge in multilingual NLP is the scarcity of high‑quality datasets for both training and nuanced evaluation. My current primary area of depth lies in multilingual and culturally grounded data construction. I address the scarcity of high-quality data not merely by collection, but by developing robust, high-quality methodologies for resource building and evaluation. This involves designing protocols for human annotation, quality control, and cultural relevance. Some resources that I worked on are highlighted below.
+
+\begin{table}[ht]
+    \centering
+    \caption{Overview of contributed multilingual datasets and resources.}
+    \label{tab:resources}
+    \small
+    \renewcommand{\arraystretch}{1.2} % Adds a little breathing room between rows
+    \begin{tabularx}{\textwidth}{l X l}
+        \toprule
+        \textbf{Resource} & \textbf{Description \& Scope} & \textbf{Ref.} \\
+        \midrule
+        \href{https://huggingface.co/datasets/IndoNLP/indonli}{IndoNLI} & 
+        Natural Language Inference (NLI) for Indonesian. & 
+        \citep{mahendra-etal-2021-indonli} \\
+        
+        
+        \href{https://huggingface.co/datasets/amazon_science/mintaka}{Mintaka} & 
+        Complex Question Answering across 9 languages. & 
+        \citep{sen-etal-2022-mintaka} \\
+    
+        
+        \href{https://huggingface.co/datasets/IndoNLP/nusax_senti}{NusaX} & 
+        Sentiment analysis and MT covering 10 Indonesian local languages. & 
+        \citep{winata-etal-2023-nusax} \\
+        
+        \href{https://huggingface.co/datasets/IndoNLP/NusaWrites}{NusaWrites} & 
+        Generation benchmarks for 12 Indonesian languages. & 
+        \citep{cahyawijaya-etal-2023-nusawrites} \\
+
+        \href{https://huggingface.co/datasets/SEACrowd}{SEACrowd} & 
+        Multilingual multimodal data hub and benchmark suite for Southeast Asian languages. & 
+        \citep{lovenia-etal-2024-seacrowd} \\
+        
+        \href{https://huggingface.co/datasets/SemRel/SemRel2024}{SemRel} & 
+        Semantic relatedness of Asian and African languages. \newline \textit{Powered \href{https://semantic-textual-relatedness.github.io}{SemEval-2024 Task 1}. (163 participants).} & 
+        \citep{ousidhoum-etal-2024-semrel2024} \\
+        
+        \href{https://huggingface.co/datasets/mbzuai-nlp/M4}{M4} & 
+        Multilingual machine-generated text detection. \newline \textit{Powered \href{https://aclanthology.org/2024.semeval-1.279/}{SemEval-2024 Task 8}. (285 participants).} & 
+        \citep{wang-etal-2024-m4} \\
+        
+        \href{https://huggingface.co/datasets/afaji/cvqa}{CVQA} & 
+        Culturally diverse multilingual Visual Question Answering of 39 language-country pairs. & 
+        \citep{romero-etal-2024-cvqa} \\
+        
+        \href{https://huggingface.co/datasets/haryoaw/COPAL}{COPAL-ID} & 
+        Culturally specific causal reasoning for Indonesian. & 
+        \citep{wibowo-etal-2024-copal} \\
+        
+        \href{https://huggingface.co/datasets/StingrayBench/StingrayBench}{Stingray} & 
+        Multilingual word-sense disambiguation benchmark. & 
+        \citep{cahyawijaya-etal-2025-stingray} \\
+        
+        \href{https://brighter-dataset.github.io/}{BRIGHTER} & 
+        Emotion classification for low-resource languages. \newline \textit{Powered \href{https://arxiv.org/abs/2504.17307}{SemEval-2025 Task 11} (800 participants).} & 
+        \citep{muhammad-etal-2025-brighter} \\
+        
+        \href{https://huggingface.co/collections/airesearch/wangchan-thai-instruction-6835722a30b98e01598984fd}{WangchanThai} & 
+        Instruction-following dataset for Thai culture and domains. & 
+        \citep{limkonchotiwat-etal-2025-wangchanthaiinstruct} \\
+
+        \href{https://huggingface.co/datasets/NusaAksara/NusaAksara}{NusaAksara} & 
+        OCR and translation benchmark for Indonesian languages in local scripts. & 
+        \citep{adilazuarda-etal-2025-nusaaksara} \\
+
+        \href{https://huggingface.co/datasets/google/loraxbench}{LoraxBench} & 
+        Multitask benchmark for 20 low-resource Indonesian languages. & 
+        \citep{aji-cohn-2025-loraxbench} \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\paragraph{Culturally‑Nuanced NLP} Beyond language coverage, my work examines cultural representation and evaluation, since covering languages themselves might not be enough. This is an issue with translated benchmarks, in which you get questions that are not relevant to the local context, even if the language is translated. Several of our benchmarks mentioned earlier cover not only language aspects but also cultural understanding.
+
+In \citet{adilazuarda-etal-2024-towards}, we survey the research on culture in large language models and find that most studies use narrow proxies such as demographics or semantics without defining culture itself. We propose a taxonomy of these approaches and highlight gaps in contextual and robust evaluations of cultural representation. 
+
+In \citet{adilazuarda-etal-2025-surveys}, we explore how to adapt large language models to better reflect diverse cultural values by moving beyond survey-based data such as the World Values Survey (WVS). Our results show that this mixed-source approach produces more culturally distinct and balanced models than relied on survey data alone.
+
+\paragraph{Indonesian NLP} Having grown up with Indonesian languages and cultures, some of my work deeply involves Indonesian languages. As we reported in~\citep{aji-etal-2022-one}, Indonesia is one of the most culturally and linguistically diverse countries, with over 700 languages spoken and more than 200M population. Yet, NLP research for Indonesian languages is underrepresented. We present challenges and opportunities for Indonesian NLP. This work is widely cited as a reference in Indonesian NLP studies.
+
+In another work in \cite{adilazuarda-etal-2025-nusaaksara}, we studied current issues with regard to models that are not capable of dealing with Indonesian native scripts, while releasing a benchmark. Similarly, in \cite{farhansyah-etal-2025-language}, we studied various Javanese honorific systems in several models, showing that many models face challenges.
+
+In a collaborative effort with the Indonesian NLP community, we built \href{https://github.com/IndoNLP/nusa-crowd}{NusaCrowd}, a resource catalog that standardizes NLP resources for Indonesian languages~\citep{cahyawijaya-etal-2023-nusacrowd}. I was part of the core team that initiated and designed the project from the very beginning. NusaCrowd gained more than \textbf{270 stars on GitHub}. A follow-up for South-East Asian languages, SEACrowd~\citep{lovenia-etal-2024-seacrowd}, was also released; I similarly served as a core initiator for this expansion, which served as the embryo of the \href{https://seacrowd.org}{SEA-NLP community} of the same name, in which I am now a member of the advisory board.
+
+\paragraph{Code Switching and Code Mixing} Code-Switching (CS) or Code-Mixing (CM) is a phenomenon commonly observed in multilingual cultures, making it inline to my research direction. In~\citet{winata-etal-2023-decades}, we provide a systematic survey of code-switching research in NLP, tracing its evolution from linguistic theories to modern machine learning. We analyze decades of progress to highlight key trends, challenges, and future directions.
+
+Shortly after the release of ChatGPT, we noted in~\citet{yong-etal-2023-prompting} that it struggled to generate and understand CS/CM, although current models have improved significantly. This work led to an interview for a \href{https://www.wired.com/story/chatgpt-non-english-languages-ai-revolution/}{Wired} article on the multilingual limitations of early ChatGPT, specifically in South-East Asia. In \citet{cahyawijaya-etal-2025-stingray}, we find that multilingual LLMs consistently fail to distinguish the meanings of false friends across languages, revealing major gaps in cross-lingual sense understanding.
+
+\paragraph{Multilingual LLMs} In parallel with dataset and benchmark building, I collaborate on building multilingual models, including \href{https://huggingface.co/bigscience/mt0-base}{mT0} and \href{https://huggingface.co/bigscience/bloomz}{BLOOMZ}~\citep{muennighoff-etal-2023-crosslingual}, the Arabic‑centric \href{https://huggingface.co/inceptionai/jais-13b}{Jais}~\citep{sengupta2023jais}, and the Indonesian LLM \href{https://huggingface.co/indonlp/cendol}{Cendol}~\citep{cahyawijaya-etal-2024-cendol}. Particularly, BLOOMZ attracted significant traction and gained decent citations and downloads, with more than \textbf{1M downloads} of all time, and it is still widely downloaded now. Since joining Google as a visiting researcher, I have also worked on the multilinguality aspect of Gemini.
+
+\paragraph{Interpretability and Understanding of Multilingual Models} Recently, I explored the intersection of multilinguality and interpretability. In \cite{rahmanisa2025unveiling}, we find that amplifying language-specific neurons in multilingual models boosts performance in their respective languages, particularly low-resource ones, but often harms cross-lingual generalization. Separately, in \cite{andrylie2025sparse} we use sparse auto encoders to identify interpretable neurons associated with particular languages, showing that multilingual models encode clear language-specific representations within their internal layers.
+
+\subsection*{Lightweight NLP Systems}
+
+\paragraph{Fast Machine Translation System} During my PhD, I worked on fast machine translation systems. In \cite{aji-heafield-2020-compressing}, we explored quantization techniques for neural machine translation and achieved 4-bit precision using a log-based quantization approach. Building on that, I collaborated with others in a shared task on efficient machine translation. By combining quantization, knowledge distillation, and model pruning, we achieved the best overall performance~\citep{bogoychev-etal-2020-edinburghs}. Although I no longer work exclusively on machine translation, my current research on lightweight models continues in the same direction.
+
+\paragraph{Lightweight Models via Distillation} During the early days of GPT, we distilled ChatGPT into several smaller-sized models smaller than 1B parameters with, back then, reasonable performance in our \href{https://github.com/mbzuai-nlp/LaMini-LM}{Lamini-LM} project~\citep{wu-etal-2024-lamini}. In this project, we release several Lamini models, which are still one of the most downloaded models in MBZUAI's HuggingFace repo and gained more than \textbf{800 GitHub stars}. Some of the lightweight model efforts focus on multilingual capabilities. For example, \href{https://huggingface.co/datasets/MBZUAI/Bactrian-X}{Bactrian-X} is a distilled multilingual model that covers 52 languages~\citep{li2023bactrian}. We have also attempted to distill a large multilingual encoder model for low-resource languages~\citep{cruz-2025-extracting}.
+
+\paragraph{Sink-Free Attention Transformers} In our ongoing work \cite{zuhri2025softpick}, we proposed a new softmax replacement named SoftPick, whose objective is to remove the attention sink. We managed to remove the attention sink, thus making the attention sparse. With this, we show that the model can be better quantized, hence improving the efficiency.
+
+\paragraph{Efficient Inference Memory via KV Sharing} In \cite{zuhri-etal-2025-mlkv}, we address the memory bottlenecks of large-scale inference by introducing Multi-Layer Key-Value sharing. By extending key-value sharing across the depth dimension—rather than just within attention heads—we reduced the KV cache footprint. This modification significantly lowers the memory barrier for deploying large models.
+
+\paragraph{Knowledge Distillation Study} In \cite{aji-etal-2020-neural}, we show that in neural machine translation transfer learning, copying the inner layers of a model is essential for quality gains. Our recent work in \cite{wibowo2025iterabre} similarly investigates model copying in knowledge distillation in multilingual settings.
+We also study the potential harm of knowledge distillation. In \cite{mansurov-etal-2025-data}, we find that leaked data (such as test data) can also be accidentally leaked by knowledge distillation. At the moment, we are investigating leakage of PIIs or poisoned data via distillation.
+
+\subsection*{Efficient Training of NLP Systems}
+
+Not only inference, but lack of data could also be the issue of inaccessible NLP systems. Some of my work explores faster or better learning.
+
+\paragraph{Effective Language Extension of NLP Models} With the lack of training data for many languages, we investigate various methods to address this. In \cite{adilazuarda-etal-2024-lingualchemy}, we introduce a novel typological alignment objective that bridges the gap between neural representations and discrete linguistics. Our method leverages URIEL vectors to explicitly supervise the model’s language embedding space as an additional training loss. This innovation allows the model to synthesize representations for unseen languages by interpolating their linguistic features, effectively enabling zero-shot generalization. This method significantly improves the performance of some unseen languages, such as Amharic.
+
+In \cite{elshabrawy-etal-2025-statement}, we enable zero-shot language and task generalization for encoder models by training the model with true/false statements across languages, enabling `prompting' for encoder models. This project was part of MBZUAI's 2024 internship program with talented undergraduate interns visiting for a month. Our project was awarded the \textbf{best team award} among other MBZUAI internship projects.
+
+\paragraph{Multi-Token Learning} An ongoing work in \cite{zuhri2025predicting}, we proposed a novel learning objective to learn from multiple tokens at once, with the aim of better training the model. Specifically, we instruct the model to predict token ordering. Manifold Labs has supported this work through the support of computational resources, approximately \$50k in value.
+
+\subsection*{Multimodal-Multicultural NLP}
+
+Most of my work has focused purely on text. With the advancement of AI technology going beyond text, multimodality is the next direction that fits my overarching goal that I recently explored.
+
+\paragraph{Multimodal-Multicultural Datasets and Benchmarks} I have been working on data set construction for a while; hence, multimodal datasets were a natural extension. \href{https://huggingface.co/datasets/afaji/cvqa}{CVQA} is one of the largest human-made multimodal multilingual datasets. I served as the main lead and organizer of this initiative, conceptualizing the project and spearheading a massive collaboration of over 70 authors to construct culturally relevant visual question answering for more than 30 language and country pairs.
+
+n \cite{winata-etal-2025-worldcuisines}, where I served as a senior advisor working closely with the core team, we gather images of food and cuisine from around the world and annotate them. A recent follow-up work on that in \cite{irawan2025visionlanguagemodelsconfused}, in which we perform adversarial image editing by replacing the background with landmarks of different countries, or by adding flags of different countries, noted that VLMs are easily distracted.
+
+\paragraph{Multimodal-Multicultural Models} In an ongoing project with the SEACrowd community, we are building \href{https://seacrowd.org/projects/2025-seavl-phase-2}{SeaVL}, a multimodal language model for Southeast Asian people. We started with the data set~\cite{cahyawijaya-etal-2025-crowdsource} and now work on the model. Another ongoing project focuses on building multilingual, multimodal reward models.
+
+\subsection*{Human-Computer Interaction of NLP Systems}
+
+I have recently initiated a new line of research into Human-AI interaction. This is particularly important for inclusive technology, as different demographics and cultural backgrounds significantly influence how users perceive and expect AI to behave.
+
+\paragraph{Bias in Human Preferences} In \citet{wu-aji-2025-style}, we explored typical human-preference evaluations used in standard leaderboards. We noted that humans exhibit a bias towards output length and grammatical correctness to such a degree that they often prefer hallucinated outputs, provided they are long and grammatically polished. In our follow-up work \cite{chevi-2025-individual}, we found that this preference correlates with the user's personality traits. Specifically, users with different personality profiles prioritize distinct aspects of model responses, suggesting that a single universal reward model is insufficient to capture the diversity of human preferences.
+To extend this line of exploration into practical applications, we have been awarded a \$450k grant by Etihad for persuasive LLMs, where the relationship between user demographics and the susceptibility to different persuasive strategies is relevant.
+
+
+% \paragraph{AI Literacy in Education} In ongoing work, we are exploring the AI literacy of Indonesian teachers and their impact on teaching pedagogy. We aim to uncover the current level of AI literacy in Indonesia and provide recommendations to policymakers to ensure AI is used effectively and appropriately in classroom activities.
+
+
+\subsection*{Future Research Agenda}
+
+My long-term goal remains to democratize NLP technology. Having established strong foundations in data-centric NLP and model efficiency, my next 5-year phase focuses on converging these streams into a unified framework of my vision for accessible and inclusive AI technology.
+
+\paragraph{From Static Resources to Dynamic Simulation.} While my previous work established static benchmarks, the future of evaluation lies in dynamic environments. I aim to transition from fixed datasets to interactive simulations and games. By utilizing scenarios where models engage in culturally-grounded games, role-play, or debates, we can create self-evolving benchmarks that resist contamination. Furthermore, this simulation-based approach will serve as a data synthesis engine, generating high-quality training signals for underrepresented languages where natural data is scarce.
+
+\paragraph{Operationalizing Efficient Multimodality.} The move toward multimodal models comes with a significant increase in cost. These models are significantly more resource-intensive than text-only baselines, making them prohibitive for many communities to utilize. Furthermore, they are extremely data-hungry, exacerbating the challenge for low-resource cultures where paired visual-linguistic data is exceptionally scarce. To bridge this gap, I will connect my research on efficiency, both training and deployment efficiency for multimodality. My goal is to develop methods that maximize learning from scarce signals while reducing the computational burden, ensuring that systems capable of capturing complex, cultural visual nuances remain accessible to train and deploy on consumer-grade hardware.
+
+\paragraph{Deepening Cross-Cultural Human-Computer Interaction.} Moving beyond preliminary preference analysis, I plan to establish a rigorous HCI research agenda focused on the global user experience. Rather than purely optimizing model parameters, I aim to conduct empirical studies on how cultural backgrounds and diverse demographics shape mental models, trust, and interaction patterns with AI systems. By investigating these dynamics through a user-centric lens, I seek to uncover how distinct communities perceive and utilize AI, providing the foundational insights needed to design interfaces and workflows that are truly intuitive and inclusive for a global population.

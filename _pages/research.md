@@ -25,9 +25,13 @@ global users. To address these interconnected challenges, I pursue the
 following research directions:
 
 - Multilingual and Cultural NLP
+
 - Lightweight NLP system
+
 - Efficient Training of NLP system
+
 - Multimodal-Multicultural NLP
+
 - Human-Computer Interaction of NLP Systems
 
 I primarily publish in \*CL venues, maintaining an h-index of 35 and
