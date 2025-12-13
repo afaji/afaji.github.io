@@ -154,11 +154,13 @@ redirect_from:
 * **Scientific Committee**
   * Gemastik (2016), TOKI-Open (2018), IOI (2022), Indonesia's National Olympiad in AI (2025)
 * **Training**
-  * Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011-2013), UoE ACM-ICPC preparation (2014), Saudi Arabia National Team (2020)
+  * Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011-2013), Saudi Arabia National Team (2020)
+  * ICPC Traner and Coach: University of Edinburgh (2014), MBZUAI (2025)
 
 ## Publications
 I mainly publish at ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. <br>
-<span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.
+<span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.<br>
+<span class="mbzuai_student">Underline</span> denotes MBZUAI students and researchers (including visiting/interns).
 
 ### Peer-Reviewed Conferences
 <div class="compact-ul">
@@ -338,7 +340,7 @@ I also advise some external students, mostly UG and mainly from Indonesia.
     <tr>
       <td>Token-Order Prediction</td>
       <td>Manifold Labs</td>
-      <td>~$50,000</td>
+      <td>~$70,000</td>
       <td>2025</td>
       <td>Alham Fikri Aji and Zayd Zuhri (Research Engineer, MBZUAI). Unlimited acess to 8xH200 node.</td>
     </tr>
@@ -359,9 +361,9 @@ I also advise some external students, mostly UG and mainly from Indonesia.
     <tr>
       <td>Google Cloud Research Credit</td>
       <td>Google</td>
-      <td>$5,000</td>
-      <td>2024</td>
-      <td></td>
+      <td>$55,000</td>
+      <td>2024-2025</td>
+      <td>PI: Alham Fikri Aji.</td>
     </tr>
     <tr>
       <td>SEACrowd: Consolidating South-east Asia NLP dataset</td>

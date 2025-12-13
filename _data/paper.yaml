@@ -1,20 +1,20 @@
 conference:
-  - title: "Unveiling the Influence of Amplifying Language-Specific Neurons"
-    authors: "Inaya Rahmanisa, Lyzander Marciano Andrylie, Mahardika Krisna Ihsani, Alfan Farizki Wicaksono, Haryo Akbarianto Wibowo, <b>Alham Fikri Aji</b>"
+  - title: "Multilingual Iterative Model Pruning: What Matters?"
+    authors: "<span class='mbzuai-student'>Haryo Akbarianto Wibowo</span>, Haiyue Song, Hideki Tanaka, Masao Utiyama, <b>Alham Fikri Aji</b>, Raj Dabre"
     date: "2025"
     venue: "AACL"
-    url: "https://arxiv.org/abs/2507.22581v2"
+    url: ""
     data:
     model:
     tags:
     notes:
     author: "last"
 
-  - title: "Multilingual Iterative Model Pruning: What Matters?"
-    authors: "Haryo Akbarianto Wibowo, Haiyue Song, Hideki Tanaka, Masao Utiyama, <b>Alham Fikri Aji</b>, Raj Dabre"
+  - title: "Unveiling the Influence of Amplifying Language-Specific Neurons"
+    authors: "Inaya Rahmanisa, Lyzander Marciano Andrylie, <span class='mbzuai-student'>Mahardika Krisna Ihsani</span>, Alfan Farizki Wicaksono, <span class='mbzuai-student'>Haryo Akbarianto Wibowo</span>, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "AACL"
-    url: ""
+    url: "https://arxiv.org/abs/2507.22581v2"
     data:
     model:
     tags:
@@ -42,7 +42,7 @@ conference:
     notes:
     author: "first"
   - title: "From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs"
-    authors: "Muhammad Farid Adilazuarda, Chen Cecilia Liu, Iryna Gurevych, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Muhammad Farid Adilazuarda</span>, Chen Cecilia Liu, Iryna Gurevych, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "EMNLP"
     url: "https://aclanthology.org/2025.emnlp-main.912/"
@@ -53,7 +53,7 @@ conference:
     author: "last"
 
   - title: "Balanced Multi-Factor In-Context Learning for Multilingual Large Language Models"
-    authors: "Masahiro Kaneko, <b>Alham Fikri Aji</b>, Timothy Baldwin"
+    authors: "<span class='mbzuai_student'>Masahiro Kaneko</span>, <b>Alham Fikri Aji</b>, Timothy Baldwin"
     date: "2025"
     venue: "EMNLP"
     url: "https://aclanthology.org/2025.emnlp-main.1016.pdf"
@@ -64,7 +64,7 @@ conference:
     author: "last"
 
   - title: "CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation"
-    authors: "Emilio Villa-Cueva, Sholpan Bolatzhanova, Diana Turmakhan, Kareem Elzeky, Henok Biadglign Ademtew, <b>Alham Fikri Aji</b>, Israel Abebe Azime, Jinheon Baek, Frederico Belcavello, Fermin Cristobal, Jan Christian Blaise Cruz, Mary Dabre, Raj Dabre, Toqeer Ehsan, Naome A Etori, Fauzan Farooqui, Jiahui Geng, Guido Ivetta, Thanmay Jayakumar, Soyeong Jeong, Zheng Wei Lim, Aishik Mandal, Sofía Martinelli, Mihail Minkov Mihaylov, Daniil Orel, Aniket Pramanick, Sukannya Purkayastha, Israfel Salazar, Haiyue Song, Tiago Timponi Torrent, Debela Desalegn Yadeta, Injy Hamed, Atnafu Lambebo Tonja, Thamar Solorio"
+    authors: "<span class='mbzuai_student'>Emilio Villa-Cueva</span>, <span class='mbzuai_student'>Sholpan Bolatzhanova</span>, <span class='mbzuai_student'>Diana Turmakhan</span>, <span class='mbzuai_student'>Kareem Elzeky</span>, Henok Biadglign Ademtew, <b>Alham Fikri Aji</b>, Israel Abebe Azime, Jinheon Baek, Frederico Belcavello, Fermin Cristobal, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, Mary Dabre, Raj Dabre, <span class='mbzuai_student'>Toqeer Ehsan</span>, Naome A Etori, Fauzan Farooqui, <span class='mbzuai_student'>Jiahui Geng</span>, Guido Ivetta, Thanmay Jayakumar, Soyeong Jeong, Zheng Wei Lim, Aishik Mandal, Sofía Martinelli, Mihail Minkov Mihaylov, Daniil Orel, Aniket Pramanick, Sukannya Purkayastha, Israfel Salazar, Haiyue Song, Tiago Timponi Torrent, Debela Desalegn Yadeta, <span class='mbzuai_student'>Injy Hamed</span>, <span class='mbzuai_student'>Atnafu Lambebo Tonja</span>, Thamar Solorio"
     date: "2025"
     venue: "Findings of the Association for Computational Linguistics: EMNLP 2025"
     url: "https://aclanthology.org/2025.findings-emnlp.1220/"
@@ -75,7 +75,7 @@ conference:
     author: 
 
   - title: "MoMentS: A Comprehensive Multimodal Benchmark for Theory of Mind"
-    authors: "Emilio Villa-Cueva, S M Masrur Ahmed, Rendi Chevi, Jan Christian Blaise Cruz, Kareem Elzeky, Fermin Cristobal, <b>Alham Fikri Aji</b>, Skyler Wang, Rada Mihalcea, Thamar Solorio"
+    authors: "<span class='mbzuai_student'>Emilio Villa-Cueva</span>, S M Masrur Ahmed, <span class='mbzuai_student'>Rendi Chevi</span>, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, <span class='mbzuai_student'>Kareem Elzeky</span>, Fermin Cristobal, <b>Alham Fikri Aji</b>, Skyler Wang, Rada Mihalcea, Thamar Solorio"
     date: "2025"
     venue: "Findings of the Association for Computational Linguistics: EMNLP 2025"
     url: "https://aclanthology.org/2025.findings-emnlp.1230/"
@@ -86,7 +86,7 @@ conference:
     author: 
 
   - title: "Data Laundering: Artificially Boosting Benchmark Results through Knowledge Distillation"
-    authors: "Jonibek Mansurov, Akhmed Sakip, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Jonibek Mansurov</span>, <span class='mbzuai_student'>Akhmed Sakip</span>, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "ACL"
     url: "https://aclanthology.org/2025.acl-long.407.pdf"
@@ -97,7 +97,7 @@ conference:
     author: "last"
 
   - title: "BRIGHTER: BRIdging the Gap in Human-Annotated Textual Emotion Recognition Datasets for 28 Languages"
-    authors: "Shamsuddeen Hassan Muhammad, Nedjma Ousidhoum, Idris Abdulmumin, Jan Philip Wahle, Terry Ruas, Meriem Beloucif, Christine de Kock, Nirmal Surange, Daniela Teodorescu, Ibrahim Said Ahmad, David Ifeoluwa Adelani, <b>Alham Fikri Aji</b>, Felermino D. M. A. Ali, Ilseyar Alimova, Vladimir Araujo, Nikolay Babakov, Naomi Baes, Ana-Maria Bucur, Andiswa Bukula, Guanqun Cao, Rodrigo Tufiño, Rendi Chevi, Chiamaka Ijeoma Chukwuneke, Alexandra Ciobotaru, Daryna Dementieva, Murja Sani Gadanya, Robert Geislinger, Bela Gipp, Oumaima Hourrane, Oana Ignat, Falalu Ibrahim Lawan, Rooweither Mabuya, Rahmad Mahendra, Vukosi Marivate, Alexander Panchenko, Andrew Piper, Charles Henrique Porto Ferreira, Vitaly Protasov, Samuel Rutunda, Manish Shrivastava, Aura Cristina Udrea, Lilian Diana Awuor Wanzare, Sophie Wu, Florian Valentin Wunderlich, Hanif Muhammad Zhafran, Tianhui Zhang, Yi Zhou, Saif M. Mohammad"
+    authors: "Shamsuddeen Hassan Muhammad, Nedjma Ousidhoum, Idris Abdulmumin, Jan Philip Wahle, Terry Ruas, Meriem Beloucif, Christine de Kock, Nirmal Surange, Daniela Teodorescu, Ibrahim Said Ahmad, David Ifeoluwa Adelani, <b>Alham Fikri Aji</b>, Felermino D. M. A. Ali, Ilseyar Alimova, Vladimir Araujo, Nikolay Babakov, Naomi Baes, Ana-Maria Bucur, Andiswa Bukula, Guanqun Cao, Rodrigo Tufiño, <span class='mbzuai_student'>Rendi Chevi</span>, Chiamaka Ijeoma Chukwuneke, Alexandra Ciobotaru, Daryna Dementieva, Murja Sani Gadanya, Robert Geislinger, Bela Gipp, Oumaima Hourrane, Oana Ignat, Falalu Ibrahim Lawan, Rooweither Mabuya, Rahmad Mahendra, Vukosi Marivate, Alexander Panchenko, Andrew Piper, Charles Henrique Porto Ferreira, Vitaly Protasov, Samuel Rutunda, Manish Shrivastava, Aura Cristina Udrea, Lilian Diana Awuor Wanzare, Sophie Wu, Florian Valentin Wunderlich, Hanif Muhammad Zhafran, Tianhui Zhang, Yi Zhou, Saif M. Mohammad"
     date: "2025"
     venue: "ACL"
     url: "https://aclanthology.org/2025.acl-long.436.pdf"
@@ -119,7 +119,7 @@ conference:
     author:
 
   - title: "NusaAksara: A Multimodal and Multilingual Benchmark for Preserving Indonesian Indigenous Scripts"
-    authors: "Muhammad Farid Adilazuarda, Musa Izzanardi Wijanarko, Lucky Susanto, Khumaisa Nur'aini, Derry Tanti Wijaya, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Muhammad Farid Adilazuarda</span>, Musa Izzanardi Wijanarko, Lucky Susanto, Khumaisa Nur'aini, Derry Tanti Wijaya, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "ACL"
     url: "https://aclanthology.org/2025.acl-long.1377.pdf"
@@ -130,7 +130,7 @@ conference:
     author: "last"
 
   - title: "KazMMLU: Evaluating Language Models on Kazakh, Russian, and Regional Knowledge of Kazakhstan"
-    authors: "Mukhammed Togmanov, Nurdaulet Mukhituly, Diana Turmakhan, Jonibek Mansurov, Maiya Goloburda, Akhmed Sakip, Zhuohan Xie, Yuxia Wang, Bekassyl Syzdykov, Nurkhan Laiyk, <b>Alham Fikri Aji</b>, Ekaterina Kochmar, Preslav Nakov, Fajri Koto"
+    authors: "<span class='mbzuai_student'>Mukhammed Togmanov</span>, <span class='mbzuai_student'>Nurdaulet Mukhituly</span>, <span class='mbzuai_student'>Diana Turmakhan</span>, <span class='mbzuai_student'>Jonibek Mansurov</span>, Maiya Goloburda, <span class='mbzuai_student'>Akhmed Sakip</span>, Zhuohan Xie, <span class='mbzuai_student'>Yuxia Wang</span>, <span class='mbzuai_student'>Bekassyl Syzdykov</span>, <span class='mbzuai_student'>Nurkhan Laiyk</span>, <b>Alham Fikri Aji</b>, Ekaterina Kochmar, Preslav Nakov, Fajri Koto"
     date: "2025"
     venue: "ACL"
     url: "https://aclanthology.org/2025.acl-long.701.pdf"
@@ -141,7 +141,7 @@ conference:
     author:
 
   - title: "Crowdsource, Crawl, or Generate? Creating SEA-VL, a Multicultural Vision-Language Dataset for Southeast Asia"
-    authors: "Samuel Cahyawijaya, Holy Lovenia, Joel Ruben Antony Moniz, Tack Hwa Wong, Mohammad Rifqi Farhansyah, Thant Thiri Maung, Frederikus Hudi, David Anugraha, Muhammad Ravi Shulthan Habibi, Muhammad Reza Qorib, Amit Agarwal, Joseph Marvin Imperial, Hitesh Laxmichand Patel, Vicky Feliren, Bahrul Ilmi Nasution, Manuel Antonio Rufino, Genta Indra Winata, Rian Adam Rajagede, Carlos Rafael Catalan, Mohamed Fazli Mohamed Imam, Priyaranjan Pattnayak, Salsabila Zahirah Pranida, Kevin Pratama, Yeshil Bangera, Adisai Na-Thalang, Patricia Nicole Monderin, Yueqi Song, christian simon, Lynnette Hui Xian Ng, Richardy Lobo Sapan, Bin Wang, Supryadi, Kanyakorn Veerakanjana, Piyalitt Ittichaiwong, Matthew Theodore Roque, Karissa Vincentio, Takdanai Kreangphet, Phakphum Artkaew, Kadek Hendrawan Palgunadi, Yanzhi Yu, Rochana Prih Hastuti, William Nixon, Mithil Bangera, Adrian Xuan Wei Lim, Aye Hninn Khine, Hanif Muhammad Zhafran, Teddy Ferdinan, Audra Aurora Izzani, Ayushman Singh, Evan, Jauza Akbar Krito, Michael Anugraha, Fenal Ashokbhai Ilasariya, Haochen Li, John Amadeo Daniswara, Filbert Aurelian Tjiaranata, Eryawan Presma Yulianrifat, Can Udomcharoenchaikit, Fadil Risdian Ansori, Mahardika Krisna Ihsani, Giang Nguyen, Anab Maulana Barik, Dan John Velasco, Rifo Ahmad Genadi, Saptarshi Saha, Chengwei Wei, Isaiah Edri W. Flores, Kenneth Chen Ko Han, Anjela Gail D. Santos, Wan Shen Lim, Kaung Si Phyo, Tim Santos, Meisyarah Dwiastuti, Jiayun Luo, Jan Christian Blaise Cruz, Ming Shan Hee, Ikhlasul Akmal Hanif, M.Alif Al Hakim, Muhammad Rizky Sya'ban, Kun Kerdthaisong, Lester James Validad Miranda, Fajri Koto, Tirana Noor Fatyanosa, <b>Alham Fikri Aji</b>, Jostin Jerico Rosal, Jun Kevin, Robert Wijaya, Onno P. Kampman, Ruochen Zhang, Börje F. Karlsson, Peerat Limkonchotiwat"
+    authors: "Samuel Cahyawijaya, Holy Lovenia, Joel Ruben Antony Moniz, Tack Hwa Wong, Mohammad Rifqi Farhansyah, Thant Thiri Maung, Frederikus Hudi, David Anugraha, Muhammad Ravi Shulthan Habibi, Muhammad Reza Qorib, Amit Agarwal, Joseph Marvin Imperial, Hitesh Laxmichand Patel, Vicky Feliren, Bahrul Ilmi Nasution, Manuel Antonio Rufino, Genta Indra Winata, Rian Adam Rajagede, Carlos Rafael Catalan, <span class='mbzuai_student'>Mohamed Fazli Mohamed Imam</span>, Priyaranjan Pattnayak, <span class='mbzuai_student'>Salsabila Zahirah Pranida</span>, ... , <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, Ming Shan Hee, Ikhlasul Akmal Hanif, M.Alif Al Hakim, Muhammad Rizky Sya'ban, Kun Kerdthaisong, Lester James Validad Miranda, Fajri Koto, Tirana Noor Fatyanosa, <b>Alham Fikri Aji</b>, Jostin Jerico Rosal, Jun Kevin, Robert Wijaya, Onno P. Kampman, Ruochen Zhang, Börje F. Karlsson, Peerat Limkonchotiwat"
     date: "2025"
     venue: "ACL"
     url: https://aclanthology.org/2025.acl-long.916.pdf
@@ -152,7 +152,7 @@ conference:
     author:
 
   - title: "Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models"
-    authors: "Ahmed Elshabrawy, Thanh-Nhi Nguyen, Yeeun Kang, Lihan Feng, Annant Jain, Faadil Abdullah Shaikh, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Ahmed Elshabrawy</span>, <span class='mbzuai_student'>Thanh-Nhi Nguyen</span>, <span class='mbzuai_student'>Yeeun Kang</span>, <span class='mbzuai_student'>Lihan Feng</span>, <span class='mbzuai_student'>Annant Jain</span>, <span class='mbzuai_student'>Faadil Abdullah Shaikh</span>, <span class='mbzuai_student'>Jonibek Mansurov</span>, <span class='mbzuai_student'>Mohamed Fazli Mohamed Imam</span>, <span class='mbzuai_student'>Jesus-German Ortiz-Barajas</span>, <span class='mbzuai_student'>Rendi Chevi</span>, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "ACL"
     url: https://aclanthology.org/2025.findings-acl.835.pdf
@@ -174,7 +174,7 @@ conference:
     author:
 
   - title: "Thank You, Stingray: Multilingual Large Language Models Can Not (Yet) Disambiguate Cross-Lingual Word Senses"
-    authors: "Samuel Cahyawijaya, Ruochen Zhang, Jan Christian Blaise Cruz, Holy Lovenia, Elisa Gilbert, Hiroki Nomoto, <b>Alham Fikri Aji</b>"
+    authors: "Samuel Cahyawijaya, Ruochen Zhang, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, Holy Lovenia, Elisa Gilbert, Hiroki Nomoto, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "NAACL"
     url: https://aclanthology.org/2025.findings-naacl.178.pdf
@@ -184,7 +184,7 @@ conference:
     notes:
     author: "last"
   - title: "MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding"
-    authors: "Zayd Muhammad Kawakibi Zuhri, Muhammad Farid Adilazuarda, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Zayd Muhammad Kawakibi Zuhri</span>, <span class='mbzuai_student'>Muhammad Farid Adilazuarda</span>, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "NAACL"
     url: https://aclanthology.org/2025.findings-naacl.305.pdf
@@ -194,7 +194,7 @@ conference:
     notes:
     author: "last"
   - title: "Enabling Natural Zero-Shot Prompting on Encoder Models via Statement-Tuning"
-    authors: "Ahmed Elshabrawy, Yongxin Huang, Iryna Gurevych, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Ahmed Elshabrawy</span>, Yongxin Huang, Iryna Gurevych, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "NAACL"
     url: https://aclanthology.org/2025.findings-naacl.465.pdf
@@ -204,7 +204,7 @@ conference:
     notes:
     author: "last"
   - title: "WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines"
-    authors: "Genta Indra Winata, Frederikus Hudi, Patrick Amadeus Irawan, David Anugraha, Rifki Afina Putri, WANG YUTONG, Adam Nohejl, Ubaidillah Ariq Prathama, Nedjma Ousidhoum, Afifa Amriani, Anar Rzayev, Anirban Das, Ashmari Pramodya, Aulia Adila, Bryan Wilie, Candy Olivia Mawalim, CHENG Ching Lam, Daud Abolade, Emmanuele Chersoni, Enrico Santus, Fariz Ikhwantri, Garry Kuwanto, Hanyang Zhao, Haryo Akbarianto Wibowo, Holy Lovenia, Jan Christian Blaise Cruz, Jan Wira Gotama Putra, Junho Myung, Lucky Susanto, Maria Angelica Riera Machin, Marina Zhukova, Michael Anugraha, Muhammad Farid Adilazuarda, Natasha Christabelle Santosa, Peerat Limkonchotiwat, Raj Dabre, Rio Alexander Audino, Samuel Cahyawijaya, Shi-Xiong Zhang, Stephanie Yulia Salim, Yi Zhou, Yinxuan Gui, David Ifeoluwa Adelani, En-Shiun Annie Lee, Shogo Okada, Ayu Purwarianti, <b>Alham Fikri Aji</b>, Taro Watanabe, Derry Tanti Wijaya, Alice Oh, Chong-Wah Ngo"
+    authors: "Genta Indra Winata, Frederikus Hudi, <span class='mbzuai_student'>Patrick Amadeus Irawan</span>, David Anugraha, Rifki Afina Putri, WANG YUTONG, Adam Nohejl, Ubaidillah Ariq Prathama, Nedjma Ousidhoum, Afifa Amriani, Anar Rzayev, Anirban Das, Ashmari Pramodya, Aulia Adila, Bryan Wilie, Candy Olivia Mawalim, CHENG Ching Lam, Daud Abolade, Emmanuele Chersoni, Enrico Santus, Fariz Ikhwantri, Garry Kuwanto, Hanyang Zhao, <span class='mbzuai_student'>Haryo Akbarianto Wibowo</span>, Holy Lovenia, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, Jan Wira Gotama Putra, Junho Myung, Lucky Susanto, Maria Angelica Riera Machin, Marina Zhukova, Michael Anugraha, <span class='mbzuai_student'>Muhammad Farid Adilazuarda</span>, Natasha Christabelle Santosa, Peerat Limkonchotiwat, Raj Dabre, Rio Alexander Audino, Samuel Cahyawijaya, Shi-Xiong Zhang, Stephanie Yulia Salim, Yi Zhou, Yinxuan Gui, David Ifeoluwa Adelani, En-Shiun Annie Lee, Shogo Okada, Ayu Purwarianti, <b>Alham Fikri Aji</b>, Taro Watanabe, Derry Tanti Wijaya, Alice Oh, Chong-Wah Ngo"
     date: "2025"
     venue: "NAACL"
     url: https://aclanthology.org/2025.naacl-long.167.pdf
@@ -214,7 +214,7 @@ conference:
     notes: Theme Paper Award🏅
     author: "last"
   - title: "Style Over Substance: Evaluation Biases for Large Language Models"
-    authors: "Minghao Wu, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Minghao Wu</span>, <b>Alham Fikri Aji</b>"
     date: "2025"
     venue: "COLING"
     url: https://aclanthology.org/2025.coling-main.21.pdf
@@ -224,7 +224,7 @@ conference:
     notes:
     author: "last"
   - title: "From Multiple-Choice to Extractive QA: A Case Study for English and Arabic"
-    authors: "Teresa Lynn, Malik H. Altakrori, Samar M. Magdy, Rocktim Jyoti Das, Chenyang Lyu, Mohamed Nasr, Younes Samih, Kirill Chirkunov, <b>Alham Fikri Aji</b>, Preslav Nakov, Shantanu Godbole, Salim Roukos, Radu Florian and Nizar Habash"
+    authors: "Teresa Lynn, Malik H. Altakrori, <span class='mbzuai_student'>Samar M. Magdy</span>, <span class='mbzuai_student'>Rocktim Jyoti Das</span>, <span class='mbzuai_student'>Chenyang Lyu</span>, Mohamed Nasr, Younes Samih, <span class='mbzuai_student'>Kirill Chirkunov</span>, <b>Alham Fikri Aji</b>, Preslav Nakov, Shantanu Godbole, Salim Roukos, Radu Florian and Nizar Habash"
     date: "2025"
     venue: "COLING"
     url: https://aclanthology.org/2025.coling-main.168.pdf
@@ -234,7 +234,7 @@ conference:
     notes:
     author:
   - title: "CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark"
-    authors: "David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, ... , <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>David Romero</span>, <span class='mbzuai_student'>Chenyang Lyu</span>, <span class='mbzuai_student'>Haryo Akbarianto Wibowo</span>, ... , <b>Alham Fikri Aji</b>"
     date: "2024"
     venue: "NeurIPS"
     url: https://arxiv.org/abs/2406.05967
@@ -244,7 +244,7 @@ conference:
     notes:
     author: "last"
   - title: "LinguAlchemy: Fusing Typological and Geographical Elements for Unseen Language Generalization"
-    authors: "Muhammad Farid Adilazuarda, Samuel Cahyawijaya, Genta Indra Winata, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Muhammad Farid Adilazuarda</span>, Samuel Cahyawijaya, Genta Indra Winata, Ayu Purwarianti, <b>Alham Fikri Aji</b>"
     date: "2024"
     venue: "EMNLP"
     url: https://aclanthology.org/2024.findings-emnlp.225.pdf
@@ -254,7 +254,7 @@ conference:
     notes:
     author: "last"
   - title: "Cultural Conditioning or Placebo? On the Effectiveness of Socio-Demographic Prompting"
-    authors: "Sagnik Mukherjee, Muhammad Farid Adilazuarda, Sunayana Sitaram, Kalika Bali, <b>Alham Fikri Aji</b>, Monojit Choudhury"
+    authors: "<span class='mbzuai_student'>Sagnik Mukherjee</span>, <span class='mbzuai_student'>Muhammad Farid Adilazuarda</span>, Sunayana Sitaram, Kalika Bali, <b>Alham Fikri Aji</b>, Monojit Choudhury"
     date: "2024"
     venue: "EMNLP"
     url: https://aclanthology.org/2024.emnlp-main.884.pdf
@@ -264,7 +264,7 @@ conference:
     notes:
     author: "last"
   - title: "Re-Evaluating Evaluation for Multilingual Summarization"
-    authors: "Jessica Zosa Forde, Ruochen Zhang, Lintang Sutawika, <b>Alham Fikri Aji</b>, Samuel Cahyawijaya, Genta Indra Winata, Minghao Wu, Carsten Eickhoff, Stella Biderman, Ellie Pavlick"
+    authors: "Jessica Zosa Forde, Ruochen Zhang, Lintang Sutawika, <b>Alham Fikri Aji</b>, Samuel Cahyawijaya, Genta Indra Winata, <span class='mbzuai_student'>Minghao Wu</span>, Carsten Eickhoff, Stella Biderman, Ellie Pavlick"
     date: "2024"
     venue: "EMNLP"
     url: https://aclanthology.org/2024.emnlp-main.1085.pdf
@@ -275,7 +275,7 @@ conference:
     author:
 
   - title: "LLM-DetectAIve: a Tool for Fine-Grained Machine-Generated Text Detection"
-    authors: "Mervat Abassy, Kareem Elozeiri, Alexander Aziz, Minh Ngoc Ta, Raj Vardhan Tomar, Bimarsha Adhikari, Saad El Dine Ahmed, Yuxia Wang, Osama Mohammed Afzal, Zhuohan Xie, Jonibek Mansurov, Ekaterina Artemova, Vladislav Mikhailov, Rui Xing, Jiahui Geng, Hasan Iqbal, Zain Muhammad Mujahid, Tarek Mahmoud, Akim Tsvigun, <b>Alham Fikri Aji</b>, Artem Shelmanov, Nizar Habash, Iryna Gurevych, Preslav Nakov"
+    authors: "<span class='mbzuai_student'>Mervat Abassy</span>, <span class='mbzuai_student'>Kareem Elozeiri</span>, Alexander Aziz, Minh Ngoc Ta, Raj Vardhan Tomar, Bimarsha Adhikari, Saad El Dine Ahmed, <span class='mbzuai_student'>Yuxia Wang</span>, <span class='mbzuai_student'>Osama Mohammed Afzal</span>, Zhuohan Xie, <span class='mbzuai_student'>Jonibek Mansurov</span>, Ekaterina Artemova, Vladislav Mikhailov, Rui Xing, Jiahui Geng, Hasan Iqbal, Zain Muhammad Mujahid, <span class='mbzuai_student'>Tarek Mahmoud</span>, <span class='mbzuai_student'>Akim Tsvigun</span>, <b>Alham Fikri Aji</b>, Artem Shelmanov, Nizar Habash, Iryna Gurevych, Preslav Nakov"
     date: "2024"
     venue: "EMNLP System Demonstrations"
     url: https://aclanthology.org/2024.emnlp-demo.35.pdf
@@ -297,7 +297,7 @@ conference:
     author: "last"
 
   - title: "Towards Measuring and Modeling “Culture” in LLMs: A Survey"
-    authors: "Muhammad Farid Adilazuarda, Sagnik Mukherjee, Pradhyumna Lavania, Siddhant Shivdutt Singh, <b>Alham Fikri Aji</b>, Jacki O’Neill, Ashutosh Modi, Monojit Choudhury"
+    authors: "<span class='mbzuai_student'>Muhammad Farid Adilazuarda</span>, <span class='mbzuai_student'>Sagnik Mukherjee</span>, Pradhyumna Lavania, Siddhant Shivdutt Singh, <b>Alham Fikri Aji</b>, Jacki O’Neill, Ashutosh Modi, Monojit Choudhury"
     date: "2024"
     venue: "EMNLP"
     url: https://aclanthology.org/2024.emnlp-main.882.pdf
@@ -307,8 +307,8 @@ conference:
     notes:
     author: "last"
   - title: "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages"
-    authors_full: "Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James Validad Miranda, Jennifer Santoso, Elyanah Aco, Akhdan Fadhilah, Jonibek Mansurov, Joseph Marvin Imperial, Onno P. Kampman, Joel Ruben Antony Moniz, Muhammad Ravi Shulthan Habibi, Frederikus Hudi, Jann Railey Montalan, Ryan Ignatius Hadiwijaya, Joanito Agili Lopo, William Nixon, Börje F. Karlsson, James Jaya, Ryandito Diandaru, Yuze Gao, Patrick Amadeus Irawan, Bin Wang, Jan Christian Blaise Cruz, Chenxi Whitehouse, Ivan Halim Parmonangan, Maria Khelli, Wenyu Zhang, Lucky Susanto, Reynard Adha Ryanda, Sonny Lazuardi Hermawan, Dan John Velasco, Muhammad Dehan Al Kautsar, Willy Fitra Hendria, Yasmin Moslem, Noah Flynn, Muhammad Farid Adilazuarda, Haochen Li, Johanes Lee, R. Damanhuri, Shuo Sun, Muhammad Reza Qorib, Amirbek Djanibekov, Wei Qi Leong, Quyet V. Do, Niklas Muennighoff, Tanrada Pansuwan, Ilham Firdausi Putra, Yan Xu, Tai Ngee Chia, Ayu Purwarianti, Sebastian Ruder, William Chandra Tjhi, Peerat Limkonchotiwat, <b>Alham Fikri Aji</b>, Sedrick Keh, Genta Indra Winata, Ruochen Zhang, Fajri Koto, Zheng Xin Yong, Samuel Cahyawijaya"
-    authors: "Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James Validad Miranda, Jennifer Santoso, Elyanah Aco, Akhdan Fadhilah, Jonibek Mansurov, Joseph Marvin Imperial, Onno P. Kampman, Joel Ruben Antony Moniz, Muhammad Ravi Shulthan Habibi, Frederikus Hudi, Jann Railey Montalan, ... , Peerat Limkonchotiwat, <b>Alham Fikri Aji</b>, Sedrick Keh, Genta Indra Winata, Ruochen Zhang, Fajri Koto, Zheng Xin Yong, Samuel Cahyawijaya"
+    authors_full: "Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James Validad Miranda, Jennifer Santoso, Elyanah Aco, Akhdan Fadhilah, <span class='mbzuai_student'>Jonibek Mansurov</span>, Joseph Marvin Imperial, Onno P. Kampman, Joel Ruben Antony Moniz, Muhammad Ravi Shulthan Habibi, Frederikus Hudi, Jann Railey Montalan, Ryan Ignatius Hadiwijaya, Joanito Agili Lopo, William Nixon, Börje F. Karlsson, James Jaya, <span class='mbzuai_student'>Ryandito Diandaru</span>, Yuze Gao, <span class='mbzuai_student'>Patrick Amadeus Irawan</span>, Bin Wang, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, <<span class='mbzuai_student'>Chenxi Whitehouse</span>, Ivan Halim Parmonangan, Maria Khelli, Wenyu Zhang, Lucky Susanto, Reynard Adha Ryanda, Sonny Lazuardi Hermawan, Dan John Velasco, <span class='mbzuai_student'>Muhammad Dehan Al Kautsar</span>, Willy Fitra Hendria, Yasmin Moslem, Noah Flynn, <span class='mbzuai_student'>Muhammad Farid Adilazuarda</span>, Haochen Li, Johanes Lee, R. Damanhuri, Shuo Sun, Muhammad Reza Qorib, Amirbek Djanibekov, Wei Qi Leong, Quyet V. Do, Niklas Muennighoff, Tanrada Pansuwan, Ilham Firdausi Putra, Yan Xu, Tai Ngee Chia, Ayu Purwarianti, Sebastian Ruder, William Chandra Tjhi, Peerat Limkonchotiwat, <b>Alham Fikri Aji</b>, Sedrick Keh, Genta Indra Winata, Ruochen Zhang, Fajri Koto, Zheng Xin Yong, Samuel Cahyawijaya"
+    authors: "Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James Validad Miranda, Jennifer Santoso, Elyanah Aco, Akhdan Fadhilah, <span class='mbzuai_student'>Jonibek Mansurov</span>, Joseph Marvin Imperial, Onno P. Kampman, Joel Ruben Antony Moniz, Muhammad Ravi Shulthan Habibi, Frederikus Hudi, Jann Railey Montalan, ... , Peerat Limkonchotiwat, <b>Alham Fikri Aji</b>, Sedrick Keh, Genta Indra Winata, Ruochen Zhang, Fajri Koto, Zheng Xin Yong, Samuel Cahyawijaya"
     date: "2024"
     venue: "EMNLP"
     url: https://aclanthology.org/2024.emnlp-main.296.pdf
@@ -328,7 +328,7 @@ conference:
     notes:
     author: "last"
   - title: "M4GT-Bench: Evaluation Benchmark for Black-Box Machine-Generated Text Detection"
-    authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Osama Mohanned Afzal, Tarek Mahmoud, Giovanni Puccetti, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
+    authors: "<span class='mbzuai_student'>Yuxia Wang</span>, <span class='mbzuai_student'>Jonibek Mansurov</span>, Petar Ivanov, <span class='mbzuai_student'>Jinyan Su</span>, Artem Shelmanov, <span class='mbzuai_student'>Akim Tsvigun</span>, <span class='mbzuai_student'>Osama Mohanned Afzal</span>, <span class='mbzuai_student'>Tarek Mahmoud</span>, Giovanni Puccetti, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
     date: "2024"
     venue: "ACL"
     url: https://aclanthology.org/2024.acl-long.218.pdf
@@ -346,7 +346,7 @@ conference:
     tags:
     notes:
   - title: "Copal-ID: Indonesian Language Reasoning with Local Culture and Nuances"
-    authors: "Haryo Akbarianto Wibowo, Erland Hilman Fuadi, Made Nindyatama Nityasya, Radityo Eko Prasojo, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Haryo Akbarianto Wibowo</span>, Erland Hilman Fuadi, Made Nindyatama Nityasya, Radityo Eko Prasojo, <b>Alham Fikri Aji</b>"
     date: "2024"
     venue: "NAACL"
     url: https://aclanthology.org/2024.naacl-long.77.pdf
@@ -356,7 +356,7 @@ conference:
     notes:
     author: "last"
   - title: "M4: Multi-generator, Multi-domain, and Multi-lingual Black-box Machine-generated Text Detection"
-    authors: "Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, Toru Sasaki, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
+    authors: "<span class='mbzuai_student'>Yuxia Wang</span>, <span class='mbzuai_student'>Jonibek Mansurov</span>, Petar Ivanov, <span class='mbzuai_student'>Jinyan Su</span>, Artem Shelmanov, <span class='mbzuai_student'>Akim Tsvigun</span>, <span class='mbzuai_student'>Chenxi Whitehouse</span>, <span class='mbzuai_student'>Osama Mohammed Afzal</span>, <span class='mbzuai_student'>Tarek Mahmoud</span>, Toru Sasaki, Thomas Arnold, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
     date: "2024"
     venue: "EACL"
     url: https://aclanthology.org/2024.eacl-long.83.pdf
@@ -365,7 +365,7 @@ conference:
     tags:
     notes:  Best Resource Paper🏅
   - title: "A Paradigm Shift: The Future of Machine Translation Lies with Large Language Models"
-    authors: "Chenyang Lyu, Zefeng Du, Jitao Xu, Yitao Duan, Minghao Wu, Teresa Lynn, <b>Alham Fikri Aji</b>, Derek F Wong, Longyue Wang"
+    authors: "<span class='mbzuai_student'>Chenyang Lyu</span>, Zefeng Du, Jitao Xu, Yitao Duan, <span class='mbzuai_student'>Minghao Wu</span>, Teresa Lynn, <b>Alham Fikri Aji</b>, Derek F Wong, Longyue Wang"
     date: "2024"
     venue: "LREC"
     url: https://aclanthology.org/2024.lrec-main.120.pdf
@@ -374,7 +374,7 @@ conference:
     tags:
     notes:
   - title: "Lamini-LM: A Diverse Herd of Distilled Models from Large-scale Instructions"
-    authors: "Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Minghao Wu</span>, <span class='mbzuai_student'>Abdul Waheed</span>, <span class='mbzuai_student'>Chiyu Zhang</span>, Muhammad Abdul-Mageed, <b>Alham Fikri Aji</b>"
     date: "2024"
     venue: "EACL"
     url: https://aclanthology.org/2024.eacl-long.57.pdf
@@ -384,7 +384,7 @@ conference:
     notes: 
     author: "last"
   - title: "LLM-powered Data Augmentation for Enhanced Crosslingual Performance"
-    authors: "Chenxi Whitehouse, Monojit Choudhury, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Chenxi Whitehouse</span>, Monojit Choudhury, <b>Alham Fikri Aji</b>"
     date: "2023"
     venue: "EMNLP"
     url: https://aclanthology.org/2023.emnlp-main.44.pdf
@@ -394,7 +394,7 @@ conference:
     notes: 
     author: "last"
   - title: "Multilingual Large Language Models Are Not (Yet) Code-Switchers"
-    authors: "Ruochen Zhang, Samuel Cahyawijaya, Jan Christian Blaise Cruz, <b>Alham Fikri Aji</b>"
+    authors: "Ruochen Zhang, Samuel Cahyawijaya, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, <b>Alham Fikri Aji</b>"
     date: "2023"
     venue: "EMNLP"
     url: https://aclanthology.org/2023.emnlp-main.774.pdf
@@ -432,7 +432,7 @@ conference:
     tags:
     notes:
   - title: "On “Scientific Debt” in NLP: A Case for More Rigour in Language Model Pre-Training Research"
-    authors: "Made Nindyatama Nityasya, Haryo Akbarianto Wibowo, <b>Alham Fikri Aji</b>, Genta Indra Winata, Radityo Eko Prasojo, Phil Blunsom and Adhiguna Kuncoro"
+    authors: "Made Nindyatama Nityasya, <span class='mbzuai_student'>Haryo Akbarianto Wibowo</span>, <b>Alham Fikri Aji</b>, Genta Indra Winata, Radityo Eko Prasojo, Phil Blunsom and Adhiguna Kuncoro"
     date: "2023"
     venue: "ACL"
     url: https://aclanthology.org/2023.acl-long.477.pdf
@@ -553,7 +553,7 @@ conference:
     notes:
     author: "first"
   - title: "IndoCollex: A Testbed for Morphological Transformation of Indonesian Word Colloquialism"
-    authors: "Haryo Akbarianto Wibowo, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Derry Tanti Wijaya"
+    authors: "<span class='mbzuai_student'>Haryo Akbarianto Wibowo</span>, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Derry Tanti Wijaya"
     date: "2021"
     venue: "ACL-IJCNLP"
     url: https://aclanthology.org/2021.findings-acl.280.pdf
@@ -573,7 +573,7 @@ conference:
     notes:
     author: "first"
   - title: "Semi-Supervised Low-Resource Style Transfer of Indonesian Informal to Formal Language with Iterative Forward-Translation"
-    authors: "Haryo Akbarianto Wibowo, Tatag Aziz Prawiro, Muhammad Ihsan, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Rahmad Mahendra, Suci Fitriany"
+    authors: "<span class='mbzuai_student'>Haryo Akbarianto Wibowo</span>, Tatag Aziz Prawiro, Muhammad Ihsan, <b>Alham Fikri Aji</b>, Radityo Eko Prasojo, Rahmad Mahendra, Suci Fitriany"
     date: "2020"
     venue: "IALP"
     url:
@@ -631,7 +631,7 @@ conference:
 
 workshop:
   - title: "Beyond Probabilities: Unveiling the Misalignment in Evaluating Large Language Models"
-    authors: "Chenyang Lyu, Minghao Wu, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Chenyang Lyu</span>, <span class='mbzuai_student'>Minghao Wu</span>, <b>Alham Fikri Aji</b>"
     date: "2024"
     venue: "KnowLLM at ACL"
     url: https://aclanthology.org/2024.knowllm-1.10.pdf
@@ -641,7 +641,7 @@ workshop:
     notes:
     author: "last"
   - title: "Daisy at WASSA 2024 Empathy and Personality Shared Task: A Quick Exploration on Emotional Pattern of Empathy and Distress"
-    authors: "Rendi Chevi, <b>Alham Fikri Aji</b>"
+    authors: "<span class='mbzuai_student'>Rendi Chevi</span>, <b>Alham Fikri Aji</b>"
     date: "2024"
     venue: "WASSA at ACL"
     url: https://aclanthology.org/2024.wassa-1.37.pdf
@@ -651,7 +651,7 @@ workshop:
     notes:
     author: "last"
   - title: "Prompting Multilingual Large Language Models to Generate Code-Mixed Texts: The Case of South East Asian Languages"
-    authors: "Zheng Xin Yong, Ruochen Zhang, Jessica Forde, Skyler Wang, Arjun Subramonian, Holy Lovenia, Samuel Cahyawijaya, Genta Winata, Lintang Sutawika, Jan Christian Blaise Cruz, Yin Lin Tan, Long Phan, Long Phan, Rowena Garcia, Thamar Solorio, <b>Alham Fikri Aji</b>"
+    authors: "Zheng Xin Yong, Ruochen Zhang, Jessica Forde, Skyler Wang, Arjun Subramonian, Holy Lovenia, Samuel Cahyawijaya, Genta Winata, Lintang Sutawika, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, Yin Lin Tan, Long Phan, Long Phan, Rowena Garcia, Thamar Solorio, <b>Alham Fikri Aji</b>"
     date: "2023"
     venue: "CALCS at EMNLP"
     url: https://aclanthology.org/2023.calcs-1.5.pdf
@@ -712,7 +712,7 @@ workshop:
     notes:
 
   - title: "BERT Goes Brrr: A Venture Towards the Lesser Error in Classifying Medical Self-Reporters on Twitter"
-    authors: "<b>Alham Fikri Aji</b>, Made Nindyatama Nityasya, Haryo Akbarianto Wibowo, Radityo Eko Prasojo, Tirana Fatyanosa"
+    authors: "<b>Alham Fikri Aji</b>, Made Nindyatama Nityasya, <span class='mbzuai_student'>Haryo Akbarianto Wibowo</span>, Radityo Eko Prasojo, Tirana Fatyanosa"
     date: "2021"
     venue: "SMM4H at NAACL"
     url: https://aclanthology.org/2021.smm4h-1.9.pdf

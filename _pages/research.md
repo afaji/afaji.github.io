@@ -194,6 +194,12 @@ Indonesian languages.</td>
 
 </div>
 
+Due to the nature of multilingual data collection, I collaborate
+extensively with a wide network of researchers, including students and
+faculty at MBZUAI who share a focus on multilinguality. For instance,
+CVQA—a large-scale collaboration I lead—involves numerous external
+communities as well as our own students and faculty.
+
 <div class="run-in-section" markdown="1">
 
 **Culturally‑Nuanced NLP** Beyond language coverage, my work examines
@@ -206,11 +212,12 @@ cultural understanding.
 
 </div>
 
-In {% textcite adilazuarda-etal-2024-towards %}, we survey the research
-on culture in large language models and find that most studies use
-narrow proxies such as demographics or semantics without defining
-culture itself. We propose a taxonomy of these approaches and highlight
-gaps in contextual and robust evaluations of cultural representation.
+In {% textcite adilazuarda-etal-2024-towards %} with the collaboration
+of Monojit Choudury’s team, we survey the research on culture in large
+language models and find that most studies use narrow proxies such as
+demographics or semantics without defining culture itself. We propose a
+taxonomy of these approaches and highlight gaps in contextual and robust
+evaluations of cultural representation.
 
 In {% textcite adilazuarda-etal-2025-surveys %}, we explore how to adapt
 large language models to better reflect diverse cultural values by
@@ -255,11 +262,13 @@ name, in which I am now a member of the advisory board.
 
 **Code Switching and Code Mixing** Code-Switching (CS) or Code-Mixing
 (CM) is a phenomenon commonly observed in multilingual cultures, making
-it inline to my research direction.
-In {% textcite winata-etal-2023-decades %}, we provide a systematic
-survey of code-switching research in NLP, tracing its evolution from
-linguistic theories to modern machine learning. We analyze decades of
-progress to highlight key trends, challenges, and future directions.
+it inline to my research direction.Some of my work in this area is in
+collaboration with Thamar Solorio, whose research interests include
+CS/CM. In {% textcite winata-etal-2023-decades %}, we provide a
+systematic survey of code-switching research in NLP, tracing its
+evolution from linguistic theories to modern machine learning. We
+analyze decades of progress to highlight key trends, challenges, and
+future directions.
 
 </div>
 
@@ -271,8 +280,8 @@ significantly. This work led to an interview for a
 article on the multilingual limitations of early ChatGPT, specifically
 in South-East Asia. In {% textcite cahyawijaya-etal-2025-stingray %}, we
 find that multilingual LLMs consistently fail to distinguish the
-meanings of false friends across languages, revealing major gaps in
-cross-lingual sense understanding.
+meanings of false friends across languages, revealing major gaps in the
+understanding of the cross-lingual sense.
 
 <div class="run-in-section" markdown="1">
 
@@ -427,7 +436,9 @@ computational resources, approximately \$50k in value.
 
 Most of my work has focused purely on text. With the advancement of AI
 technology going beyond text, multimodality is the next direction that
-fits my overarching goal that I recently explored.
+fits my overarching goal that I recently explored. I recently took on a
+new PhD student whom I co-advise with Yova Kementchedjhieva, focusing on
+multimodality.
 
 <div class="run-in-section" markdown="1">
 
@@ -467,7 +478,9 @@ multimodal reward models.
 I have recently initiated a new line of research into Human-AI
 interaction. This is particularly important for inclusive technology, as
 different demographics and cultural backgrounds significantly influence
-how users perceive and expect AI to behave.
+how users perceive and expect AI to behave.The recent addition of the
+HCI department opens new avenues for synergistic collaborative research
+in this aspect.
 
 <div class="run-in-section" markdown="1">
 
@@ -485,6 +498,18 @@ preferences. To extend this line of exploration into practical
 applications, we have been awarded a \$450k grant by Etihad for
 persuasive LLMs, where the relationship between user demographics and
 the susceptibility to different persuasive strategies is relevant.
+
+</div>
+
+<div class="run-in-section" markdown="1">
+
+**Explaining the Language of Moral Emotions** Moral rhetoric in
+sociopolitical messages effectively influences civic participation, yet
+the specific linguistic variables behind this remain underexplored
+cross-culturally. We investigate whether this behavior stems from moral
+emotions, the targeted cause, or the moral codes at play. Using Moral
+Emotions and Moral Foundations Theory, our ongoing project examines
+these dynamics in Indonesian and South Korean contexts.
 
 </div>
 
@@ -528,16 +553,13 @@ on consumer-grade hardware.
 
 <div class="run-in-section" markdown="1">
 
-**Deepening Cross-Cultural Human-Computer Interaction.** Moving beyond
-preliminary preference analysis, I plan to establish a rigorous HCI
-research agenda focused on the global user experience. Rather than
-purely optimizing model parameters, I aim to conduct empirical studies
-on how cultural backgrounds and diverse demographics shape mental
-models, trust, and interaction patterns with AI systems. By
-investigating these dynamics through a user-centric lens, I seek to
-uncover how distinct communities perceive and utilize AI, providing the
-foundational insights needed to design interfaces and workflows that are
-truly intuitive and inclusive for a global population.
+**Deepening Cross-Cultural Human-Computer Interaction.** Most HCI
+research remains heavily focused on the Global North. To address this, I
+plan to establish a rigorous research agenda centered on the global user
+experience. My goal is to move beyond Anglocentric viewpoints by
+studying how diverse populations perceive AI and determining what
+utility means for us, which is essential for achieving truly inclusive
+technology.
 
 </div>
 
