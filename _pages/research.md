@@ -447,18 +447,18 @@ on data set construction for a while; hence, multimodal datasets were a
 natural extension. [CVQA](https://huggingface.co/datasets/afaji/cvqa) is
 one of the largest human-made multimodal multilingual datasets. I served
 as the main lead and organizer of this initiative, conceptualizing the
-project and spearheading a massive collaboration of over 70 authors to
-construct culturally relevant visual question answering for more than 30
-language and country pairs.
+project and spearheading a massive collaboration of more than 70 authors
+to construct culturally relevant visual question answering for more than
+30 language and country pairs.
 
 </div>
 
-n {% cite winata-etal-2025-worldcuisines %}, where I served as a senior
-advisor working closely with the core team, we gather images of food and
-cuisine from around the world and annotate them. A recent follow-up work
-on that in {% cite irawan2025visionlanguagemodelsconfused %}, in which
-we perform adversarial image editing by replacing the background with
-landmarks of different countries, or by adding flags of different
+In {% cite winata-etal-2025-worldcuisines %}, where I served as a senior
+advisor working closely with the core team, we collect images of food
+and cuisine from around the world and annotate them. A recent follow-up
+work on that in {% cite irawan2025visionlanguagemodelsconfused %}, in
+which we perform adversarial image editing by replacing the background
+with landmarks of different countries, or by adding flags of different
 countries, noted that VLMs are easily distracted.
 
 <div class="run-in-section" markdown="1">
@@ -466,7 +466,7 @@ countries, noted that VLMs are easily distracted.
 **Multimodal-Multicultural Models** In an ongoing project with the
 SEACrowd community, we are building
 [SeaVL](https://seacrowd.org/projects/2025-seavl-phase-2), a multimodal
-language model for Southeast Asian people. We started with the data
+language model for Southeast Asian communities. We started with the data
 set {% cite cahyawijaya-etal-2025-crowdsource %} and now work on the
 model. Another ongoing project focuses on building multilingual,
 multimodal reward models.
