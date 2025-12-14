@@ -157,37 +157,6 @@ redirect_from:
   * Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011-2013), Saudi Arabia National Team (2020)
   * ICPC Traner and Coach: University of Edinburgh (2014), MBZUAI (2025)
 
-## Publications
-I mainly publish at ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. <br>
-<span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.<br>
-<span class="mbzuai_student">Underline</span> denotes MBZUAI students and researchers (including visiting/interns).
-
-### Peer-Reviewed Conferences
-<div class="compact-ul">
-<ul>
-{% for paper in site.data.paper.conference %}
-<li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
-    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
-    {% if paper.notes != null %} -- {{ paper.notes | raw }}
-    {% endif %}
-</li>
-{% endfor %}
-</ul>
-</div>
-
-### Peer-Reviewed Workshops
-<div class="compact-ul">
-<ul>
-{% for paper in site.data.paper.workshop %}
-<li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
-    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
-    {% if paper.notes != null %} -- {{ paper.notes | raw }}
-    {% endif %}
-</li>
-{% endfor %}
-</ul>
-</div>
-
 ## Supervision and Mentorship
 
 
@@ -377,6 +346,8 @@ I also advise some external students, mostly UG and mainly from Indonesia.
 
 
 ## Teachings
+  * **Algorithm and Data Structure (UG)** <span style="float: right;">Spring 2026</span><br>
+    <span class="desc">MBZUAI (Co-instructor). Algorithm and data structure for first-year undergraduate students</span>
   * **NLP702/NLP806: Advanced Natural Language Processing (for MSc and PhD)** <span style="float: right;">Spring 2026</span><br>
     <span class="desc">MBZUAI (Co-instructor). Covered advanced NLP topics, including LLMs, distributed training, multilinguality, interpretability, and multimodality in NLP.</span>
   * **NLP702/NLP806: Advanced Natural Language Processing (for MSc and PhD)** <span style="float: right;">Spring 2025</span><br>
@@ -472,3 +443,35 @@ I also advise some external students, mostly UG and mainly from Indonesia.
     <span class="desc">Universitas Indonesia, Guest Lecture</span>
   </li>
 </ul>
+
+
+## Publications
+I mainly publish at ACL conferences. You may also refer to my [Google Scholar](https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate) for an updated list of publications. <br>
+<span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.<br>
+<span class="mbzuai_student">Underline</span> denotes MBZUAI students and researchers (including visiting/interns).
+
+### Peer-Reviewed Conferences
+<div class="compact-ul">
+<ul>
+{% for paper in site.data.paper.conference %}
+<li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
+    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
+    {% if paper.notes != null %} -- {{ paper.notes | raw }}
+    {% endif %}
+</li>
+{% endfor %}
+</ul>
+</div>
+
+### Peer-Reviewed Workshops
+<div class="compact-ul">
+<ul>
+{% for paper in site.data.paper.workshop %}
+<li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
+    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
+    {% if paper.notes != null %} -- {{ paper.notes | raw }}
+    {% endif %}
+</li>
+{% endfor %}
+</ul>
+</div>
