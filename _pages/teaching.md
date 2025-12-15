@@ -6,8 +6,6 @@ title: Teaching Statement
 
 # Teaching Statement
 
-## Teaching Philosophy
-
 My approach to academic teaching is fundamentally rooted in my
 background in competitive programming, first as a participant and later
 as a coach. In 2007, I started my coding journey and I was fortunate to
@@ -26,16 +24,36 @@ ideas but to deeply understand the algorithm so that they can actually
 implement it.
 
 This paradigm carries over to my academic teaching. I try to deep-dive
-into topics rather than just giving a high-level overview. For example,
-I deep-dive into the formula and the hands-on implementation of the
-subjects that I teach. I want students to be able to employ the
-algorithms, not just discuss them.
+into topics rather than just giving a high-level overview. Since
+mathematical formulas can be intimidating, I prioritize detailed
+diagrams to build intuition first. However, I still deep dive into every
+specific component of that diagram. Whether it is the attention head in
+a Transformer, the rank decomposition in LoRA, or the loss function in
+Knowledge Distillation, I ensure students understand the mechanism
+rather than treating it as a black box. I want students to be able to
+employ the algorithms, not just discuss them. This approach is reflected
+in my course reviews, where students noted that I can explain complex
+concepts in "newbie terms" yet remaining technically rigorous, as
+reflected by students as being "technical".
 
-Finally, I ensure that the teaching is interactive and personalized to
-engage more with the students. I often ask questions to benchmark
-understanding and adapt if topics have not yet been mastered. I check
-the student’s status and every so often provide extra sessions for those
-who need more help, such as extra tutorials in coding or PyTorch.
+I also ensure that the teaching is interactive and engaging. I strive to
+make the classroom less intimidating by incorporating humor and keeping
+the mood light. I design assessments that are fun and interactive. For
+example, in my recent graduate courses, I replaced standard final
+presentations with a poster session, mimicking a real academic
+conference where students actively discussed their work. For the
+upcoming undergraduate Algorithms course, I am designing a competitive
+multiplayer game framework where students will implement algorithms to
+control agents that fight against one another.
+
+Finally, I try to personalize the learning experience to engage more
+with the students. I often ask questions to benchmark understanding and
+adapt if topics have not yet been mastered. I check the student’s status
+and provide extra sessions for those who need more help. For instance,
+in NLP801 (2023) and NLP702 (2024), I noticed that some students
+struggled with coding, particularly those coming from non-computer
+science backgrounds. To address this, I organized extra hands-on
+tutorials specifically on Python and PyTorch.
 
 ## MBZUAI Teaching
 
@@ -113,8 +131,8 @@ Avg</th>
 <td style="text-align: center;">Fall 2023</td>
 <td style="text-align: center;">6</td>
 <td style="text-align: left;">8.00</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">?</td>
+<td style="text-align: left;">4.5</td>
+<td style="text-align: left;">N/A</td>
 </tr>
 <tr>
 <td style="text-align: left;">NLP702 (secondary lecturer)</td>
@@ -122,7 +140,7 @@ Avg</th>
 <td style="text-align: center;">26</td>
 <td style="text-align: left;">7.20</td>
 <td style="text-align: left;">4.70</td>
-<td style="text-align: left;">?</td>
+<td style="text-align: left;">N/A</td>
 </tr>
 <tr>
 <td style="text-align: left;">NLP702 (main lecturer)</td>
@@ -171,12 +189,8 @@ the model, etc.</td>
 </tr>
 <tr>
 <td style="text-align: left;">NLP702 (2024)</td>
-<td style="text-align: left;">Outside of Dr Alham’s lectures, the course
-lacked direction and the topics discussed were not as relevant to
-modern/advanced NLP. I have a feeling that many lectures were wasted on
-topics that could be a quick google search. Worst of all, we did not
-receive ANY feedback or grades throughout the semester (except for
-assignment 2 which is managed by Dr Alham...)</td>
+<td style="text-align: left;">Dr. Alham Fikri Aji’s part. He got actual
+topics such as Adapters, Lora, etc.</td>
 </tr>
 <tr>
 <td style="text-align: left;">NLP702 (2024)</td>
@@ -206,6 +220,12 @@ year :)</td>
 <td style="text-align: left;">NLP702 (2025)</td>
 <td style="text-align: left;">he could explain everything in newbie
 terms, so i could understand easily</td>
+</tr>
+<tr>
+<td style="text-align: left;">NLP702 (2025)</td>
+<td style="text-align: left;">I feel like Professor Alham teaching is
+really really good, he is teaching about relevant stuff on NLP (AND IN
+DETAIL TO THE TECHNICAL DETAIL)</td>
 </tr>
 </tbody>
 </table>
