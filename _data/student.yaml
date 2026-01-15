@@ -73,8 +73,11 @@ students:
     location: "MBZUAI"
     my_role: "Primary Advisor"
     starting_year: "2025"
-    url: ""
-    photo: "/images/team/erland.jpg"
+    url: "rayendito.github.io"
+    github: "https://github.com/rayendito"
+    x: "https://x.com/rayendito"
+    google_scholar: "https://scholar.google.com/citations?user=GIiy_WEAAAAJ&hl=en"
+    photo: "/images/team/dito.jpg"
     alt_photo: 
   - name: "Badrinath Chandana"
     category: "MSc"
