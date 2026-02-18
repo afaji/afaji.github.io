@@ -1,4 +1,4 @@
-<div class="{{ person.category | downcase }}-color p-2">
+<div class="{{ person.category | downcase }}-color p-2" style="--card-photo-brightness: {{ person.brightness | default: 1 }};">
   <div class="card h-100 text-center border-0">
     <div class="image-container">
       {% if person.photo %}
