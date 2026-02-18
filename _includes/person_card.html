@@ -46,7 +46,7 @@
 
         <div class="card-text">
           {% if person.category != "Staff" %}
-            {{ person.category }} student({{ person.starting_year }} - )
+            {{ person.category }} student ({{ person.starting_year }} - )
           {% else %}
             {{ person.role }}
           {% endif %}
