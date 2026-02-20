@@ -28,7 +28,6 @@ students:
     google_scholar: "https://scholar.google.com/citations?user=iBuxBEUAAAAJ&hl=en&oi=ao"
     url: "https://www.blaisecruz.com"
     photo: "/images/team/blaise.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Jonibek Mansurov"
@@ -41,7 +40,6 @@ students:
     x: "https://x.com/M_Jonibek"
     google_scholar: "https://scholar.google.com/citations?user=oTRAXkYAAAAJ&hl=en&oi=ao"
     photo: "/images/team/joni.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Ahmed Elshabrawy"
@@ -51,7 +49,6 @@ students:
     starting_year: "2025"
     url: "https://www.linkedin.com/in/ashabrawy/"
     photo: "/images/team/elshabrawy.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Patrick Amadeus Irawan"
@@ -74,7 +71,6 @@ students:
     starting_year: "2025"
     url: ""
     photo: "/images/team/qinrong.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Ryandito Diandaru"
@@ -87,7 +83,6 @@ students:
     x: "https://x.com/rayendito"
     google_scholar: "https://scholar.google.com/citations?user=GIiy_WEAAAAJ&hl=en"
     photo: "/images/team/dito.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Badrinath Chandana"
@@ -97,7 +92,6 @@ students:
     starting_year: "2025"
     url: ""
     photo: "/images/team/badrinath.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Erland Fuadi"
@@ -107,7 +101,6 @@ students:
     starting_year: "2024"
     url: ""
     photo: "/images/team/erland.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Ahmed Attia"
@@ -126,7 +119,6 @@ students:
     starting_year: "2024"
     url: ""
     photo: "/images/team/sama.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Alaa Elsetohy"
@@ -136,7 +128,6 @@ students:
     starting_year: "2024"
     url: ""
     photo: "/images/team/alaa.jpg"
-    brightness: 1.35
     alt_photo: 
 
   - name: "Rafael"
@@ -190,7 +181,6 @@ students:
     url: "https://www.linkedin.com/in/zayd-muhammad-kawakibi-zuhri-46a391191/"
     linkedin: "google.com"
     photo: "/images/team/zayd.jpg"
-    brightness: 1.35
 
   - name: "Moses Ananta"
     category: "Alumni"
