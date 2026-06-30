@@ -1,4 +1,4 @@
-<div class="{{ person.category | downcase }}-color p-2">
+<div class="{{ person.category | downcase }}-color p-2" style="--card-photo-brightness: {{ person.brightness | default: 1 }};">
   <div class="card h-100 text-center border-0">
     <div class="image-container">
       {% if person.photo %}
@@ -17,6 +17,11 @@
         {% if person.google_scholar %}
           <a href="{{ person.google_scholar }}" target="_blank" class="me-1">
             <fas class="fa fa-graduation-cap"></fas>
+          </a>
+        {% endif %}
+        {% if person.url %}
+          <a href="{{ person.url }}" target="_blank" class="me-1">
+            <fas class="fa-solid fa-globe"></fas>
           </a>
         {% endif %}
         {% if person.github %}
@@ -46,7 +51,7 @@
 
         <div class="card-text">
           {% if person.category != "Staff" %}
-            {{ person.category }} student({{ person.starting_year }} - )
+            {{ person.category }} student ({{ person.starting_year }} - )
           {% else %}
             {{ person.role }}
           {% endif %}

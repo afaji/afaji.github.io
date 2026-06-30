@@ -1,3 +1,7 @@
+#
+# Optional per-person image tuning:
+# brightness: 1.35  # default is 1, higher = brighter
+#
 students:
   - name: "Haryo Akbarianto Wibowo"
     category: "PhD"
@@ -21,7 +25,7 @@ students:
     starting_year: "2024"
     x: "https://x.com/jcblaisecruz"
     github: "https://github.com/jcblaisecruz02"
-    google_scholar: "https://scholar.google.com/citations?user=iBuxBEUAAAAJ&hl=en&oi=ao"
+    google_scholar: "https://scholar.google.com/citations?user=AP-w5x8AAAAJ&hl=en"
     url: "https://www.blaisecruz.com"
     photo: "/images/team/blaise.jpg"
     alt_photo: 
@@ -44,7 +48,7 @@ students:
     my_role: "Primary Advisor"
     starting_year: "2025"
     url: "https://www.linkedin.com/in/ashabrawy/"
-    photo: "/images/team/erland.jpg"
+    photo: "/images/team/elshabrawy.jpg"
     alt_photo: 
 
   - name: "Patrick Amadeus Irawan"
@@ -66,23 +70,28 @@ students:
     my_role: "Primary Advisor"
     starting_year: "2025"
     url: ""
-    photo: "/images/team/erland.jpg"
+    photo: "/images/team/qinrong.jpg"
     alt_photo: 
+
   - name: "Ryandito Diandaru"
     category: "MSc"
     location: "MBZUAI"
     my_role: "Primary Advisor"
     starting_year: "2025"
-    url: ""
-    photo: "/images/team/erland.jpg"
+    url: "rayendito.github.io"
+    github: "https://github.com/rayendito"
+    x: "https://x.com/rayendito"
+    google_scholar: "https://scholar.google.com/citations?user=GIiy_WEAAAAJ&hl=en"
+    photo: "/images/team/dito.jpg"
     alt_photo: 
+
   - name: "Badrinath Chandana"
     category: "MSc"
     location: "MBZUAI"
     my_role: "Primary Advisor"
     starting_year: "2025"
     url: ""
-    photo: "/images/team/erland.jpg"
+    photo: "/images/team/badrinath.jpg"
     alt_photo: 
 
   - name: "Erland Fuadi"
@@ -171,6 +180,7 @@ students:
     starting_year: "2024"
     url: "https://www.linkedin.com/in/zayd-muhammad-kawakibi-zuhri-46a391191/"
     linkedin: "google.com"
+    photo: "/images/team/zayd.jpg"
 
   - name: "Moses Ananta"
     category: "Alumni"
