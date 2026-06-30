@@ -150,12 +150,12 @@
       @media screen {
         /* Global font reset to ensure consistency */
         body, p, li, td, th {
-          font-size: 0.9rem !important;
+          font-size: 0.80rem !important;
         }
       }
       @media print {
           body {
-              font-size: 55%;
+              font-size: 48%;
               -webkit-print-color-adjust: exact;
               print-color-adjust: exact; /* Standard property for non-webkit browsers */
           }
@@ -163,33 +163,61 @@
 
       @media print {
         #main {
-          padding-left: 5em !important;
-          padding-right: 3em !important;
+          padding-left: 2.5em !important;
+          padding-right: 1.5em !important;
         }
       }
 
       #main {
-        padding-left: 4em;
-        padding-right: 2em;
+        padding-left: 3em;
+        padding-right: 1.5em;
+        animation: none;
+      }
+
+      .page__content {
+        line-height: 1.32;
+      }
+
+      .page__content p,
+      .page__content ul,
+      .page__content ol,
+      .page__content table {
+        margin-top: 0.35em;
+        margin-bottom: 0.65em;
       }
 
       ul li {
-        margin-bottom: 0.5em;
-        margin-top: 0.2em;
+        margin-bottom: 0.22em;
+        margin-top: 0.05em;
+        line-height: 1.28;
         list-style-type: circle;
+      }
+
+      li ul,
+      li ol {
+        margin-top: 0.1em;
+        margin-bottom: 0.15em;
       }
       
       .compact-ul ul li,
       #awards + ul li,
       #professional-activity + * + ul li {
-        margin-bottom: 0.1em;
+        margin-bottom: 0.03em;
         margin-top: 0.0em;
         list-style-type: circle;
       }
 
       .page__content h1, .page__content h2 {
         font-size: 1.05em;
+        margin-top: 0.9em;
+        margin-bottom: 0.25em;
         border-bottom: 1px solid #bbbbbb;
+      }
+
+      .page__content h3 {
+        font-size: 0.98em;
+        margin-top: 0.6em;
+        margin-bottom: 0.2em;
       }
 
       
@@ -284,7 +312,7 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
 <style>
   /* Helper class for grey, smaller details (used in lists) */
   .desc {
-    font-size: 0.9em;
+    font-size: 0.86em;
     color: #606060;
   }
 
@@ -293,7 +321,7 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
     width: 100%; 
     border-collapse: collapse; 
     border-spacing: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     border: none !important; /* No outer box */
   }
   
@@ -301,7 +329,7 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
   table.cv-table td { 
     border: none !important;
     border-bottom: 1px solid #e0e0e0 !important; 
-    padding: 12px 0px; /* Reduced side padding for cleaner look */
+    padding: 6px 0px;
     vertical-align: top; 
     text-align: left; 
   }
@@ -311,10 +339,57 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
     font-weight: bold;
     color: #333;
   }
+
+  table.impact-table {
+    font-size: 0.86em;
+    margin-bottom: 0.8em;
+  }
+
+  table.impact-table th,
+  table.impact-table td {
+    padding: 4px 0px;
+  }
+
+  table.impact-table td:first-child {
+    width: 18%;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  table.impact-table td:nth-child(2) {
+    width: 82%;
+  }
+
+  #awards + ul,
+  #current-students + ul,
+  #research-staff + ul,
+  #external-advisorship + p + ul,
+  #past-students + ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2.2em;
+    row-gap: 0.08em;
+  }
+
+  #awards + ul li,
+  #current-students + ul li,
+  #research-staff + ul li,
+  #external-advisorship + p + ul li,
+  #past-students + ul li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    min-width: 0;
+  }
+
+  #awards + ul {
+    margin-bottom: 0.45em;
+  }
 </style>
 
-<p style="font-size: 2em; font-weight: bold;">Alham Fikri Aji / Curriculum Vitae</p>
-<p><a href="mailto:alham.fikri@mbzuai.ac.ae">alham.fikri@mbzuai.ac.ae</a></p>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1em; margin-bottom: 0.15em;">
+  <span style="font-size: 1.55em; font-weight: bold;">Alham Fikri Aji / Curriculum Vitae</span>
+  <a href="mailto:alham.fikri@mbzuai.ac.ae" style="font-size: 0.9em; white-space: nowrap; margin-top: 0.35em;">alham.fikri@mbzuai.ac.ae</a>
+</div>
 
 <h2 id="education">Education</h2>
 
@@ -345,6 +420,7 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
 <h2 id="awards">Awards</h2>
 
 <ul>
+  <li>MBZUAI’s “Rising Star Award” 2026</li>
   <li>MBZUAI’s “Early Career Researcher Award” 2025</li>
   <li>Best Resource Paper Award, ACL 2025</li>
   <li>Best Theme Paper Award, NAACL 2025</li>
@@ -355,6 +431,37 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
   <li>World Finalists, ACM-ICPC 2014</li>
   <li>Silver Medalists, International Olympiad of Informatics (IOI) 2010</li>
 </ul>
+
+<h2 id="selected-projects">Selected Projects</h2>
+
+<p>My research centers on making NLP and LLM technology more inclusive and accessible, especially for underrepresented languages and communities. Representative projects across data, models, methods, and community-building are summarized below.</p>
+
+<table class="cv-table impact-table">
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>Highlights</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Datasets</td>
+      <td>Built multilingual, multimodal, and culturally grounded datasets for underrepresented languages, including <a href="https://huggingface.co/datasets/SEACrowd">SEACrowd</a>, <a href="https://aclanthology.org/2023.findings-acl.868.pdf">NusaCrowd</a>, <a href="https://huggingface.co/datasets/IndoNLP/nusax_senti">NusaX</a>, <a href="https://huggingface.co/datasets/IndoNLP/NusaWrites">NusaWrites</a>, <a href="https://huggingface.co/datasets/afaji/cvqa">CVQA</a>, <a href="https://aclanthology.org/2025.acl-long.436.pdf">BRIGHTER</a>, <a href="https://huggingface.co/datasets/AlaaAhmed2444/Macaron">Macaron</a>, <a href="https://aclanthology.org/2024.naacl-long.77.pdf">Copal-ID</a>, and <a href="https://huggingface.co/datasets/mbzuai-nlp/M4">M4</a>.</td>
+    </tr>
+    <tr>
+      <td>LLMs</td>
+      <td>Contributed to open multilingual and lightweight language model families that support cross-lingual and low-resource NLP research, including <a href="https://huggingface.co/bigscience/bloomz">BLOOMZ</a>, <a href="https://huggingface.co/bigscience/mt0-base">mT0</a>, <a href="https://github.com/mbzuai-nlp/LaMini-LM">Lamini-LM</a>, and <a href="https://huggingface.co/indonlp/cendol">Cendol</a>; currently a Visiting Research Scientist at Google Research working on Gemini's multilingual capability.</td>
+    </tr>
+    <tr>
+      <td>Methods</td>
+      <td>Developed efficient and low-compute LLM methods for language modeling, attention, memory-efficient decoding, and cross-lingual adaptation, including <a href="https://github.com/zaydzuhri/token-order-prediction">TOP</a>, <a href="https://github.com/zaydzuhri/softpick-attention">Softpick</a>, and <a href="https://github.com/jcblaisecruz02/sensia">SENSIA</a>.</td>
+    </tr>
+    <tr>
+      <td>Community</td>
+      <td>Active in Indonesian and Southeast Asian NLP community-building through <a href="https://seacrowd.org">SEACrowd</a>, <a href="https://www.sigsea.org">SIGSEA</a>, <a href="https://sealp-workshop.github.io">SEALP</a>, shared tasks, workshops, open-resource coordination, and mentorship for regional researchers and students.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="professional-activities">Professional Activities</h2>
 
@@ -442,13 +549,14 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
   </li>
   <li><strong>Scientific Committee</strong>
     <ul>
-      <li>Gemastik (2016), TOKI-Open (2018), IOI (2022), Indonesia’s National Olympiad in AI (2025)</li>
+      <li>Organized various Informatics Olympiads, including Gemastik (2016), TOKI-Open (2018), IOI (2022), and Indonesia’s National Olympiad in AI (2025).</li>
     </ul>
   </li>
-  <li><strong>Training</strong>
+  <li><strong>Training</strong><br />
+Active in Informatics Olympiad training for both IOI and ICPC.
     <ul>
       <li>Indonesia’s Pre-OSN Distance training (2009, 2010), Indonesia’s National Camp (2011-2013), Saudi Arabia National Team (2020)</li>
-      <li>ICPC Traner and Coach: University of Edinburgh (2014), MBZUAI (2025)</li>
+      <li>ICPC Trainer and Coach: University of Edinburgh (2014), MBZUAI (2025)</li>
     </ul>
   </li>
 </ul>
@@ -854,7 +962,7 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
     MSc
     | Co-advised with Ayu Purwarianti
     
-    <br />Now: Consulting at Delloite
+    <br />Now: Consulting at Deloitte
     </span>
   </li>
 
@@ -950,7 +1058,7 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
     <tr>
       <td>Google Cloud Research Credit</td>
       <td>Google</td>
-      <td>$55,000</td>
+      <td>$5,000</td>
       <td>2024-2025</td>
       <td>PI: Alham Fikri Aji.</td>
     </tr>
@@ -1075,6 +1183,51 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
 <ul>
 
 <li class="last-author">
+    <strong>Measuring Meta-Cultural Competency: A Spectral Framework for LLM Knowledge Structures</strong>. <i>Sougata Saha, Madhur Jindal, Saurabh Kumar Pandey, <span class="mbzuai_student">Mahardika Krishna Ihsani</span>, <b>Alham Fikri Aji</b>, Monojit Choudhury</i> (<b>ICML</b>, 2026)
+    
+</li>
+
+<li class="last-author">
+    <a href="https://arxiv.org/abs/2508.19228">Predicting the Order of Upcoming Tokens Improves Language Modeling</a>. <i><span class="mbzuai_student">Zayd Zuhri</span>, <span class="mbzuai_student">Erland Hilman</span>, <b>Alham Fikri Aji</b></i> (<b>ICML</b>, 2026)
+    
+</li>
+
+<li class="default-author">
+    <a href="https://arxiv.org/abs/2502.11614">Is Human-Like Text Liked by Humans? Multilingual Human Detection and Preference Against AI</a>. <i><span class="mbzuai_student">Yuxia Wang</span>, Rui Xing, <span class="mbzuai_student">Jonibek Mansurov</span>, Giovanni Puccetti, Zhuohan Xie, Minh Ngoc Ta, <span class="mbzuai_student">Jiahui Geng</span>, Jinyan Su, <span class="mbzuai_student">Mervat Abassy</span>, Saadeldine Eletter, <span class="mbzuai_student">Kareem Elozeiri</span>, <span class="mbzuai_student">Nurkhan Laiyk</span>, Maiya Goloburda, <span class="mbzuai_student">Tarek Mahmoud</span>, Raj Vardhan Tomar, Alexander Aziz, Ryuto Koike, Masahiro Kaneko, Artem Shelmanov, Ekaterina Artemova, Vladislav Mikhailov, <span class="mbzuai_student">Akim Tsvigun</span>, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov</i> (<b>ACL</b>, 2026)
+    
+</li>
+
+<li class="default-author">
+    <a href="https://arxiv.org/abs/2601.05699">Afri-MCQA: Multimodal Cultural Question Answering for African Languages</a>. <i><span class="mbzuai_student">Atnafu Lambebo Tonja</span>, Srija Anand, <span class="mbzuai_student">Emilio Villa-Cueva</span>, Israel Abebe Azime, Jesujoba Oluwadara Alabi, Muhidin A. Mohamed, Debela Desalegn Yadeta, Negasi Haile Abadi, Abigail Oppong, Nnaemeka Casmir Obiefuna, Idris Abdulmumin, Naome A Etori, Eric Peter Wairagala, Kanda Patrick Tshinu, IMANIGIRIMBABAZI Emmanuel, Gabofetswe Malema, <b>Alham Fikri Aji</b>, David Ifeoluwa Adelani, Thamar Solorio</i> (<b>ACL</b>, 2026)
+    
+</li>
+
+<li class="last-author">
+    <a href="https://arxiv.org/abs/2602.10732">Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling</a>. <i><span class="mbzuai_student">Alaa Elsetohy</span>, <span class="mbzuai_student">Sama Hadhoud</span>, <span class="mbzuai_student">Haryo Akbarianto Wibowo</span>, <span class="mbzuai_student">Chenxi Whitehouse</span>, Genta Indra Winata, Fajri Koto, <b>Alham Fikri Aji</b></i> (<b>ACL</b>, 2026)
+    
+</li>
+
+<li class="default-author">
+    <a href="https://arxiv.org/abs/2602.01618">SEA-Guard: Culturally Grounded Multilingual Safeguard for Southeast Asia</a>. <i>Panuthep Tasawong, Jian Gang Ngui, <b>Alham Fikri Aji</b>, Trevor Cohn, Peerat Limkonchotiwat</i> (<b>ACL</b>, 2026)
+    
+</li>
+
+<li class="default-author">
+    <a href="https://arxiv.org/abs/2512.05501">SEA-SafeguardBench: A Culturally Grounded Safety Benchmark for Southeast Asian Languages</a>. <i>Panuthep Tasawong, Jian Gang Ngui, <b>Alham Fikri Aji</b>, Trevor Cohn, Peerat Limkonchotiwat</i> (<b>ACL</b>, 2026)
+    
+</li>
+
+<li class="last-author">
+    <a href="https://arxiv.org/abs/2504.20966">Softpick: No Attention Sink, No Massive Activations with Rectified Softmax</a>. <i><span class="mbzuai_student">Zayd Muhammad Kawakibi Zuhri</span>, <span class="mbzuai_student">Erland Hilman Fuadi</span>, <b>Alham Fikri Aji</b></i> (<b>ACL</b>, 2026)
+    
+</li>
+
+<li class="last-author">
+    <a href="https://arxiv.org/abs/2601.11332">Idea First, Code Later: Disentangling Problem Solving from Code Generation in Evaluating LLMs for Competitive Programming</a>. <i><span class="mbzuai_student">Sama Hadhoud</span>, <span class="mbzuai_student">Alaa Elsetohy</span>, Frederikus Hudi, <span class="mbzuai_student">Jan Christian Blaise Cruz</span>, Steven Halim, <b>Alham Fikri Aji</b></i> (<b>ACL</b>, 2026)
+    
+</li>
+
+<li class="last-author">
     <a href="">Multilingual Iterative Model Pruning: What Matters?</a>. <i><span class="mbzuai-student">Haryo Akbarianto Wibowo</span>, Haiyue Song, Hideki Tanaka, Masao Utiyama, <b>Alham Fikri Aji</b>, Raj Dabre</i> (<b>AACL</b>, 2025)
     
 </li>
@@ -1105,12 +1258,12 @@ border-bottom: 1px dashed #888; /* Dark grey, visible but not harsh */
 </li>
 
 <li class="default-author">
-    <a href="https://aclanthology.org/2025.findings-emnlp.1220/">CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation</a>. <i><span class="mbzuai_student">Emilio Villa-Cueva</span>, <span class="mbzuai_student">Sholpan Bolatzhanova</span>, <span class="mbzuai_student">Diana Turmakhan</span>, <span class="mbzuai_student">Kareem Elzeky</span>, Henok Biadglign Ademtew, <b>Alham Fikri Aji</b>, Israel Abebe Azime, Jinheon Baek, Frederico Belcavello, Fermin Cristobal, <span class="mbzuai_student">Jan Christian Blaise Cruz</span>, Mary Dabre, Raj Dabre, <span class="mbzuai_student">Toqeer Ehsan</span>, Naome A Etori, Fauzan Farooqui, <span class="mbzuai_student">Jiahui Geng</span>, Guido Ivetta, Thanmay Jayakumar, Soyeong Jeong, Zheng Wei Lim, Aishik Mandal, Sofía Martinelli, Mihail Minkov Mihaylov, Daniil Orel, Aniket Pramanick, Sukannya Purkayastha, Israfel Salazar, Haiyue Song, Tiago Timponi Torrent, Debela Desalegn Yadeta, <span class="mbzuai_student">Injy Hamed</span>, <span class="mbzuai_student">Atnafu Lambebo Tonja</span>, Thamar Solorio</i> (<b>Findings of the Association for Computational Linguistics: EMNLP 2025</b>, 2025)
+    <a href="https://aclanthology.org/2025.findings-emnlp.1220/">CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation</a>. <i><span class="mbzuai_student">Emilio Villa-Cueva</span>, <span class="mbzuai_student">Sholpan Bolatzhanova</span>, <span class="mbzuai_student">Diana Turmakhan</span>, <span class="mbzuai_student">Kareem Elzeky</span>, Henok Biadglign Ademtew, <b>Alham Fikri Aji</b>, Israel Abebe Azime, Jinheon Baek, Frederico Belcavello, Fermin Cristobal, <span class="mbzuai_student">Jan Christian Blaise Cruz</span>, Mary Dabre, Raj Dabre, <span class="mbzuai_student">Toqeer Ehsan</span>, Naome A Etori, Fauzan Farooqui, <span class="mbzuai_student">Jiahui Geng</span>, Guido Ivetta, Thanmay Jayakumar, Soyeong Jeong, Zheng Wei Lim, Aishik Mandal, Sofía Martinelli, Mihail Minkov Mihaylov, Daniil Orel, Aniket Pramanick, Sukannya Purkayastha, Israfel Salazar, Haiyue Song, Tiago Timponi Torrent, Debela Desalegn Yadeta, <span class="mbzuai_student">Injy Hamed</span>, <span class="mbzuai_student">Atnafu Lambebo Tonja</span>, Thamar Solorio</i> (<b>EMNLP</b>, 2025)
     
 </li>
 
 <li class="default-author">
-    <a href="https://aclanthology.org/2025.findings-emnlp.1230/">MoMentS: A Comprehensive Multimodal Benchmark for Theory of Mind</a>. <i><span class="mbzuai_student">Emilio Villa-Cueva</span>, S M Masrur Ahmed, <span class="mbzuai_student">Rendi Chevi</span>, <span class="mbzuai_student">Jan Christian Blaise Cruz</span>, <span class="mbzuai_student">Kareem Elzeky</span>, Fermin Cristobal, <b>Alham Fikri Aji</b>, Skyler Wang, Rada Mihalcea, Thamar Solorio</i> (<b>Findings of the Association for Computational Linguistics: EMNLP 2025</b>, 2025)
+    <a href="https://aclanthology.org/2025.findings-emnlp.1230/">MoMentS: A Comprehensive Multimodal Benchmark for Theory of Mind</a>. <i><span class="mbzuai_student">Emilio Villa-Cueva</span>, S M Masrur Ahmed, <span class="mbzuai_student">Rendi Chevi</span>, <span class="mbzuai_student">Jan Christian Blaise Cruz</span>, <span class="mbzuai_student">Kareem Elzeky</span>, Fermin Cristobal, <b>Alham Fikri Aji</b>, Skyler Wang, Rada Mihalcea, Thamar Solorio</i> (<b>EMNLP</b>, 2025)
     
 </li>
 

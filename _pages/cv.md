@@ -12,7 +12,7 @@ redirect_from:
 <style>
   /* Helper class for grey, smaller details (used in lists) */
   .desc {
-    font-size: 0.9em;
+    font-size: 0.86em;
     color: #606060;
   }
 
@@ -21,7 +21,7 @@ redirect_from:
     width: 100%; 
     border-collapse: collapse; 
     border-spacing: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     border: none !important; /* No outer box */
   }
   
@@ -29,7 +29,7 @@ redirect_from:
   table.cv-table td { 
     border: none !important;
     border-bottom: 1px solid #e0e0e0 !important; 
-    padding: 12px 0px; /* Reduced side padding for cleaner look */
+    padding: 6px 0px;
     vertical-align: top; 
     text-align: left; 
   }
@@ -39,12 +39,57 @@ redirect_from:
     font-weight: bold;
     color: #333;
   }
+
+  table.impact-table {
+    font-size: 0.86em;
+    margin-bottom: 0.8em;
+  }
+
+  table.impact-table th,
+  table.impact-table td {
+    padding: 4px 0px;
+  }
+
+  table.impact-table td:first-child {
+    width: 18%;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  table.impact-table td:nth-child(2) {
+    width: 82%;
+  }
+
+  #awards + ul,
+  #current-students + ul,
+  #research-staff + ul,
+  #external-advisorship + p + ul,
+  #past-students + ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2.2em;
+    row-gap: 0.08em;
+  }
+
+  #awards + ul li,
+  #current-students + ul li,
+  #research-staff + ul li,
+  #external-advisorship + p + ul li,
+  #past-students + ul li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    min-width: 0;
+  }
+
+  #awards + ul {
+    margin-bottom: 0.45em;
+  }
 </style>
 
-<p style="font-size: 2em; font-weight: bold;">Alham Fikri Aji / Curriculum Vitae</p>
-[alham.fikri@mbzuai.ac.ae](mailto:alham.fikri@mbzuai.ac.ae)
-
-[//]: # (BIO SECTION HIDDEN)
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1em; margin-bottom: 0.15em;">
+  <span style="font-size: 1.55em; font-weight: bold;">Alham Fikri Aji / Curriculum Vitae</span>
+  <a href="mailto:alham.fikri@mbzuai.ac.ae" style="font-size: 0.9em; white-space: nowrap; margin-top: 0.35em;">alham.fikri@mbzuai.ac.ae</a>
+</div>
 
 ## Education
 
@@ -71,6 +116,7 @@ redirect_from:
 
 ## Awards
 
+* MBZUAI's "Rising Star Award" 2026
 * MBZUAI's "Early Career Researcher Award" 2025
 * Best Resource Paper Award, ACL 2025
 * Best Theme Paper Award, NAACL 2025
@@ -80,6 +126,38 @@ redirect_from:
 * Outstanding Contribution Award, WNGT 2019
 * World Finalists, ACM-ICPC 2014
 * Silver Medalists, International Olympiad of Informatics (IOI) 2010
+
+
+## Selected Projects
+
+My research centers on making NLP and LLM technology more inclusive and accessible, especially for underrepresented languages and communities. Representative projects across data, models, methods, and community-building are summarized below.
+
+<table class="cv-table impact-table">
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>Highlights</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Datasets</td>
+      <td>Built multilingual, multimodal, and culturally grounded datasets for underrepresented languages, including <a href="https://huggingface.co/datasets/SEACrowd">SEACrowd</a>, <a href="https://aclanthology.org/2023.findings-acl.868.pdf">NusaCrowd</a>, <a href="https://huggingface.co/datasets/IndoNLP/nusax_senti">NusaX</a>, <a href="https://huggingface.co/datasets/IndoNLP/NusaWrites">NusaWrites</a>, <a href="https://huggingface.co/datasets/afaji/cvqa">CVQA</a>, <a href="https://aclanthology.org/2025.acl-long.436.pdf">BRIGHTER</a>, <a href="https://huggingface.co/datasets/AlaaAhmed2444/Macaron">Macaron</a>, <a href="https://aclanthology.org/2024.naacl-long.77.pdf">Copal-ID</a>, and <a href="https://huggingface.co/datasets/mbzuai-nlp/M4">M4</a>.</td>
+    </tr>
+    <tr>
+      <td>LLMs</td>
+      <td>Contributed to open multilingual and lightweight language model families that support cross-lingual and low-resource NLP research, including <a href="https://huggingface.co/bigscience/bloomz">BLOOMZ</a>, <a href="https://huggingface.co/bigscience/mt0-base">mT0</a>, <a href="https://github.com/mbzuai-nlp/LaMini-LM">Lamini-LM</a>, and <a href="https://huggingface.co/indonlp/cendol">Cendol</a>; currently a Visiting Research Scientist at Google Research working on Gemini's multilingual capability.</td>
+    </tr>
+    <tr>
+      <td>Methods</td>
+      <td>Developed efficient and low-compute LLM methods for language modeling, attention, memory-efficient decoding, and cross-lingual adaptation, including <a href="https://github.com/zaydzuhri/token-order-prediction">TOP</a>, <a href="https://github.com/zaydzuhri/softpick-attention">Softpick</a>, and <a href="https://github.com/jcblaisecruz02/sensia">SENSIA</a>.</td>
+    </tr>
+    <tr>
+      <td>Community</td>
+      <td>Active in Indonesian and Southeast Asian NLP community-building through <a href="https://seacrowd.org">SEACrowd</a>, <a href="https://www.sigsea.org">SIGSEA</a>, <a href="https://sealp-workshop.github.io">SEALP</a>, shared tasks, workshops, open-resource coordination, and mentorship for regional researchers and students.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Professional Activities
@@ -152,10 +230,11 @@ redirect_from:
 * **Problem Setter / Jury**
   * OSN Indonesia (2013-2015), ACM-ICPC Regional Jakarta (2014, 2015), APIO (2015), Gemastik (2016), ICPC Asia Championship (2025), IOAI (2025)
 * **Scientific Committee**
-  * Gemastik (2016), TOKI-Open (2018), IOI (2022), Indonesia's National Olympiad in AI (2025)
-* **Training**
+  * Organized various Informatics Olympiads, including Gemastik (2016), TOKI-Open (2018), IOI (2022), and Indonesia's National Olympiad in AI (2025).
+* **Training**<br>
+  Active in Informatics Olympiad training for both IOI and ICPC.
   * Indonesia's Pre-OSN Distance training (2009, 2010), Indonesia's National Camp (2011-2013), Saudi Arabia National Team (2020)
-  * ICPC Traner and Coach: University of Edinburgh (2014), MBZUAI (2025)
+  * ICPC Trainer and Coach: University of Edinburgh (2014), MBZUAI (2025)
 
 ## Supervision and Mentorship
 
@@ -330,7 +409,7 @@ I also advise some external students, mostly UG and mainly from Indonesia.
     <tr>
       <td>Google Cloud Research Credit</td>
       <td>Google</td>
-      <td>$55,000</td>
+      <td>$5,000</td>
       <td>2024-2025</td>
       <td>PI: Alham Fikri Aji.</td>
     </tr>

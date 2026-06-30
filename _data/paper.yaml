@@ -1,4 +1,103 @@
 conference:
+  - title: "Measuring Meta-Cultural Competency: A Spectral Framework for LLM Knowledge Structures"
+    authors: "Sougata Saha, Madhur Jindal, Saurabh Kumar Pandey, <span class='mbzuai_student'>Mahardika Krishna Ihsani</span>, <b>Alham Fikri Aji</b>, Monojit Choudhury"
+    date: "2026"
+    venue: "ICML"
+    url:
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "Predicting the Order of Upcoming Tokens Improves Language Modeling"
+    authors: "<span class='mbzuai_student'>Zayd Zuhri</span>, <span class='mbzuai_student'>Erland Hilman</span>, <b>Alham Fikri Aji</b>"
+    date: "2026"
+    venue: "ICML"
+    url: "https://arxiv.org/abs/2508.19228"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "Is Human-Like Text Liked by Humans? Multilingual Human Detection and Preference Against AI"
+    authors: "<span class='mbzuai_student'>Yuxia Wang</span>, Rui Xing, <span class='mbzuai_student'>Jonibek Mansurov</span>, Giovanni Puccetti, Zhuohan Xie, Minh Ngoc Ta, <span class='mbzuai_student'>Jiahui Geng</span>, Jinyan Su, <span class='mbzuai_student'>Mervat Abassy</span>, Saadeldine Eletter, <span class='mbzuai_student'>Kareem Elozeiri</span>, <span class='mbzuai_student'>Nurkhan Laiyk</span>, Maiya Goloburda, <span class='mbzuai_student'>Tarek Mahmoud</span>, Raj Vardhan Tomar, Alexander Aziz, Ryuto Koike, Masahiro Kaneko, Artem Shelmanov, Ekaterina Artemova, Vladislav Mikhailov, <span class='mbzuai_student'>Akim Tsvigun</span>, <b>Alham Fikri Aji</b>, Nizar Habash, Iryna Gurevych, Preslav Nakov"
+    date: "2026"
+    venue: "ACL"
+    url: "https://arxiv.org/abs/2502.11614"
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "Afri-MCQA: Multimodal Cultural Question Answering for African Languages"
+    authors: "<span class='mbzuai_student'>Atnafu Lambebo Tonja</span>, Srija Anand, <span class='mbzuai_student'>Emilio Villa-Cueva</span>, Israel Abebe Azime, Jesujoba Oluwadara Alabi, Muhidin A. Mohamed, Debela Desalegn Yadeta, Negasi Haile Abadi, Abigail Oppong, Nnaemeka Casmir Obiefuna, Idris Abdulmumin, Naome A Etori, Eric Peter Wairagala, Kanda Patrick Tshinu, IMANIGIRIMBABAZI Emmanuel, Gabofetswe Malema, <b>Alham Fikri Aji</b>, David Ifeoluwa Adelani, Thamar Solorio"
+    date: "2026"
+    venue: "ACL"
+    url: "https://arxiv.org/abs/2601.05699"
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling"
+    authors: "<span class='mbzuai_student'>Alaa Elsetohy</span>, <span class='mbzuai_student'>Sama Hadhoud</span>, <span class='mbzuai_student'>Haryo Akbarianto Wibowo</span>, <span class='mbzuai_student'>Chenxi Whitehouse</span>, Genta Indra Winata, Fajri Koto, <b>Alham Fikri Aji</b>"
+    date: "2026"
+    venue: "ACL"
+    url: "https://arxiv.org/abs/2602.10732"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "SEA-Guard: Culturally Grounded Multilingual Safeguard for Southeast Asia"
+    authors: "Panuthep Tasawong, Jian Gang Ngui, <b>Alham Fikri Aji</b>, Trevor Cohn, Peerat Limkonchotiwat"
+    date: "2026"
+    venue: "ACL"
+    url: "https://arxiv.org/abs/2602.01618"
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "SEA-SafeguardBench: A Culturally Grounded Safety Benchmark for Southeast Asian Languages"
+    authors: "Panuthep Tasawong, Jian Gang Ngui, <b>Alham Fikri Aji</b>, Trevor Cohn, Peerat Limkonchotiwat"
+    date: "2026"
+    venue: "ACL"
+    url: "https://arxiv.org/abs/2512.05501"
+    data:
+    model:
+    tags:
+    notes:
+    author:
+
+  - title: "Softpick: No Attention Sink, No Massive Activations with Rectified Softmax"
+    authors: "<span class='mbzuai_student'>Zayd Muhammad Kawakibi Zuhri</span>, <span class='mbzuai_student'>Erland Hilman Fuadi</span>, <b>Alham Fikri Aji</b>"
+    date: "2026"
+    venue: "ACL"
+    url: "https://arxiv.org/abs/2504.20966"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
+  - title: "Idea First, Code Later: Disentangling Problem Solving from Code Generation in Evaluating LLMs for Competitive Programming"
+    authors: "<span class='mbzuai_student'>Sama Hadhoud</span>, <span class='mbzuai_student'>Alaa Elsetohy</span>, Frederikus Hudi, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, Steven Halim, <b>Alham Fikri Aji</b>"
+    date: "2026"
+    venue: "ACL"
+    url: "https://arxiv.org/abs/2601.11332"
+    data:
+    model:
+    tags:
+    notes:
+    author: "last"
+
   - title: "Multilingual Iterative Model Pruning: What Matters?"
     authors: "<span class='mbzuai-student'>Haryo Akbarianto Wibowo</span>, Haiyue Song, Hideki Tanaka, Masao Utiyama, <b>Alham Fikri Aji</b>, Raj Dabre"
     date: "2025"
@@ -66,7 +165,7 @@ conference:
   - title: "CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation"
     authors: "<span class='mbzuai_student'>Emilio Villa-Cueva</span>, <span class='mbzuai_student'>Sholpan Bolatzhanova</span>, <span class='mbzuai_student'>Diana Turmakhan</span>, <span class='mbzuai_student'>Kareem Elzeky</span>, Henok Biadglign Ademtew, <b>Alham Fikri Aji</b>, Israel Abebe Azime, Jinheon Baek, Frederico Belcavello, Fermin Cristobal, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, Mary Dabre, Raj Dabre, <span class='mbzuai_student'>Toqeer Ehsan</span>, Naome A Etori, Fauzan Farooqui, <span class='mbzuai_student'>Jiahui Geng</span>, Guido Ivetta, Thanmay Jayakumar, Soyeong Jeong, Zheng Wei Lim, Aishik Mandal, Sofía Martinelli, Mihail Minkov Mihaylov, Daniil Orel, Aniket Pramanick, Sukannya Purkayastha, Israfel Salazar, Haiyue Song, Tiago Timponi Torrent, Debela Desalegn Yadeta, <span class='mbzuai_student'>Injy Hamed</span>, <span class='mbzuai_student'>Atnafu Lambebo Tonja</span>, Thamar Solorio"
     date: "2025"
-    venue: "Findings of the Association for Computational Linguistics: EMNLP 2025"
+    venue: "EMNLP"
     url: "https://aclanthology.org/2025.findings-emnlp.1220/"
     data:
     model:
@@ -77,7 +176,7 @@ conference:
   - title: "MoMentS: A Comprehensive Multimodal Benchmark for Theory of Mind"
     authors: "<span class='mbzuai_student'>Emilio Villa-Cueva</span>, S M Masrur Ahmed, <span class='mbzuai_student'>Rendi Chevi</span>, <span class='mbzuai_student'>Jan Christian Blaise Cruz</span>, <span class='mbzuai_student'>Kareem Elzeky</span>, Fermin Cristobal, <b>Alham Fikri Aji</b>, Skyler Wang, Rada Mihalcea, Thamar Solorio"
     date: "2025"
-    venue: "Findings of the Association for Computational Linguistics: EMNLP 2025"
+    venue: "EMNLP"
     url: "https://aclanthology.org/2025.findings-emnlp.1230/"
     data:
     model:
@@ -784,4 +883,3 @@ workshop:
     tags:
     notes:
     author: "first"
-
