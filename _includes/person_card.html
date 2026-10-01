@@ -1,4 +1,4 @@
-<div class="{{ person.category | downcase }}-color p-2" style="--card-photo-brightness: {{ person.brightness | default: 1 }};">
+{% assign person = include.person %}<div class="{{ person.category | downcase }}-color p-2" style="--card-photo-brightness: {{ person.brightness | default: 1 }};">
   <div class="card h-100 text-center border-0">
     <div class="image-container">
       {% if person.photo %}
@@ -50,10 +50,10 @@
         </h6>
 
         <div class="card-text">
-          {% if person.category != "Staff" %}
-            {{ person.category }} student ({{ person.starting_year }} - )
-          {% else %}
+          {% if person.category == "Staff" or person.category == "PI" %}
             {{ person.role }}
+          {% else %}
+            {{ person.category }} student ({{ person.starting_year }} - )
           {% endif %}
         </div>
         <div class="card-text more-info">

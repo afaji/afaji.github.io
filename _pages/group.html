@@ -1,6 +1,7 @@
 ---
 permalink: /group.html
-excerpt: "Group"
+title: "AJI-Lab"
+excerpt: "AJI-Lab research team"
 author_profile: true
 redirect_from: 
   - /group/
@@ -106,6 +107,10 @@ redirect_from:
     --theme-color: #8097a1; /* platinum */
   }
 
+  .pi-color {
+    --theme-color: #1d6c78;
+  }
+
   .flex-grow-1 {
     flex-grow: 1; /* Ensures this section takes up all remaining space */
   }
@@ -208,14 +213,10 @@ redirect_from:
 </style>
 <div class="row">
   <div class="col-md-6">
-    <h2>Research Group</h2>
+    <h2>About the lab</h2>
 
-    Our research lab (internally named Alham Group Ltd.) consists mainly from MBZUAI but also some students that I co-advertise from Indonesia.
-    <br>
-
-    We are interested in research that aligns with our interests.
-
-    Currently, our focus is on multilingualism, multiculturalism, low-resource and efficient NLP, as well as aspects of human-computer interaction, particularly those that correlate across multilingual and multicultural domains.
+    <p>AJI-Lab is a research lab led by <a href="/">Alham Fikri Aji</a> at MBZUAI. Our team includes students and staff at MBZUAI, along with students we co-advise in Indonesia.</p>
+    <p>We study multilingual and multicultural NLP, with a focus on low-resource languages and efficient models. We also explore human-computer interaction across languages and cultures.</p>
 
   </div>
   <div class="col-md-6">
@@ -223,6 +224,14 @@ redirect_from:
   </div>
 </div>
 <div class="container my-5">
+
+  {% assign pi = site.data.lab.pi %}
+  <div class="mb-5">
+    <h3>Principal Investigator</h3>
+    <div class="row row-cols-3 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 g-4">
+      {% include person_card.html person=pi %}
+    </div>
+  </div>
   
   <!-- Graduate Students (PhD + MSc) -->
   {% assign phd_students = site.data.student.students | where: "category", "PhD" %}

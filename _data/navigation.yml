@@ -3,9 +3,8 @@ main:
   - title: "Publications"
     url: https://scholar.google.ca/citations?hl=en&user=0Cyfqv4AAAAJ&view_op=list_works&sortby=pubdate
 
-  - title: "Team"
+  - title: "AJI-Lab"
     url: /group/    
 
   - title: "CV"
     url: /cv/  
-
