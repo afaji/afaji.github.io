@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Alham Fikri Aji"
 title_separator          : "-"
 name                     : &name "Alham Fikri Aji"
-description              : &description "NLP scientist - Assistant Professor at MBZUAI & Monash Indonesia"
+description              : &description "NLP scientist - Associate Professor at MBZUAI & adjunct faculty at Monash Indonesia"
 url                      : https://afaji.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "afaji/afaji.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Alham Fikri Aji"
   avatar           : "aji-hd.jpg"
-  bio              : "Assistant Professor MBZUAI, Monash Indonesia"
+  bio              : "Associate Professor at MBZUAI; adjunct faculty at Monash Indonesia"
   location         : "MBZUAI"
   employer         :
   pubmed           : 

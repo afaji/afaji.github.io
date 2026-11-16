@@ -25,9 +25,10 @@ redirect_from:
 
 ## Working Experience
 
+* **Associate Professor**, MBZUAI <span style="float: right;"> Aug 2026 - Current</span>
 * **Visiting Research Scientist**, Google Research <span style="float: right;"> Sep 2024 - Current</span>
 * **Adjunct Assistant Professor**, Monash Indonesia <span style="float: right;"> Jan 2024 - Current</span>
-* **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Current</span>
+* **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Jul 2026</span>
 * **Applied Scientist**, Amazon Alexa AI <span style="float: right;"> Oct 2021 - Jan 2023</span>
 * **Postdoctoral Research Associate**, University of Edinburgh <span style="float: right;"> Jun 2020 - Jul 2021</span>
 * **Research Scientist**, Kata.ai  <span style="float: right;"> Nov 2019 - Sep 2021</span>
@@ -37,6 +38,10 @@ redirect_from:
 
 ## Awards
 
+* MBZUAI's "Rising Star Award" 2026
+* MBZUAI's "Early Career Researcher Award" 2025
+* Best Resource Paper Award, ACL 2025
+* Best Theme Paper Award, NAACL 2025
 * Best Resource Paper Award, EACL 2024
 * Best Resource Paper Award, AACL 2023
 * Outstanding Paper Award, EACL 2023
@@ -47,7 +52,8 @@ redirect_from:
 
 ## Professional Services
 
-* **Adversary Board**: The ACL Special Interest Group on SEA NLP (SIGSEA)
+* **Community Leadership**: Co-founder and Research Steering Head, SEACrowd
+* **Advisory Board**: The ACL Special Interest Group on SEA NLP (SIGSEA)
 * **Reviewer and Program Committee Member**
   * **Conferences**: ARR, ACL, COLING, ICML, ICLR, NeurIPS, LREC
   * **Workshop**: WNGT, TL4NLP

@@ -1,7 +1,11 @@
 job:
+  - title: Associate Professor
+    start_date: Aug 2026
+    end_date:
+    company: Department of NLP, MBZUAI
   - title: Assistant Professor
     start_date: Jan 2023
-    end_date: 
+    end_date: Jul 2026
     company: Department of NLP, MBZUAI
   - title: Visiting Research Scientist
     start_date: Sep 2024

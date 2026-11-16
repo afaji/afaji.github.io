@@ -16,6 +16,18 @@ redirect_from:
     color: #606060;
   }
 
+  .cv-talk-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1em;
+  }
+
+  .cv-talk-date {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
   /* TABLE STYLING (Only for Grants) */
   table.cv-table { 
     width: 100%; 
@@ -104,9 +116,10 @@ redirect_from:
 
 ## Working Experience
 
+* **Associate Professor**, MBZUAI <span style="float: right;"> Aug 2026 - Current</span>
 * **Visiting Research Scientist**, Google Research <span style="float: right;"> Sep 2024 - Current</span>
 * **Adjunct Assistant Professor**, Monash Indonesia <span style="float: right;"> Jan 2024 - Current</span>
-* **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Current</span>
+* **Assistant Professor**, MBZUAI <span style="float: right;"> Jan 2023 - Jul 2026</span>
 * **Applied Scientist**, Amazon Alexa AI <span style="float: right;"> Oct 2021 - Jan 2023</span>
 * **Postdoctoral Research Associate**, University of Edinburgh <span style="float: right;"> Jun 2020 - Jul 2021</span>
 * **Research Scientist**, Kata.ai  <span style="float: right;"> Nov 2019 - Sep 2021</span>
@@ -154,7 +167,7 @@ My research centers on making NLP and LLM technology more inclusive and accessib
     </tr>
     <tr>
       <td>Community</td>
-      <td>Active in Indonesian and Southeast Asian NLP community-building through <a href="https://seacrowd.org">SEACrowd</a>, <a href="https://www.sigsea.org">SIGSEA</a>, <a href="https://sealp-workshop.github.io">SEALP</a>, shared tasks, workshops, open-resource coordination, and mentorship for regional researchers and students.</td>
+      <td>Co-founded <a href="https://seacrowd.org">SEACrowd</a> and serve as Research Steering Head; contribute to <a href="https://www.sigsea.org">SIGSEA</a>, <a href="https://sealp-workshop.github.io">SEALP</a>, shared tasks, workshops, open-resource coordination, and mentorship for regional researchers and students.</td>
     </tr>
   </tbody>
 </table>
@@ -164,6 +177,9 @@ My research centers on making NLP and LLM technology more inclusive and accessib
 
 ### Services to Scientific Communities
 
+* **Community Leadership**
+  * Co-founder and Research Steering Head, SEACrowd
+  * Chief of the Board of Trustees at SEACrowd's incorporation (Aug 2024)
 * **Advisory Board**
   * The ACL Special Interest Group on SEA NLP (SIGSEA) (2025 - present)
   * WiNLP (2025 - present)
@@ -442,6 +458,20 @@ I also advise some external students, mostly UG and mainly from Indonesia.
 
 <ul>
   <li>
+    <div class="cv-talk-heading">
+      <strong><a href="https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2026/">Is Multilinguality Solved? Missing MT and Multilingual Benchmarks in Frontier Model Releases</a></strong>
+      <span class="cv-talk-date">9th Nov 2026</span>
+    </div>
+    <span class="desc">Keynote at the 13th Workshop on Asian Translation (WAT), co-located with AACL-IJCNLP 2026, Hengqin, China (online)</span>
+  </li>
+  <li>
+    <div class="cv-talk-heading">
+      <strong><a href="https://sigtyp.github.io/ws2026-mrl.html">Multilingual Benchmarking in the Frontier LLM Era</a></strong>
+      <span class="cv-talk-date">28th Oct 2026</span>
+    </div>
+    <span class="desc">Keynote at the 6th Multilingual Representation Learning (MRL) Workshop, co-located with EMNLP 2026, Budapest, Hungary</span>
+  </li>
+  <li>
     <strong>Code-Switching Thought Patterns in Multilingual Language Models</strong>
     <span style="float: right;">3rd May 2025</span><br>
     <span class="desc">Keynote at CALCS, Co-located with NAACL 2025</span>
@@ -529,10 +559,20 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 <span style="color: orange;">●</span> denotes my role as <span style="color: orange;">(Co-)senior author(s)</span>, whereas <span style="color: teal;">■</span> denotes my role as <span style="color: teal;">main author(s)</span>.<br>
 <span class="mbzuai_student">Underline</span> denotes MBZUAI students and researchers (including visiting/interns).
 
-### Peer-Reviewed Conferences
+{% assign publication_sections = "conference,workshop,journal,proceedings,tutorial" | split: "," %}
+{% for section_name in publication_sections %}
+{% case section_name %}
+{% when "conference" %}{% assign section_title = "Peer-Reviewed Conferences" %}
+{% when "workshop" %}{% assign section_title = "Peer-Reviewed Workshops" %}
+{% when "journal" %}{% assign section_title = "Journal Articles" %}
+{% when "proceedings" %}{% assign section_title = "Edited Proceedings" %}
+{% when "tutorial" %}{% assign section_title = "Tutorial Abstracts" %}
+{% endcase %}
+{% if site.data.paper[section_name].size > 0 %}
+### {{ section_title }}
 <div class="compact-ul">
 <ul>
-{% for paper in site.data.paper.conference %}
+{% for paper in site.data.paper[section_name] %}
 <li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
     {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
     {% if paper.notes != null %} -- {{ paper.notes | raw }}
@@ -541,16 +581,5 @@ I mainly publish at ACL conferences. You may also refer to my [Google Scholar](h
 {% endfor %}
 </ul>
 </div>
-
-### Peer-Reviewed Workshops
-<div class="compact-ul">
-<ul>
-{% for paper in site.data.paper.workshop %}
-<li class="{% if paper.author and paper.author == 'first' %}first-author{% elsif paper.author and paper.author == 'last' %}last-author{% else %}default-author{% endif %}">
-    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}<strong>{{ paper.title }}</strong>{% endif %}. <i>{{ paper.authors | raw }}</i> (<b>{{ paper.venue | raw }}</b>, {{ paper.date | raw }})
-    {% if paper.notes != null %} -- {{ paper.notes | raw }}
-    {% endif %}
-</li>
+{% endif %}
 {% endfor %}
-</ul>
-</div>
